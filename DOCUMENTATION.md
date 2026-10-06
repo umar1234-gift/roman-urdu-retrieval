@@ -4,7 +4,7 @@ Project: Cross-Lingual Information Retrieval for Roman Urdu Queries
 Author: Umar Farooq
 Institution: Thal University Bhakkar
 Semester: 5th (BS Software Engineering)
-Date: October 1, 2026
+Date: October 6, 2026
 Status: Draft ready for arXiv preprint
 
 ---
@@ -45,11 +45,11 @@ User queries: "Talib-e-ilm ki kam az kam hazri kitni honi zaroori hai?"
 2. Cluster-aware evaluation with grouped 5-fold cross-validation and document-level bootstrap confidence intervals.
 3. Two strong findings: severe cross-lingual degradation and significant LLM rewriting improvement.
 4. A zero-score tie-breaking artifact in rank-based fusion, a previously unreported issue in cross-lingual hybrid retrieval.
-5. Reproducibility artifacts: 48 scripts, 8 figures, full documentation, all raw results.
+5. Reproducibility artifacts: 51 scripts, 8 figures, full documentation, all raw results.
 
 ### 1.2 Best Result
 
-Honest deployment scenario, single-query LLM rewriting with retry:
+Honest deployment scenario, single-query LLM rewriting with deterministic fallback:
 
 System: E5-large with LLM rewriting
 @1: 98.67 percent
@@ -101,7 +101,7 @@ Level 4, natural Roman Urdu. Example: "Agar talib-e-ilm imtihan dena chahta hai 
 
 Query authorship: All 450 queries were written by the author, a native Roman Urdu speaker. No LLM was used to generate query text. The script 03_generate_queries.py assembles queries from a manually curated JSON file named master_queries.json. No independent validation was performed.
 
-Known limitation: 32 out of 90 L1 queries are surface-identical to their L0 counterparts, with no Urdu markers added. One L3-L4 pair and one L2-L3 pair are also identical. This may amplify L0 to L1 similarity in results.
+Known limitation: 32 out of 90 L1 queries are surface-identical to their L0 counterparts, with no Urdu markers added. One L3 to L4 pair and one L2 to L3 pair are also identical. This may amplify L0 to L1 similarity in results.
 
 Level distribution:
 L0: 90 queries
@@ -178,30 +178,32 @@ C_l34only: L3 and L4 only batches.
 
 ### 5.4 Parsing-Failure Policy
 
-The LLM rewriting pipeline processes 450 queries. First pass max_tokens was 300. Four outputs were empty or unchanged on the first pass.
+First pass used max_tokens 300. Four outputs required correction on first pass:
 
-Policy applied to all four queries:
-Step 1: re-query with max_tokens 1500.
-Step 2: if still empty after retry, fallback to original query text, deterministic rule.
+MQ0169, level L1. First pass empty.
+MQ0364, level L1. First pass empty.
+MQ0389, level L4. First pass empty.
+MQ0006, level L1. First pass no-op, meaning the LLM returned the input unchanged because the query is already English.
 
-Actual outcome after retry:
+So the four cases comprise 3 empty outputs and 1 no-op output.
 
-Query MQ0006, level L1. First pass unchanged, LLM treated query as already English. Retry unchanged. Final: LLM output verbatim, no-op. Retrieval succeeded because unchanged text still matched gold document.
+Two deterministic policies were tested:
 
-Query MQ0169, level L1. First pass empty. Retry: "What is the hostel curfew time for residents?" Final: LLM output.
+Policy 1, fallback-to-original: if LLM output is empty, use original query text for retrieval.
 
-Query MQ0364, level L1. First pass empty. Retry: "How many counselling sessions is a student entitled to per semester?" Final: LLM output.
+Policy 2, retry then fallback: re-query with max_tokens 1500; if still empty, fallback to original.
 
-Query MQ0389, level L4. First pass empty. Retry: "Do we get the name of the person who gave the feedback or not?" Final: LLM output.
+Results:
 
-Result:
-0 real fallbacks. All 4 queries ended up with non-empty LLM output.
-3 retries with max_tokens 1500.
-1 no-op for MQ0006 because query was already English.
+Raw first-pass, empty outputs treated as failures: 97.78 percent @1, that is 440 out of 450.
 
-Two headline numbers:
-First-pass pure LLM: 98.00 percent @1, that is 441 out of 450. MQ0006 counted correct because retrieval on unchanged text worked.
-Retry: 98.67 percent @1, that is 444 out of 450. Three additional queries fixed by retry.
+First-pass plus fallback-to-original: 98.67 percent @1, that is 444 out of 450.
+
+Retry then fallback: 98.67 percent @1, that is 444 out of 450.
+
+Both policies achieve the same result. This means the empty outputs are fixed by retrieving on the original query text, not by improved translations. The incremental value of retry over fallback is zero on this benchmark.
+
+Note on L0: For L0 queries, the original text is used in first-pass evaluation because L0 rewrites were observed to be unchanged. The LLM correctly treated them as already English. This means script 51 bypasses the L0 cache and reads the original L0 query directly.
 
 ---
 
@@ -209,101 +211,108 @@ Retry: 98.67 percent @1, that is 444 out of 450. Three additional queries fixed 
 
 ### 6.1 Original Queries (Full 450, Tie-Aware)
 
-System BM25: @1 = 88.44 percent, @3 = 94.00 percent, MRR = 0.9148.
+System BM25: @1 equals 88.44 percent, @3 equals 94.00 percent, MRR equals 0.9148.
 
-System E5-large: @1 = 92.22 percent, @3 = 96.89 percent, MRR = 0.9489.
+System E5-large: @1 equals 92.22 percent, @3 equals 96.89 percent, MRR equals 0.9489.
 
-System Hybrid-large (RRF tie-aware): @1 = 92.22 percent, @3 = 97.33 percent, MRR = 0.9497.
+System Hybrid-large (RRF tie-aware): @1 equals 92.22 percent, @3 equals 97.33 percent, MRR equals 0.9497.
 
-System Weighted-RRF (in-fold, tie-aware): @1 = 92.67 percent, @3 = 97.11 percent, MRR = 0.9518.
+System Weighted-RRF (in-fold, tie-aware): @1 equals 92.67 percent, @3 equals 97.11 percent, MRR equals 0.9518.
 
-System Convex (in-fold): @1 = 93.11 percent, @3 = 97.56 percent, MRR = 0.9551.
+System Convex (in-fold): @1 equals 93.11 percent, @3 equals 97.56 percent, MRR equals 0.9551.
 
 ### 6.2 Per-Level @1 (Original)
 
-BM25: L0 = 96.67, L1 = 97.78, L2 = 97.78, L3 = 75.56, L4 = 74.44.
+BM25: L0 equals 96.67, L1 equals 97.78, L2 equals 97.78, L3 equals 75.56, L4 equals 74.44.
 
-E5-large: L0 = 98.89, L1 = 98.89, L2 = 100.0, L3 = 84.44, L4 = 78.89.
+E5-large: L0 equals 98.89, L1 equals 98.89, L2 equals 100.0, L3 equals 84.44, L4 equals 78.89.
 
-Hybrid-large (tie-aware): L0 = 98.89, L1 = 98.89, L2 = 98.89, L3 = 84.44, L4 = 80.00.
+Hybrid-large (tie-aware): L0 equals 98.89, L1 equals 98.89, L2 equals 98.89, L3 equals 84.44, L4 equals 80.00.
 
-Weighted-RRF (in-fold): L0 = 98.89, L1 = 98.89, L2 = 98.89, L3 = 86.67, L4 = 80.00.
+Weighted-RRF (in-fold): L0 equals 98.89, L1 equals 98.89, L2 equals 98.89, L3 equals 86.67, L4 equals 80.00.
 
-Convex (in-fold): L0 = 98.89, L1 = 98.89, L2 = 98.89, L3 = 86.67, L4 = 82.22.
+Convex (in-fold): L0 equals 98.89, L1 equals 98.89, L2 equals 98.89, L3 equals 86.67, L4 equals 82.22.
 
 Degradation from L0 to L4:
 BM25: 22.22 percentage points.
+E5-base: 27.78 percentage points.
 E5-large: 20.00 percentage points.
+Hybrid-base: 23.33 percentage points.
 Hybrid-large: 18.89 percentage points.
 Weighted-RRF: 18.89 percentage points.
 Convex: 16.67 percentage points.
 
+Four systems drop 20 to 28 percentage points: BM25, E5-base, E5-large, Hybrid-base.
+
 ### 6.3 A_single, Deployment Scenario
 
-First pass pure LLM:
-@1 = 98.00 percent, 441 out of 450.
-@3 = 99.56 percent.
-MRR = 0.9867.
-95 percent CI for @1: [0.9644, 0.9911].
+Raw first-pass, empty outputs as failures:
+@1 equals 97.78 percent, that is 440 out of 450.
+@3 equals 99.33 percent.
+MRR equals 0.9851.
+95 percent CI for @1 equals [0.9622, 0.9911].
 
-Retry:
-@1 = 98.67 percent, 444 out of 450.
-@3 = 100.00 percent.
-MRR = 0.9930.
-95 percent CI for @1: [0.9733, 0.9978].
+Fallback or retry:
+@1 equals 98.67 percent, that is 444 out of 450.
+@3 equals 100.00 percent.
+MRR equals 0.9930.
+95 percent CI for @1 equals [0.9733, 0.9978].
 
-### 6.4 Per-Level @1 (A_single, Retry)
+### 6.4 Per-Level @1 (A_single, Fallback or Retry)
 
-L0: 98.89 percent, @3 = 100.0, MRR = 0.9944.
-L1: 98.89 percent, @3 = 100.0, MRR = 0.9944.
-L2: 100.00 percent, @3 = 100.0, MRR = 1.0000.
-L3: 98.89 percent, @3 = 100.0, MRR = 0.9944.
-L4: 96.67 percent, @3 = 100.0, MRR = 0.9815.
+L0: 98.89 percent, @3 equals 100.0, MRR equals 0.9944.
+L1: 98.89 percent, @3 equals 100.0, MRR equals 0.9944.
+L2: 100.00 percent, @3 equals 100.0, MRR equals 1.0000.
+L3: 98.89 percent, @3 equals 100.0, MRR equals 0.9944.
+L4: 96.67 percent, @3 equals 100.0, MRR equals 0.9815.
 
-### 6.5 Gap Recovery (A_single, Retry)
+### 6.5 Gap Recovery (A_single, Fallback or Retry)
 
 L0 original equals 98.89 percent.
 L4 original equals 78.89 percent.
 L4 A_single equals 96.67 percent.
 
-Recovery against measured L0 ceiling equals (96.67 minus 78.89) divided by (98.89 minus 78.89) equals 88.89 percent.
+Recovery against measured L0 ceiling equals (96.67 minus 78.89) divided by (98.89 minus 78.89), which equals 88.89 percent.
 
-Recovery against assumed 100 percent ceiling equals (96.67 minus 78.89) divided by (100 minus 78.89) equals 84.21 percent.
+Recovery against assumed 100 percent ceiling equals (96.67 minus 78.89) divided by (100 minus 78.89), which equals 84.21 percent.
 
-95 percent CI for recovery against 100 percent ceiling: [0.5556, 1.0000].
+95 percent CI for recovery against the 100 percent ceiling is [0.5556, 1.0000].
 
 ### 6.6 Zero-Score Tie-Breaking Artifact
 
-16 out of 450 queries, 3.6 percent, have all-zero BM25 scores. All 16 are in L3 and L4. Specifically 9 in L3 and 7 in L4. These are queries where no term matches any document because they use Urdu-only vocabulary with no English overlap.
+16 out of 450 queries, which is 3.6 percent, have all-zero BM25 scores. All 16 are in L3 and L4, specifically 9 in L3 and 7 in L4. These are queries where no term matches any document because they use Urdu-only vocabulary such as parhai, sawari, and shikayat, which have no English overlap.
 
 Impact on rank-based fusion:
 
-Variant A, arbitrary tie with stable argsort: @1 = 90.67 percent, @3 = 96.44 percent, MRR = 0.9384.
+Variant A, arbitrary tie with stable argsort: @1 equals 90.67 percent, @3 equals 96.44 percent, MRR equals 0.9384.
 
-Variant B, skip BM25 when all-zero: @1 = 92.22 percent, @3 = 97.33 percent, MRR = 0.9497.
+Variant B, skip BM25 when all-zero: @1 equals 92.22 percent, @3 equals 97.33 percent, MRR equals 0.9497.
 
-Variant C, random tie with fixed seed: @1 = 91.11 percent, @3 = 96.67 percent, MRR = 0.9414.
+Variant C, random tie with fixed seed: @1 equals 91.11 percent, @3 equals 96.67 percent, MRR equals 0.9414.
 
-E5-large alone: @1 = 92.22 percent, @3 = 96.89 percent, MRR = 0.9489.
+E5-large alone: @1 equals 92.22 percent, @3 equals 96.89 percent, MRR equals 0.9489.
 
-Finding: Variant B recovers RRF to E5-large parity. The apparent RRF failure is a tie-breaking artifact, not a fusion limitation.
+Finding: Variant B recovers RRF to E5-large parity. The apparent RRF failure is a tie-breaking artifact, not a fusion limitation. This is a previously unreported issue in cross-lingual hybrid retrieval.
 
 ### 6.7 Fusion: Convex Combination, In-Fold Alpha
 
-| Fold | Best alpha | Train @1 | Test @1 | Oracle @1 |
-|------|------------|----------|---------|-----------|
-| 1    | 0.2        | 0.9250   | 0.9778  | 0.9889    |
-| 2    | 0.5        | 0.9361   | 0.9222  | 0.9444    |
-| 3    | 0.2        | 0.9694   | 0.8000  | 0.8000    |
-| 4    | 0.2        | 0.9194   | 1.0000  | 1.0000    |
-| 5    | 0.2        | 0.9306   | 0.9556  | 0.9667    |
-| Mean |            | 0.9361   | 0.9311  | 0.9400    |
+Fold 1: best alpha equals 0.2, train @1 equals 0.9250, test @1 equals 0.9778, oracle @1 equals 0.9889.
+
+Fold 2: best alpha equals 0.5, train @1 equals 0.9361, test @1 equals 0.9222, oracle @1 equals 0.9444.
+
+Fold 3: best alpha equals 0.2, train @1 equals 0.9694, test @1 equals 0.8000, oracle @1 equals 0.8000.
+
+Fold 4: best alpha equals 0.2, train @1 equals 0.9194, test @1 equals 1.0000, oracle @1 equals 1.0000.
+
+Fold 5: best alpha equals 0.2, train @1 equals 0.9306, test @1 equals 0.9556, oracle @1 equals 0.9667.
+
+Mean train @1 equals 0.9361. Mean test @1 equals 0.9311. Mean oracle @1 equals 0.9400.
 
 Test @1 equals 93.11 percent on held-out folds.
 
 ### 6.8 E5-large Remaining Failures (A_single)
 
-6 out of 450 failures:
+6 out of 450 failures.
 
 MQ0018, document D02, level L0, rank 2. Query: "How long is the drop window after semester start?"
 
@@ -347,7 +356,9 @@ E5-large versus E5-base: delta equals +3.56 percentage points, 95 percent CI [0.
 
 E5-large versus Hybrid-large (tie-aware): delta equals 0.00 percentage points, identical performance.
 
-p less than 0.0002 is the minimum bootstrap resolution with 5000 samples. Not literally p equals 0.
+p less than 0.0002 is the minimum bootstrap resolution with 5000 samples. It is not literally p equals zero.
+
+Bonferroni threshold with 10 tests is alpha equal to 0.005. Only L0 versus L4 tests and A_single rewriting survive.
 
 ---
 
@@ -416,7 +427,7 @@ This is a benchmark design limitation. It may amplify L0 to L1 similarity and pa
 
 Finding 1: Cross-lingual degradation is severe and significant. Four systems drop 20 to 28 percentage points from L0 to L4. Cluster bootstrap gives p less than 0.0002. Caveat: L4 queries are longer and more indirect than L0 queries, so degradation is partly stylistic.
 
-Finding 2: LLM query rewriting significantly improves retrieval. A_single retry achieves 98.67 percent @1. On L2 to L4, the improvement is +10.74 percentage points with p equals 0.0004. L4 accuracy improves from 78.89 percent to 96.67 percent. Gap recovery is 88.89 percent against measured L0 ceiling.
+Finding 2: LLM query rewriting significantly improves retrieval. Raw first-pass gives 97.78 percent @1 when empty outputs are treated as failures. With deterministic fallback-to-original for empty outputs, accuracy rises to 98.67 percent @1. On L2 to L4, the improvement is +10.74 percentage points with p equals 0.0004. L4 accuracy improves from 78.89 percent to 96.67 percent. Gap recovery is 88.89 percent against measured L0 ceiling.
 
 Finding 3: Zero-score tie-breaking artifact in rank-based fusion. 16 out of 450 queries have all-zero BM25 scores. Naive RRF causes a 1.55 percentage point drop in @1. Proper handling restores E5-large parity. This is a previously unreported artifact in cross-lingual hybrid retrieval.
 
@@ -440,9 +451,9 @@ Finding 6: LLM non-determinism is an observation. 25.83 percent of queries diffe
 
 5. Query authorship is a single author, a native Roman Urdu speaker. No LLM was used to generate query text. No independent validation was performed.
 
-6. Query duplication across levels. 32 out of 90 L1 queries are surface-identical to L0 counterparts. 1 L3 to L4 pair and 1 L2 to L3 pair are also identical. This may amplify L0 to L1 similarity.
+6. Query duplication across levels. 32 out of 90 L1 queries are surface-identical to L0 counterparts. One L3 to L4 pair and one L2 to L3 pair are also identical. This may amplify L0 to L1 similarity.
 
-7. Parsing-failure policy. 3 of 450 LLM outputs were empty on first pass, all resolved by retry. 1 no-op for MQ0006. No real fallbacks.
+7. Parsing-failure policy. 3 of 450 LLM outputs were empty on first pass, and 1 was a no-op. Raw first-pass equals 97.78 percent. Fallback and retry both yield 98.67 percent. No real translation improvement from retry over fallback.
 
 8. Single LLM tested. Only openai/gpt-oss-120b.
 
@@ -467,6 +478,10 @@ Finding 6: LLM non-determinism is an observation. 25.83 percent of queries diffe
 18. BM25 zero-score queries. 16 out of 450. No signal for these queries. Tie-handling disclosed.
 
 19. Multiple comparisons in subgroup analysis. L3 to L4 subgroup p equals 0.028 does not survive strict Bonferroni correction. Framed as hypothesis-driven.
+
+20. Fallback versus retry equivalence. Both policies give identical results on this benchmark. The incremental value of retry over fallback is zero here, though it may differ on other benchmarks.
+
+21. L0 cache bypass. For L0 queries, script 51 reads the original query directly rather than the rewritten cache, since L0 rewrites were unchanged. This is stated for methodological clarity.
 
 ---
 
@@ -507,17 +522,18 @@ Research/
       final_verification.json
       diagnose_failures.json
       convex_significance.json
+      first_pass_direct.json
   paper/
     PAPER_DRAFT.md
     figures/
       fig1_per_level_p1.png
       fig2_degradation_curve.png
       fig3_llm_rewriting_effect.png
-      fig4_weight_sensitivity.png
-      fig5_significance.png
-      fig6_test_set_comparison.png
-      fig7_overfitting_story.png
-      fig8_weight_sweep.png
+      fig4_zero_score_queries.png
+      fig5_rrf_tie_artifact.png
+      fig6_convex_per_level.png
+      fig7_significance.png
+      fig8_overall_comparison.png
   src_v2/
     01_generate_documents.py
     02_chunk_documents.py
@@ -567,6 +583,9 @@ Research/
     46_final_verification.py
     47_diagnose_failures.py
     48_convex_significance.py
+    49_final_figures.py
+    50_first_pass_measurement.py
+    51_correct_first_pass.py
 
 ---
 
@@ -598,6 +617,7 @@ python src_v2/39_clean_fallback.py
 
 Step 5, evaluation:
 python src_v2/36_a_single_exact_numbers.py
+python src_v2/51_correct_first_pass.py
 python src_v2/28_translation_quality.py
 python src_v2/29_persistent_failures_rewritten.py
 
@@ -620,7 +640,10 @@ python src_v2/43_zero_score_analysis.py
 python src_v2/46_final_verification.py
 python src_v2/47_diagnose_failures.py
 
-Total runtime approximately 90 minutes, excluding model downloads.
+Step 9, figures:
+python src_v2/49_final_figures.py
+
+Total runtime approximately 95 minutes, excluding model downloads.
 
 ### 13.3 Requirements
 
@@ -654,6 +677,10 @@ sacrebleu version 2.4.0 or higher
 9. Query re-authoring to fix L0 and L1 duplicates.
 
 10. In-fold fusion on original queries where benchmark is not saturated.
+
+11. Zero-score handling in other fusion methods. Test whether the artifact affects learned fusion.
+
+12. Larger max_tokens on first pass to reduce empty rate.
 
 ---
 
@@ -710,6 +737,4 @@ Data: CC-BY-4.0
 ---
 
 End of Documentation
-
----
 

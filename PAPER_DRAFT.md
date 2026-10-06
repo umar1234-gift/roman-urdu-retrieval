@@ -13,7 +13,7 @@ Roman Urdu, a code-mixed language variety used by over 100 million South Asians,
 
 (1) Cross-lingual degradation is severe. Four systems drop 20 to 28 percentage points from L0 to L4. Cluster bootstrap gives p less than 0.0002.
 
-(2) LLM-based query rewriting in single-query mode achieves 98.67 percent @1 with a deterministic retry policy. The 95 percent confidence interval is [0.9733, 0.9978]. On L2 to L4, the improvement is +10.74 percentage points with p equals 0.0004, cluster-aware. L4 accuracy improves from 78.89 percent to 96.67 percent, achieving 88.89 percent gap recovery against the measured L0 ceiling.
+(2) LLM-based query rewriting in single-query mode achieves 97.78 percent @1 raw, when empty outputs are treated as failures. With deterministic fallback-to-original for empty outputs, accuracy rises to 98.67 percent @1. The 95 percent confidence interval for the fallback result is [0.9733, 0.9978]. On L2 to L4, the improvement is +10.74 percentage points with p equals 0.0004, cluster-aware. L4 accuracy improves from 78.89 percent to 96.67 percent, achieving 88.89 percent gap recovery against the measured L0 ceiling. Retry with larger max_tokens yields the same 98.67 percent, indicating fallback is the effective intervention.
 
 (3) We identify a zero-score tie-breaking artifact in rank-based fusion. BM25 produces all-zero scores for 16 out of 450 queries, which is 3.6 percent, all in L3 and L4. Naive RRF injects arbitrary tie order, causing a 1.55 percentage point drop in @1. Proper zero-score handling, meaning skip BM25 when all-zero, restores RRF to E5-large parity at 92.22 percent.
 
@@ -53,7 +53,7 @@ RQ3: Do hybrid fusion methods improve cross-lingual retrieval?
 
 4. A zero-score tie-breaking artifact in rank-based fusion, a previously unreported issue in cross-lingual hybrid retrieval.
 
-5. Reproducibility artifacts: 48 scripts, 8 figures, full documentation, all raw results.
+5. Reproducibility artifacts: 51 scripts, 8 figures, full documentation, all raw results.
 
 ---
 
@@ -177,27 +177,35 @@ C_l34only, L3 and L4 only batches.
 
 ### 3.8 Parsing-Failure Policy
 
-The LLM rewriting pipeline processes 450 queries. First pass max_tokens was 300. Four outputs were empty or unchanged on the first pass.
+First pass used max_tokens 300. Four outputs required correction on first pass:
 
-Policy applied to all four queries:
-Step 1: re-query with max_tokens 1500.
-Step 2: if still empty after retry, fallback to original query text, deterministic rule.
+Three outputs were empty: MQ0169 at level L1, MQ0364 at level L1, and MQ0389 at level L4.
 
-Actual outcome after retry:
+One output was a no-op: MQ0006 at level L1, where the LLM returned the input unchanged because the query is already English.
 
-Query MQ0006, level L1. First pass unchanged because LLM treated query as already English. Retry unchanged. Final outcome is LLM output verbatim, a no-op. Retrieval succeeded because unchanged text still matched the gold document.
+So the four cases comprise 3 empty outputs and 1 no-op output.
 
-Query MQ0169, level L1. First pass empty. Retry gave "What is the hostel curfew time for residents?" Final outcome is LLM output.
+Two deterministic policies were tested:
 
-Query MQ0364, level L1. First pass empty. Retry gave "How many counselling sessions is a student entitled to per semester?" Final outcome is LLM output.
+Policy 1, fallback-to-original: if LLM output is empty, use original query text for retrieval.
 
-Query MQ0389, level L4. First pass empty. Retry gave "Do we get the name of the person who gave the feedback or not?" Final outcome is LLM output.
+Policy 2, retry then fallback: re-query with max_tokens 1500; if still empty, fallback to original.
 
-Result: 0 real fallbacks. All 4 queries ended up with non-empty LLM output. There were 3 retries with max_tokens 1500 and 1 no-op for MQ0006 because query was already English.
+Results:
+
+Raw first-pass, empty outputs treated as failures: 97.78 percent @1, that is 440 out of 450.
+
+First-pass plus fallback-to-original: 98.67 percent @1, that is 444 out of 450.
+
+Retry then fallback: 98.67 percent @1, that is 444 out of 450.
+
+Both policies achieve the same result. This means the empty outputs are fixed by retrieving on the original query text, not by improved translations. The incremental value of retry over fallback is zero on this benchmark.
+
+Note on L0: For L0 queries, the original text is used in first-pass evaluation because L0 rewrites were observed to be unchanged. The LLM correctly treated them as already English. The measurement script reads the original L0 query directly rather than the rewritten cache.
 
 Two headline numbers:
-First-pass pure LLM: 98.00 percent @1, that is 441 out of 450. MQ0006 counted correct because retrieval on unchanged text worked.
-Retry: 98.67 percent @1, that is 444 out of 450. Three additional queries fixed by retry.
+Raw first-pass: 97.78 percent @1, 440 out of 450.
+Deployment with fallback: 98.67 percent @1, 444 out of 450.
 
 ---
 
@@ -229,26 +237,30 @@ Convex (in-fold): L0 equals 98.89, L1 equals 98.89, L2 equals 98.89, L3 equals 8
 
 Degradation from L0 to L4:
 BM25: 22.22 percentage points.
+E5-base: 27.78 percentage points.
 E5-large: 20.00 percentage points.
+Hybrid-base: 23.33 percentage points.
 Hybrid-large: 18.89 percentage points.
 Weighted-RRF: 18.89 percentage points.
 Convex: 16.67 percentage points.
 
+Four systems drop 20 to 28 percentage points: BM25, E5-base, E5-large, Hybrid-base.
+
 ### 4.3 A_single, Deployment Scenario
 
-First pass pure LLM:
-@1 equals 98.00 percent, that is 441 out of 450.
-@3 equals 99.56 percent.
-MRR equals 0.9867.
-95 percent CI for @1 equals [0.9644, 0.9911].
+Raw first-pass, empty outputs as failures:
+@1 equals 97.78 percent, that is 440 out of 450.
+@3 equals 99.33 percent.
+MRR equals 0.9851.
+95 percent CI for @1 equals [0.9622, 0.9911].
 
-Retry:
+Fallback or retry:
 @1 equals 98.67 percent, that is 444 out of 450.
 @3 equals 100.00 percent.
 MRR equals 0.9930.
 95 percent CI for @1 equals [0.9733, 0.9978].
 
-### 4.4 Per-Level @1 (A_single, Retry)
+### 4.4 Per-Level @1 (A_single, Fallback or Retry)
 
 L0: 98.89 percent, @3 equals 100.0, MRR equals 0.9944.
 L1: 98.89 percent, @3 equals 100.0, MRR equals 0.9944.
@@ -256,7 +268,7 @@ L2: 100.00 percent, @3 equals 100.0, MRR equals 1.0000.
 L3: 98.89 percent, @3 equals 100.0, MRR equals 0.9944.
 L4: 96.67 percent, @3 equals 100.0, MRR equals 0.9815.
 
-### 4.5 Gap Recovery (A_single, Retry)
+### 4.5 Gap Recovery (A_single, Fallback or Retry)
 
 L0 original equals 98.89 percent.
 L4 original equals 78.89 percent.
@@ -362,7 +374,7 @@ Caveat: L4 queries are longer and more indirect than L0 queries, so degradation 
 
 ### Finding 2: LLM Query Rewriting Significantly Improves Retrieval
 
-A_single retry achieves 98.67 percent @1. On L2 to L4, the improvement is +10.74 percentage points with p equals 0.0004, cluster-aware. L4 accuracy improves from 78.89 percent to 96.67 percent. Gap recovery is 88.89 percent against measured L0 ceiling.
+Raw first-pass gives 97.78 percent @1 when empty outputs are treated as failures. With deterministic fallback-to-original for empty outputs, accuracy rises to 98.67 percent @1. On L2 to L4, the improvement is +10.74 percentage points with p equals 0.0004, cluster-aware. L4 accuracy improves from 78.89 percent to 96.67 percent. Gap recovery is 88.89 percent against measured L0 ceiling. Retry with max_tokens 1500 gives the same 98.67 percent, indicating fallback is the effective intervention.
 
 ### Finding 3: Zero-Score Tie-Breaking Artifact in Rank-Based Fusion
 
@@ -396,7 +408,7 @@ E5-large versus E5-base is +3.56 percentage points at p equals 0.0504. Borderlin
 
 6. Query duplication across levels. 32 out of 90 L1 queries are surface-identical to L0 counterparts. One L3 to L4 pair and one L2 to L3 pair are also identical. This may amplify L0 to L1 similarity.
 
-7. Parsing-failure policy. 3 of 450 LLM outputs were empty on first pass, all resolved by retry. There was 1 no-op for MQ0006. No real fallbacks.
+7. Parsing-failure policy. 3 of 450 LLM outputs were empty on first pass, and 1 was a no-op. Raw first-pass equals 97.78 percent. Fallback and retry both yield 98.67 percent. No real translation improvement from retry over fallback.
 
 8. Single LLM tested. Only openai/gpt-oss-120b.
 
@@ -422,6 +434,10 @@ E5-large versus E5-base is +3.56 percentage points at p equals 0.0504. Borderlin
 
 19. Multiple comparisons in subgroup analysis. L3 to L4 subgroup p equals 0.028 does not survive strict Bonferroni correction. Framed as hypothesis-driven.
 
+20. Fallback versus retry equivalence. Both policies give identical results on this benchmark. The incremental value of retry over fallback is zero here, though it may differ on other benchmarks.
+
+21. L0 cache bypass. For L0 queries, the measurement script reads the original query directly rather than the rewritten cache, since L0 rewrites were unchanged.
+
 ---
 
 ## 8. Future Work
@@ -446,6 +462,10 @@ E5-large versus E5-base is +3.56 percentage points at p equals 0.0504. Borderlin
 
 10. In-fold fusion on original queries where benchmark is not saturated.
 
+11. Zero-score handling in other fusion methods. Test whether the artifact affects learned fusion.
+
+12. Larger max_tokens on first pass to reduce empty rate.
+
 ---
 
 ## 9. Conclusion
@@ -454,7 +474,7 @@ We present a cluster-aware evaluation of cross-lingual retrieval for Roman Urdu.
 
 1. Cross-lingual degradation is severe at 20 to 28 percentage points, with p less than 0.0002.
 
-2. LLM query rewriting achieves 98.67 percent @1, which is +10.74 percentage points on L2 to L4 at p equals 0.0004. This is the paper's primary contribution.
+2. LLM query rewriting achieves 97.78 percent @1 raw, rising to 98.67 percent with deterministic fallback-to-original. On L2 to L4, the improvement is +10.74 percentage points at p equals 0.0004. This is the paper's primary contribution.
 
 3. A zero-score tie-breaking artifact in rank-based fusion causes a 1.55 percentage point drop in @1. Proper handling restores E5-large parity.
 
@@ -514,7 +534,7 @@ L4: Agar talib-e-ilm imtihan dena chahta hai to minimum hazri kitni honi chahiye
 
 ## Appendix B: Reproducibility
 
-All code is available in src_v2, 48 Python scripts. Complete pipeline runs in approximately 90 minutes, excluding first-time model downloads. All experiments use seed equal to 42 for reproducibility.
+All code is available in src_v2, 51 Python scripts. Complete pipeline runs in approximately 95 minutes, excluding first-time model downloads. All experiments use seed equal to 42 for reproducibility.
 
 Execution order:
 
@@ -526,7 +546,7 @@ Step 3, rewrite all queries, single-query mode: script 25.
 
 Step 4, clean fallback, re-query and fallback: script 39.
 
-Step 5, evaluation: scripts 36, 28, 29.
+Step 5, evaluation: scripts 36, 51, 28, 29.
 
 Step 6, statistical tests: scripts 30, 35.
 
@@ -534,7 +554,9 @@ Step 7, fusion analysis: scripts 31, 32, 38, 40, 42, 44, 45, 48.
 
 Step 8, verification: scripts 43, 46, 47.
 
-Note: Script 37 is diagnostic only and is superseded by script 39.
+Step 9, figures: script 49.
+
+Note: Script 37 is diagnostic only and is superseded by script 39. Script 50 is superseded by script 51, which is the first-pass plus fallback measurement.
 
 Dependencies:
 sentence-transformers version 2.2.0 or higher
@@ -566,3 +588,6 @@ Total: 44 checks pass, 2 checks flagged as disclosed limitations.
 ---
 
 End of Paper Draft
+
+---
+
