@@ -1,0 +1,450 @@
+{
+	"version": "2.0",
+	"domain": "University Policy Corpus",
+	"documents": [
+		{
+			"doc_id": "D01",
+			"topic": "Academic Calendar",
+			"fact": "15 September 2026",
+			"fact_type": "date",
+			"unique_terms": [
+				"commencement",
+				"semester kickoff",
+				"academic term start"
+			],
+			"paragraphs": [
+				"The Academic Calendar governs all scheduling matters for the university. It defines the commencement of each academic term, the duration of instructional weeks, and the official semester kickoff date.",
+				"For the Fall 2026 academic term, the official commencement date for all classes is 15 September 2026. No classes will be held before this date under any circumstances.",
+				"The academic term start is followed by a full sixteen-week instructional period. Deans and department heads are responsible for communicating any local scheduling adjustments to their faculty."
+			]
+		},
+		{
+			"doc_id": "D02",
+			"topic": "Course Add and Drop",
+			"fact": "7 working days",
+			"fact_type": "duration",
+			"unique_terms": ["enrollment adjustment", "drop window", "add window"],
+			"paragraphs": [
+				"The Course Add and Drop policy defines the enrollment adjustment period during which students may modify their registered courses without academic penalty.",
+				"Students are permitted to add or drop a course within 7 working days of the semester commencement. After this enrollment adjustment window closes, any change requires formal approval from the department.",
+				"The drop window is strictly enforced. Late requests are only considered in documented medical emergencies and must be routed through the registrar's office."
+			]
+		},
+		{
+			"doc_id": "D03",
+			"topic": "Admission Application",
+			"fact": "18 November 2026 at 11:59 PM",
+			"fact_type": "deadline",
+			"unique_terms": [
+				"application cutoff",
+				"submission portal",
+				"admission cycle"
+			],
+			"paragraphs": [
+				"The Admission Application policy governs the procedure and timeline for prospective students applying to undergraduate programs.",
+				"For the Fall 2026 admission cycle, the application cutoff for the Software Engineering program is 18 November 2026 at 11:59 PM. The submission portal closes precisely at this moment.",
+				"Applications received after the cutoff are automatically rejected by the system. No extensions are granted under any circumstances, including technical difficulties."
+			]
+		},
+		{
+			"doc_id": "D04",
+			"topic": "Assignment Submission",
+			"fact": "3 calendar days",
+			"fact_type": "duration",
+			"unique_terms": [
+				"late submission window",
+				"assignment grace",
+				"homework deadline"
+			],
+			"paragraphs": [
+				"The Assignment Submission policy specifies the rules for submitting coursework and the penalties for late submissions.",
+				"Students who miss the primary deadline are granted a late submission window of 3 calendar days. During this grace period, a fixed penalty of 10% per day is applied to the final grade.",
+				"After the late submission window expires, the assignment receives a grade of zero. Instructors may not extend this period without written approval from the dean."
+			]
+		},
+		{
+			"doc_id": "D05",
+			"topic": "Class Attendance",
+			"fact": "75%",
+			"fact_type": "percentage",
+			"unique_terms": [
+				"minimum hazri",
+				"attendance threshold",
+				"class participation"
+			],
+			"paragraphs": [
+				"The Class Attendance policy establishes the minimum presence required for a student to remain in good academic standing.",
+				"Every student must maintain a minimum attendance of 75% in each registered course. Falling below this attendance threshold results in automatic disqualification from the final examination.",
+				"Attendance is recorded per class session. Medical absences with documented proof are counted separately and do not count against the student's attendance percentage."
+			]
+		},
+		{
+			"doc_id": "D06",
+			"topic": "Degree Completion Requirements",
+			"fact": "136 credit hours",
+			"fact_type": "number",
+			"unique_terms": [
+				"graduation credits",
+				"degree audit",
+				"program completion"
+			],
+			"paragraphs": [
+				"The Degree Completion Requirements policy outlines the total academic load required for the award of a bachelor's degree.",
+				"To qualify for graduation, a student must successfully complete 136 credit hours of coursework. This includes core courses, electives, and the final year project.",
+				"The degree audit is conducted in the final semester. Students who fall short of the required credit hours must register for additional courses in the following term."
+			]
+		},
+		{
+			"doc_id": "D07",
+			"topic": "Disciplinary Proceedings",
+			"fact": "10 working days",
+			"fact_type": "duration",
+			"unique_terms": [
+				"appeal window",
+				"disciplinary hearing",
+				"misconduct review"
+			],
+			"paragraphs": [
+				"The Disciplinary Proceedings policy governs the handling of student misconduct and the process for appealing disciplinary decisions.",
+				"A student who wishes to contest a disciplinary ruling must file a formal appeal within 10 working days of receiving the official notification. The appeal window is strictly enforced.",
+				"Appeals filed after the 10 working day period are rejected without review. The disciplinary committee's decision becomes final once this deadline passes."
+			]
+		},
+		{
+			"doc_id": "D08",
+			"topic": "Final Examination",
+			"fact": "50%",
+			"fact_type": "percentage",
+			"unique_terms": [
+				"passing threshold",
+				"exam pass mark",
+				"final assessment"
+			],
+			"paragraphs": [
+				"The Final Examination policy defines the passing criteria for all end-of-semester examinations.",
+				"To pass a final examination, a student must secure a minimum of 50% of the total marks. Failure to meet this passing threshold results in a failing grade for the course.",
+				"The 50% threshold applies uniformly across all departments. Supplementary examinations are offered only to students who narrowly miss the pass mark."
+			]
+		},
+		{
+			"doc_id": "D09",
+			"topic": "Semester Fee Structure",
+			"fact": "PKR 62,500",
+			"fact_type": "amount",
+			"unique_terms": ["tuition payment", "semester charges", "fee invoice"],
+			"paragraphs": [
+				"The Semester Fee Structure policy describes the tuition payment schedule for enrolled students.",
+				"For the fifth semester of the Software Engineering program, the semester charges are PKR 62,500. This tuition payment covers instructional costs, laboratory access, and examination fees.",
+				"The fee invoice is issued at the start of each semester. Students must clear their dues before the end of the second week to avoid a late payment surcharge."
+			]
+		},
+		{
+			"doc_id": "D10",
+			"topic": "Grading System",
+			"fact": "90%",
+			"fact_type": "percentage",
+			"unique_terms": [
+				"letter grade scale",
+				"grade boundary",
+				"A grade cutoff"
+			],
+			"paragraphs": [
+				"The Grading System policy converts numeric scores into letter grades based on predefined boundaries.",
+				"To receive an A grade in any course, a student must obtain a grade boundary of at least 90% of the total marks. Scores between 85% and 89% fall into the A- category.",
+				"The letter grade scale is applied consistently across all semesters. Grade disputes must be raised with the instructor within one week of result announcement."
+			]
+		},
+		{
+			"doc_id": "D11",
+			"topic": "Graduation Eligibility",
+			"fact": "2.00",
+			"fact_type": "cgpa",
+			"unique_terms": [
+				"cgpa threshold",
+				"graduation standing",
+				"degree conferral"
+			],
+			"paragraphs": [
+				"The Graduation Eligibility policy defines the minimum academic standing required for degree conferral.",
+				"A student must achieve a minimum CGPA of 2.00 to be eligible for graduation. The CGPA threshold applies to the cumulative grade point average across all semesters.",
+				"Students whose CGPA falls below the graduation standing requirement must improve their grades through re-registration before applying for degree conferral."
+			]
+		},
+		{
+			"doc_id": "D12",
+			"topic": "Hostel Regulations",
+			"fact": "10:00 PM",
+			"fact_type": "time",
+			"unique_terms": ["hostel curfew", "residence timing", "night return"],
+			"paragraphs": [
+				"The Hostel Regulations policy governs the daily conduct and timing rules for students residing in university accommodation.",
+				"All residents must return to the hostel by 10:00 PM. The hostel curfew is enforced by the residence warden, and the main gate is locked at this time.",
+				"Exceptions for late return require prior written permission from the warden. Students returning after the residence timing without permission face disciplinary action."
+			]
+		},
+		{
+			"doc_id": "D13",
+			"topic": "Internship Requirement",
+			"fact": "6 weeks",
+			"fact_type": "duration",
+			"unique_terms": [
+				"industrial training",
+				"internship duration",
+				"work placement"
+			],
+			"paragraphs": [
+				"The Internship Requirement policy outlines the industrial training component required for degree completion.",
+				"Every student must complete a minimum internship duration of 6 weeks in an approved organization. The work placement must be documented and signed by the industrial supervisor.",
+				"The industrial training is typically undertaken during the summer break. Students must submit their internship report to the department within two weeks of completing the 6 weeks duration."
+			]
+		},
+		{
+			"doc_id": "D14",
+			"topic": "Medical Leave",
+			"fact": "10 days",
+			"fact_type": "duration",
+			"unique_terms": ["sick leave", "health absence", "medical absence"],
+			"paragraphs": [
+				"The Medical Leave policy specifies the maximum health absence permitted for students during a semester.",
+				"A student may claim up to 10 days of medical leave per semester. Sick leave beyond this limit requires approval from the university medical board.",
+				"All health absence claims must be supported by a doctor's certificate. Medical leave days do not count against the regular attendance calculation."
+			]
+		},
+		{
+			"doc_id": "D15",
+			"topic": "Course Prerequisites",
+			"fact": "C grade",
+			"fact_type": "grade",
+			"unique_terms": [
+				"prerequisite clearance",
+				"course dependency",
+				"prerequisite grade"
+			],
+			"paragraphs": [
+				"The Course Prerequisites policy defines the minimum grade required to satisfy prerequisite requirements for advanced courses.",
+				"A student must obtain at least a C grade in a prerequisite course to qualify for the dependent course. Prerequisite clearance is enforced automatically during registration.",
+				"Grades below the prerequisite grade threshold require the student to repeat the course before enrolling in the advanced course. Waivers are granted only in exceptional cases."
+			]
+		},
+		{
+			"doc_id": "D16",
+			"topic": "Semester Registration",
+			"fact": "10 credit hours",
+			"fact_type": "number",
+			"unique_terms": [
+				"registration load",
+				"minimum enrollment",
+				"course load"
+			],
+			"paragraphs": [
+				"The Semester Registration policy defines the minimum and maximum course load a student may register for in a semester.",
+				"The minimum registration load is 10 credit hours per semester. Students registering below this minimum enrollment are marked as part-time and may face scholarship ineligibility.",
+				"The maximum course load is 21 credit hours. Any request to exceed this limit must be approved by the academic advisor and the department chair."
+			]
+		},
+		{
+			"doc_id": "D17",
+			"topic": "Merit Scholarship",
+			"fact": "3.50",
+			"fact_type": "cgpa",
+			"unique_terms": [
+				"scholarship eligibility",
+				"merit award",
+				"tuition waiver"
+			],
+			"paragraphs": [
+				"The Merit Scholarship policy governs the award of tuition waivers based on academic performance.",
+				"To qualify for the merit award, a student must maintain a minimum CGPA of 3.50. The scholarship eligibility is reviewed at the end of every semester.",
+				"Recipients of the tuition waiver must maintain continuous full-time enrollment. Any drop in CGPA below the scholarship eligibility threshold results in immediate termination of the award."
+			]
+		},
+		{
+			"doc_id": "D18",
+			"topic": "Student ID Card",
+			"fact": "15 days",
+			"fact_type": "duration",
+			"unique_terms": ["identity card", "card issuance", "campus access card"],
+			"paragraphs": [
+				"The Student ID Card policy defines the procedure and processing timeline for issuing campus access cards.",
+				"The card issuance process takes 15 days from the date of application. Students must collect their identity card in person from the registrar's office.",
+				"The campus access card is required for library entry, examination halls, and laboratory access. Lost cards must be reported immediately and a replacement fee applies."
+			]
+		},
+		{
+			"doc_id": "D19",
+			"topic": "Official Transcript",
+			"fact": "5 working days",
+			"fact_type": "duration",
+			"unique_terms": ["academic record", "transcript request", "grade report"],
+			"paragraphs": [
+				"The Official Transcript policy specifies the process for obtaining a certified academic record from the university.",
+				"The transcript request is processed within 5 working days of submission. Rush processing is available for an additional fee and reduces the timeline to 2 working days.",
+				"The academic record is issued in a sealed envelope and cannot be re-opened by the student. Grade reports and transcripts are mailed directly to the requesting institution."
+			]
+		},
+		{
+			"doc_id": "D20",
+			"topic": "Course Withdrawal",
+			"fact": "30 days",
+			"fact_type": "duration",
+			"unique_terms": [
+				"withdrawal period",
+				"course cancellation",
+				"penalty-free drop"
+			],
+			"paragraphs": [
+				"The Course Withdrawal policy defines the window during which a student may drop a course without academic penalty.",
+				"A student may withdraw from a course within 30 days of the semester start without academic penalty. The withdrawal period applies only to elective courses.",
+				"After the penalty-free drop window closes, any course cancellation appears as a W grade on the transcript. Withdrawals from core courses require advisor approval regardless of timing."
+			]
+		},
+		{
+			"doc_id": "D21",
+			"topic": "Library Borrowing",
+			"fact": "5 books",
+			"fact_type": "number",
+			"unique_terms": ["book loan", "library checkout", "borrowing limit"],
+			"paragraphs": [
+				"The Library Borrowing policy defines the loan limits and return periods for library materials.",
+				"A student may borrow up to 5 books at a time. The book loan period is fourteen days, renewable once if no other student has placed a hold.",
+				"Overdue materials incur a fine of PKR 20 per day per book. Students with outstanding library checkout dues cannot register for the next semester."
+			]
+		},
+		{
+			"doc_id": "D22",
+			"topic": "Laboratory Safety",
+			"fact": "safety goggles",
+			"fact_type": "requirement",
+			"unique_terms": [
+				"lab safety gear",
+				"protective equipment",
+				"laboratory conduct"
+			],
+			"paragraphs": [
+				"The Laboratory Safety policy establishes mandatory precautions for all students working in university laboratories.",
+				"Safety goggles must be worn at all times inside the laboratory. Students without protective equipment are not permitted to enter or work in the lab.",
+				"Additional protective equipment such as gloves and lab coats may be required depending on the experiment. Any accident must be reported to the lab supervisor immediately."
+			]
+		},
+		{
+			"doc_id": "D23",
+			"topic": "Plagiarism Policy",
+			"fact": "zero marks",
+			"fact_type": "penalty",
+			"unique_terms": [
+				"academic dishonesty",
+				"plagiarism penalty",
+				"integrity violation"
+			],
+			"paragraphs": [
+				"The Plagiarism Policy establishes the university's stance on academic dishonesty and the penalties for integrity violations.",
+				"Any confirmed case of plagiarism results in zero marks for the submitted work. Repeat offenses lead to suspension for one full academic semester.",
+				"All written assignments are screened through plagiarism-detection software. The integrity violation record is kept in the student's permanent academic file."
+			]
+		},
+		{
+			"doc_id": "D24",
+			"topic": "Annual Sports Day",
+			"fact": "15 March",
+			"fact_type": "date",
+			"unique_terms": ["sports gala", "athletic event", "annual tournament"],
+			"paragraphs": [
+				"The Annual Sports Day policy defines the schedule and participation rules for the university's athletic events.",
+				"The sports gala will be held on 15 March each year. All students are encouraged to register for at least one athletic event.",
+				"The annual tournament includes track events, team sports, and individual competitions. Winners receive medals and a cash prize sponsored by the alumni association."
+			]
+		},
+		{
+			"doc_id": "D25",
+			"topic": "Counselling Services",
+			"fact": "8 sessions",
+			"fact_type": "number",
+			"unique_terms": [
+				"student counselling",
+				"mental health support",
+				"therapy sessions"
+			],
+			"paragraphs": [
+				"The Counselling Services policy describes the mental health support available to enrolled students.",
+				"Each student is entitled to 8 sessions per semester with a professional counsellor at no cost. Student counselling sessions are confidential and cannot be shared without consent.",
+				"Students requiring extended mental health support beyond the 8 sessions may be referred to external specialists. All counselling records are kept separate from academic files."
+			]
+		},
+		{
+			"doc_id": "D26",
+			"topic": "Course Evaluation",
+			"fact": "anonymous",
+			"fact_type": "nature",
+			"unique_terms": [
+				"feedback survey",
+				"course review",
+				"student evaluation"
+			],
+			"paragraphs": [
+				"The Course Evaluation policy governs the end-of-semester feedback process for all taught courses.",
+				"Course evaluation is fully anonymous. Neither the instructor nor the department can identify individual student responses at any stage.",
+				"The feedback survey is open for two weeks before final examinations. Course review results are shared with instructors after grades are officially released."
+			]
+		},
+		{
+			"doc_id": "D27",
+			"topic": "Research Thesis",
+			"fact": "6 credit hours",
+			"fact_type": "number",
+			"unique_terms": [
+				"final year project",
+				"thesis credits",
+				"research component"
+			],
+			"paragraphs": [
+				"The Research Thesis policy defines the requirements for the final year project undertaken by undergraduate students.",
+				"The research component carries a total weight of 6 credit hours, spread across the final two semesters. The thesis credits count toward the total degree requirement.",
+				"Students must submit a written thesis and defend it before a panel. The final year project grade is assigned jointly by the supervisor and the examination panel."
+			]
+		},
+		{
+			"doc_id": "D28",
+			"topic": "Anti-Harassment Reporting",
+			"fact": "3 days",
+			"fact_type": "duration",
+			"unique_terms": [
+				"harassment complaint",
+				"grievance filing",
+				"misconduct report"
+			],
+			"paragraphs": [
+				"The Anti-Harassment Reporting policy outlines the procedure for filing and processing harassment complaints on campus.",
+				"A harassment complaint must be filed within 3 days of the incident. Grievance filing after this period is only accepted with compelling justification.",
+				"All complaints are handled by the anti-harassment committee and treated with strict confidentiality. The committee must complete its inquiry within thirty days of receiving the report."
+			]
+		},
+		{
+			"doc_id": "D29",
+			"topic": "Alumni Privileges",
+			"fact": "lifetime access",
+			"fact_type": "nature",
+			"unique_terms": [
+				"alumni benefits",
+				"graduate services",
+				"post-graduation access"
+			],
+			"paragraphs": [
+				"The Alumni Privileges policy describes the benefits available to graduates of the university.",
+				"All graduates receive lifetime access to the university library and online journal databases. Alumni benefits also include discounted rates for continuing education programs.",
+				"To activate alumni benefits, graduates must register with the alumni office and obtain an alumni card. Graduate services are extended to all degree holders regardless of graduation year."
+			]
+		},
+		{
+			"doc_id": "D30",
+			"topic": "Transport Services",
+			"fact": "PKR 15,000",
+			"fact_type": "amount",
+			"unique_terms": ["bus service", "campus shuttle", "transport charges"],
+			"paragraphs": [
+				"The Transport Services policy defines the bus service routes and charges for students using university transportation.",
+				"The annual transport charges for the campus shuttle are PKR 15,000. The bus service operates on ten fixed routes across the city.",
+				"Transport charges are billed with the semester fee. Students may discontinue the campus shuttle service at the end of any semester by submitting a written request."
+			]
+		}
+	]
+}

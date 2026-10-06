@@ -1,0 +1,863 @@
+QUERY QUALITY REPORT v2
+====================================================================================================
+[✓ PASS] D01 L0 V1 | score= 80 | urdu=10% | eng=80% | forb=0%
+           issues: urdu too high (10%)
+[✓ PASS] D01 L0 V2 | score=100 | urdu=0% | eng=86% | forb=0%
+[! WARN] D01 L0 V3 | score= 60 | urdu=20% | eng=70% | forb=0%
+           issues: urdu too high (20%)
+           query: What date marks the start of the Fall 2026 semester?
+[✓ PASS] D01 L1 V1 | score= 85 | urdu=18% | eng=73% | forb=0%
+[✓ PASS] D01 L1 V2 | score= 99 | urdu=12% | eng=75% | forb=0%
+[! WARN] D01 L1 V3 | score= 79 | urdu=20% | eng=70% | forb=0%
+           query: What is the start date of Fall 2026 ka semester?
+[✓ PASS] D01 L2 V1 | score= 87 | urdu=33% | eng=56% | forb=0%
+[! WARN] D01 L2 V2 | score= 78 | urdu=29% | eng=57% | forb=0%
+           query: Fall 2026 ki classes kab start hongi?
+[! WARN] D01 L2 V3 | score= 69 | urdu=56% | eng=33% | forb=0%
+           query: Fall 2026 ka semester kis date se shuru hoga?
+[✓ PASS] D01 L3 V1 | score= 82 | urdu=60% | eng=30% | forb=0%
+[✓ PASS] D01 L3 V2 | score= 96 | urdu=75% | eng=12% | forb=0%
+[! WARN] D01 L3 V3 | score= 76 | urdu=56% | eng=33% | forb=0%
+           query: Fall 2026 ka semester kis din se shuru hoga?
+[! WARN] D01 L4 V1 | score= 71 | urdu=57% | eng=36% | forb=0%
+           issues: urdu too low (57%)
+           query: Fall 2026 mein parhai kis din se shuru hon gi? Koi tareekh bata dein.
+[✓ PASS] D01 L4 V2 | score= 82 | urdu=67% | eng=22% | forb=0%
+[! WARN] D01 L4 V3 | score= 78 | urdu=64% | eng=27% | forb=0%
+           query: Fall 2026 mein jamia kis din khulegi, yeh maloom karna hai.
+[✓ PASS] D02 L0 V1 | score=100 | urdu=0% | eng=100% | forb=0%
+[✓ PASS] D02 L0 V2 | score= 82 | urdu=9% | eng=91% | forb=0%
+           issues: urdu too high (9%)
+[! WARN] D02 L0 V3 | score= 78 | urdu=11% | eng=89% | forb=0%
+           issues: urdu too high (11%)
+           query: How long is the drop window after semester start?
+[✓ PASS] D02 L1 V1 | score= 97 | urdu=14% | eng=86% | forb=0%
+[✓ PASS] D02 L1 V2 | score= 91 | urdu=10% | eng=90% | forb=0%
+[! WARN] D02 L1 V3 | score= 79 | urdu=20% | eng=80% | forb=0%
+           query: How long is the drop window after semester ka start?
+[✓ PASS] D02 L2 V1 | score= 97 | urdu=42% | eng=58% | forb=0%
+[✓ PASS] D02 L2 V2 | score= 87 | urdu=33% | eng=67% | forb=0%
+[✓ PASS] D02 L2 V3 | score= 87 | urdu=33% | eng=67% | forb=0%
+[✓ PASS] D02 L3 V1 | score= 93 | urdu=67% | eng=33% | forb=0%
+[! WARN] D02 L3 V2 | score= 68 | urdu=50% | eng=50% | forb=0%
+           query: Talib-e-ilm course kitne din mein badal sakte hain?
+[! WARN] D02 L3 V3 | score= 61 | urdu=46% | eng=55% | forb=0%
+           issues: urdu too low (46%)
+           query: Naya course lene ya chorne ke liye kitna waqt milta hai?
+[✓ PASS] D02 L4 V1 | score= 95 | urdu=78% | eng=22% | forb=0%
+[! WARN] D02 L4 V2 | score= 62 | urdu=50% | eng=50% | forb=0%
+           issues: urdu too low (50%)
+           query: Talib-e-ilm course kitne din mein badal sakte hain?
+[! WARN] D02 L4 V3 | score= 66 | urdu=53% | eng=47% | forb=0%
+           issues: urdu too low (53%)
+           query: Course chorne ya naya lene ke liye kitna waqt milta hai, yeh maloom karna hai.
+[! WARN] D03 L0 V1 | score= 70 | urdu=15% | eng=77% | forb=0%
+           issues: urdu too high (15%)
+           query: What is the application cutoff for the Fall 2026 Software Engineering admission cycle?
+[! WARN] D03 L0 V2 | score= 64 | urdu=18% | eng=73% | forb=0%
+           issues: urdu too high (18%)
+           query: When is the deadline to submit the Fall 2026 admission application?
+[! WARN] D03 L0 V3 | score= 70 | urdu=15% | eng=77% | forb=0%
+           issues: urdu too high (15%)
+           query: What is the final date and time for the Fall 2026 application submission?
+[✓ PASS] D03 L1 V1 | score= 89 | urdu=17% | eng=75% | forb=0%
+[✓ PASS] D03 L1 V2 | score= 85 | urdu=18% | eng=73% | forb=0%
+[✓ PASS] D03 L1 V3 | score= 93 | urdu=15% | eng=77% | forb=0%
+[✓ PASS] D03 L2 V1 | score= 80 | urdu=30% | eng=60% | forb=0%
+[✗ FAIL] D03 L2 V2 | score= 47 | urdu=67% | eng=33% | forb=0%
+           issues: urdu too high (67%)
+           query: Admission ke liye application kab tak jama karwani hai?
+[! WARN] D03 L2 V3 | score= 70 | urdu=25% | eng=67% | forb=0%
+           query: Fall 2026 application submit karne ki last date aur time kya hai?
+[✓ PASS] D03 L3 V1 | score= 96 | urdu=69% | eng=23% | forb=0%
+[✓ PASS] D03 L3 V2 | score= 97 | urdu=70% | eng=30% | forb=0%
+[✓ PASS] D03 L3 V3 | score= 85 | urdu=62% | eng=31% | forb=0%
+[✓ PASS] D03 L4 V1 | score= 98 | urdu=80% | eng=13% | forb=0%
+[✓ PASS] D03 L4 V2 | score= 89 | urdu=73% | eng=27% | forb=0%
+[! WARN] D03 L4 V3 | score= 77 | urdu=62% | eng=31% | forb=0%
+           query: Fall 2026 mein dakhla ki darkhwast dene ki aakhri tareekh kya hai, yeh maloom karna hai.
+[✓ PASS] D04 L0 V1 | score=100 | urdu=0% | eng=100% | forb=0%
+[! WARN] D04 L0 V2 | score= 75 | urdu=12% | eng=88% | forb=0%
+           issues: urdu too high (12%)
+           query: What is the late submission window for assignments?
+[! WARN] D04 L0 V3 | score= 72 | urdu=14% | eng=86% | forb=0%
+           issues: urdu too high (14%)
+           query: How long is the assignment grace period?
+[✓ PASS] D04 L1 V1 | score= 89 | urdu=9% | eng=91% | forb=0%
+[✗ FAIL] D04 L1 V2 | score= 40 | urdu=33% | eng=67% | forb=0%
+           issues: urdu too high (33%)
+           query: What is the late submission window for assignment ki deadline ke baad?
+[! WARN] D04 L1 V3 | score= 64 | urdu=25% | eng=75% | forb=0%
+           query: How long is the assignment ka grace period?
+[✓ PASS] D04 L2 V1 | score= 90 | urdu=46% | eng=55% | forb=0%
+[✓ PASS] D04 L2 V2 | score= 81 | urdu=50% | eng=50% | forb=0%
+[! WARN] D04 L2 V3 | score= 71 | urdu=55% | eng=46% | forb=0%
+           query: Deadline ke baad assignment kitne din mein jama kar sakte hain?
+[✓ PASS] D04 L3 V1 | score= 99 | urdu=73% | eng=27% | forb=0%
+[✓ PASS] D04 L3 V2 | score= 99 | urdu=73% | eng=27% | forb=0%
+[✓ PASS] D04 L3 V3 | score= 80 | urdu=58% | eng=42% | forb=0%
+[✗ FAIL] D04 L4 V1 | score= 47 | urdu=50% | eng=44% | forb=6%
+           issues: urdu too low (50%) | forbidden_en: ['to']
+           query: Assignment waqt par jama na ho to kitne din tak jama karwa sakte hain? Bata dein.
+[! WARN] D04 L4 V2 | score= 73 | urdu=71% | eng=24% | forb=6%
+           issues: forbidden_en: ['to']
+           query: Assignment ki meyad nikal jaye to talib-e-ilm ko kitne din ki mazeed mohlat milti hai?
+[✓ PASS] D04 L4 V3 | score= 98 | urdu=80% | eng=20% | forb=0%
+[✓ PASS] D05 L0 V1 | score=100 | urdu=0% | eng=100% | forb=0%
+[✓ PASS] D05 L0 V2 | score= 80 | urdu=10% | eng=90% | forb=0%
+           issues: urdu too high (10%)
+[✓ PASS] D05 L0 V3 | score=100 | urdu=0% | eng=100% | forb=0%
+[✓ PASS] D05 L1 V1 | score= 85 | urdu=18% | eng=82% | forb=0%
+[! WARN] D05 L1 V2 | score= 79 | urdu=20% | eng=80% | forb=0%
+           query: What is the attendance threshold for good standing ki condition?
+[! WARN] D05 L1 V3 | score= 79 | urdu=20% | eng=80% | forb=0%
+           query: How much attendance must a student maintain har course mein?
+[! WARN] D05 L2 V1 | score= 61 | urdu=60% | eng=40% | forb=0%
+           issues: urdu too high (60%)
+           query: Minimum attendance kitni honi chahiye?
+[! WARN] D05 L2 V2 | score= 61 | urdu=60% | eng=40% | forb=0%
+           issues: urdu too high (60%)
+           query: Student ko kam az kam kitni attendance rakhni hoti hai?
+[✓ PASS] D05 L2 V3 | score=100 | urdu=40% | eng=60% | forb=0%
+[✓ PASS] D05 L3 V1 | score= 96 | urdu=75% | eng=25% | forb=0%
+[✗ FAIL] D05 L3 V2 | score= 48 | urdu=50% | eng=40% | forb=10%
+           issues: forbidden_en: ['minimum']
+           query: Har course mein minimum kitni hazri puri karni hoti hai?
+[✓ PASS] D05 L3 V3 | score=100 | urdu=71% | eng=29% | forb=0%
+[✓ PASS] D05 L4 V1 | score= 94 | urdu=76% | eng=24% | forb=0%
+[✗ FAIL] D05 L4 V2 | score= 27 | urdu=50% | eng=36% | forb=14%
+           issues: urdu too low (50%) | forbidden_en: ['to', 'minimum']
+           query: Agar talib-e-ilm imtihan dena chahta hai to minimum hazri kitni honi chahiye?
+[✓ PASS] D05 L4 V3 | score= 82 | urdu=67% | eng=33% | forb=0%
+[✓ PASS] D06 L0 V1 | score=100 | urdu=0% | eng=100% | forb=0%
+[! WARN] D06 L0 V2 | score= 72 | urdu=14% | eng=86% | forb=0%
+           issues: urdu too high (14%)
+           query: What is the total graduation credit requirement?
+[✓ PASS] D06 L0 V3 | score= 82 | urdu=9% | eng=91% | forb=0%
+           issues: urdu too high (9%)
+[✓ PASS] D06 L1 V1 | score= 89 | urdu=17% | eng=83% | forb=0%
+[✓ PASS] D06 L1 V2 | score= 97 | urdu=14% | eng=86% | forb=0%
+[✓ PASS] D06 L1 V3 | score= 85 | urdu=18% | eng=82% | forb=0%
+[! WARN] D06 L2 V1 | score= 69 | urdu=56% | eng=44% | forb=0%
+           query: Degree complete karne ke liye kitne credit hours chahiye?
+[! WARN] D06 L2 V2 | score= 70 | urdu=25% | eng=75% | forb=0%
+           query: Graduation credits kitne hain?
+[✓ PASS] D06 L2 V3 | score= 81 | urdu=50% | eng=50% | forb=0%
+[! WARN] D06 L3 V1 | score= 62 | urdu=60% | eng=30% | forb=10%
+           issues: forbidden_en: ['degree']
+           query: Degree mukammal karne ke liye kitne credit hours darkar hain?
+[! WARN] D06 L3 V2 | score= 75 | urdu=64% | eng=29% | forb=7%
+           issues: forbidden_en: ['degree']
+           query: Talib-e-ilm ko degree ke liye kul kitne credit hours poore karne honge?
+[! WARN] D06 L3 V3 | score= 62 | urdu=60% | eng=30% | forb=10%
+           issues: forbidden_en: ['degree']
+           query: Degree hasil karne ke liye kitne credit hours zaroori hain?
+[! WARN] D06 L4 V1 | score= 65 | urdu=63% | eng=32% | forb=5%
+           issues: forbidden_en: ['degree']
+           query: Degree mukammal karne ke liye talib-e-ilm ko kul kitne credit hours poore karne padte hain? Bata dein.
+[✓ PASS] D06 L4 V2 | score= 88 | urdu=71% | eng=29% | forb=0%
+[✗ FAIL] D06 L4 V3 | score= 42 | urdu=56% | eng=33% | forb=11%
+           issues: urdu too low (56%) | forbidden_en: ['degree']
+           query: Degree lene ke liye kitne credit hours zaroori hain?
+[✓ PASS] D07 L0 V1 | score=100 | urdu=0% | eng=100% | forb=0%
+[! WARN] D07 L0 V2 | score= 78 | urdu=11% | eng=89% | forb=0%
+           issues: urdu too high (11%)
+           query: What is the appeal window for a disciplinary ruling?
+[✓ PASS] D07 L0 V3 | score=100 | urdu=0% | eng=100% | forb=0%
+[✓ PASS] D07 L1 V1 | score= 82 | urdu=7% | eng=93% | forb=0%
+[! WARN] D07 L1 V2 | score= 79 | urdu=20% | eng=80% | forb=0%
+           query: What is the appeal window for disciplinary ruling ki decision?
+[! WARN] D07 L1 V3 | score= 61 | urdu=0% | eng=100% | forb=0%
+           issues: urdu too low (0%)
+           query: How long can a student contest a disciplinary decision?
+[✓ PASS] D07 L2 V1 | score= 97 | urdu=42% | eng=58% | forb=0%
+[✓ PASS] D07 L2 V2 | score= 95 | urdu=38% | eng=62% | forb=0%
+[✓ PASS] D07 L2 V3 | score= 92 | urdu=44% | eng=56% | forb=0%
+[! WARN] D07 L3 V1 | score= 70 | urdu=64% | eng=27% | forb=9%
+           issues: forbidden_en: ['appeal']
+           query: Disciplinary faislay ke khilaf appeal ki kitne din ki mohlat hai?
+[! WARN] D07 L3 V2 | score= 73 | urdu=54% | eng=46% | forb=0%
+           query: Talib-e-ilm disciplinary faislay ko kitne din mein challenge kar sakta hai?
+[! WARN] D07 L3 V3 | score= 70 | urdu=64% | eng=27% | forb=9%
+           issues: forbidden_en: ['appeal']
+           query: Disciplinary faislay ke baad appeal karne ka kitna waqt hota hai?
+[✗ FAIL] D07 L4 V1 | score= 43 | urdu=55% | eng=35% | forb=10%
+           issues: urdu too low (55%) | forbidden_en: ['to', 'appeal']
+           query: Agar talib-e-ilm disciplinary faislay se muttafiq na ho to appeal ke liye kitne din milte hain? Bata dein.
+[! WARN] D07 L4 V2 | score= 73 | urdu=71% | eng=24% | forb=6%
+           issues: forbidden_en: ['appeal']
+           query: Disciplinary faislay ke khilaf talib-e-ilm ko appeal jama karwane ki kitni mohlat di jati hai?
+[! WARN] D07 L4 V3 | score= 64 | urdu=62% | eng=33% | forb=5%
+           issues: forbidden_en: ['appeal']
+           query: Disciplinary faislay ko challenge karne ke liye talib-e-ilm kitne din mein appeal kar sakta hai, yeh maloom karna hai.
+[✓ PASS] D08 L0 V1 | score= 80 | urdu=10% | eng=90% | forb=0%
+           issues: urdu too high (10%)
+[✗ FAIL] D08 L0 V2 | score= 56 | urdu=22% | eng=78% | forb=0%
+           issues: urdu too high (22%)
+           query: What is the passing threshold for the final examination?
+[✓ PASS] D08 L0 V3 | score= 84 | urdu=8% | eng=92% | forb=0%
+           issues: urdu too high (8%)
+[! WARN] D08 L1 V1 | score= 70 | urdu=23% | eng=77% | forb=0%
+           query: What minimum marks are required to pass the final examination ki condition mein?
+[✓ PASS] D08 L1 V2 | score= 99 | urdu=12% | eng=88% | forb=0%
+[! WARN] D08 L1 V3 | score= 70 | urdu=23% | eng=77% | forb=0%
+           query: How many marks must a student obtain final exam pass karne ke liye?
+[✓ PASS] D08 L2 V1 | score= 90 | urdu=46% | eng=55% | forb=0%
+[! WARN] D08 L2 V2 | score= 78 | urdu=29% | eng=71% | forb=0%
+           query: Passing threshold kitni hai final exam mein?
+[✗ FAIL] D08 L2 V3 | score= 42 | urdu=69% | eng=31% | forb=0%
+           issues: urdu too high (69%)
+           query: Final exam mein pass hone ke liye kam az kam kitne number chahiye?
+[✓ PASS] D08 L3 V1 | score= 96 | urdu=69% | eng=31% | forb=0%
+[✗ FAIL] D08 L3 V2 | score= 55 | urdu=62% | eng=23% | forb=15%
+           issues: forbidden_en: ['final', 'minimum']
+           query: Final imtihan mein pass hone ke liye minimum kitne number hasil karne hain?
+[✗ FAIL] D08 L3 V3 | score= 29 | urdu=43% | eng=43% | forb=14%
+           issues: urdu too low (43%) | forbidden_en: ['threshold']
+           query: Aakhri imtihan ki passing threshold kitni hai?
+[✓ PASS] D08 L4 V1 | score= 92 | urdu=75% | eng=25% | forb=0%
+[! WARN] D08 L4 V2 | score= 62 | urdu=64% | eng=29% | forb=7%
+           issues: forbidden_en: ['minimum']
+           query: Aakhri imtihan mein pass hone ke liye minimum kitne number hasil karna lazmi hai?
+[✗ FAIL] D08 L4 V3 | score= 46 | urdu=55% | eng=36% | forb=9%
+           issues: urdu too low (55%) | forbidden_en: ['threshold']
+           query: Aakhri imtihan ki passing threshold kitni hai, yeh maloom karna hai.
+[✓ PASS] D09 L0 V1 | score= 82 | urdu=9% | eng=91% | forb=0%
+           issues: urdu too high (9%)
+[! WARN] D09 L0 V2 | score= 70 | urdu=15% | eng=85% | forb=0%
+           issues: urdu too high (15%)
+           query: How much is the semester fee for the fifth semester of Software Engineering?
+[✓ PASS] D09 L0 V3 | score=100 | urdu=0% | eng=100% | forb=0%
+[! WARN] D09 L1 V1 | score= 75 | urdu=21% | eng=79% | forb=0%
+           query: What is the semester fee for fifth-semester Software Engineering students ki classes mein?
+[✓ PASS] D09 L1 V2 | score= 86 | urdu=8% | eng=92% | forb=0%
+[! WARN] D09 L1 V3 | score= 61 | urdu=0% | eng=100% | forb=0%
+           issues: urdu too low (0%)
+           query: What amount must fifth-semester Software Engineering students pay?
+[! WARN] D09 L2 V1 | score= 65 | urdu=22% | eng=78% | forb=0%
+           query: Fifth-semester Software Engineering ki semester fee kitni hai?
+[✓ PASS] D09 L2 V2 | score= 80 | urdu=30% | eng=70% | forb=0%
+[✓ PASS] D09 L2 V3 | score= 81 | urdu=50% | eng=50% | forb=0%
+[✗ FAIL] D09 L3 V1 | score= 42 | urdu=33% | eng=67% | forb=0%
+           issues: urdu too low (33%)
+           query: Software Engineering ke paanchwe semester ki fees kitni hai?
+[✓ PASS] D09 L3 V2 | score= 85 | urdu=62% | eng=38% | forb=0%
+[✗ FAIL] D09 L3 V3 | score= 33 | urdu=27% | eng=73% | forb=0%
+           issues: urdu too low (27%)
+           query: Software Engineering ke paanchwe semester ki kul fees kitni banti hai?
+[! WARN] D09 L4 V1 | score= 72 | urdu=58% | eng=42% | forb=0%
+           issues: urdu too low (58%)
+           query: Software Engineering ke paanchwe semester mein talib-e-ilm ko kul kitni fees jama karwani hoti hai? Bata dein.
+[✓ PASS] D09 L4 V2 | score= 85 | urdu=69% | eng=31% | forb=0%
+[! WARN] D09 L4 V3 | score= 62 | urdu=50% | eng=50% | forb=0%
+           issues: urdu too low (50%)
+           query: Paanchwe semester ki fees kitni hai, yeh maloom karna hai.
+[✓ PASS] D10 L0 V1 | score=100 | urdu=0% | eng=100% | forb=0%
+[✓ PASS] D10 L0 V2 | score= 80 | urdu=10% | eng=90% | forb=0%
+           issues: urdu too high (10%)
+[✓ PASS] D10 L0 V3 | score=100 | urdu=0% | eng=100% | forb=0%
+[✓ PASS] D10 L1 V1 | score= 89 | urdu=17% | eng=83% | forb=0%
+[✓ PASS] D10 L1 V2 | score= 95 | urdu=11% | eng=89% | forb=0%
+[✗ FAIL] D10 L1 V3 | score= 40 | urdu=33% | eng=67% | forb=0%
+           issues: urdu too high (33%)
+           query: How many marks are needed for A grade hasil karne ke liye?
+[! WARN] D10 L2 V1 | score= 66 | urdu=57% | eng=43% | forb=0%
+           query: A grade ke liye kitni percentage chahiye?
+[! WARN] D10 L2 V2 | score= 71 | urdu=55% | eng=46% | forb=0%
+           query: A grade hasil karne ke liye kitne percent marks zaroori hain?
+[! WARN] D10 L2 V3 | score= 78 | urdu=29% | eng=71% | forb=0%
+           query: A grade ki grade boundary kya hai?
+[✓ PASS] D10 L3 V1 | score= 82 | urdu=60% | eng=40% | forb=0%
+[✓ PASS] D10 L3 V2 | score= 96 | urdu=75% | eng=25% | forb=0%
+[! WARN] D10 L3 V3 | score= 74 | urdu=55% | eng=46% | forb=0%
+           query: A grade ke liye marks kitne percent tak hone zaroori hain?
+[✓ PASS] D10 L4 V1 | score= 82 | urdu=67% | eng=33% | forb=0%
+[✓ PASS] D10 L4 V2 | score= 86 | urdu=70% | eng=30% | forb=0%
+[! WARN] D10 L4 V3 | score= 74 | urdu=60% | eng=40% | forb=0%
+           query: A grade ki shart kya hai, yeh maloom karna hai.
+[✓ PASS] D11 L0 V1 | score=100 | urdu=0% | eng=100% | forb=0%
+[! WARN] D11 L0 V2 | score= 75 | urdu=12% | eng=88% | forb=0%
+           issues: urdu too high (12%)
+           query: What is the CGPA threshold for degree conferral?
+[✓ PASS] D11 L0 V3 | score=100 | urdu=0% | eng=100% | forb=0%
+[✓ PASS] D11 L1 V1 | score= 85 | urdu=18% | eng=82% | forb=0%
+[✓ PASS] D11 L1 V2 | score= 99 | urdu=12% | eng=88% | forb=0%
+[! WARN] D11 L1 V3 | score= 73 | urdu=22% | eng=78% | forb=0%
+           query: What CGPA must a student achieve graduation ke liye?
+[! WARN] D11 L2 V1 | score= 66 | urdu=57% | eng=43% | forb=0%
+           query: Graduation ke liye minimum CGPA kitni chahiye?
+[✓ PASS] D11 L2 V2 | score= 95 | urdu=38% | eng=62% | forb=0%
+[✓ PASS] D11 L2 V3 | score= 81 | urdu=50% | eng=50% | forb=0%
+[✓ PASS] D11 L3 V1 | score= 84 | urdu=83% | eng=17% | forb=0%
+[✗ FAIL] D11 L3 V2 | score= 36 | urdu=62% | eng=12% | forb=25%
+           issues: forbidden_en: ['degree', 'minimum']
+           query: Degree ke liye minimum CGPA kitni honi chahiye?
+[✓ PASS] D11 L3 V3 | score= 86 | urdu=71% | eng=21% | forb=7%
+           issues: forbidden_en: ['degree']
+[✓ PASS] D11 L4 V1 | score= 98 | urdu=84% | eng=16% | forb=0%
+[! WARN] D11 L4 V2 | score= 75 | urdu=77% | eng=15% | forb=8%
+           issues: forbidden_en: ['degree']
+           query: Degree ki shart puri karne ke liye kam az kam kitni CGPA chahiye?
+[✗ FAIL] D11 L4 V3 | score= 41 | urdu=67% | eng=17% | forb=17%
+           issues: forbidden_en: ['degree', 'minimum']
+           query: Degree lene ke liye minimum CGPA kitni chahiye, yeh maloom karna hai.
+[! WARN] D12 L0 V1 | score= 75 | urdu=12% | eng=88% | forb=0%
+           issues: urdu too high (12%)
+           query: What is the hostel curfew time for residents?
+[✓ PASS] D12 L0 V2 | score= 80 | urdu=10% | eng=90% | forb=0%
+           issues: urdu too high (10%)
+[✓ PASS] D12 L0 V3 | score= 80 | urdu=10% | eng=90% | forb=0%
+           issues: urdu too high (10%)
+[✗ FAIL] D12 L1 V1 | score= 58 | urdu=27% | eng=73% | forb=0%
+           issues: urdu too high (27%)
+           query: What is the hostel curfew time for residents ki condition mein?
+[✓ PASS] D12 L1 V2 | score= 91 | urdu=10% | eng=90% | forb=0%
+[✓ PASS] D12 L1 V3 | score= 91 | urdu=10% | eng=90% | forb=0%
+[✓ PASS] D12 L2 V1 | score= 87 | urdu=33% | eng=67% | forb=0%
+[✓ PASS] D12 L2 V2 | score= 81 | urdu=50% | eng=50% | forb=0%
+[✓ PASS] D12 L2 V3 | score= 87 | urdu=33% | eng=67% | forb=0%
+[! WARN] D12 L3 V1 | score= 62 | urdu=46% | eng=54% | forb=0%
+           issues: urdu too low (46%)
+           query: Hostel se bahar jane ke baad kitne baje tak wapas aana hota hai?
+[✗ FAIL] D12 L3 V2 | score= 24 | urdu=38% | eng=50% | forb=12%
+           issues: urdu too low (38%) | forbidden_en: ['timing']
+           query: Hostel ki wapsi ki aakhri timing kya hai?
+[✓ PASS] D12 L3 V3 | score= 89 | urdu=64% | eng=36% | forb=0%
+[! WARN] D12 L4 V1 | score= 74 | urdu=60% | eng=40% | forb=0%
+           query: Hostel mein rehne wale talib-e-ilm ko raat ko kitne baje tak hostel wapas pohanchna zaroori hai? Bata dein.
+[✗ FAIL] D12 L4 V2 | score= 37 | urdu=53% | eng=35% | forb=12%
+           issues: urdu too low (53%) | forbidden_en: ['curfew', 'maximum']
+           query: Hostel ki curfew ke mutabiq talib-e-ilm ko maximum kis waqt tak wapas aana hota hai?
+[! WARN] D12 L4 V3 | score= 76 | urdu=62% | eng=38% | forb=0%
+           query: Raat ko kitne baje tak wapas pohanchna lazmi hai, yeh maloom karna hai.
+[✗ FAIL] D13 L0 V1 | score= 56 | urdu=22% | eng=78% | forb=0%
+           issues: urdu too high (22%)
+           query: What is the minimum duration of the required internship?
+[! WARN] D13 L0 V2 | score= 72 | urdu=14% | eng=86% | forb=0%
+           issues: urdu too high (14%)
+           query: How many weeks must the internship last?
+[! WARN] D13 L0 V3 | score= 75 | urdu=12% | eng=88% | forb=0%
+           issues: urdu too high (12%)
+           query: What is the minimum internship duration for students?
+[✗ FAIL] D13 L1 V1 | score= 40 | urdu=33% | eng=67% | forb=0%
+           issues: urdu too high (33%)
+           query: What is the minimum duration of the required internship ki requirement mein?
+[✓ PASS] D13 L1 V2 | score= 97 | urdu=14% | eng=86% | forb=0%
+[✓ PASS] D13 L1 V3 | score= 99 | urdu=12% | eng=88% | forb=0%
+[! WARN] D13 L2 V1 | score= 66 | urdu=57% | eng=43% | forb=0%
+           query: Internship minimum kitne weeks ki honi chahiye?
+[✓ PASS] D13 L2 V2 | score= 81 | urdu=50% | eng=50% | forb=0%
+[✓ PASS] D13 L2 V3 | score= 90 | urdu=46% | eng=55% | forb=0%
+[✓ PASS] D13 L3 V1 | score= 96 | urdu=69% | eng=31% | forb=0%
+[! WARN] D13 L3 V2 | score= 68 | urdu=50% | eng=50% | forb=0%
+           query: Internship ke liye kitne hafton ki muddat rakhi gayi hai?
+[! WARN] D13 L3 V3 | score= 62 | urdu=60% | eng=30% | forb=10%
+           issues: forbidden_en: ['degree']
+           query: Degree ke liye internship kitne haftay ki karni zaroori hai?
+[! WARN] D13 L4 V1 | score= 76 | urdu=70% | eng=26% | forb=4%
+           issues: forbidden_en: ['degree']
+           query: Degree ki shart puri karne ke liye talib-e-ilm ko kam az kam kitne hafton ki internship karni padti hai? Bata dein.
+[✗ FAIL] D13 L4 V2 | score=  1 | urdu=29% | eng=57% | forb=14%
+           issues: urdu too low (29%) | forbidden_en: ['minimum']
+           query: Internship ki minimum muddat kitne haftay hai?
+[✓ PASS] D13 L4 V3 | score= 82 | urdu=67% | eng=33% | forb=0%
+[✓ PASS] D14 L0 V1 | score=100 | urdu=0% | eng=100% | forb=0%
+[! WARN] D14 L0 V2 | score= 78 | urdu=11% | eng=89% | forb=0%
+           issues: urdu too high (11%)
+           query: What is the maximum medical leave allowed per semester?
+[✓ PASS] D14 L0 V3 | score=100 | urdu=0% | eng=100% | forb=0%
+[✓ PASS] D14 L1 V1 | score=100 | urdu=13% | eng=87% | forb=0%
+[✓ PASS] D14 L1 V2 | score= 95 | urdu=11% | eng=89% | forb=0%
+[! WARN] D14 L1 V3 | score= 61 | urdu=0% | eng=100% | forb=0%
+           issues: urdu too low (0%)
+           query: How many sick leave days are permitted in one semester?
+[✓ PASS] D14 L2 V1 | score= 92 | urdu=44% | eng=56% | forb=0%
+[✓ PASS] D14 L2 V2 | score= 81 | urdu=50% | eng=50% | forb=0%
+[✓ PASS] D14 L2 V3 | score=100 | urdu=40% | eng=60% | forb=0%
+[✓ PASS] D14 L3 V1 | score= 93 | urdu=67% | eng=33% | forb=0%
+[✓ PASS] D14 L3 V2 | score=100 | urdu=71% | eng=29% | forb=0%
+[✓ PASS] D14 L3 V3 | score= 86 | urdu=82% | eng=18% | forb=0%
+[✗ FAIL] D14 L4 V1 | score= 43 | urdu=55% | eng=35% | forb=10%
+           issues: urdu too low (55%) | forbidden_en: ['to', 'maximum']
+           query: Agar talib-e-ilm bemar ho to ek semester mein maximum kitne din ki chhutti le sakta hai? Bata dein.
+[✓ PASS] D14 L4 V2 | score= 85 | urdu=69% | eng=31% | forb=0%
+[! WARN] D14 L4 V3 | score= 72 | urdu=75% | eng=17% | forb=8%
+           issues: forbidden_en: ['maximum']
+           query: Bimari ki chhutti ki maximum hadd kitni hai, yeh maloom karna hai.
+[✓ PASS] D15 L0 V1 | score=100 | urdu=0% | eng=100% | forb=0%
+[✓ PASS] D15 L0 V2 | score= 80 | urdu=10% | eng=90% | forb=0%
+           issues: urdu too high (10%)
+[✓ PASS] D15 L0 V3 | score=100 | urdu=0% | eng=100% | forb=0%
+[✓ PASS] D15 L1 V1 | score= 89 | urdu=17% | eng=83% | forb=0%
+[✓ PASS] D15 L1 V2 | score= 91 | urdu=10% | eng=90% | forb=0%
+[✗ FAIL] D15 L1 V3 | score= 58 | urdu=27% | eng=73% | forb=0%
+           issues: urdu too high (27%)
+           query: Which grade must a student earn prerequisite pass karne ke liye?
+[✓ PASS] D15 L2 V1 | score= 95 | urdu=43% | eng=57% | forb=0%
+[! WARN] D15 L2 V2 | score= 71 | urdu=55% | eng=46% | forb=0%
+           query: Prerequisite ki requirement puri karne ke liye konsa grade zaroori hai?
+[✗ FAIL] D15 L2 V3 | score= 53 | urdu=64% | eng=36% | forb=0%
+           issues: urdu too high (64%)
+           query: Prerequisite subject mein kam az kam konsa grade lena hota hai?
+[✓ PASS] D15 L3 V1 | score= 93 | urdu=67% | eng=33% | forb=0%
+[✓ PASS] D15 L3 V2 | score= 85 | urdu=62% | eng=38% | forb=0%
+[✓ PASS] D15 L3 V3 | score= 93 | urdu=67% | eng=33% | forb=0%
+[✓ PASS] D15 L4 V1 | score= 88 | urdu=71% | eng=29% | forb=0%
+[✓ PASS] D15 L4 V2 | score= 94 | urdu=77% | eng=23% | forb=0%
+[! WARN] D15 L4 V3 | score= 74 | urdu=60% | eng=40% | forb=0%
+           query: Prerequisite mein kitna grade zaroori hai, yeh maloom karna hai.
+[✓ PASS] D16 L0 V1 | score= 80 | urdu=10% | eng=90% | forb=0%
+           issues: urdu too high (10%)
+[✓ PASS] D16 L0 V2 | score=100 | urdu=0% | eng=100% | forb=0%
+[! WARN] D16 L0 V3 | score= 78 | urdu=11% | eng=89% | forb=0%
+           issues: urdu too high (11%)
+           query: What is the minimum course load for semester registration?
+[! WARN] D16 L1 V1 | score= 70 | urdu=23% | eng=77% | forb=0%
+           query: What is the minimum credit hours required for semester registration ki process mein?
+[! WARN] D16 L1 V2 | score= 61 | urdu=0% | eng=100% | forb=0%
+           issues: urdu too low (0%)
+           query: How many credit hours must a student register for at minimum?
+[✓ PASS] D16 L1 V3 | score= 95 | urdu=11% | eng=89% | forb=0%
+[✓ PASS] D16 L2 V1 | score= 81 | urdu=50% | eng=50% | forb=0%
+[! WARN] D16 L2 V2 | score= 64 | urdu=58% | eng=42% | forb=0%
+           issues: urdu too high (58%)
+           query: Registration ke waqt kam az kam kitne credit hours lene hote hain?
+[✓ PASS] D16 L2 V3 | score= 80 | urdu=30% | eng=70% | forb=0%
+[✓ PASS] D16 L3 V1 | score= 93 | urdu=67% | eng=33% | forb=0%
+[✗ FAIL] D16 L3 V2 | score= 33 | urdu=40% | eng=50% | forb=10%
+           issues: urdu too low (40%) | forbidden_en: ['minimum']
+           query: Registration ke liye minimum kitne credit hours rakhne hote hain?
+[! WARN] D16 L3 V3 | score= 72 | urdu=53% | eng=47% | forb=0%
+           query: Talib-e-ilm semester mein kam az kam kitne credit hours register kar sakta hai?
+[! WARN] D16 L4 V1 | score= 73 | urdu=68% | eng=27% | forb=4%
+           issues: forbidden_en: ['registration']
+           query: Semester ki registration karwane ke liye talib-e-ilm ko kam az kam kitne credit hours register karne lazmi hain? Bata dein.
+[✗ FAIL] D16 L4 V2 | score= 35 | urdu=46% | eng=46% | forb=9%
+           issues: urdu too low (46%) | forbidden_en: ['minimum']
+           query: Semester mein minimum kitne credit hours ka course load hona chahiye?
+[✗ FAIL] D16 L4 V3 | score= 29 | urdu=54% | eng=31% | forb=15%
+           issues: urdu too low (54%) | forbidden_en: ['registration', 'minimum']
+           query: Registration ke liye total minimum kitne credit hours chahiye, yeh maloom karna hai.
+[! WARN] D17 L0 V1 | score= 78 | urdu=11% | eng=89% | forb=0%
+           issues: urdu too high (11%)
+           query: What minimum CGPA is required for the merit scholarship?
+[✗ FAIL] D17 L0 V2 | score= 56 | urdu=22% | eng=78% | forb=0%
+           issues: urdu too high (22%)
+           query: What is the CGPA requirement for the merit award?
+[✓ PASS] D17 L0 V3 | score= 82 | urdu=9% | eng=91% | forb=0%
+           issues: urdu too high (9%)
+[! WARN] D17 L1 V1 | score= 64 | urdu=25% | eng=75% | forb=0%
+           query: What minimum CGPA is required for the merit scholarship ki eligibility mein?
+[! WARN] D17 L1 V2 | score= 73 | urdu=22% | eng=78% | forb=0%
+           query: What is the CGPA requirement for the merit award?
+[✗ FAIL] D17 L1 V3 | score= 58 | urdu=27% | eng=73% | forb=0%
+           issues: urdu too high (27%)
+           query: What CGPA must a student have scholarship qualify karne ke liye?
+[✓ PASS] D17 L2 V1 | score= 81 | urdu=50% | eng=50% | forb=0%
+[✗ FAIL] D17 L2 V2 | score= 27 | urdu=77% | eng=23% | forb=0%
+           issues: urdu too high (77%)
+           query: Scholarship hasil karne ke liye kam az kam CGPA kya honi zaroori hai?
+[✓ PASS] D17 L2 V3 | score=100 | urdu=40% | eng=60% | forb=0%
+[✓ PASS] D17 L3 V1 | score= 99 | urdu=73% | eng=27% | forb=0%
+[✓ PASS] D17 L3 V2 | score= 97 | urdu=70% | eng=30% | forb=0%
+[✓ PASS] D17 L3 V3 | score= 88 | urdu=64% | eng=36% | forb=0%
+[✓ PASS] D17 L4 V1 | score= 98 | urdu=80% | eng=20% | forb=0%
+[✗ FAIL] D17 L4 V2 | score= 52 | urdu=58% | eng=33% | forb=8%
+           issues: urdu too low (58%) | forbidden_en: ['minimum']
+           query: Merit scholarship hasil karne ke liye minimum CGPA ki shart kya hai?
+[! WARN] D17 L4 V3 | score= 78 | urdu=64% | eng=36% | forb=0%
+           query: Scholarship ke liye kitni CGPA zaroori hai, yeh maloom karna hai.
+[✓ PASS] D18 L0 V1 | score=100 | urdu=0% | eng=100% | forb=0%
+[✓ PASS] D18 L0 V2 | score= 80 | urdu=10% | eng=90% | forb=0%
+           issues: urdu too high (10%)
+[✓ PASS] D18 L0 V3 | score=100 | urdu=0% | eng=100% | forb=0%
+[✓ PASS] D18 L1 V1 | score=100 | urdu=13% | eng=87% | forb=0%
+[✓ PASS] D18 L1 V2 | score= 95 | urdu=11% | eng=89% | forb=0%
+[! WARN] D18 L1 V3 | score= 64 | urdu=25% | eng=75% | forb=0%
+           query: How long does a student wait ID card receive karne ke liye?
+[✓ PASS] D18 L2 V1 | score= 87 | urdu=33% | eng=67% | forb=0%
+[✓ PASS] D18 L2 V2 | score= 87 | urdu=33% | eng=67% | forb=0%
+[✓ PASS] D18 L2 V3 | score= 87 | urdu=33% | eng=67% | forb=0%
+[! WARN] D18 L3 V1 | score= 68 | urdu=50% | eng=50% | forb=0%
+           query: Talib-e-ilm ko ID card milne mein kitne din lagte hain?
+[✗ FAIL] D18 L3 V2 | score= 59 | urdu=44% | eng=56% | forb=0%
+           issues: urdu too low (44%)
+           query: Campus ka card kitne din mein tayar hota hai?
+[✗ FAIL] D18 L3 V3 | score= 53 | urdu=40% | eng=60% | forb=0%
+           issues: urdu too low (40%)
+           query: ID card ban kar milne ki kitni muddat hoti hai?
+[✓ PASS] D18 L4 V1 | score= 86 | urdu=70% | eng=30% | forb=0%
+[! WARN] D18 L4 V2 | score= 62 | urdu=50% | eng=50% | forb=0%
+           issues: urdu too low (50%)
+           query: Campus ka card kitne din mein milta hai?
+[✗ FAIL] D18 L4 V3 | score= 52 | urdu=42% | eng=58% | forb=0%
+           issues: urdu too low (42%)
+           query: ID card banne mein kitne din lagte hain, yeh maloom karna hai.
+[✓ PASS] D19 L0 V1 | score=100 | urdu=0% | eng=100% | forb=0%
+[✓ PASS] D19 L0 V2 | score= 80 | urdu=10% | eng=90% | forb=0%
+           issues: urdu too high (10%)
+[✓ PASS] D19 L0 V3 | score= 80 | urdu=10% | eng=90% | forb=0%
+           issues: urdu too high (10%)
+[✓ PASS] D19 L1 V1 | score= 85 | urdu=8% | eng=92% | forb=0%
+[✓ PASS] D19 L1 V2 | score= 95 | urdu=11% | eng=89% | forb=0%
+[✗ FAIL] D19 L1 V3 | score= 50 | urdu=30% | eng=70% | forb=0%
+           issues: urdu too high (30%)
+           query: How long does the university take transcript issue karne mein?
+[✓ PASS] D19 L2 V1 | score= 87 | urdu=33% | eng=67% | forb=0%
+[✓ PASS] D19 L2 V2 | score= 95 | urdu=38% | eng=62% | forb=0%
+[✓ PASS] D19 L2 V3 | score=100 | urdu=40% | eng=60% | forb=0%
+[! WARN] D19 L3 V1 | score= 68 | urdu=50% | eng=50% | forb=0%
+           query: Transcript hasil karne mein kitne din lagte hain?
+[✗ FAIL] D19 L3 V2 | score= 59 | urdu=44% | eng=56% | forb=0%
+           issues: urdu too low (44%)
+           query: Transcript ban kar milne ki kitni muddat hoti hai?
+[✗ FAIL] D19 L3 V3 | score= 37 | urdu=44% | eng=44% | forb=11%
+           issues: urdu too low (44%) | forbidden_en: ['university']
+           query: University transcript tayar karne mein kitne din leti hai?
+[✓ PASS] D19 L4 V1 | score= 85 | urdu=69% | eng=31% | forb=0%
+[! WARN] D19 L4 V2 | score= 62 | urdu=50% | eng=50% | forb=0%
+           issues: urdu too low (50%)
+           query: Transcript hasil karne mein kitne din lagte hain?
+[! WARN] D19 L4 V3 | score= 68 | urdu=55% | eng=46% | forb=0%
+           issues: urdu too low (55%)
+           query: Transcript banne mein kitni muddat lagti hai, yeh maloom karna hai.
+[✓ PASS] D20 L0 V1 | score=100 | urdu=0% | eng=100% | forb=0%
+[! WARN] D20 L0 V2 | score= 72 | urdu=14% | eng=86% | forb=0%
+           issues: urdu too high (14%)
+           query: What is the penalty-free withdrawal window?
+[✓ PASS] D20 L0 V3 | score=100 | urdu=0% | eng=100% | forb=0%
+[✓ PASS] D20 L1 V1 | score= 99 | urdu=12% | eng=88% | forb=0%
+[✓ PASS] D20 L1 V2 | score= 97 | urdu=14% | eng=86% | forb=0%
+[✓ PASS] D20 L1 V3 | score= 85 | urdu=18% | eng=82% | forb=0%
+[✓ PASS] D20 L2 V1 | score= 90 | urdu=46% | eng=55% | forb=0%
+[! WARN] D20 L2 V2 | score= 64 | urdu=58% | eng=42% | forb=0%
+           issues: urdu too high (58%)
+           query: Course withdraw karne ke liye kitne din milte hain bina penalty ke?
+[✓ PASS] D20 L2 V3 | score= 93 | urdu=36% | eng=64% | forb=0%
+[✗ FAIL] D20 L3 V1 | score= 52 | urdu=50% | eng=42% | forb=8%
+           issues: forbidden_en: ['penalty']
+           query: Bina kisi penalty ke course chorne ki kitne din ki mohlat hai?
+[! WARN] D20 L3 V2 | score= 61 | urdu=46% | eng=55% | forb=0%
+           issues: urdu too low (46%)
+           query: Talib-e-ilm course kitne din ke andar chhor sakta hai?
+[! WARN] D20 L3 V3 | score= 70 | urdu=64% | eng=27% | forb=9%
+           issues: forbidden_en: ['penalty']
+           query: Penalty se bachne ke liye course kab tak chhorna hota hai?
+[✗ FAIL] D20 L4 V1 | score= 37 | urdu=50% | eng=40% | forb=10%
+           issues: urdu too low (50%) | forbidden_en: ['to', 'penalty']
+           query: Agar talib-e-ilm course chhorna chahe to bina penalty ke kitne din ke andar chhor sakta hai? Bata dein.
+[✗ FAIL] D20 L4 V2 | score= 39 | urdu=56% | eng=31% | forb=12%
+           issues: urdu too low (56%) | forbidden_en: ['penalty', 'maximum']
+           query: Course chorne ke liye talib-e-ilm ko bina penalty ke maximum kitni muddat milti hai?
+[✗ FAIL] D20 L4 V3 | score= 19 | urdu=43% | eng=43% | forb=14%
+           issues: urdu too low (43%) | forbidden_en: ['to', 'penalty']
+           query: Course kitne din ke andar chhoro to penalty nahi hoti, yeh maloom karna hai.
+[✓ PASS] D21 L0 V1 | score= 85 | urdu=8% | eng=92% | forb=0%
+           issues: urdu too high (8%)
+[! WARN] D21 L0 V2 | score= 78 | urdu=11% | eng=89% | forb=0%
+           issues: urdu too high (11%)
+           query: What is the maximum borrowing limit for library books?
+[✓ PASS] D21 L0 V3 | score=100 | urdu=0% | eng=100% | forb=0%
+[✓ PASS] D21 L1 V1 | score=100 | urdu=13% | eng=87% | forb=0%
+[✓ PASS] D21 L1 V2 | score= 95 | urdu=11% | eng=89% | forb=0%
+[! WARN] D21 L1 V3 | score= 61 | urdu=0% | eng=100% | forb=0%
+           issues: urdu too low (0%)
+           query: How many books may a student check out simultaneously?
+[✓ PASS] D21 L2 V1 | score= 90 | urdu=46% | eng=55% | forb=0%
+[! WARN] D21 L2 V2 | score= 78 | urdu=29% | eng=71% | forb=0%
+           query: Book loan ki maximum limit kitni hai?
+[✓ PASS] D21 L2 V3 | score= 80 | urdu=30% | eng=70% | forb=0%
+[! WARN] D21 L3 V1 | score= 78 | urdu=57% | eng=43% | forb=0%
+           query: Talib-e-ilm kitab khane se ek waqt mein kitni kitaben le sakta hai?
+[! WARN] D21 L3 V2 | score= 61 | urdu=46% | eng=55% | forb=0%
+           issues: urdu too low (46%)
+           query: Kitab khane se kitni kitaben ghar le jane ki ijazat hai?
+[! WARN] D21 L3 V3 | score= 68 | urdu=50% | eng=50% | forb=0%
+           query: Ek waqt mein kitni kitaben issue hoti hain?
+[! WARN] D21 L4 V1 | score= 69 | urdu=56% | eng=44% | forb=0%
+           issues: urdu too low (56%)
+           query: Talib-e-ilm kitab khane se ek waqt mein kitni kitaben ghar le ja sakta hai? Bata dein.
+[✗ FAIL] D21 L4 V2 | score= 28 | urdu=44% | eng=44% | forb=11%
+           issues: urdu too low (44%) | forbidden_en: ['maximum']
+           query: Kitab khane se maximum kitni kitaben mil sakti hain?
+[! WARN] D21 L4 V3 | score= 71 | urdu=57% | eng=43% | forb=0%
+           issues: urdu too low (57%)
+           query: Ek waqt mein kitni kitaben le jane ki ijazat hai, yeh maloom karna hai.
+[! WARN] D22 L0 V1 | score= 78 | urdu=11% | eng=89% | forb=0%
+           issues: urdu too high (11%)
+           query: What safety equipment must be worn inside the laboratory?
+[! WARN] D22 L0 V2 | score= 78 | urdu=11% | eng=89% | forb=0%
+           issues: urdu too high (11%)
+           query: What is the mandatory protective gear for lab work?
+[✓ PASS] D22 L0 V3 | score= 80 | urdu=10% | eng=90% | forb=0%
+           issues: urdu too high (10%)
+[✓ PASS] D22 L1 V1 | score= 85 | urdu=18% | eng=82% | forb=0%
+[✓ PASS] D22 L1 V2 | score= 95 | urdu=11% | eng=89% | forb=0%
+[✓ PASS] D22 L1 V3 | score= 95 | urdu=11% | eng=89% | forb=0%
+[✓ PASS] D22 L2 V1 | score= 95 | urdu=38% | eng=62% | forb=0%
+[✓ PASS] D22 L2 V2 | score= 87 | urdu=33% | eng=67% | forb=0%
+[✓ PASS] D22 L2 V3 | score= 92 | urdu=44% | eng=56% | forb=0%
+[! WARN] D22 L3 V1 | score= 68 | urdu=50% | eng=50% | forb=0%
+           query: Lab mein kaam karne ke liye konsa safety gear pehnna zaroori hai?
+[! WARN] D22 L3 V2 | score= 68 | urdu=50% | eng=50% | forb=0%
+           query: Talib-e-ilm ko lab mein konsa protective equipment pehnna hota hai?
+[! WARN] D22 L3 V3 | score= 68 | urdu=50% | eng=50% | forb=0%
+           query: Lab safety ke liye kya pehnna lazmi hai?
+[✗ FAIL] D22 L4 V1 | score= 59 | urdu=47% | eng=53% | forb=0%
+           issues: urdu too low (47%)
+           query: Lab mein kaam karte waqt talib-e-ilm ko konsa safety equipment pehnna lazmi hai? Bata dein.
+[✗ FAIL] D22 L4 V2 | score= 20 | urdu=31% | eng=62% | forb=8%
+           issues: urdu too low (31%) | forbidden_en: ['allowed']
+           query: Lab ke andar protective gear ke baghair kaam karna allowed hai ya nahi?
+[! WARN] D22 L4 V3 | score= 76 | urdu=62% | eng=38% | forb=0%
+           query: Lab mein kis cheez ke baghair entry nahi hoti, yeh maloom karna hai.
+[✓ PASS] D23 L0 V1 | score=100 | urdu=0% | eng=100% | forb=0%
+[✓ PASS] D23 L0 V2 | score=100 | urdu=0% | eng=100% | forb=0%
+[! WARN] D23 L0 V3 | score= 75 | urdu=12% | eng=88% | forb=0%
+           issues: urdu too high (12%)
+           query: What is the consequence of an integrity violation?
+[! WARN] D23 L1 V1 | score= 79 | urdu=20% | eng=80% | forb=0%
+           query: What penalty is given for confirmed plagiarism ki case mein?
+[! WARN] D23 L1 V2 | score= 61 | urdu=0% | eng=100% | forb=0%
+           issues: urdu too low (0%)
+           query: What happens if a student is found guilty of plagiarism?
+[✓ PASS] D23 L1 V3 | score= 99 | urdu=12% | eng=88% | forb=0%
+[✓ PASS] D23 L2 V1 | score= 81 | urdu=50% | eng=50% | forb=0%
+[✓ PASS] D23 L2 V2 | score=100 | urdu=40% | eng=60% | forb=0%
+[✓ PASS] D23 L2 V3 | score= 95 | urdu=43% | eng=57% | forb=0%
+[✓ PASS] D23 L3 V1 | score= 80 | urdu=58% | eng=42% | forb=0%
+[! WARN] D23 L3 V2 | score= 78 | urdu=57% | eng=43% | forb=0%
+           query: Plagiarism confirm hone par kya hota hai?
+[✗ FAIL] D23 L3 V3 | score= 29 | urdu=43% | eng=43% | forb=14%
+           issues: urdu too low (43%) | forbidden_en: ['penalty']
+           query: Academic dishonesty par kya penalty hoti hai?
+[✗ FAIL] D23 L4 V1 | score= 55 | urdu=56% | eng=38% | forb=6%
+           issues: urdu too low (56%) | forbidden_en: ['to']
+           query: Agar talib-e-ilm plagiarism mein pakra jaye to usay kya saza milti hai? Bata dein.
+[✓ PASS] D23 L4 V2 | score= 82 | urdu=67% | eng=33% | forb=0%
+[! WARN] D23 L4 V3 | score= 78 | urdu=64% | eng=36% | forb=0%
+           query: Plagiarism ki surat mein kya hota hai, yeh maloom karna hai.
+[! WARN] D24 L0 V1 | score= 78 | urdu=11% | eng=89% | forb=0%
+           issues: urdu too high (11%)
+           query: On what date is the annual sports day held?
+[! WARN] D24 L0 V2 | score= 78 | urdu=11% | eng=89% | forb=0%
+           issues: urdu too high (11%)
+           query: When does the university hold its annual sports gala?
+[✗ FAIL] D24 L0 V3 | score= 56 | urdu=22% | eng=78% | forb=0%
+           issues: urdu too high (22%)
+           query: What is the date of the annual athletic event?
+[! WARN] D24 L1 V1 | score= 64 | urdu=25% | eng=75% | forb=0%
+           query: On what date is the annual sports day held ki event mein?
+[✓ PASS] D24 L1 V2 | score= 95 | urdu=11% | eng=89% | forb=0%
+[! WARN] D24 L1 V3 | score= 73 | urdu=22% | eng=78% | forb=0%
+           query: What is the date of the annual athletic event?
+[✓ PASS] D24 L2 V1 | score= 95 | urdu=38% | eng=62% | forb=0%
+[✓ PASS] D24 L2 V2 | score= 95 | urdu=38% | eng=62% | forb=0%
+[✓ PASS] D24 L2 V3 | score= 87 | urdu=33% | eng=67% | forb=0%
+[✗ FAIL] D24 L3 V1 | score= 35 | urdu=29% | eng=71% | forb=0%
+           issues: urdu too low (29%)
+           query: Sports gala kis din manaya jata hai?
+[✗ FAIL] D24 L3 V2 | score=  9 | urdu=33% | eng=50% | forb=17%
+           issues: urdu too low (33%) | forbidden_en: ['annual']
+           query: Annual sports day kab hota hai?
+[✗ FAIL] D24 L3 V3 | score= 42 | urdu=33% | eng=67% | forb=0%
+           issues: urdu too low (33%)
+           query: Sports event ki tareekh kya hai?
+[✗ FAIL] D24 L4 V1 | score= 55 | urdu=44% | eng=56% | forb=0%
+           issues: urdu too low (44%)
+           query: Sports gala kis din manaya jata hai? Bata dein.
+[✗ FAIL] D24 L4 V2 | score= 54 | urdu=43% | eng=57% | forb=0%
+           issues: urdu too low (43%)
+           query: Sports day kis tareekh ko hota hai?
+[! WARN] D24 L4 V3 | score= 69 | urdu=56% | eng=44% | forb=0%
+           issues: urdu too low (56%)
+           query: Athletic event kis din hoga, yeh maloom karna hai.
+[✓ PASS] D25 L0 V1 | score=100 | urdu=0% | eng=100% | forb=0%
+[✓ PASS] D25 L0 V2 | score= 82 | urdu=9% | eng=91% | forb=0%
+           issues: urdu too high (9%)
+[✓ PASS] D25 L0 V3 | score=100 | urdu=0% | eng=100% | forb=0%
+[✓ PASS] D25 L1 V1 | score= 97 | urdu=14% | eng=86% | forb=0%
+[✓ PASS] D25 L1 V2 | score= 89 | urdu=9% | eng=91% | forb=0%
+[! WARN] D25 L1 V3 | score= 61 | urdu=0% | eng=100% | forb=0%
+           issues: urdu too low (0%)
+           query: How many mental health support sessions are covered?
+[✓ PASS] D25 L2 V1 | score= 87 | urdu=33% | eng=67% | forb=0%
+[✓ PASS] D25 L2 V2 | score= 87 | urdu=33% | eng=67% | forb=0%
+[✓ PASS] D25 L2 V3 | score= 87 | urdu=33% | eng=67% | forb=0%
+[✓ PASS] D25 L3 V1 | score= 80 | urdu=58% | eng=42% | forb=0%
+[✗ FAIL] D25 L3 V2 | score= 42 | urdu=33% | eng=67% | forb=0%
+           issues: urdu too low (33%)
+           query: Free therapy sessions kitni milti hain?
+[! WARN] D25 L3 V3 | score= 68 | urdu=50% | eng=50% | forb=0%
+           query: Zehni sehat ke liye kitne sessions milte hain?
+[! WARN] D25 L4 V1 | score= 74 | urdu=60% | eng=40% | forb=0%
+           query: Talib-e-ilm ko ek semester mein kitni counselling sessions free milti hain? Bata dein.
+[! WARN] D25 L4 V2 | score= 62 | urdu=50% | eng=50% | forb=0%
+           issues: urdu too low (50%)
+           query: Zehni sehat ke liye kitne sessions milte hain?
+[! WARN] D25 L4 V3 | score= 62 | urdu=50% | eng=50% | forb=0%
+           issues: urdu too low (50%)
+           query: Counselling sessions ka kitna quota hai, yeh maloom karna hai.
+[! WARN] D26 L0 V1 | score= 75 | urdu=12% | eng=88% | forb=0%
+           issues: urdu too high (12%)
+           query: Is the course evaluation survey anonymous or identified?
+[✗ FAIL] D26 L0 V2 | score= 56 | urdu=22% | eng=78% | forb=0%
+           issues: urdu too high (22%)
+           query: What is the confidentiality level of the course evaluation?
+[! WARN] D26 L0 V3 | score= 75 | urdu=12% | eng=88% | forb=0%
+           issues: urdu too high (12%)
+           query: Can instructors identify students in the course evaluation?
+[✗ FAIL] D26 L1 V1 | score= 58 | urdu=27% | eng=73% | forb=0%
+           issues: urdu too high (27%)
+           query: Is the course evaluation survey anonymous or identified ki nature mein?
+[! WARN] D26 L1 V2 | score= 73 | urdu=22% | eng=78% | forb=0%
+           query: What is the confidentiality level of the course evaluation?
+[✓ PASS] D26 L1 V3 | score= 99 | urdu=12% | eng=88% | forb=0%
+[✗ FAIL] D26 L2 V1 | score= 45 | urdu=12% | eng=88% | forb=0%
+           issues: urdu too low (12%)
+           query: Course evaluation survey anonymous hoti hai ya nahi?
+[✓ PASS] D26 L2 V2 | score= 87 | urdu=33% | eng=67% | forb=0%
+[✓ PASS] D26 L2 V3 | score= 87 | urdu=33% | eng=67% | forb=0%
+[✗ FAIL] D26 L3 V1 | score= 47 | urdu=36% | eng=64% | forb=0%
+           issues: urdu too low (36%)
+           query: Course evaluation mein talib-e-ilm ka naam pata chalta hai?
+[✗ FAIL] D26 L3 V2 | score= 53 | urdu=40% | eng=60% | forb=0%
+           issues: urdu too low (40%)
+           query: Feedback ki nature kya hai?
+[✗ FAIL] D26 L3 V3 | score= 14 | urdu=14% | eng=86% | forb=0%
+           issues: urdu too low (14%)
+           query: Course review confidential hoti hai ya nahi?
+[✗ FAIL] D26 L4 V1 | score= 58 | urdu=47% | eng=53% | forb=0%
+           issues: urdu too low (47%)
+           query: Course evaluation mein talib-e-ilm ki pehchaan pata chalti hai ya nahi? Bata dein.
+[✗ FAIL] D26 L4 V2 | score= 55 | urdu=44% | eng=56% | forb=0%
+           issues: urdu too low (44%)
+           query: Feedback dene wale ka naam milta hai ya nahi?
+[! WARN] D26 L4 V3 | score= 62 | urdu=50% | eng=50% | forb=0%
+           issues: urdu too low (50%)
+           query: Course evaluation ki confidentiality kya hai, yeh maloom karna hai.
+[✓ PASS] D27 L0 V1 | score= 80 | urdu=10% | eng=90% | forb=0%
+           issues: urdu too high (10%)
+[! WARN] D27 L0 V2 | score= 60 | urdu=20% | eng=80% | forb=0%
+           issues: urdu too high (20%)
+           query: What is the credit weight of the final year project?
+[! WARN] D27 L0 V3 | score= 78 | urdu=11% | eng=89% | forb=0%
+           issues: urdu too high (11%)
+           query: How many credit hours does the research component carry?
+[✓ PASS] D27 L1 V1 | score= 89 | urdu=17% | eng=83% | forb=0%
+[! WARN] D27 L1 V2 | score= 79 | urdu=20% | eng=80% | forb=0%
+           query: What is the credit weight of the final year project?
+[✓ PASS] D27 L1 V3 | score= 95 | urdu=11% | eng=89% | forb=0%
+[✓ PASS] D27 L2 V1 | score= 95 | urdu=38% | eng=62% | forb=0%
+[! WARN] D27 L2 V2 | score= 70 | urdu=25% | eng=75% | forb=0%
+           query: Final year project ka credit weight kitna hai?
+[✓ PASS] D27 L2 V3 | score= 95 | urdu=38% | eng=62% | forb=0%
+[✗ FAIL] D27 L3 V1 | score= 49 | urdu=38% | eng=62% | forb=0%
+           issues: urdu too low (38%)
+           query: Thesis ke kitne credit hours assigned hote hain?
+[✗ FAIL] D27 L3 V2 | score= 53 | urdu=40% | eng=60% | forb=0%
+           issues: urdu too low (40%)
+           query: Aakhri saal ke project ke kul kitne credit hours hain?
+[✗ FAIL] D27 L3 V3 | score= 42 | urdu=33% | eng=67% | forb=0%
+           issues: urdu too low (33%)
+           query: Research component ki weightage kitni hai?
+[✗ FAIL] D27 L4 V1 | score= 57 | urdu=46% | eng=55% | forb=0%
+           issues: urdu too low (46%)
+           query: Research thesis ke kul kitne credit hours hote hain? Bata dein.
+[! WARN] D27 L4 V2 | score= 62 | urdu=50% | eng=50% | forb=0%
+           issues: urdu too low (50%)
+           query: Aakhri saal ke project ke kitne credit hours hote hain?
+[! WARN] D27 L4 V3 | score= 62 | urdu=50% | eng=50% | forb=0%
+           issues: urdu too low (50%)
+           query: Thesis ke kitne credit hours hain, yeh maloom karna hai.
+[✓ PASS] D28 L0 V1 | score=100 | urdu=0% | eng=100% | forb=0%
+[✓ PASS] D28 L0 V2 | score= 80 | urdu=10% | eng=90% | forb=0%
+           issues: urdu too high (10%)
+[✓ PASS] D28 L0 V3 | score=100 | urdu=0% | eng=100% | forb=0%
+[✓ PASS] D28 L1 V1 | score=100 | urdu=13% | eng=87% | forb=0%
+[✓ PASS] D28 L1 V2 | score= 95 | urdu=11% | eng=89% | forb=0%
+[! WARN] D28 L1 V3 | score= 61 | urdu=0% | eng=100% | forb=0%
+           issues: urdu too low (0%)
+           query: Within how many days must a harassment complaint be submitted?
+[✓ PASS] D28 L2 V1 | score= 92 | urdu=44% | eng=56% | forb=0%
+[! WARN] D28 L2 V2 | score= 78 | urdu=29% | eng=71% | forb=0%
+           query: Complaint filing ki time limit kitni hai?
+[✓ PASS] D28 L2 V3 | score= 95 | urdu=38% | eng=62% | forb=0%
+[✓ PASS] D28 L3 V1 | score= 82 | urdu=60% | eng=40% | forb=0%
+[✓ PASS] D28 L3 V2 | score=100 | urdu=71% | eng=29% | forb=0%
+[✗ FAIL] D28 L3 V3 | score= 43 | urdu=50% | eng=38% | forb=12%
+           issues: forbidden_en: ['time']
+           query: Harassment report dene ka time kitna hota hai?
+[! WARN] D28 L4 V1 | score= 76 | urdu=62% | eng=38% | forb=0%
+           query: Harassment ki shikayat kitne din ke andar file karni hoti hai? Bata dein.
+[! WARN] D28 L4 V2 | score= 71 | urdu=57% | eng=43% | forb=0%
+           issues: urdu too low (57%)
+           query: Shikayat dene ki aakhri tareekh kya hai?
+[! WARN] D28 L4 V3 | score= 76 | urdu=62% | eng=38% | forb=0%
+           query: Harassment report submit karne ki kitni mohlat hoti hai, yeh maloom karna hai.
+[✓ PASS] D29 L0 V1 | score=100 | urdu=0% | eng=100% | forb=0%
+[! WARN] D29 L0 V2 | score= 75 | urdu=12% | eng=88% | forb=0%
+           issues: urdu too high (12%)
+           query: What is the duration of alumni library access?
+[✓ PASS] D29 L0 V3 | score=100 | urdu=0% | eng=100% | forb=0%
+[✓ PASS] D29 L1 V1 | score= 93 | urdu=15% | eng=85% | forb=0%
+[✓ PASS] D29 L1 V2 | score= 99 | urdu=12% | eng=88% | forb=0%
+[! WARN] D29 L1 V3 | score= 61 | urdu=0% | eng=100% | forb=0%
+           issues: urdu too low (0%)
+           query: Do alumni get lifetime access to university services?
+[✓ PASS] D29 L2 V1 | score= 81 | urdu=50% | eng=50% | forb=0%
+[✓ PASS] D29 L2 V2 | score= 87 | urdu=33% | eng=67% | forb=0%
+[! WARN] D29 L2 V3 | score= 70 | urdu=25% | eng=75% | forb=0%
+           query: Graduates ko lifetime access milta hai ya nahi?
+[✗ FAIL] D29 L3 V1 | score= 28 | urdu=50% | eng=30% | forb=20%
+           issues: forbidden_en: ['degree', 'library']
+           query: Degree ke baad graduates ko kitna library access milta hai?
+[! WARN] D29 L3 V2 | score= 68 | urdu=50% | eng=50% | forb=0%
+           query: Alumni ko kitni muddat ka access milta hai?
+[! WARN] D29 L3 V3 | score= 61 | urdu=46% | eng=55% | forb=0%
+           issues: urdu too low (46%)
+           query: Graduates ko umar bhar ke liye access milta hai ya nahi?
+[✗ FAIL] D29 L4 V1 | score= 44 | urdu=64% | eng=21% | forb=14%
+           issues: forbidden_en: ['degree', 'library']
+           query: Degree mukammal hone ke baad graduates ko kitna library access milta hai? Bata dein.
+[! WARN] D29 L4 V2 | score= 72 | urdu=58% | eng=42% | forb=0%
+           issues: urdu too low (58%)
+           query: Alumni ko jamia ki khidmat ka access kitni muddat tak milta hai?
+[! WARN] D29 L4 V3 | score= 62 | urdu=50% | eng=50% | forb=0%
+           issues: urdu too low (50%)
+           query: Graduates ko umar bhar ka access milta hai ya nahi, yeh maloom karna hai.
+[! WARN] D30 L0 V1 | score= 60 | urdu=20% | eng=80% | forb=0%
+           issues: urdu too high (20%)
+           query: What are the annual charges for the campus transport service?
+[✓ PASS] D30 L0 V2 | score= 80 | urdu=10% | eng=90% | forb=0%
+           issues: urdu too high (10%)
+[! WARN] D30 L0 V3 | score= 60 | urdu=20% | eng=80% | forb=0%
+           issues: urdu too high (20%)
+           query: What is the annual fee for the campus bus service?
+[! WARN] D30 L1 V1 | score= 64 | urdu=25% | eng=75% | forb=0%
+           query: What are the annual charges for campus transport service ki facility mein?
+[✓ PASS] D30 L1 V2 | score= 91 | urdu=10% | eng=90% | forb=0%
+[✓ PASS] D30 L1 V3 | score= 95 | urdu=11% | eng=89% | forb=0%
+[! WARN] D30 L2 V1 | score= 78 | urdu=29% | eng=71% | forb=0%
+           query: Campus transport ki annual charges kitni hain?
+[! WARN] D30 L2 V2 | score= 65 | urdu=22% | eng=78% | forb=0%
+           query: University shuttle service ka per year charge kitna hai?
+[! WARN] D30 L2 V3 | score= 70 | urdu=25% | eng=75% | forb=0%
+           query: Campus bus service ki annual fee kya hai?
+[✓ PASS] D30 L3 V1 | score= 93 | urdu=67% | eng=33% | forb=0%
+[! WARN] D30 L3 V2 | score= 73 | urdu=90% | eng=10% | forb=0%
+           query: Sawari ke liye saal bhar ka kitna kharcha aata hai?
+[✗ FAIL] D30 L3 V3 | score= 57 | urdu=43% | eng=57% | forb=0%
+           issues: urdu too low (43%)
+           query: Bus service ki saalana charges kitni hain?
+[✓ PASS] D30 L4 V1 | score= 92 | urdu=75% | eng=25% | forb=0%
+[✓ PASS] D30 L4 V2 | score= 91 | urdu=90% | eng=10% | forb=0%
+[! WARN] D30 L4 V3 | score= 74 | urdu=60% | eng=40% | forb=0%
+           query: Bus ki saalana fees kitni hai, yeh maloom karna hai.
+L0: total=90 | PASS=54 WARN=31 FAIL=5 | avg_score=83.5
+L1: total=90 | PASS=53 WARN=29 FAIL=8 | avg_score=81.4
+L2: total=90 | PASS=60 WARN=25 FAIL=5 | avg_score=81.1
+L3: total=90 | PASS=34 WARN=29 FAIL=27 | avg_score=68.7
+L4: total=90 | PASS=23 WARN=41 FAIL=26 | avg_score=66.6
+
+TOTAL: 450 | PASS=224 WARN=155 FAIL=71

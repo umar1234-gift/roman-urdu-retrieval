@@ -1,0 +1,83 @@
+====================================================================================================
+DIAGNOSE VERIFICATION FAILURES
+====================================================================================================
+
+====================================================================================================
+FAILURE 1: 'Fallback' analysis
+====================================================================================================
+
+For each non-L0 query, compare cache text to original text.
+Classify by level:
+
+Level       Total    Unchanged    Changed
+--------------------------------------------------
+L1             90           51         39
+L2             90            0         90
+L3             90            0         90
+L4             90            0         90
+
+INTERPRETATION:
+  - L1 unchanged: EXPECTED (queries already ~English; LLM correctly left as-is)
+  - L2/L3/L4 unchanged: potential REAL fallbacks
+
+L2/L3/L4 unchanged (real fallback candidates): 0
+
+====================================================================================================
+FAILURE 2: Duplicate queries across levels
+====================================================================================================
+
+Total (doc, variant) groups with duplicates: 34/90
+
+Level-pair distribution:
+  ('L0', 'L1'): 32
+  ('L3', 'L4'): 1
+  ('L2', 'L3'): 1
+
+First 15 duplicates:
+----------------------------------------------------------------------------------------------------
+  D02 V2 levels=['L3', 'L4']
+    text: Talib-e-ilm course kitne din mein badal sakte hain?
+  D06 V2 levels=['L0', 'L1']
+    text: What is the total graduation credit requirement?
+  D07 V3 levels=['L0', 'L1']
+    text: How long can a student contest a disciplinary decision?
+  D09 V3 levels=['L0', 'L1']
+    text: What amount must fifth-semester Software Engineering students pay?
+  D11 V2 levels=['L0', 'L1']
+    text: What is the CGPA threshold for degree conferral?
+  D12 V2 levels=['L0', 'L1']
+    text: At what time must hostel students return to the residence?
+  D12 V3 levels=['L0', 'L1']
+    text: What is the required night return time for hostel residents?
+  D13 V2 levels=['L0', 'L1']
+    text: How many weeks must the internship last?
+  D13 V3 levels=['L0', 'L1']
+    text: What is the minimum internship duration for students?
+  D14 V2 levels=['L0', 'L1']
+    text: What is the maximum medical leave allowed per semester?
+  D14 V3 levels=['L0', 'L1']
+    text: How many sick leave days are permitted in one semester?
+  D15 V2 levels=['L0', 'L1']
+    text: What is the minimum grade required to satisfy a prerequisite?
+  D16 V2 levels=['L0', 'L1']
+    text: How many credit hours must a student register for at minimum?
+  D16 V3 levels=['L0', 'L1']
+    text: What is the minimum course load for semester registration?
+  D17 V2 levels=['L0', 'L1']
+    text: What is the CGPA requirement for the merit award?
+
+====================================================================================================
+RECOMMENDATIONS
+====================================================================================================
+
+FAILURE 1: Check logic was too strict.
+  Real L2/L3/L4 fallbacks: 0
+  L1 unchanged (expected): 51
+  → Fix verification check: only count L2/L3/L4 as fallbacks
+
+FAILURE 2: 34 duplicates across levels.
+  Options:
+   a) Disclose in paper Limitations: 'N queries are surface-identical
+      across adjacent levels, which may amplify similarity between L1/L2'
+   b) Fix L1 queries to include Urdu markers
+   c) Accept as-is: real-world queries sometimes look identical to English

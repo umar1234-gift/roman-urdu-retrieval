@@ -1,0 +1,43 @@
+
+====================================================================================================
+PERSISTENT FAILURES: 1 queries
+====================================================================================================
+
+By Level:
+  L0: 1
+  L1: 0
+  L2: 0
+  L3: 0
+  L4: 0
+
+By Document:
+  D02: 1
+
+====================================================================================================
+DETAILED LIST
+====================================================================================================
+
+MQ0018 | D02 | L0
+  Gold doc      : D02_course_add_and_drop.txt
+  Original      : How long is the drop window after semester start?
+  Rewritten     : How long is the drop window after semester start?
+  Ranks         : BM25=2 / E5-large=2 / Standard RRF (1.0/1.0)=2 / Weighted RRF (0.2/0.8)=2
+
+====================================================================================================
+FAILURE CLASSIFICATION
+====================================================================================================
+
+MQ0018 (L0)
+  Rewritten: How long is the drop window after semester start?
+  Overlap with gold doc: 66.7%
+  -> Likely SEMANTIC DRIFT
+
+====================================================================================================
+SUMMARY
+====================================================================================================
+Total persistent failures: 1 / 450 (0.22%)
+
+Comparison:
+  Before LLM rewriting: 34 / 450 (7.56%)
+  After  LLM rewriting: 1 / 450 (0.22%)
+  Reduction: 33 queries fixed

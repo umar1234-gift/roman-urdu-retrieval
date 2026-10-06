@@ -1,0 +1,114 @@
+{
+  "by_level": {
+    "L0": {
+      "total": 90,
+      "all_zero": 0,
+      "partial_zero": 17
+    },
+    "L1": {
+      "total": 90,
+      "all_zero": 0,
+      "partial_zero": 25
+    },
+    "L2": {
+      "total": 90,
+      "all_zero": 0,
+      "partial_zero": 88
+    },
+    "L3": {
+      "total": 90,
+      "all_zero": 9,
+      "partial_zero": 79
+    },
+    "L4": {
+      "total": 90,
+      "all_zero": 7,
+      "partial_zero": 81
+    }
+  },
+  "total": 450,
+  "all_zero": 16,
+  "partial_zero": 290,
+  "zero_ids": [
+    {
+      "query_id": "MQ0041",
+      "level": "L3",
+      "doc_id": "D03"
+    },
+    {
+      "query_id": "MQ0044",
+      "level": "L4",
+      "doc_id": "D03"
+    },
+    {
+      "query_id": "MQ0070",
+      "level": "L3",
+      "doc_id": "D05"
+    },
+    {
+      "query_id": "MQ0072",
+      "level": "L3",
+      "doc_id": "D05"
+    },
+    {
+      "query_id": "MQ0075",
+      "level": "L4",
+      "doc_id": "D05"
+    },
+    {
+      "query_id": "MQ0180",
+      "level": "L4",
+      "doc_id": "D12"
+    },
+    {
+      "query_id": "MQ0207",
+      "level": "L3",
+      "doc_id": "D14"
+    },
+    {
+      "query_id": "MQ0310",
+      "level": "L3",
+      "doc_id": "D21"
+    },
+    {
+      "query_id": "MQ0311",
+      "level": "L3",
+      "doc_id": "D21"
+    },
+    {
+      "query_id": "MQ0312",
+      "level": "L3",
+      "doc_id": "D21"
+    },
+    {
+      "query_id": "MQ0313",
+      "level": "L4",
+      "doc_id": "D21"
+    },
+    {
+      "query_id": "MQ0315",
+      "level": "L4",
+      "doc_id": "D21"
+    },
+    {
+      "query_id": "MQ0416",
+      "level": "L3",
+      "doc_id": "D28"
+    },
+    {
+      "query_id": "MQ0419",
+      "level": "L4",
+      "doc_id": "D28"
+    },
+    {
+      "query_id": "MQ0446",
+      "level": "L3",
+      "doc_id": "D30"
+    },
+    {
+      "query_id": "MQ0449",
+      "level": "L4",
+      "doc_id": "D30"
+    }
+  ]
+}

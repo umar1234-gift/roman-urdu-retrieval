@@ -1,0 +1,160 @@
+{
+  "total_queries": 450,
+  "script05_correct": 398,
+  "raw_argsort_correct": 400,
+  "norm_argsort_correct": 400,
+  "mismatches": [
+    {
+      "qid": "MQ0041",
+      "level": "L3",
+      "doc_id": "D03",
+      "script05": 3,
+      "raw_argsort": 28,
+      "norm_argsort": 28
+    },
+    {
+      "qid": "MQ0044",
+      "level": "L4",
+      "doc_id": "D03",
+      "script05": 3,
+      "raw_argsort": 28,
+      "norm_argsort": 28
+    },
+    {
+      "qid": "MQ0070",
+      "level": "L3",
+      "doc_id": "D05",
+      "script05": 5,
+      "raw_argsort": 26,
+      "norm_argsort": 26
+    },
+    {
+      "qid": "MQ0072",
+      "level": "L3",
+      "doc_id": "D05",
+      "script05": 5,
+      "raw_argsort": 26,
+      "norm_argsort": 26
+    },
+    {
+      "qid": "MQ0075",
+      "level": "L4",
+      "doc_id": "D05",
+      "script05": 5,
+      "raw_argsort": 26,
+      "norm_argsort": 26
+    },
+    {
+      "qid": "MQ0180",
+      "level": "L4",
+      "doc_id": "D12",
+      "script05": 12,
+      "raw_argsort": 19,
+      "norm_argsort": 19
+    },
+    {
+      "qid": "MQ0207",
+      "level": "L3",
+      "doc_id": "D14",
+      "script05": 14,
+      "raw_argsort": 17,
+      "norm_argsort": 17
+    },
+    {
+      "qid": "MQ0310",
+      "level": "L3",
+      "doc_id": "D21",
+      "script05": 21,
+      "raw_argsort": 10,
+      "norm_argsort": 10
+    },
+    {
+      "qid": "MQ0311",
+      "level": "L3",
+      "doc_id": "D21",
+      "script05": 21,
+      "raw_argsort": 10,
+      "norm_argsort": 10
+    },
+    {
+      "qid": "MQ0312",
+      "level": "L3",
+      "doc_id": "D21",
+      "script05": 21,
+      "raw_argsort": 10,
+      "norm_argsort": 10
+    },
+    {
+      "qid": "MQ0313",
+      "level": "L4",
+      "doc_id": "D21",
+      "script05": 21,
+      "raw_argsort": 10,
+      "norm_argsort": 10
+    },
+    {
+      "qid": "MQ0314",
+      "level": "L4",
+      "doc_id": "D21",
+      "script05": 21,
+      "raw_argsort": 10,
+      "norm_argsort": 10
+    },
+    {
+      "qid": "MQ0315",
+      "level": "L4",
+      "doc_id": "D21",
+      "script05": 21,
+      "raw_argsort": 10,
+      "norm_argsort": 10
+    },
+    {
+      "qid": "MQ0416",
+      "level": "L3",
+      "doc_id": "D28",
+      "script05": 28,
+      "raw_argsort": 3,
+      "norm_argsort": 3
+    },
+    {
+      "qid": "MQ0419",
+      "level": "L4",
+      "doc_id": "D28",
+      "script05": 28,
+      "raw_argsort": 3,
+      "norm_argsort": 3
+    },
+    {
+      "qid": "MQ0445",
+      "level": "L3",
+      "doc_id": "D30",
+      "script05": 30,
+      "raw_argsort": 2,
+      "norm_argsort": 2
+    },
+    {
+      "qid": "MQ0446",
+      "level": "L3",
+      "doc_id": "D30",
+      "script05": 30,
+      "raw_argsort": 1,
+      "norm_argsort": 1
+    },
+    {
+      "qid": "MQ0448",
+      "level": "L4",
+      "doc_id": "D30",
+      "script05": 30,
+      "raw_argsort": 2,
+      "norm_argsort": 2
+    },
+    {
+      "qid": "MQ0449",
+      "level": "L4",
+      "doc_id": "D30",
+      "script05": 30,
+      "raw_argsort": 1,
+      "norm_argsort": 1
+    }
+  ]
+}

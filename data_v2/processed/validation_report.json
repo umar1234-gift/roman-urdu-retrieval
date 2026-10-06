@@ -1,0 +1,11 @@
+{
+  "doc_fails": 0,
+  "query_fails": 0,
+  "level_counts": {
+    "L0": 90,
+    "L1": 90,
+    "L2": 90,
+    "L3": 90,
+    "L4": 90
+  }
+}

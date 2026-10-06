@@ -1,0 +1,76 @@
+
+--- Step 1: Re-query manually-fixed queries with max_tokens=300 ---
+IDs: ['MQ0169', 'MQ0364', 'MQ0389']
+
+MQ0169 (L1): What is the hostel curfew time for residents ki condition mein?
+  LLM output: 'What is the hostel curfew time for residents?'
+  Finish reason: stop
+  [OK] Stored LLM output
+
+MQ0364 (L1): How many counselling sessions is a student entitled to per semester ki duration 
+  LLM output: 'How many counselling sessions is a student entitled to per semester, and what is'
+  Finish reason: stop
+  [OK] Stored LLM output
+
+MQ0389 (L4): Feedback dene wale ka naam milta hai ya nahi?
+  LLM output: 'Do we get the name of the person who gave the feedback or not?'
+  Finish reason: stop
+  [OK] Stored LLM output
+
+--- Step 2: Copy remaining cache entries ---
+
+--- Step 3: Analysis ---
+Total entries in clean cache: 450
+
+Fallback entries (cache == original): 51
+  MQ0004
+  MQ0005
+  MQ0006
+  MQ0020
+  MQ0034
+  MQ0035
+  MQ0036
+  MQ0049
+  MQ0051
+  MQ0065
+  MQ0080
+  MQ0094
+  MQ0096
+  MQ0110
+  MQ0125
+  MQ0126
+  MQ0140
+  MQ0155
+  MQ0170
+  MQ0171
+  MQ0185
+  MQ0186
+  MQ0200
+  MQ0201
+  MQ0215
+  MQ0230
+  MQ0231
+  MQ0245
+  MQ0260
+  MQ0274
+  MQ0275
+  MQ0290
+  MQ0305
+  MQ0306
+  MQ0320
+  MQ0335
+  MQ0336
+  MQ0350
+  MQ0351
+  MQ0365
+  MQ0366
+  MQ0380
+  MQ0381
+  MQ0395
+  MQ0396
+  MQ0410
+  MQ0411
+  MQ0425
+  MQ0426
+  MQ0440
+  MQ0441

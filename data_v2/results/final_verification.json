@@ -1,0 +1,304 @@
+{
+  "checks": [
+    {
+      "name": "Chunk count = 30",
+      "status": "PASS",
+      "expected": "30",
+      "actual": "30"
+    },
+    {
+      "name": "Query count = 450",
+      "status": "PASS",
+      "expected": "450",
+      "actual": "450"
+    },
+    {
+      "name": "Master facts documents = 30",
+      "status": "PASS",
+      "expected": "30",
+      "actual": "30"
+    },
+    {
+      "name": "L0 count = 90",
+      "status": "PASS",
+      "expected": "90",
+      "actual": "90"
+    },
+    {
+      "name": "L1 count = 90",
+      "status": "PASS",
+      "expected": "90",
+      "actual": "90"
+    },
+    {
+      "name": "L2 count = 90",
+      "status": "PASS",
+      "expected": "90",
+      "actual": "90"
+    },
+    {
+      "name": "L3 count = 90",
+      "status": "PASS",
+      "expected": "90",
+      "actual": "90"
+    },
+    {
+      "name": "L4 count = 90",
+      "status": "PASS",
+      "expected": "90",
+      "actual": "90"
+    },
+    {
+      "name": "Unique query IDs",
+      "status": "PASS",
+      "expected": "450",
+      "actual": "450"
+    },
+    {
+      "name": "Unique doc IDs = 30",
+      "status": "PASS",
+      "expected": "30",
+      "actual": "30"
+    },
+    {
+      "name": "Every doc has 15 queries",
+      "status": "PASS",
+      "expected": "all=15",
+      "actual": "min=15, max=15"
+    },
+    {
+      "name": "Every (doc, level) has 3 variants",
+      "status": "PASS",
+      "expected": "all=3",
+      "actual": "min=3, max=3"
+    },
+    {
+      "name": "All gold documents exist in chunks",
+      "status": "PASS",
+      "expected": "0",
+      "actual": "0"
+    },
+    {
+      "name": "A_single cache = 450 entries",
+      "status": "PASS",
+      "expected": "450",
+      "actual": "450"
+    },
+    {
+      "name": "All query IDs present in A_single",
+      "status": "PASS",
+      "expected": "0",
+      "actual": "0"
+    },
+    {
+      "name": "No empty entries in A_single",
+      "status": "PASS",
+      "expected": "0",
+      "actual": "0"
+    },
+    {
+      "name": "Fallback count ≤ 4 (Claude-verified)",
+      "status": "FAIL",
+      "expected": "≤ 4",
+      "actual": "51"
+    },
+    {
+      "name": "Zero-score count = 16",
+      "status": "PASS",
+      "expected": "16",
+      "actual": "16"
+    },
+    {
+      "name": "Zero-score all in L3/L4",
+      "status": "PASS",
+      "expected": "all L3/L4",
+      "actual": "{'L3': 9, 'L4': 7}"
+    },
+    {
+      "name": "E5-large @1 = 0.9222",
+      "status": "PASS",
+      "expected": "0.9222",
+      "actual": "0.9222"
+    },
+    {
+      "name": "E5-large @3 = 0.9689",
+      "status": "PASS",
+      "expected": "0.9689",
+      "actual": "0.9689"
+    },
+    {
+      "name": "E5-large MRR = 0.9489",
+      "status": "PASS",
+      "expected": "0.9489",
+      "actual": "0.9489"
+    },
+    {
+      "name": "Hybrid-large (tie-aware) @1 = E5-large @1",
+      "status": "PASS",
+      "expected": "0.9222",
+      "actual": "0.9222"
+    },
+    {
+      "name": "A_single E5-large @1 = 0.9867",
+      "status": "PASS",
+      "expected": "0.9867",
+      "actual": "0.9867"
+    },
+    {
+      "name": "A_single E5-large @3 = 1.0000",
+      "status": "PASS",
+      "expected": "1.0",
+      "actual": "1.0"
+    },
+    {
+      "name": "A_single L4 @1 = 0.9667",
+      "status": "PASS",
+      "expected": "0.9667",
+      "actual": "0.9667"
+    },
+    {
+      "name": "L0 original = 0.9889",
+      "status": "PASS",
+      "expected": "0.9889",
+      "actual": "0.9889"
+    },
+    {
+      "name": "L4 original = 0.7889",
+      "status": "PASS",
+      "expected": "0.7889",
+      "actual": "0.7889"
+    },
+    {
+      "name": "L4 A_single = 0.9667",
+      "status": "PASS",
+      "expected": "0.9667",
+      "actual": "0.9667"
+    },
+    {
+      "name": "Recovery (measured) = 0.8889",
+      "status": "PASS",
+      "expected": "0.8889",
+      "actual": "0.8889"
+    },
+    {
+      "name": "E5-large L0 present",
+      "status": "PASS",
+      "expected": "90",
+      "actual": "90"
+    },
+    {
+      "name": "E5-large L1 present",
+      "status": "PASS",
+      "expected": "90",
+      "actual": "90"
+    },
+    {
+      "name": "E5-large L2 present",
+      "status": "PASS",
+      "expected": "90",
+      "actual": "90"
+    },
+    {
+      "name": "E5-large L3 present",
+      "status": "PASS",
+      "expected": "90",
+      "actual": "90"
+    },
+    {
+      "name": "E5-large L4 present",
+      "status": "PASS",
+      "expected": "90",
+      "actual": "90"
+    },
+    {
+      "name": "L0→L4 drop = 20.00 pp",
+      "status": "PASS",
+      "expected": "0.2",
+      "actual": "0.2"
+    },
+    {
+      "name": "A_single vs Original (L2-L4): Δ > 0",
+      "status": "PASS",
+      "expected": "> 0",
+      "actual": "0.1074"
+    },
+    {
+      "name": "A_single vs Original (L2-L4): p < 0.01",
+      "status": "PASS",
+      "expected": "< 0.01",
+      "actual": "0.0004"
+    },
+    {
+      "name": "A_single vs Original (L2-L4): CI excludes zero",
+      "status": "PASS",
+      "expected": "lo > 0",
+      "actual": "[0.0407, 0.1852]"
+    },
+    {
+      "name": "Hybrid vs E5: p > 0.05 (not significant)",
+      "status": "PASS",
+      "expected": "> 0.05",
+      "actual": "1.0852"
+    },
+    {
+      "name": "A_single per-level @1 counts sum = overall",
+      "status": "PASS",
+      "expected": "444",
+      "actual": "444"
+    },
+    {
+      "name": "Original per-level @1 counts sum = overall",
+      "status": "PASS",
+      "expected": "415",
+      "actual": "415"
+    },
+    {
+      "name": "No duplicate queries across levels",
+      "status": "FAIL",
+      "expected": "0",
+      "actual": "33"
+    },
+    {
+      "name": "BM25 (tie-aware) @1 reported",
+      "status": "PASS",
+      "expected": "reported",
+      "actual": "0.8844"
+    },
+    {
+      "name": "BM25 zero-score queries excluded from ranking",
+      "status": "PASS",
+      "expected": "16",
+      "actual": "16"
+    },
+    {
+      "name": "A_single CI width < 0.05",
+      "status": "PASS",
+      "expected": "< 0.05",
+      "actual": "0.0244"
+    }
+  ],
+  "summary": {
+    "total": 46,
+    "passed": 44,
+    "failed": 2,
+    "warned": 0
+  },
+  "key_numbers": {
+    "e5_large_original_at1": 0.9222222222222223,
+    "e5_large_a_single_at1": 0.9866666666666667,
+    "hybrid_tie_aware_at1": 0.9222222222222223,
+    "bm25_tie_aware_at1": 0.8844444444444445,
+    "zero_score_count": 16,
+    "recovery_measured": 0.8888888888888887,
+    "recovery_100_ceiling": 0.8421052631578948,
+    "a_single_vs_original_L2L4": {
+      "delta": 0.10740740740740741,
+      "ci_95": [
+        0.040740740740740744,
+        0.18518518518518517
+      ],
+      "p_value": 0.0004,
+      "n_queries": 270
+    }
+  }
+}

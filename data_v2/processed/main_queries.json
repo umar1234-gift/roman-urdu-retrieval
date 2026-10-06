@@ -1,0 +1,4502 @@
+[
+  {
+    "query_id": "MQ0001",
+    "doc_id": "D01",
+    "topic": "Academic Calendar",
+    "level": "L0",
+    "variant": 1,
+    "query": "What is the official commencement date for Fall 2026 classes?",
+    "gold_answer": "15 September 2026",
+    "gold_document": "D01_academic_calendar.txt"
+  },
+  {
+    "query_id": "MQ0002",
+    "doc_id": "D01",
+    "topic": "Academic Calendar",
+    "level": "L0",
+    "variant": 2,
+    "query": "When do Fall 2026 classes officially begin?",
+    "gold_answer": "15 September 2026",
+    "gold_document": "D01_academic_calendar.txt"
+  },
+  {
+    "query_id": "MQ0003",
+    "doc_id": "D01",
+    "topic": "Academic Calendar",
+    "level": "L0",
+    "variant": 3,
+    "query": "What date marks the start of the Fall 2026 semester?",
+    "gold_answer": "15 September 2026",
+    "gold_document": "D01_academic_calendar.txt"
+  },
+  {
+    "query_id": "MQ0004",
+    "doc_id": "D01",
+    "topic": "Academic Calendar",
+    "level": "L1",
+    "variant": 1,
+    "query": "What is the official commencement date for Fall 2026 ki classes?",
+    "gold_answer": "15 September 2026",
+    "gold_document": "D01_academic_calendar.txt"
+  },
+  {
+    "query_id": "MQ0005",
+    "doc_id": "D01",
+    "topic": "Academic Calendar",
+    "level": "L1",
+    "variant": 2,
+    "query": "When do Fall 2026 ki classes officially begin?",
+    "gold_answer": "15 September 2026",
+    "gold_document": "D01_academic_calendar.txt"
+  },
+  {
+    "query_id": "MQ0006",
+    "doc_id": "D01",
+    "topic": "Academic Calendar",
+    "level": "L1",
+    "variant": 3,
+    "query": "What is the start date of Fall 2026 ka semester?",
+    "gold_answer": "15 September 2026",
+    "gold_document": "D01_academic_calendar.txt"
+  },
+  {
+    "query_id": "MQ0007",
+    "doc_id": "D01",
+    "topic": "Academic Calendar",
+    "level": "L2",
+    "variant": 1,
+    "query": "Fall 2026 ki classes ka start date kya hai?",
+    "gold_answer": "15 September 2026",
+    "gold_document": "D01_academic_calendar.txt"
+  },
+  {
+    "query_id": "MQ0008",
+    "doc_id": "D01",
+    "topic": "Academic Calendar",
+    "level": "L2",
+    "variant": 2,
+    "query": "Fall 2026 ki classes kab start hongi?",
+    "gold_answer": "15 September 2026",
+    "gold_document": "D01_academic_calendar.txt"
+  },
+  {
+    "query_id": "MQ0009",
+    "doc_id": "D01",
+    "topic": "Academic Calendar",
+    "level": "L2",
+    "variant": 3,
+    "query": "Fall 2026 ka semester kis date se shuru hoga?",
+    "gold_answer": "15 September 2026",
+    "gold_document": "D01_academic_calendar.txt"
+  },
+  {
+    "query_id": "MQ0010",
+    "doc_id": "D01",
+    "topic": "Academic Calendar",
+    "level": "L3",
+    "variant": 1,
+    "query": "Fall 2026 ki parhai shuru hone ki tareekh kya hai?",
+    "gold_answer": "15 September 2026",
+    "gold_document": "D01_academic_calendar.txt"
+  },
+  {
+    "query_id": "MQ0011",
+    "doc_id": "D01",
+    "topic": "Academic Calendar",
+    "level": "L3",
+    "variant": 2,
+    "query": "Fall 2026 mein dars kab se shuru honge?",
+    "gold_answer": "15 September 2026",
+    "gold_document": "D01_academic_calendar.txt"
+  },
+  {
+    "query_id": "MQ0012",
+    "doc_id": "D01",
+    "topic": "Academic Calendar",
+    "level": "L3",
+    "variant": 3,
+    "query": "Fall 2026 ka semester kis din se shuru hoga?",
+    "gold_answer": "15 September 2026",
+    "gold_document": "D01_academic_calendar.txt"
+  },
+  {
+    "query_id": "MQ0013",
+    "doc_id": "D01",
+    "topic": "Academic Calendar",
+    "level": "L4",
+    "variant": 1,
+    "query": "Fall 2026 mein parhai kis din se shuru hon gi? Koi tareekh bata dein.",
+    "gold_answer": "15 September 2026",
+    "gold_document": "D01_academic_calendar.txt"
+  },
+  {
+    "query_id": "MQ0014",
+    "doc_id": "D01",
+    "topic": "Academic Calendar",
+    "level": "L4",
+    "variant": 2,
+    "query": "Fall 2026 ki padhai kis tareekh se shuru hogi?",
+    "gold_answer": "15 September 2026",
+    "gold_document": "D01_academic_calendar.txt"
+  },
+  {
+    "query_id": "MQ0015",
+    "doc_id": "D01",
+    "topic": "Academic Calendar",
+    "level": "L4",
+    "variant": 3,
+    "query": "Fall 2026 mein jamia kis din khulegi, yeh maloom karna hai.",
+    "gold_answer": "15 September 2026",
+    "gold_document": "D01_academic_calendar.txt"
+  },
+  {
+    "query_id": "MQ0016",
+    "doc_id": "D02",
+    "topic": "Course Add and Drop",
+    "level": "L0",
+    "variant": 1,
+    "query": "How many working days are allowed for course add or drop?",
+    "gold_answer": "7 working days",
+    "gold_document": "D02_course_add_and_drop.txt"
+  },
+  {
+    "query_id": "MQ0017",
+    "doc_id": "D02",
+    "topic": "Course Add and Drop",
+    "level": "L0",
+    "variant": 2,
+    "query": "What is the enrollment adjustment window for adding or dropping courses?",
+    "gold_answer": "7 working days",
+    "gold_document": "D02_course_add_and_drop.txt"
+  },
+  {
+    "query_id": "MQ0018",
+    "doc_id": "D02",
+    "topic": "Course Add and Drop",
+    "level": "L0",
+    "variant": 3,
+    "query": "How long is the drop window after semester start?",
+    "gold_answer": "7 working days",
+    "gold_document": "D02_course_add_and_drop.txt"
+  },
+  {
+    "query_id": "MQ0019",
+    "doc_id": "D02",
+    "topic": "Course Add and Drop",
+    "level": "L1",
+    "variant": 1,
+    "query": "How many working days are allowed for course add or drop ki process mein?",
+    "gold_answer": "7 working days",
+    "gold_document": "D02_course_add_and_drop.txt"
+  },
+  {
+    "query_id": "MQ0020",
+    "doc_id": "D02",
+    "topic": "Course Add and Drop",
+    "level": "L1",
+    "variant": 2,
+    "query": "What is the enrollment adjustment window for add ya drop?",
+    "gold_answer": "7 working days",
+    "gold_document": "D02_course_add_and_drop.txt"
+  },
+  {
+    "query_id": "MQ0021",
+    "doc_id": "D02",
+    "topic": "Course Add and Drop",
+    "level": "L1",
+    "variant": 3,
+    "query": "How long is the drop window after semester ka start?",
+    "gold_answer": "7 working days",
+    "gold_document": "D02_course_add_and_drop.txt"
+  },
+  {
+    "query_id": "MQ0022",
+    "doc_id": "D02",
+    "topic": "Course Add and Drop",
+    "level": "L2",
+    "variant": 1,
+    "query": "Course add ya drop karne ke liye kitne working days milte hain?",
+    "gold_answer": "7 working days",
+    "gold_document": "D02_course_add_and_drop.txt"
+  },
+  {
+    "query_id": "MQ0023",
+    "doc_id": "D02",
+    "topic": "Course Add and Drop",
+    "level": "L2",
+    "variant": 2,
+    "query": "Enrollment adjustment window kitni hoti hai?",
+    "gold_answer": "7 working days",
+    "gold_document": "D02_course_add_and_drop.txt"
+  },
+  {
+    "query_id": "MQ0024",
+    "doc_id": "D02",
+    "topic": "Course Add and Drop",
+    "level": "L2",
+    "variant": 3,
+    "query": "Course add ya drop karne ki kitni muddat hai?",
+    "gold_answer": "7 working days",
+    "gold_document": "D02_course_add_and_drop.txt"
+  },
+  {
+    "query_id": "MQ0025",
+    "doc_id": "D02",
+    "topic": "Course Add and Drop",
+    "level": "L3",
+    "variant": 1,
+    "query": "Course tabdeel karne ki mohlat kitne din ki hai?",
+    "gold_answer": "7 working days",
+    "gold_document": "D02_course_add_and_drop.txt"
+  },
+  {
+    "query_id": "MQ0026",
+    "doc_id": "D02",
+    "topic": "Course Add and Drop",
+    "level": "L3",
+    "variant": 2,
+    "query": "Talib-e-ilm course kitne din mein badal sakte hain?",
+    "gold_answer": "7 working days",
+    "gold_document": "D02_course_add_and_drop.txt"
+  },
+  {
+    "query_id": "MQ0027",
+    "doc_id": "D02",
+    "topic": "Course Add and Drop",
+    "level": "L3",
+    "variant": 3,
+    "query": "Naya course lene ya chorne ke liye kitna waqt milta hai?",
+    "gold_answer": "7 working days",
+    "gold_document": "D02_course_add_and_drop.txt"
+  },
+  {
+    "query_id": "MQ0028",
+    "doc_id": "D02",
+    "topic": "Course Add and Drop",
+    "level": "L4",
+    "variant": 1,
+    "query": "Course tabdeel karne ki kitni mohlat hai? Bata dein.",
+    "gold_answer": "7 working days",
+    "gold_document": "D02_course_add_and_drop.txt"
+  },
+  {
+    "query_id": "MQ0029",
+    "doc_id": "D02",
+    "topic": "Course Add and Drop",
+    "level": "L4",
+    "variant": 2,
+    "query": "Talib-e-ilm course kitne din mein badal sakte hain?",
+    "gold_answer": "7 working days",
+    "gold_document": "D02_course_add_and_drop.txt"
+  },
+  {
+    "query_id": "MQ0030",
+    "doc_id": "D02",
+    "topic": "Course Add and Drop",
+    "level": "L4",
+    "variant": 3,
+    "query": "Course chorne ya naya lene ke liye kitna waqt milta hai, yeh maloom karna hai.",
+    "gold_answer": "7 working days",
+    "gold_document": "D02_course_add_and_drop.txt"
+  },
+  {
+    "query_id": "MQ0031",
+    "doc_id": "D03",
+    "topic": "Admission Application",
+    "level": "L0",
+    "variant": 1,
+    "query": "What is the application cutoff for the Fall 2026 Software Engineering admission cycle?",
+    "gold_answer": "18 November 2026 at 11:59 PM",
+    "gold_document": "D03_admission_application.txt"
+  },
+  {
+    "query_id": "MQ0032",
+    "doc_id": "D03",
+    "topic": "Admission Application",
+    "level": "L0",
+    "variant": 2,
+    "query": "When is the deadline to submit the Fall 2026 admission application?",
+    "gold_answer": "18 November 2026 at 11:59 PM",
+    "gold_document": "D03_admission_application.txt"
+  },
+  {
+    "query_id": "MQ0033",
+    "doc_id": "D03",
+    "topic": "Admission Application",
+    "level": "L0",
+    "variant": 3,
+    "query": "What is the final date and time for the Fall 2026 application submission?",
+    "gold_answer": "18 November 2026 at 11:59 PM",
+    "gold_document": "D03_admission_application.txt"
+  },
+  {
+    "query_id": "MQ0034",
+    "doc_id": "D03",
+    "topic": "Admission Application",
+    "level": "L1",
+    "variant": 1,
+    "query": "What is the application cutoff for Fall 2026 Software Engineering ki admission?",
+    "gold_answer": "18 November 2026 at 11:59 PM",
+    "gold_document": "D03_admission_application.txt"
+  },
+  {
+    "query_id": "MQ0035",
+    "doc_id": "D03",
+    "topic": "Admission Application",
+    "level": "L1",
+    "variant": 2,
+    "query": "When is the deadline to submit Fall 2026 ki admission application?",
+    "gold_answer": "18 November 2026 at 11:59 PM",
+    "gold_document": "D03_admission_application.txt"
+  },
+  {
+    "query_id": "MQ0036",
+    "doc_id": "D03",
+    "topic": "Admission Application",
+    "level": "L1",
+    "variant": 3,
+    "query": "What is the final date and time for Fall 2026 ki application submission?",
+    "gold_answer": "18 November 2026 at 11:59 PM",
+    "gold_document": "D03_admission_application.txt"
+  },
+  {
+    "query_id": "MQ0037",
+    "doc_id": "D03",
+    "topic": "Admission Application",
+    "level": "L2",
+    "variant": 1,
+    "query": "Fall 2026 admission ki application ki aakhri tareekh kya hai?",
+    "gold_answer": "18 November 2026 at 11:59 PM",
+    "gold_document": "D03_admission_application.txt"
+  },
+  {
+    "query_id": "MQ0038",
+    "doc_id": "D03",
+    "topic": "Admission Application",
+    "level": "L2",
+    "variant": 2,
+    "query": "Admission ke liye application kab tak jama karwani hai?",
+    "gold_answer": "18 November 2026 at 11:59 PM",
+    "gold_document": "D03_admission_application.txt"
+  },
+  {
+    "query_id": "MQ0039",
+    "doc_id": "D03",
+    "topic": "Admission Application",
+    "level": "L2",
+    "variant": 3,
+    "query": "Fall 2026 application submit karne ki last date aur time kya hai?",
+    "gold_answer": "18 November 2026 at 11:59 PM",
+    "gold_document": "D03_admission_application.txt"
+  },
+  {
+    "query_id": "MQ0040",
+    "doc_id": "D03",
+    "topic": "Admission Application",
+    "level": "L3",
+    "variant": 1,
+    "query": "Fall 2026 mein dakhla ke liye darkhwast kis tareekh tak jama karwani hai?",
+    "gold_answer": "18 November 2026 at 11:59 PM",
+    "gold_document": "D03_admission_application.txt"
+  },
+  {
+    "query_id": "MQ0041",
+    "doc_id": "D03",
+    "topic": "Admission Application",
+    "level": "L3",
+    "variant": 2,
+    "query": "Dakhla ki darkhwast jama karwane ki aakhri tareekh kya hai?",
+    "gold_answer": "18 November 2026 at 11:59 PM",
+    "gold_document": "D03_admission_application.txt"
+  },
+  {
+    "query_id": "MQ0042",
+    "doc_id": "D03",
+    "topic": "Admission Application",
+    "level": "L3",
+    "variant": 3,
+    "query": "Fall 2026 mein dakhla ke liye darkhwast dene ka aakhri waqt kya hai?",
+    "gold_answer": "18 November 2026 at 11:59 PM",
+    "gold_document": "D03_admission_application.txt"
+  },
+  {
+    "query_id": "MQ0043",
+    "doc_id": "D03",
+    "topic": "Admission Application",
+    "level": "L4",
+    "variant": 1,
+    "query": "Fall 2026 mein dakhla lene ke liye darkhwast kis din tak jama hogi? Bata dein.",
+    "gold_answer": "18 November 2026 at 11:59 PM",
+    "gold_document": "D03_admission_application.txt"
+  },
+  {
+    "query_id": "MQ0044",
+    "doc_id": "D03",
+    "topic": "Admission Application",
+    "level": "L4",
+    "variant": 2,
+    "query": "Dakhla ki darkhwast jama karwane ka bilkul aakhri waqt kya hai?",
+    "gold_answer": "18 November 2026 at 11:59 PM",
+    "gold_document": "D03_admission_application.txt"
+  },
+  {
+    "query_id": "MQ0045",
+    "doc_id": "D03",
+    "topic": "Admission Application",
+    "level": "L4",
+    "variant": 3,
+    "query": "Fall 2026 mein dakhla ki darkhwast dene ki aakhri tareekh kya hai, yeh maloom karna hai.",
+    "gold_answer": "18 November 2026 at 11:59 PM",
+    "gold_document": "D03_admission_application.txt"
+  },
+  {
+    "query_id": "MQ0046",
+    "doc_id": "D04",
+    "topic": "Assignment Submission",
+    "level": "L0",
+    "variant": 1,
+    "query": "How many calendar days are allowed for late assignment submission?",
+    "gold_answer": "3 calendar days",
+    "gold_document": "D04_assignment_submission.txt"
+  },
+  {
+    "query_id": "MQ0047",
+    "doc_id": "D04",
+    "topic": "Assignment Submission",
+    "level": "L0",
+    "variant": 2,
+    "query": "What is the late submission window for assignments?",
+    "gold_answer": "3 calendar days",
+    "gold_document": "D04_assignment_submission.txt"
+  },
+  {
+    "query_id": "MQ0048",
+    "doc_id": "D04",
+    "topic": "Assignment Submission",
+    "level": "L0",
+    "variant": 3,
+    "query": "How long is the assignment grace period?",
+    "gold_answer": "3 calendar days",
+    "gold_document": "D04_assignment_submission.txt"
+  },
+  {
+    "query_id": "MQ0049",
+    "doc_id": "D04",
+    "topic": "Assignment Submission",
+    "level": "L1",
+    "variant": 1,
+    "query": "How many calendar days are allowed for late assignment ki submission?",
+    "gold_answer": "3 calendar days",
+    "gold_document": "D04_assignment_submission.txt"
+  },
+  {
+    "query_id": "MQ0050",
+    "doc_id": "D04",
+    "topic": "Assignment Submission",
+    "level": "L1",
+    "variant": 2,
+    "query": "What is the late submission window for assignment ki deadline ke baad?",
+    "gold_answer": "3 calendar days",
+    "gold_document": "D04_assignment_submission.txt"
+  },
+  {
+    "query_id": "MQ0051",
+    "doc_id": "D04",
+    "topic": "Assignment Submission",
+    "level": "L1",
+    "variant": 3,
+    "query": "How long is the assignment ka grace period?",
+    "gold_answer": "3 calendar days",
+    "gold_document": "D04_assignment_submission.txt"
+  },
+  {
+    "query_id": "MQ0052",
+    "doc_id": "D04",
+    "topic": "Assignment Submission",
+    "level": "L2",
+    "variant": 1,
+    "query": "Late assignment submit karne ke liye kitne calendar days milte hain?",
+    "gold_answer": "3 calendar days",
+    "gold_document": "D04_assignment_submission.txt"
+  },
+  {
+    "query_id": "MQ0053",
+    "doc_id": "D04",
+    "topic": "Assignment Submission",
+    "level": "L2",
+    "variant": 2,
+    "query": "Assignment late jama karne ki kitni muddat hai?",
+    "gold_answer": "3 calendar days",
+    "gold_document": "D04_assignment_submission.txt"
+  },
+  {
+    "query_id": "MQ0054",
+    "doc_id": "D04",
+    "topic": "Assignment Submission",
+    "level": "L2",
+    "variant": 3,
+    "query": "Deadline ke baad assignment kitne din mein jama kar sakte hain?",
+    "gold_answer": "3 calendar days",
+    "gold_document": "D04_assignment_submission.txt"
+  },
+  {
+    "query_id": "MQ0055",
+    "doc_id": "D04",
+    "topic": "Assignment Submission",
+    "level": "L3",
+    "variant": 1,
+    "query": "Der se assignment jama karne ki kitne din ki mohlat hai?",
+    "gold_answer": "3 calendar days",
+    "gold_document": "D04_assignment_submission.txt"
+  },
+  {
+    "query_id": "MQ0056",
+    "doc_id": "D04",
+    "topic": "Assignment Submission",
+    "level": "L3",
+    "variant": 2,
+    "query": "Assignment der se jama karwane ke liye kitna waqt milta hai?",
+    "gold_answer": "3 calendar days",
+    "gold_document": "D04_assignment_submission.txt"
+  },
+  {
+    "query_id": "MQ0057",
+    "doc_id": "D04",
+    "topic": "Assignment Submission",
+    "level": "L3",
+    "variant": 3,
+    "query": "Meyad guzarne ke baad assignment kitne din tak jama ho sakti hai?",
+    "gold_answer": "3 calendar days",
+    "gold_document": "D04_assignment_submission.txt"
+  },
+  {
+    "query_id": "MQ0058",
+    "doc_id": "D04",
+    "topic": "Assignment Submission",
+    "level": "L4",
+    "variant": 1,
+    "query": "Assignment waqt par jama na ho to kitne din tak jama karwa sakte hain? Bata dein.",
+    "gold_answer": "3 calendar days",
+    "gold_document": "D04_assignment_submission.txt"
+  },
+  {
+    "query_id": "MQ0059",
+    "doc_id": "D04",
+    "topic": "Assignment Submission",
+    "level": "L4",
+    "variant": 2,
+    "query": "Assignment ki meyad nikal jaye to talib-e-ilm ko kitne din ki mazeed mohlat milti hai?",
+    "gold_answer": "3 calendar days",
+    "gold_document": "D04_assignment_submission.txt"
+  },
+  {
+    "query_id": "MQ0060",
+    "doc_id": "D04",
+    "topic": "Assignment Submission",
+    "level": "L4",
+    "variant": 3,
+    "query": "Der se assignment jama karwane ke liye kitni mohlat milti hai, yeh maloom karna hai.",
+    "gold_answer": "3 calendar days",
+    "gold_document": "D04_assignment_submission.txt"
+  },
+  {
+    "query_id": "MQ0061",
+    "doc_id": "D05",
+    "topic": "Class Attendance",
+    "level": "L0",
+    "variant": 1,
+    "query": "What minimum attendance percentage is required per course?",
+    "gold_answer": "75%",
+    "gold_document": "D05_class_attendance.txt"
+  },
+  {
+    "query_id": "MQ0062",
+    "doc_id": "D05",
+    "topic": "Class Attendance",
+    "level": "L0",
+    "variant": 2,
+    "query": "What is the attendance threshold for staying in good standing?",
+    "gold_answer": "75%",
+    "gold_document": "D05_class_attendance.txt"
+  },
+  {
+    "query_id": "MQ0063",
+    "doc_id": "D05",
+    "topic": "Class Attendance",
+    "level": "L0",
+    "variant": 3,
+    "query": "How much attendance must a student maintain?",
+    "gold_answer": "75%",
+    "gold_document": "D05_class_attendance.txt"
+  },
+  {
+    "query_id": "MQ0064",
+    "doc_id": "D05",
+    "topic": "Class Attendance",
+    "level": "L1",
+    "variant": 1,
+    "query": "What minimum attendance percentage is required per course ki classes mein?",
+    "gold_answer": "75%",
+    "gold_document": "D05_class_attendance.txt"
+  },
+  {
+    "query_id": "MQ0065",
+    "doc_id": "D05",
+    "topic": "Class Attendance",
+    "level": "L1",
+    "variant": 2,
+    "query": "What is the attendance threshold for good standing ki condition?",
+    "gold_answer": "75%",
+    "gold_document": "D05_class_attendance.txt"
+  },
+  {
+    "query_id": "MQ0066",
+    "doc_id": "D05",
+    "topic": "Class Attendance",
+    "level": "L1",
+    "variant": 3,
+    "query": "How much attendance must a student maintain har course mein?",
+    "gold_answer": "75%",
+    "gold_document": "D05_class_attendance.txt"
+  },
+  {
+    "query_id": "MQ0067",
+    "doc_id": "D05",
+    "topic": "Class Attendance",
+    "level": "L2",
+    "variant": 1,
+    "query": "Minimum attendance kitni honi chahiye?",
+    "gold_answer": "75%",
+    "gold_document": "D05_class_attendance.txt"
+  },
+  {
+    "query_id": "MQ0068",
+    "doc_id": "D05",
+    "topic": "Class Attendance",
+    "level": "L2",
+    "variant": 2,
+    "query": "Student ko kam az kam kitni attendance rakhni hoti hai?",
+    "gold_answer": "75%",
+    "gold_document": "D05_class_attendance.txt"
+  },
+  {
+    "query_id": "MQ0069",
+    "doc_id": "D05",
+    "topic": "Class Attendance",
+    "level": "L2",
+    "variant": 3,
+    "query": "Attendance threshold kitni zaroori hai?",
+    "gold_answer": "75%",
+    "gold_document": "D05_class_attendance.txt"
+  },
+  {
+    "query_id": "MQ0070",
+    "doc_id": "D05",
+    "topic": "Class Attendance",
+    "level": "L3",
+    "variant": 1,
+    "query": "Talib-e-ilm ki kam az kam hazri kitni honi zaroori hai?",
+    "gold_answer": "75%",
+    "gold_document": "D05_class_attendance.txt"
+  },
+  {
+    "query_id": "MQ0071",
+    "doc_id": "D05",
+    "topic": "Class Attendance",
+    "level": "L3",
+    "variant": 2,
+    "query": "Har course mein minimum kitni hazri puri karni hoti hai?",
+    "gold_answer": "75%",
+    "gold_document": "D05_class_attendance.txt"
+  },
+  {
+    "query_id": "MQ0072",
+    "doc_id": "D05",
+    "topic": "Class Attendance",
+    "level": "L3",
+    "variant": 3,
+    "query": "Hazri kitni se kam nahi honi chahiye?",
+    "gold_answer": "75%",
+    "gold_document": "D05_class_attendance.txt"
+  },
+  {
+    "query_id": "MQ0073",
+    "doc_id": "D05",
+    "topic": "Class Attendance",
+    "level": "L4",
+    "variant": 1,
+    "query": "Talib-e-ilm ko har course mein kam az kam kitni hazri deni zaroori hai? Bata dein.",
+    "gold_answer": "75%",
+    "gold_document": "D05_class_attendance.txt"
+  },
+  {
+    "query_id": "MQ0074",
+    "doc_id": "D05",
+    "topic": "Class Attendance",
+    "level": "L4",
+    "variant": 2,
+    "query": "Agar talib-e-ilm imtihan dena chahta hai to minimum hazri kitni honi chahiye?",
+    "gold_answer": "75%",
+    "gold_document": "D05_class_attendance.txt"
+  },
+  {
+    "query_id": "MQ0075",
+    "doc_id": "D05",
+    "topic": "Class Attendance",
+    "level": "L4",
+    "variant": 3,
+    "query": "Hazri ki hadd kitni hai, yeh maloom karna hai.",
+    "gold_answer": "75%",
+    "gold_document": "D05_class_attendance.txt"
+  },
+  {
+    "query_id": "MQ0076",
+    "doc_id": "D06",
+    "topic": "Degree Completion Requirements",
+    "level": "L0",
+    "variant": 1,
+    "query": "How many credit hours are required for degree completion?",
+    "gold_answer": "136 credit hours",
+    "gold_document": "D06_degree_completion_requirements.txt"
+  },
+  {
+    "query_id": "MQ0077",
+    "doc_id": "D06",
+    "topic": "Degree Completion Requirements",
+    "level": "L0",
+    "variant": 2,
+    "query": "What is the total graduation credit requirement?",
+    "gold_answer": "136 credit hours",
+    "gold_document": "D06_degree_completion_requirements.txt"
+  },
+  {
+    "query_id": "MQ0078",
+    "doc_id": "D06",
+    "topic": "Degree Completion Requirements",
+    "level": "L0",
+    "variant": 3,
+    "query": "How many credit hours must a student complete for the degree?",
+    "gold_answer": "136 credit hours",
+    "gold_document": "D06_degree_completion_requirements.txt"
+  },
+  {
+    "query_id": "MQ0079",
+    "doc_id": "D06",
+    "topic": "Degree Completion Requirements",
+    "level": "L1",
+    "variant": 1,
+    "query": "How many credit hours are required for degree completion ki requirement mein?",
+    "gold_answer": "136 credit hours",
+    "gold_document": "D06_degree_completion_requirements.txt"
+  },
+  {
+    "query_id": "MQ0080",
+    "doc_id": "D06",
+    "topic": "Degree Completion Requirements",
+    "level": "L1",
+    "variant": 2,
+    "query": "What is the total graduation credit requirement?",
+    "gold_answer": "136 credit hours",
+    "gold_document": "D06_degree_completion_requirements.txt"
+  },
+  {
+    "query_id": "MQ0081",
+    "doc_id": "D06",
+    "topic": "Degree Completion Requirements",
+    "level": "L1",
+    "variant": 3,
+    "query": "How many credit hours must a student complete degree ke liye?",
+    "gold_answer": "136 credit hours",
+    "gold_document": "D06_degree_completion_requirements.txt"
+  },
+  {
+    "query_id": "MQ0082",
+    "doc_id": "D06",
+    "topic": "Degree Completion Requirements",
+    "level": "L2",
+    "variant": 1,
+    "query": "Degree complete karne ke liye kitne credit hours chahiye?",
+    "gold_answer": "136 credit hours",
+    "gold_document": "D06_degree_completion_requirements.txt"
+  },
+  {
+    "query_id": "MQ0083",
+    "doc_id": "D06",
+    "topic": "Degree Completion Requirements",
+    "level": "L2",
+    "variant": 2,
+    "query": "Graduation credits kitne hain?",
+    "gold_answer": "136 credit hours",
+    "gold_document": "D06_degree_completion_requirements.txt"
+  },
+  {
+    "query_id": "MQ0084",
+    "doc_id": "D06",
+    "topic": "Degree Completion Requirements",
+    "level": "L2",
+    "variant": 3,
+    "query": "Program completion ke liye kitne credit hours chahiye?",
+    "gold_answer": "136 credit hours",
+    "gold_document": "D06_degree_completion_requirements.txt"
+  },
+  {
+    "query_id": "MQ0085",
+    "doc_id": "D06",
+    "topic": "Degree Completion Requirements",
+    "level": "L3",
+    "variant": 1,
+    "query": "Degree mukammal karne ke liye kitne credit hours darkar hain?",
+    "gold_answer": "136 credit hours",
+    "gold_document": "D06_degree_completion_requirements.txt"
+  },
+  {
+    "query_id": "MQ0086",
+    "doc_id": "D06",
+    "topic": "Degree Completion Requirements",
+    "level": "L3",
+    "variant": 2,
+    "query": "Talib-e-ilm ko degree ke liye kul kitne credit hours poore karne honge?",
+    "gold_answer": "136 credit hours",
+    "gold_document": "D06_degree_completion_requirements.txt"
+  },
+  {
+    "query_id": "MQ0087",
+    "doc_id": "D06",
+    "topic": "Degree Completion Requirements",
+    "level": "L3",
+    "variant": 3,
+    "query": "Degree hasil karne ke liye kitne credit hours zaroori hain?",
+    "gold_answer": "136 credit hours",
+    "gold_document": "D06_degree_completion_requirements.txt"
+  },
+  {
+    "query_id": "MQ0088",
+    "doc_id": "D06",
+    "topic": "Degree Completion Requirements",
+    "level": "L4",
+    "variant": 1,
+    "query": "Degree mukammal karne ke liye talib-e-ilm ko kul kitne credit hours poore karne padte hain? Bata dein.",
+    "gold_answer": "136 credit hours",
+    "gold_document": "D06_degree_completion_requirements.txt"
+  },
+  {
+    "query_id": "MQ0089",
+    "doc_id": "D06",
+    "topic": "Degree Completion Requirements",
+    "level": "L4",
+    "variant": 2,
+    "query": "Sanad hasil karne ke liye kitne credit hours darkar hain, yeh maloom karna hai.",
+    "gold_answer": "136 credit hours",
+    "gold_document": "D06_degree_completion_requirements.txt"
+  },
+  {
+    "query_id": "MQ0090",
+    "doc_id": "D06",
+    "topic": "Degree Completion Requirements",
+    "level": "L4",
+    "variant": 3,
+    "query": "Degree lene ke liye kitne credit hours zaroori hain?",
+    "gold_answer": "136 credit hours",
+    "gold_document": "D06_degree_completion_requirements.txt"
+  },
+  {
+    "query_id": "MQ0091",
+    "doc_id": "D07",
+    "topic": "Disciplinary Proceedings",
+    "level": "L0",
+    "variant": 1,
+    "query": "How many working days does a student have to appeal a disciplinary decision?",
+    "gold_answer": "10 working days",
+    "gold_document": "D07_disciplinary_proceedings.txt"
+  },
+  {
+    "query_id": "MQ0092",
+    "doc_id": "D07",
+    "topic": "Disciplinary Proceedings",
+    "level": "L0",
+    "variant": 2,
+    "query": "What is the appeal window for a disciplinary ruling?",
+    "gold_answer": "10 working days",
+    "gold_document": "D07_disciplinary_proceedings.txt"
+  },
+  {
+    "query_id": "MQ0093",
+    "doc_id": "D07",
+    "topic": "Disciplinary Proceedings",
+    "level": "L0",
+    "variant": 3,
+    "query": "How long can a student contest a disciplinary decision?",
+    "gold_answer": "10 working days",
+    "gold_document": "D07_disciplinary_proceedings.txt"
+  },
+  {
+    "query_id": "MQ0094",
+    "doc_id": "D07",
+    "topic": "Disciplinary Proceedings",
+    "level": "L1",
+    "variant": 1,
+    "query": "How many working days does a student have to appeal a disciplinary decision ke against?",
+    "gold_answer": "10 working days",
+    "gold_document": "D07_disciplinary_proceedings.txt"
+  },
+  {
+    "query_id": "MQ0095",
+    "doc_id": "D07",
+    "topic": "Disciplinary Proceedings",
+    "level": "L1",
+    "variant": 2,
+    "query": "What is the appeal window for disciplinary ruling ki decision?",
+    "gold_answer": "10 working days",
+    "gold_document": "D07_disciplinary_proceedings.txt"
+  },
+  {
+    "query_id": "MQ0096",
+    "doc_id": "D07",
+    "topic": "Disciplinary Proceedings",
+    "level": "L1",
+    "variant": 3,
+    "query": "How long can a student contest a disciplinary decision?",
+    "gold_answer": "10 working days",
+    "gold_document": "D07_disciplinary_proceedings.txt"
+  },
+  {
+    "query_id": "MQ0097",
+    "doc_id": "D07",
+    "topic": "Disciplinary Proceedings",
+    "level": "L2",
+    "variant": 1,
+    "query": "Disciplinary decision ke against appeal kitne working days mein karni hoti hai?",
+    "gold_answer": "10 working days",
+    "gold_document": "D07_disciplinary_proceedings.txt"
+  },
+  {
+    "query_id": "MQ0098",
+    "doc_id": "D07",
+    "topic": "Disciplinary Proceedings",
+    "level": "L2",
+    "variant": 2,
+    "query": "Appeal window kitne working days ki hoti hai?",
+    "gold_answer": "10 working days",
+    "gold_document": "D07_disciplinary_proceedings.txt"
+  },
+  {
+    "query_id": "MQ0099",
+    "doc_id": "D07",
+    "topic": "Disciplinary Proceedings",
+    "level": "L2",
+    "variant": 3,
+    "query": "Disciplinary case mein appeal karne ki kitni muddat hai?",
+    "gold_answer": "10 working days",
+    "gold_document": "D07_disciplinary_proceedings.txt"
+  },
+  {
+    "query_id": "MQ0100",
+    "doc_id": "D07",
+    "topic": "Disciplinary Proceedings",
+    "level": "L3",
+    "variant": 1,
+    "query": "Disciplinary faislay ke khilaf appeal ki kitne din ki mohlat hai?",
+    "gold_answer": "10 working days",
+    "gold_document": "D07_disciplinary_proceedings.txt"
+  },
+  {
+    "query_id": "MQ0101",
+    "doc_id": "D07",
+    "topic": "Disciplinary Proceedings",
+    "level": "L3",
+    "variant": 2,
+    "query": "Talib-e-ilm disciplinary faislay ko kitne din mein challenge kar sakta hai?",
+    "gold_answer": "10 working days",
+    "gold_document": "D07_disciplinary_proceedings.txt"
+  },
+  {
+    "query_id": "MQ0102",
+    "doc_id": "D07",
+    "topic": "Disciplinary Proceedings",
+    "level": "L3",
+    "variant": 3,
+    "query": "Disciplinary faislay ke baad appeal karne ka kitna waqt hota hai?",
+    "gold_answer": "10 working days",
+    "gold_document": "D07_disciplinary_proceedings.txt"
+  },
+  {
+    "query_id": "MQ0103",
+    "doc_id": "D07",
+    "topic": "Disciplinary Proceedings",
+    "level": "L4",
+    "variant": 1,
+    "query": "Agar talib-e-ilm disciplinary faislay se muttafiq na ho to appeal ke liye kitne din milte hain? Bata dein.",
+    "gold_answer": "10 working days",
+    "gold_document": "D07_disciplinary_proceedings.txt"
+  },
+  {
+    "query_id": "MQ0104",
+    "doc_id": "D07",
+    "topic": "Disciplinary Proceedings",
+    "level": "L4",
+    "variant": 2,
+    "query": "Disciplinary faislay ke khilaf talib-e-ilm ko appeal jama karwane ki kitni mohlat di jati hai?",
+    "gold_answer": "10 working days",
+    "gold_document": "D07_disciplinary_proceedings.txt"
+  },
+  {
+    "query_id": "MQ0105",
+    "doc_id": "D07",
+    "topic": "Disciplinary Proceedings",
+    "level": "L4",
+    "variant": 3,
+    "query": "Disciplinary faislay ko challenge karne ke liye talib-e-ilm kitne din mein appeal kar sakta hai, yeh maloom karna hai.",
+    "gold_answer": "10 working days",
+    "gold_document": "D07_disciplinary_proceedings.txt"
+  },
+  {
+    "query_id": "MQ0106",
+    "doc_id": "D08",
+    "topic": "Final Examination",
+    "level": "L0",
+    "variant": 1,
+    "query": "What minimum marks are required to pass the final examination?",
+    "gold_answer": "50%",
+    "gold_document": "D08_final_examination.txt"
+  },
+  {
+    "query_id": "MQ0107",
+    "doc_id": "D08",
+    "topic": "Final Examination",
+    "level": "L0",
+    "variant": 2,
+    "query": "What is the passing threshold for the final examination?",
+    "gold_answer": "50%",
+    "gold_document": "D08_final_examination.txt"
+  },
+  {
+    "query_id": "MQ0108",
+    "doc_id": "D08",
+    "topic": "Final Examination",
+    "level": "L0",
+    "variant": 3,
+    "query": "How many marks must a student obtain to pass the final exam?",
+    "gold_answer": "50%",
+    "gold_document": "D08_final_examination.txt"
+  },
+  {
+    "query_id": "MQ0109",
+    "doc_id": "D08",
+    "topic": "Final Examination",
+    "level": "L1",
+    "variant": 1,
+    "query": "What minimum marks are required to pass the final examination ki condition mein?",
+    "gold_answer": "50%",
+    "gold_document": "D08_final_examination.txt"
+  },
+  {
+    "query_id": "MQ0110",
+    "doc_id": "D08",
+    "topic": "Final Examination",
+    "level": "L1",
+    "variant": 2,
+    "query": "What is the passing threshold for final examination?",
+    "gold_answer": "50%",
+    "gold_document": "D08_final_examination.txt"
+  },
+  {
+    "query_id": "MQ0111",
+    "doc_id": "D08",
+    "topic": "Final Examination",
+    "level": "L1",
+    "variant": 3,
+    "query": "How many marks must a student obtain final exam pass karne ke liye?",
+    "gold_answer": "50%",
+    "gold_document": "D08_final_examination.txt"
+  },
+  {
+    "query_id": "MQ0112",
+    "doc_id": "D08",
+    "topic": "Final Examination",
+    "level": "L2",
+    "variant": 1,
+    "query": "Final examination pass karne ke liye minimum marks kitne zaroori hain?",
+    "gold_answer": "50%",
+    "gold_document": "D08_final_examination.txt"
+  },
+  {
+    "query_id": "MQ0113",
+    "doc_id": "D08",
+    "topic": "Final Examination",
+    "level": "L2",
+    "variant": 2,
+    "query": "Passing threshold kitni hai final exam mein?",
+    "gold_answer": "50%",
+    "gold_document": "D08_final_examination.txt"
+  },
+  {
+    "query_id": "MQ0114",
+    "doc_id": "D08",
+    "topic": "Final Examination",
+    "level": "L2",
+    "variant": 3,
+    "query": "Final exam mein pass hone ke liye kam az kam kitne number chahiye?",
+    "gold_answer": "50%",
+    "gold_document": "D08_final_examination.txt"
+  },
+  {
+    "query_id": "MQ0115",
+    "doc_id": "D08",
+    "topic": "Final Examination",
+    "level": "L3",
+    "variant": 1,
+    "query": "Aakhri imtihan pass karne ke liye kam az kam kitne number zaroori hain?",
+    "gold_answer": "50%",
+    "gold_document": "D08_final_examination.txt"
+  },
+  {
+    "query_id": "MQ0116",
+    "doc_id": "D08",
+    "topic": "Final Examination",
+    "level": "L3",
+    "variant": 2,
+    "query": "Final imtihan mein pass hone ke liye minimum kitne number hasil karne hain?",
+    "gold_answer": "50%",
+    "gold_document": "D08_final_examination.txt"
+  },
+  {
+    "query_id": "MQ0117",
+    "doc_id": "D08",
+    "topic": "Final Examination",
+    "level": "L3",
+    "variant": 3,
+    "query": "Aakhri imtihan ki passing threshold kitni hai?",
+    "gold_answer": "50%",
+    "gold_document": "D08_final_examination.txt"
+  },
+  {
+    "query_id": "MQ0118",
+    "doc_id": "D08",
+    "topic": "Final Examination",
+    "level": "L4",
+    "variant": 1,
+    "query": "Aakhri imtihan pass karne ke liye talib-e-ilm ko kam az kam kitne number lena zaroori hain? Bata dein.",
+    "gold_answer": "50%",
+    "gold_document": "D08_final_examination.txt"
+  },
+  {
+    "query_id": "MQ0119",
+    "doc_id": "D08",
+    "topic": "Final Examination",
+    "level": "L4",
+    "variant": 2,
+    "query": "Aakhri imtihan mein pass hone ke liye minimum kitne number hasil karna lazmi hai?",
+    "gold_answer": "50%",
+    "gold_document": "D08_final_examination.txt"
+  },
+  {
+    "query_id": "MQ0120",
+    "doc_id": "D08",
+    "topic": "Final Examination",
+    "level": "L4",
+    "variant": 3,
+    "query": "Aakhri imtihan ki passing threshold kitni hai, yeh maloom karna hai.",
+    "gold_answer": "50%",
+    "gold_document": "D08_final_examination.txt"
+  },
+  {
+    "query_id": "MQ0121",
+    "doc_id": "D09",
+    "topic": "Semester Fee Structure",
+    "level": "L0",
+    "variant": 1,
+    "query": "What is the semester fee for fifth-semester Software Engineering students?",
+    "gold_answer": "PKR 62,500",
+    "gold_document": "D09_semester_fee_structure.txt"
+  },
+  {
+    "query_id": "MQ0122",
+    "doc_id": "D09",
+    "topic": "Semester Fee Structure",
+    "level": "L0",
+    "variant": 2,
+    "query": "How much is the semester fee for the fifth semester of Software Engineering?",
+    "gold_answer": "PKR 62,500",
+    "gold_document": "D09_semester_fee_structure.txt"
+  },
+  {
+    "query_id": "MQ0123",
+    "doc_id": "D09",
+    "topic": "Semester Fee Structure",
+    "level": "L0",
+    "variant": 3,
+    "query": "What amount must fifth-semester Software Engineering students pay?",
+    "gold_answer": "PKR 62,500",
+    "gold_document": "D09_semester_fee_structure.txt"
+  },
+  {
+    "query_id": "MQ0124",
+    "doc_id": "D09",
+    "topic": "Semester Fee Structure",
+    "level": "L1",
+    "variant": 1,
+    "query": "What is the semester fee for fifth-semester Software Engineering students ki classes mein?",
+    "gold_answer": "PKR 62,500",
+    "gold_document": "D09_semester_fee_structure.txt"
+  },
+  {
+    "query_id": "MQ0125",
+    "doc_id": "D09",
+    "topic": "Semester Fee Structure",
+    "level": "L1",
+    "variant": 2,
+    "query": "How much is the semester fee for fifth semester of Software Engineering?",
+    "gold_answer": "PKR 62,500",
+    "gold_document": "D09_semester_fee_structure.txt"
+  },
+  {
+    "query_id": "MQ0126",
+    "doc_id": "D09",
+    "topic": "Semester Fee Structure",
+    "level": "L1",
+    "variant": 3,
+    "query": "What amount must fifth-semester Software Engineering students pay?",
+    "gold_answer": "PKR 62,500",
+    "gold_document": "D09_semester_fee_structure.txt"
+  },
+  {
+    "query_id": "MQ0127",
+    "doc_id": "D09",
+    "topic": "Semester Fee Structure",
+    "level": "L2",
+    "variant": 1,
+    "query": "Fifth-semester Software Engineering ki semester fee kitni hai?",
+    "gold_answer": "PKR 62,500",
+    "gold_document": "D09_semester_fee_structure.txt"
+  },
+  {
+    "query_id": "MQ0128",
+    "doc_id": "D09",
+    "topic": "Semester Fee Structure",
+    "level": "L2",
+    "variant": 2,
+    "query": "Software Engineering ke fifth semester mein tuition payment kitni hai?",
+    "gold_answer": "PKR 62,500",
+    "gold_document": "D09_semester_fee_structure.txt"
+  },
+  {
+    "query_id": "MQ0129",
+    "doc_id": "D09",
+    "topic": "Semester Fee Structure",
+    "level": "L2",
+    "variant": 3,
+    "query": "Fifth semester ke liye students ko kitni semester fee deni hoti hai?",
+    "gold_answer": "PKR 62,500",
+    "gold_document": "D09_semester_fee_structure.txt"
+  },
+  {
+    "query_id": "MQ0130",
+    "doc_id": "D09",
+    "topic": "Semester Fee Structure",
+    "level": "L3",
+    "variant": 1,
+    "query": "Software Engineering ke paanchwe semester ki fees kitni hai?",
+    "gold_answer": "PKR 62,500",
+    "gold_document": "D09_semester_fee_structure.txt"
+  },
+  {
+    "query_id": "MQ0131",
+    "doc_id": "D09",
+    "topic": "Semester Fee Structure",
+    "level": "L3",
+    "variant": 2,
+    "query": "Paanchwe semester mein talib-e-ilm ko kitni fees jama karwani hoti hai?",
+    "gold_answer": "PKR 62,500",
+    "gold_document": "D09_semester_fee_structure.txt"
+  },
+  {
+    "query_id": "MQ0132",
+    "doc_id": "D09",
+    "topic": "Semester Fee Structure",
+    "level": "L3",
+    "variant": 3,
+    "query": "Software Engineering ke paanchwe semester ki kul fees kitni banti hai?",
+    "gold_answer": "PKR 62,500",
+    "gold_document": "D09_semester_fee_structure.txt"
+  },
+  {
+    "query_id": "MQ0133",
+    "doc_id": "D09",
+    "topic": "Semester Fee Structure",
+    "level": "L4",
+    "variant": 1,
+    "query": "Software Engineering ke paanchwe semester mein talib-e-ilm ko kul kitni fees jama karwani hoti hai? Bata dein.",
+    "gold_answer": "PKR 62,500",
+    "gold_document": "D09_semester_fee_structure.txt"
+  },
+  {
+    "query_id": "MQ0134",
+    "doc_id": "D09",
+    "topic": "Semester Fee Structure",
+    "level": "L4",
+    "variant": 2,
+    "query": "Paanchwe semester ki fees ke taur par kitni raqam ada karni hoti hai?",
+    "gold_answer": "PKR 62,500",
+    "gold_document": "D09_semester_fee_structure.txt"
+  },
+  {
+    "query_id": "MQ0135",
+    "doc_id": "D09",
+    "topic": "Semester Fee Structure",
+    "level": "L4",
+    "variant": 3,
+    "query": "Paanchwe semester ki fees kitni hai, yeh maloom karna hai.",
+    "gold_answer": "PKR 62,500",
+    "gold_document": "D09_semester_fee_structure.txt"
+  },
+  {
+    "query_id": "MQ0136",
+    "doc_id": "D10",
+    "topic": "Grading System",
+    "level": "L0",
+    "variant": 1,
+    "query": "What percentage is required to receive an A grade?",
+    "gold_answer": "90%",
+    "gold_document": "D10_grading_system.txt"
+  },
+  {
+    "query_id": "MQ0137",
+    "doc_id": "D10",
+    "topic": "Grading System",
+    "level": "L0",
+    "variant": 2,
+    "query": "What is the minimum grade boundary for an A grade?",
+    "gold_answer": "90%",
+    "gold_document": "D10_grading_system.txt"
+  },
+  {
+    "query_id": "MQ0138",
+    "doc_id": "D10",
+    "topic": "Grading System",
+    "level": "L0",
+    "variant": 3,
+    "query": "How many marks are needed for an A grade?",
+    "gold_answer": "90%",
+    "gold_document": "D10_grading_system.txt"
+  },
+  {
+    "query_id": "MQ0139",
+    "doc_id": "D10",
+    "topic": "Grading System",
+    "level": "L1",
+    "variant": 1,
+    "query": "What percentage is required to receive an A grade ki grading mein?",
+    "gold_answer": "90%",
+    "gold_document": "D10_grading_system.txt"
+  },
+  {
+    "query_id": "MQ0140",
+    "doc_id": "D10",
+    "topic": "Grading System",
+    "level": "L1",
+    "variant": 2,
+    "query": "What is the minimum grade boundary for A grade?",
+    "gold_answer": "90%",
+    "gold_document": "D10_grading_system.txt"
+  },
+  {
+    "query_id": "MQ0141",
+    "doc_id": "D10",
+    "topic": "Grading System",
+    "level": "L1",
+    "variant": 3,
+    "query": "How many marks are needed for A grade hasil karne ke liye?",
+    "gold_answer": "90%",
+    "gold_document": "D10_grading_system.txt"
+  },
+  {
+    "query_id": "MQ0142",
+    "doc_id": "D10",
+    "topic": "Grading System",
+    "level": "L2",
+    "variant": 1,
+    "query": "A grade ke liye kitni percentage chahiye?",
+    "gold_answer": "90%",
+    "gold_document": "D10_grading_system.txt"
+  },
+  {
+    "query_id": "MQ0143",
+    "doc_id": "D10",
+    "topic": "Grading System",
+    "level": "L2",
+    "variant": 2,
+    "query": "A grade hasil karne ke liye kitne percent marks zaroori hain?",
+    "gold_answer": "90%",
+    "gold_document": "D10_grading_system.txt"
+  },
+  {
+    "query_id": "MQ0144",
+    "doc_id": "D10",
+    "topic": "Grading System",
+    "level": "L2",
+    "variant": 3,
+    "query": "A grade ki grade boundary kya hai?",
+    "gold_answer": "90%",
+    "gold_document": "D10_grading_system.txt"
+  },
+  {
+    "query_id": "MQ0145",
+    "doc_id": "D10",
+    "topic": "Grading System",
+    "level": "L3",
+    "variant": 1,
+    "query": "A grade hasil karne ke liye kitne percent number chahiye?",
+    "gold_answer": "90%",
+    "gold_document": "D10_grading_system.txt"
+  },
+  {
+    "query_id": "MQ0146",
+    "doc_id": "D10",
+    "topic": "Grading System",
+    "level": "L3",
+    "variant": 2,
+    "query": "A grade lene ke liye kam az kam kitni percentage honi chahiye?",
+    "gold_answer": "90%",
+    "gold_document": "D10_grading_system.txt"
+  },
+  {
+    "query_id": "MQ0147",
+    "doc_id": "D10",
+    "topic": "Grading System",
+    "level": "L3",
+    "variant": 3,
+    "query": "A grade ke liye marks kitne percent tak hone zaroori hain?",
+    "gold_answer": "90%",
+    "gold_document": "D10_grading_system.txt"
+  },
+  {
+    "query_id": "MQ0148",
+    "doc_id": "D10",
+    "topic": "Grading System",
+    "level": "L4",
+    "variant": 1,
+    "query": "A grade hasil karne ke liye talib-e-ilm ko kam az kam kitni percentage marks leni padti hai? Bata dein.",
+    "gold_answer": "90%",
+    "gold_document": "D10_grading_system.txt"
+  },
+  {
+    "query_id": "MQ0149",
+    "doc_id": "D10",
+    "topic": "Grading System",
+    "level": "L4",
+    "variant": 2,
+    "query": "A grade ke liye kam az kam kitni percentage chahiye?",
+    "gold_answer": "90%",
+    "gold_document": "D10_grading_system.txt"
+  },
+  {
+    "query_id": "MQ0150",
+    "doc_id": "D10",
+    "topic": "Grading System",
+    "level": "L4",
+    "variant": 3,
+    "query": "A grade ki shart kya hai, yeh maloom karna hai.",
+    "gold_answer": "90%",
+    "gold_document": "D10_grading_system.txt"
+  },
+  {
+    "query_id": "MQ0151",
+    "doc_id": "D11",
+    "topic": "Graduation Eligibility",
+    "level": "L0",
+    "variant": 1,
+    "query": "What minimum CGPA is required for graduation eligibility?",
+    "gold_answer": "2.00",
+    "gold_document": "D11_graduation_eligibility.txt"
+  },
+  {
+    "query_id": "MQ0152",
+    "doc_id": "D11",
+    "topic": "Graduation Eligibility",
+    "level": "L0",
+    "variant": 2,
+    "query": "What is the CGPA threshold for degree conferral?",
+    "gold_answer": "2.00",
+    "gold_document": "D11_graduation_eligibility.txt"
+  },
+  {
+    "query_id": "MQ0153",
+    "doc_id": "D11",
+    "topic": "Graduation Eligibility",
+    "level": "L0",
+    "variant": 3,
+    "query": "What CGPA must a student achieve for graduation?",
+    "gold_answer": "2.00",
+    "gold_document": "D11_graduation_eligibility.txt"
+  },
+  {
+    "query_id": "MQ0154",
+    "doc_id": "D11",
+    "topic": "Graduation Eligibility",
+    "level": "L1",
+    "variant": 1,
+    "query": "What minimum CGPA is required for graduation eligibility ki condition mein?",
+    "gold_answer": "2.00",
+    "gold_document": "D11_graduation_eligibility.txt"
+  },
+  {
+    "query_id": "MQ0155",
+    "doc_id": "D11",
+    "topic": "Graduation Eligibility",
+    "level": "L1",
+    "variant": 2,
+    "query": "What is the CGPA threshold for degree conferral?",
+    "gold_answer": "2.00",
+    "gold_document": "D11_graduation_eligibility.txt"
+  },
+  {
+    "query_id": "MQ0156",
+    "doc_id": "D11",
+    "topic": "Graduation Eligibility",
+    "level": "L1",
+    "variant": 3,
+    "query": "What CGPA must a student achieve graduation ke liye?",
+    "gold_answer": "2.00",
+    "gold_document": "D11_graduation_eligibility.txt"
+  },
+  {
+    "query_id": "MQ0157",
+    "doc_id": "D11",
+    "topic": "Graduation Eligibility",
+    "level": "L2",
+    "variant": 1,
+    "query": "Graduation ke liye minimum CGPA kitni chahiye?",
+    "gold_answer": "2.00",
+    "gold_document": "D11_graduation_eligibility.txt"
+  },
+  {
+    "query_id": "MQ0158",
+    "doc_id": "D11",
+    "topic": "Graduation Eligibility",
+    "level": "L2",
+    "variant": 2,
+    "query": "Degree conferral ke liye CGPA threshold kya hai?",
+    "gold_answer": "2.00",
+    "gold_document": "D11_graduation_eligibility.txt"
+  },
+  {
+    "query_id": "MQ0159",
+    "doc_id": "D11",
+    "topic": "Graduation Eligibility",
+    "level": "L2",
+    "variant": 3,
+    "query": "Graduation standing ke liye kitni CGPA zaroori hai?",
+    "gold_answer": "2.00",
+    "gold_document": "D11_graduation_eligibility.txt"
+  },
+  {
+    "query_id": "MQ0160",
+    "doc_id": "D11",
+    "topic": "Graduation Eligibility",
+    "level": "L3",
+    "variant": 1,
+    "query": "Sanad hasil karne ke liye kam az kam kitni CGPA zaroori hai?",
+    "gold_answer": "2.00",
+    "gold_document": "D11_graduation_eligibility.txt"
+  },
+  {
+    "query_id": "MQ0161",
+    "doc_id": "D11",
+    "topic": "Graduation Eligibility",
+    "level": "L3",
+    "variant": 2,
+    "query": "Degree ke liye minimum CGPA kitni honi chahiye?",
+    "gold_answer": "2.00",
+    "gold_document": "D11_graduation_eligibility.txt"
+  },
+  {
+    "query_id": "MQ0162",
+    "doc_id": "D11",
+    "topic": "Graduation Eligibility",
+    "level": "L3",
+    "variant": 3,
+    "query": "Talib-e-ilm ko degree lene ke liye kitni CGPA hasil karni hoti hai?",
+    "gold_answer": "2.00",
+    "gold_document": "D11_graduation_eligibility.txt"
+  },
+  {
+    "query_id": "MQ0163",
+    "doc_id": "D11",
+    "topic": "Graduation Eligibility",
+    "level": "L4",
+    "variant": 1,
+    "query": "Sanad hasil karne ke liye talib-e-ilm ki kam az kam kitni CGPA honi lazmi hai? Bata dein.",
+    "gold_answer": "2.00",
+    "gold_document": "D11_graduation_eligibility.txt"
+  },
+  {
+    "query_id": "MQ0164",
+    "doc_id": "D11",
+    "topic": "Graduation Eligibility",
+    "level": "L4",
+    "variant": 2,
+    "query": "Degree ki shart puri karne ke liye kam az kam kitni CGPA chahiye?",
+    "gold_answer": "2.00",
+    "gold_document": "D11_graduation_eligibility.txt"
+  },
+  {
+    "query_id": "MQ0165",
+    "doc_id": "D11",
+    "topic": "Graduation Eligibility",
+    "level": "L4",
+    "variant": 3,
+    "query": "Degree lene ke liye minimum CGPA kitni chahiye, yeh maloom karna hai.",
+    "gold_answer": "2.00",
+    "gold_document": "D11_graduation_eligibility.txt"
+  },
+  {
+    "query_id": "MQ0166",
+    "doc_id": "D12",
+    "topic": "Hostel Regulations",
+    "level": "L0",
+    "variant": 1,
+    "query": "What is the hostel curfew time for residents?",
+    "gold_answer": "10:00 PM",
+    "gold_document": "D12_hostel_regulations.txt"
+  },
+  {
+    "query_id": "MQ0167",
+    "doc_id": "D12",
+    "topic": "Hostel Regulations",
+    "level": "L0",
+    "variant": 2,
+    "query": "At what time must hostel students return to the residence?",
+    "gold_answer": "10:00 PM",
+    "gold_document": "D12_hostel_regulations.txt"
+  },
+  {
+    "query_id": "MQ0168",
+    "doc_id": "D12",
+    "topic": "Hostel Regulations",
+    "level": "L0",
+    "variant": 3,
+    "query": "What is the required night return time for hostel residents?",
+    "gold_answer": "10:00 PM",
+    "gold_document": "D12_hostel_regulations.txt"
+  },
+  {
+    "query_id": "MQ0169",
+    "doc_id": "D12",
+    "topic": "Hostel Regulations",
+    "level": "L1",
+    "variant": 1,
+    "query": "What is the hostel curfew time for residents ki condition mein?",
+    "gold_answer": "10:00 PM",
+    "gold_document": "D12_hostel_regulations.txt"
+  },
+  {
+    "query_id": "MQ0170",
+    "doc_id": "D12",
+    "topic": "Hostel Regulations",
+    "level": "L1",
+    "variant": 2,
+    "query": "At what time must hostel students return to the residence?",
+    "gold_answer": "10:00 PM",
+    "gold_document": "D12_hostel_regulations.txt"
+  },
+  {
+    "query_id": "MQ0171",
+    "doc_id": "D12",
+    "topic": "Hostel Regulations",
+    "level": "L1",
+    "variant": 3,
+    "query": "What is the required night return time for hostel residents?",
+    "gold_answer": "10:00 PM",
+    "gold_document": "D12_hostel_regulations.txt"
+  },
+  {
+    "query_id": "MQ0172",
+    "doc_id": "D12",
+    "topic": "Hostel Regulations",
+    "level": "L2",
+    "variant": 1,
+    "query": "Hostel ka curfew time kya hai?",
+    "gold_answer": "10:00 PM",
+    "gold_document": "D12_hostel_regulations.txt"
+  },
+  {
+    "query_id": "MQ0173",
+    "doc_id": "D12",
+    "topic": "Hostel Regulations",
+    "level": "L2",
+    "variant": 2,
+    "query": "Hostel mein students ko kitne baje tak wapas aana chahiye?",
+    "gold_answer": "10:00 PM",
+    "gold_document": "D12_hostel_regulations.txt"
+  },
+  {
+    "query_id": "MQ0174",
+    "doc_id": "D12",
+    "topic": "Hostel Regulations",
+    "level": "L2",
+    "variant": 3,
+    "query": "Hostel students ke liye night return time kya hai?",
+    "gold_answer": "10:00 PM",
+    "gold_document": "D12_hostel_regulations.txt"
+  },
+  {
+    "query_id": "MQ0175",
+    "doc_id": "D12",
+    "topic": "Hostel Regulations",
+    "level": "L3",
+    "variant": 1,
+    "query": "Hostel se bahar jane ke baad kitne baje tak wapas aana hota hai?",
+    "gold_answer": "10:00 PM",
+    "gold_document": "D12_hostel_regulations.txt"
+  },
+  {
+    "query_id": "MQ0176",
+    "doc_id": "D12",
+    "topic": "Hostel Regulations",
+    "level": "L3",
+    "variant": 2,
+    "query": "Hostel ki wapsi ki aakhri timing kya hai?",
+    "gold_answer": "10:00 PM",
+    "gold_document": "D12_hostel_regulations.txt"
+  },
+  {
+    "query_id": "MQ0177",
+    "doc_id": "D12",
+    "topic": "Hostel Regulations",
+    "level": "L3",
+    "variant": 3,
+    "query": "Hostel mein talib-e-ilm ko raat ko kitne baje tak pohanchna hota hai?",
+    "gold_answer": "10:00 PM",
+    "gold_document": "D12_hostel_regulations.txt"
+  },
+  {
+    "query_id": "MQ0178",
+    "doc_id": "D12",
+    "topic": "Hostel Regulations",
+    "level": "L4",
+    "variant": 1,
+    "query": "Hostel mein rehne wale talib-e-ilm ko raat ko kitne baje tak hostel wapas pohanchna zaroori hai? Bata dein.",
+    "gold_answer": "10:00 PM",
+    "gold_document": "D12_hostel_regulations.txt"
+  },
+  {
+    "query_id": "MQ0179",
+    "doc_id": "D12",
+    "topic": "Hostel Regulations",
+    "level": "L4",
+    "variant": 2,
+    "query": "Hostel ki curfew ke mutabiq talib-e-ilm ko maximum kis waqt tak wapas aana hota hai?",
+    "gold_answer": "10:00 PM",
+    "gold_document": "D12_hostel_regulations.txt"
+  },
+  {
+    "query_id": "MQ0180",
+    "doc_id": "D12",
+    "topic": "Hostel Regulations",
+    "level": "L4",
+    "variant": 3,
+    "query": "Raat ko kitne baje tak wapas pohanchna lazmi hai, yeh maloom karna hai.",
+    "gold_answer": "10:00 PM",
+    "gold_document": "D12_hostel_regulations.txt"
+  },
+  {
+    "query_id": "MQ0181",
+    "doc_id": "D13",
+    "topic": "Internship Requirement",
+    "level": "L0",
+    "variant": 1,
+    "query": "What is the minimum duration of the required internship?",
+    "gold_answer": "6 weeks",
+    "gold_document": "D13_internship_requirement.txt"
+  },
+  {
+    "query_id": "MQ0182",
+    "doc_id": "D13",
+    "topic": "Internship Requirement",
+    "level": "L0",
+    "variant": 2,
+    "query": "How many weeks must the internship last?",
+    "gold_answer": "6 weeks",
+    "gold_document": "D13_internship_requirement.txt"
+  },
+  {
+    "query_id": "MQ0183",
+    "doc_id": "D13",
+    "topic": "Internship Requirement",
+    "level": "L0",
+    "variant": 3,
+    "query": "What is the minimum internship duration for students?",
+    "gold_answer": "6 weeks",
+    "gold_document": "D13_internship_requirement.txt"
+  },
+  {
+    "query_id": "MQ0184",
+    "doc_id": "D13",
+    "topic": "Internship Requirement",
+    "level": "L1",
+    "variant": 1,
+    "query": "What is the minimum duration of the required internship ki requirement mein?",
+    "gold_answer": "6 weeks",
+    "gold_document": "D13_internship_requirement.txt"
+  },
+  {
+    "query_id": "MQ0185",
+    "doc_id": "D13",
+    "topic": "Internship Requirement",
+    "level": "L1",
+    "variant": 2,
+    "query": "How many weeks must the internship last?",
+    "gold_answer": "6 weeks",
+    "gold_document": "D13_internship_requirement.txt"
+  },
+  {
+    "query_id": "MQ0186",
+    "doc_id": "D13",
+    "topic": "Internship Requirement",
+    "level": "L1",
+    "variant": 3,
+    "query": "What is the minimum internship duration for students?",
+    "gold_answer": "6 weeks",
+    "gold_document": "D13_internship_requirement.txt"
+  },
+  {
+    "query_id": "MQ0187",
+    "doc_id": "D13",
+    "topic": "Internship Requirement",
+    "level": "L2",
+    "variant": 1,
+    "query": "Internship minimum kitne weeks ki honi chahiye?",
+    "gold_answer": "6 weeks",
+    "gold_document": "D13_internship_requirement.txt"
+  },
+  {
+    "query_id": "MQ0188",
+    "doc_id": "D13",
+    "topic": "Internship Requirement",
+    "level": "L2",
+    "variant": 2,
+    "query": "Required internship ki muddat kitni honi zaroori hai?",
+    "gold_answer": "6 weeks",
+    "gold_document": "D13_internship_requirement.txt"
+  },
+  {
+    "query_id": "MQ0189",
+    "doc_id": "D13",
+    "topic": "Internship Requirement",
+    "level": "L2",
+    "variant": 3,
+    "query": "Students ko minimum kitne hafton ki internship complete karni hoti hai?",
+    "gold_answer": "6 weeks",
+    "gold_document": "D13_internship_requirement.txt"
+  },
+  {
+    "query_id": "MQ0190",
+    "doc_id": "D13",
+    "topic": "Internship Requirement",
+    "level": "L3",
+    "variant": 1,
+    "query": "Talib-e-ilm ko kam az kam kitne haftay internship karni hoti hai?",
+    "gold_answer": "6 weeks",
+    "gold_document": "D13_internship_requirement.txt"
+  },
+  {
+    "query_id": "MQ0191",
+    "doc_id": "D13",
+    "topic": "Internship Requirement",
+    "level": "L3",
+    "variant": 2,
+    "query": "Internship ke liye kitne hafton ki muddat rakhi gayi hai?",
+    "gold_answer": "6 weeks",
+    "gold_document": "D13_internship_requirement.txt"
+  },
+  {
+    "query_id": "MQ0192",
+    "doc_id": "D13",
+    "topic": "Internship Requirement",
+    "level": "L3",
+    "variant": 3,
+    "query": "Degree ke liye internship kitne haftay ki karni zaroori hai?",
+    "gold_answer": "6 weeks",
+    "gold_document": "D13_internship_requirement.txt"
+  },
+  {
+    "query_id": "MQ0193",
+    "doc_id": "D13",
+    "topic": "Internship Requirement",
+    "level": "L4",
+    "variant": 1,
+    "query": "Degree ki shart puri karne ke liye talib-e-ilm ko kam az kam kitne hafton ki internship karni padti hai? Bata dein.",
+    "gold_answer": "6 weeks",
+    "gold_document": "D13_internship_requirement.txt"
+  },
+  {
+    "query_id": "MQ0194",
+    "doc_id": "D13",
+    "topic": "Internship Requirement",
+    "level": "L4",
+    "variant": 2,
+    "query": "Internship ki minimum muddat kitne haftay hai?",
+    "gold_answer": "6 weeks",
+    "gold_document": "D13_internship_requirement.txt"
+  },
+  {
+    "query_id": "MQ0195",
+    "doc_id": "D13",
+    "topic": "Internship Requirement",
+    "level": "L4",
+    "variant": 3,
+    "query": "Internship ke liye kitne haftay dene zaroori hain, yeh maloom karna hai.",
+    "gold_answer": "6 weeks",
+    "gold_document": "D13_internship_requirement.txt"
+  },
+  {
+    "query_id": "MQ0196",
+    "doc_id": "D14",
+    "topic": "Medical Leave",
+    "level": "L0",
+    "variant": 1,
+    "query": "How many days of medical leave can a student claim per semester?",
+    "gold_answer": "10 days",
+    "gold_document": "D14_medical_leave.txt"
+  },
+  {
+    "query_id": "MQ0197",
+    "doc_id": "D14",
+    "topic": "Medical Leave",
+    "level": "L0",
+    "variant": 2,
+    "query": "What is the maximum medical leave allowed per semester?",
+    "gold_answer": "10 days",
+    "gold_document": "D14_medical_leave.txt"
+  },
+  {
+    "query_id": "MQ0198",
+    "doc_id": "D14",
+    "topic": "Medical Leave",
+    "level": "L0",
+    "variant": 3,
+    "query": "How many sick leave days are permitted in one semester?",
+    "gold_answer": "10 days",
+    "gold_document": "D14_medical_leave.txt"
+  },
+  {
+    "query_id": "MQ0199",
+    "doc_id": "D14",
+    "topic": "Medical Leave",
+    "level": "L1",
+    "variant": 1,
+    "query": "How many days of medical leave can a student claim per semester ki duration mein?",
+    "gold_answer": "10 days",
+    "gold_document": "D14_medical_leave.txt"
+  },
+  {
+    "query_id": "MQ0200",
+    "doc_id": "D14",
+    "topic": "Medical Leave",
+    "level": "L1",
+    "variant": 2,
+    "query": "What is the maximum medical leave allowed per semester?",
+    "gold_answer": "10 days",
+    "gold_document": "D14_medical_leave.txt"
+  },
+  {
+    "query_id": "MQ0201",
+    "doc_id": "D14",
+    "topic": "Medical Leave",
+    "level": "L1",
+    "variant": 3,
+    "query": "How many sick leave days are permitted in one semester?",
+    "gold_answer": "10 days",
+    "gold_document": "D14_medical_leave.txt"
+  },
+  {
+    "query_id": "MQ0202",
+    "doc_id": "D14",
+    "topic": "Medical Leave",
+    "level": "L2",
+    "variant": 1,
+    "query": "Semester mein medical leave ke kitne din milte hain?",
+    "gold_answer": "10 days",
+    "gold_document": "D14_medical_leave.txt"
+  },
+  {
+    "query_id": "MQ0203",
+    "doc_id": "D14",
+    "topic": "Medical Leave",
+    "level": "L2",
+    "variant": 2,
+    "query": "Student ek semester mein kitni medical chhutti le sakta hai?",
+    "gold_answer": "10 days",
+    "gold_document": "D14_medical_leave.txt"
+  },
+  {
+    "query_id": "MQ0204",
+    "doc_id": "D14",
+    "topic": "Medical Leave",
+    "level": "L2",
+    "variant": 3,
+    "query": "Medical leave ki maximum muddat ek semester mein kitni hai?",
+    "gold_answer": "10 days",
+    "gold_document": "D14_medical_leave.txt"
+  },
+  {
+    "query_id": "MQ0205",
+    "doc_id": "D14",
+    "topic": "Medical Leave",
+    "level": "L3",
+    "variant": 1,
+    "query": "Ek semester mein bimari ki chhutti kitne din tak mil sakti hai?",
+    "gold_answer": "10 days",
+    "gold_document": "D14_medical_leave.txt"
+  },
+  {
+    "query_id": "MQ0206",
+    "doc_id": "D14",
+    "topic": "Medical Leave",
+    "level": "L3",
+    "variant": 2,
+    "query": "Talib-e-ilm ko semester mein kitne din ki bimari ki chhutti milti hai?",
+    "gold_answer": "10 days",
+    "gold_document": "D14_medical_leave.txt"
+  },
+  {
+    "query_id": "MQ0207",
+    "doc_id": "D14",
+    "topic": "Medical Leave",
+    "level": "L3",
+    "variant": 3,
+    "query": "Bimari ki chhutti ke liye kitne din ki ijazat hoti hai?",
+    "gold_answer": "10 days",
+    "gold_document": "D14_medical_leave.txt"
+  },
+  {
+    "query_id": "MQ0208",
+    "doc_id": "D14",
+    "topic": "Medical Leave",
+    "level": "L4",
+    "variant": 1,
+    "query": "Agar talib-e-ilm bemar ho to ek semester mein maximum kitne din ki chhutti le sakta hai? Bata dein.",
+    "gold_answer": "10 days",
+    "gold_document": "D14_medical_leave.txt"
+  },
+  {
+    "query_id": "MQ0209",
+    "doc_id": "D14",
+    "topic": "Medical Leave",
+    "level": "L4",
+    "variant": 2,
+    "query": "Bimari ki wajah se semester mein kitne din tak chhutti mil sakti hai?",
+    "gold_answer": "10 days",
+    "gold_document": "D14_medical_leave.txt"
+  },
+  {
+    "query_id": "MQ0210",
+    "doc_id": "D14",
+    "topic": "Medical Leave",
+    "level": "L4",
+    "variant": 3,
+    "query": "Bimari ki chhutti ki maximum hadd kitni hai, yeh maloom karna hai.",
+    "gold_answer": "10 days",
+    "gold_document": "D14_medical_leave.txt"
+  },
+  {
+    "query_id": "MQ0211",
+    "doc_id": "D15",
+    "topic": "Course Prerequisites",
+    "level": "L0",
+    "variant": 1,
+    "query": "What minimum grade is required in a prerequisite course?",
+    "gold_answer": "C grade",
+    "gold_document": "D15_course_prerequisites.txt"
+  },
+  {
+    "query_id": "MQ0212",
+    "doc_id": "D15",
+    "topic": "Course Prerequisites",
+    "level": "L0",
+    "variant": 2,
+    "query": "What is the minimum grade required to satisfy a prerequisite?",
+    "gold_answer": "C grade",
+    "gold_document": "D15_course_prerequisites.txt"
+  },
+  {
+    "query_id": "MQ0213",
+    "doc_id": "D15",
+    "topic": "Course Prerequisites",
+    "level": "L0",
+    "variant": 3,
+    "query": "Which grade must a student earn to pass a prerequisite requirement?",
+    "gold_answer": "C grade",
+    "gold_document": "D15_course_prerequisites.txt"
+  },
+  {
+    "query_id": "MQ0214",
+    "doc_id": "D15",
+    "topic": "Course Prerequisites",
+    "level": "L1",
+    "variant": 1,
+    "query": "What minimum grade is required in a prerequisite course ki requirement mein?",
+    "gold_answer": "C grade",
+    "gold_document": "D15_course_prerequisites.txt"
+  },
+  {
+    "query_id": "MQ0215",
+    "doc_id": "D15",
+    "topic": "Course Prerequisites",
+    "level": "L1",
+    "variant": 2,
+    "query": "What is the minimum grade required to satisfy a prerequisite?",
+    "gold_answer": "C grade",
+    "gold_document": "D15_course_prerequisites.txt"
+  },
+  {
+    "query_id": "MQ0216",
+    "doc_id": "D15",
+    "topic": "Course Prerequisites",
+    "level": "L1",
+    "variant": 3,
+    "query": "Which grade must a student earn prerequisite pass karne ke liye?",
+    "gold_answer": "C grade",
+    "gold_document": "D15_course_prerequisites.txt"
+  },
+  {
+    "query_id": "MQ0217",
+    "doc_id": "D15",
+    "topic": "Course Prerequisites",
+    "level": "L2",
+    "variant": 1,
+    "query": "Prerequisite course mein minimum grade kitna chahiye?",
+    "gold_answer": "C grade",
+    "gold_document": "D15_course_prerequisites.txt"
+  },
+  {
+    "query_id": "MQ0218",
+    "doc_id": "D15",
+    "topic": "Course Prerequisites",
+    "level": "L2",
+    "variant": 2,
+    "query": "Prerequisite ki requirement puri karne ke liye konsa grade zaroori hai?",
+    "gold_answer": "C grade",
+    "gold_document": "D15_course_prerequisites.txt"
+  },
+  {
+    "query_id": "MQ0219",
+    "doc_id": "D15",
+    "topic": "Course Prerequisites",
+    "level": "L2",
+    "variant": 3,
+    "query": "Prerequisite subject mein kam az kam konsa grade lena hota hai?",
+    "gold_answer": "C grade",
+    "gold_document": "D15_course_prerequisites.txt"
+  },
+  {
+    "query_id": "MQ0220",
+    "doc_id": "D15",
+    "topic": "Course Prerequisites",
+    "level": "L3",
+    "variant": 1,
+    "query": "Prerequisite course pass karne ke liye kam az kam konsa grade chahiye?",
+    "gold_answer": "C grade",
+    "gold_document": "D15_course_prerequisites.txt"
+  },
+  {
+    "query_id": "MQ0221",
+    "doc_id": "D15",
+    "topic": "Course Prerequisites",
+    "level": "L3",
+    "variant": 2,
+    "query": "Agla course lene ke liye prerequisite mein konsa grade hasil karna hota hai?",
+    "gold_answer": "C grade",
+    "gold_document": "D15_course_prerequisites.txt"
+  },
+  {
+    "query_id": "MQ0222",
+    "doc_id": "D15",
+    "topic": "Course Prerequisites",
+    "level": "L3",
+    "variant": 3,
+    "query": "Prerequisite ki shart puri karne ke liye kitna grade lena zaroori hai?",
+    "gold_answer": "C grade",
+    "gold_document": "D15_course_prerequisites.txt"
+  },
+  {
+    "query_id": "MQ0223",
+    "doc_id": "D15",
+    "topic": "Course Prerequisites",
+    "level": "L4",
+    "variant": 1,
+    "query": "Agla course lene ke liye prerequisite mein talib-e-ilm ko kam az kam konsa grade lena lazmi hai? Bata dein.",
+    "gold_answer": "C grade",
+    "gold_document": "D15_course_prerequisites.txt"
+  },
+  {
+    "query_id": "MQ0224",
+    "doc_id": "D15",
+    "topic": "Course Prerequisites",
+    "level": "L4",
+    "variant": 2,
+    "query": "Prerequisite ki shart puri karne ke liye kam az kam konsa grade chahiye?",
+    "gold_answer": "C grade",
+    "gold_document": "D15_course_prerequisites.txt"
+  },
+  {
+    "query_id": "MQ0225",
+    "doc_id": "D15",
+    "topic": "Course Prerequisites",
+    "level": "L4",
+    "variant": 3,
+    "query": "Prerequisite mein kitna grade zaroori hai, yeh maloom karna hai.",
+    "gold_answer": "C grade",
+    "gold_document": "D15_course_prerequisites.txt"
+  },
+  {
+    "query_id": "MQ0226",
+    "doc_id": "D16",
+    "topic": "Semester Registration",
+    "level": "L0",
+    "variant": 1,
+    "query": "What is the minimum credit hours required for semester registration?",
+    "gold_answer": "10 credit hours",
+    "gold_document": "D16_semester_registration.txt"
+  },
+  {
+    "query_id": "MQ0227",
+    "doc_id": "D16",
+    "topic": "Semester Registration",
+    "level": "L0",
+    "variant": 2,
+    "query": "How many credit hours must a student register for at minimum?",
+    "gold_answer": "10 credit hours",
+    "gold_document": "D16_semester_registration.txt"
+  },
+  {
+    "query_id": "MQ0228",
+    "doc_id": "D16",
+    "topic": "Semester Registration",
+    "level": "L0",
+    "variant": 3,
+    "query": "What is the minimum course load for semester registration?",
+    "gold_answer": "10 credit hours",
+    "gold_document": "D16_semester_registration.txt"
+  },
+  {
+    "query_id": "MQ0229",
+    "doc_id": "D16",
+    "topic": "Semester Registration",
+    "level": "L1",
+    "variant": 1,
+    "query": "What is the minimum credit hours required for semester registration ki process mein?",
+    "gold_answer": "10 credit hours",
+    "gold_document": "D16_semester_registration.txt"
+  },
+  {
+    "query_id": "MQ0230",
+    "doc_id": "D16",
+    "topic": "Semester Registration",
+    "level": "L1",
+    "variant": 2,
+    "query": "How many credit hours must a student register for at minimum?",
+    "gold_answer": "10 credit hours",
+    "gold_document": "D16_semester_registration.txt"
+  },
+  {
+    "query_id": "MQ0231",
+    "doc_id": "D16",
+    "topic": "Semester Registration",
+    "level": "L1",
+    "variant": 3,
+    "query": "What is the minimum course load for semester registration?",
+    "gold_answer": "10 credit hours",
+    "gold_document": "D16_semester_registration.txt"
+  },
+  {
+    "query_id": "MQ0232",
+    "doc_id": "D16",
+    "topic": "Semester Registration",
+    "level": "L2",
+    "variant": 1,
+    "query": "Semester register karne ke liye minimum kitne credit hours chahiye?",
+    "gold_answer": "10 credit hours",
+    "gold_document": "D16_semester_registration.txt"
+  },
+  {
+    "query_id": "MQ0233",
+    "doc_id": "D16",
+    "topic": "Semester Registration",
+    "level": "L2",
+    "variant": 2,
+    "query": "Registration ke waqt kam az kam kitne credit hours lene hote hain?",
+    "gold_answer": "10 credit hours",
+    "gold_document": "D16_semester_registration.txt"
+  },
+  {
+    "query_id": "MQ0234",
+    "doc_id": "D16",
+    "topic": "Semester Registration",
+    "level": "L2",
+    "variant": 3,
+    "query": "Semester ka minimum course load kitne credit hours ka hai?",
+    "gold_answer": "10 credit hours",
+    "gold_document": "D16_semester_registration.txt"
+  },
+  {
+    "query_id": "MQ0235",
+    "doc_id": "D16",
+    "topic": "Semester Registration",
+    "level": "L3",
+    "variant": 1,
+    "query": "Semester register karwane ke liye kam az kam kitne credit hours chahiye?",
+    "gold_answer": "10 credit hours",
+    "gold_document": "D16_semester_registration.txt"
+  },
+  {
+    "query_id": "MQ0236",
+    "doc_id": "D16",
+    "topic": "Semester Registration",
+    "level": "L3",
+    "variant": 2,
+    "query": "Registration ke liye minimum kitne credit hours rakhne hote hain?",
+    "gold_answer": "10 credit hours",
+    "gold_document": "D16_semester_registration.txt"
+  },
+  {
+    "query_id": "MQ0237",
+    "doc_id": "D16",
+    "topic": "Semester Registration",
+    "level": "L3",
+    "variant": 3,
+    "query": "Talib-e-ilm semester mein kam az kam kitne credit hours register kar sakta hai?",
+    "gold_answer": "10 credit hours",
+    "gold_document": "D16_semester_registration.txt"
+  },
+  {
+    "query_id": "MQ0238",
+    "doc_id": "D16",
+    "topic": "Semester Registration",
+    "level": "L4",
+    "variant": 1,
+    "query": "Semester ki registration karwane ke liye talib-e-ilm ko kam az kam kitne credit hours register karne lazmi hain? Bata dein.",
+    "gold_answer": "10 credit hours",
+    "gold_document": "D16_semester_registration.txt"
+  },
+  {
+    "query_id": "MQ0239",
+    "doc_id": "D16",
+    "topic": "Semester Registration",
+    "level": "L4",
+    "variant": 2,
+    "query": "Semester mein minimum kitne credit hours ka course load hona chahiye?",
+    "gold_answer": "10 credit hours",
+    "gold_document": "D16_semester_registration.txt"
+  },
+  {
+    "query_id": "MQ0240",
+    "doc_id": "D16",
+    "topic": "Semester Registration",
+    "level": "L4",
+    "variant": 3,
+    "query": "Registration ke liye total minimum kitne credit hours chahiye, yeh maloom karna hai.",
+    "gold_answer": "10 credit hours",
+    "gold_document": "D16_semester_registration.txt"
+  },
+  {
+    "query_id": "MQ0241",
+    "doc_id": "D17",
+    "topic": "Merit Scholarship",
+    "level": "L0",
+    "variant": 1,
+    "query": "What minimum CGPA is required for the merit scholarship?",
+    "gold_answer": "3.50",
+    "gold_document": "D17_merit_scholarship.txt"
+  },
+  {
+    "query_id": "MQ0242",
+    "doc_id": "D17",
+    "topic": "Merit Scholarship",
+    "level": "L0",
+    "variant": 2,
+    "query": "What is the CGPA requirement for the merit award?",
+    "gold_answer": "3.50",
+    "gold_document": "D17_merit_scholarship.txt"
+  },
+  {
+    "query_id": "MQ0243",
+    "doc_id": "D17",
+    "topic": "Merit Scholarship",
+    "level": "L0",
+    "variant": 3,
+    "query": "What CGPA must a student have to qualify for the scholarship?",
+    "gold_answer": "3.50",
+    "gold_document": "D17_merit_scholarship.txt"
+  },
+  {
+    "query_id": "MQ0244",
+    "doc_id": "D17",
+    "topic": "Merit Scholarship",
+    "level": "L1",
+    "variant": 1,
+    "query": "What minimum CGPA is required for the merit scholarship ki eligibility mein?",
+    "gold_answer": "3.50",
+    "gold_document": "D17_merit_scholarship.txt"
+  },
+  {
+    "query_id": "MQ0245",
+    "doc_id": "D17",
+    "topic": "Merit Scholarship",
+    "level": "L1",
+    "variant": 2,
+    "query": "What is the CGPA requirement for the merit award?",
+    "gold_answer": "3.50",
+    "gold_document": "D17_merit_scholarship.txt"
+  },
+  {
+    "query_id": "MQ0246",
+    "doc_id": "D17",
+    "topic": "Merit Scholarship",
+    "level": "L1",
+    "variant": 3,
+    "query": "What CGPA must a student have scholarship qualify karne ke liye?",
+    "gold_answer": "3.50",
+    "gold_document": "D17_merit_scholarship.txt"
+  },
+  {
+    "query_id": "MQ0247",
+    "doc_id": "D17",
+    "topic": "Merit Scholarship",
+    "level": "L2",
+    "variant": 1,
+    "query": "Merit scholarship ke liye minimum CGPA kitni chahiye?",
+    "gold_answer": "3.50",
+    "gold_document": "D17_merit_scholarship.txt"
+  },
+  {
+    "query_id": "MQ0248",
+    "doc_id": "D17",
+    "topic": "Merit Scholarship",
+    "level": "L2",
+    "variant": 2,
+    "query": "Scholarship hasil karne ke liye kam az kam CGPA kya honi zaroori hai?",
+    "gold_answer": "3.50",
+    "gold_document": "D17_merit_scholarship.txt"
+  },
+  {
+    "query_id": "MQ0249",
+    "doc_id": "D17",
+    "topic": "Merit Scholarship",
+    "level": "L2",
+    "variant": 3,
+    "query": "Merit scholarship ki eligibility ke liye minimum CGPA kitni hai?",
+    "gold_answer": "3.50",
+    "gold_document": "D17_merit_scholarship.txt"
+  },
+  {
+    "query_id": "MQ0250",
+    "doc_id": "D17",
+    "topic": "Merit Scholarship",
+    "level": "L3",
+    "variant": 1,
+    "query": "Merit scholarship lene ke liye kam az kam kitni CGPA chahiye?",
+    "gold_answer": "3.50",
+    "gold_document": "D17_merit_scholarship.txt"
+  },
+  {
+    "query_id": "MQ0251",
+    "doc_id": "D17",
+    "topic": "Merit Scholarship",
+    "level": "L3",
+    "variant": 2,
+    "query": "Scholarship ke liye kam az kam kitni CGPA zaroori hai?",
+    "gold_answer": "3.50",
+    "gold_document": "D17_merit_scholarship.txt"
+  },
+  {
+    "query_id": "MQ0252",
+    "doc_id": "D17",
+    "topic": "Merit Scholarship",
+    "level": "L3",
+    "variant": 3,
+    "query": "Merit scholarship ki shart puri karne ke liye kitni CGPA chahiye?",
+    "gold_answer": "3.50",
+    "gold_document": "D17_merit_scholarship.txt"
+  },
+  {
+    "query_id": "MQ0253",
+    "doc_id": "D17",
+    "topic": "Merit Scholarship",
+    "level": "L4",
+    "variant": 1,
+    "query": "Merit scholarship ke liye darkhwast dene ke liye talib-e-ilm ko kam az kam kitni CGPA chahiye? Bata dein.",
+    "gold_answer": "3.50",
+    "gold_document": "D17_merit_scholarship.txt"
+  },
+  {
+    "query_id": "MQ0254",
+    "doc_id": "D17",
+    "topic": "Merit Scholarship",
+    "level": "L4",
+    "variant": 2,
+    "query": "Merit scholarship hasil karne ke liye minimum CGPA ki shart kya hai?",
+    "gold_answer": "3.50",
+    "gold_document": "D17_merit_scholarship.txt"
+  },
+  {
+    "query_id": "MQ0255",
+    "doc_id": "D17",
+    "topic": "Merit Scholarship",
+    "level": "L4",
+    "variant": 3,
+    "query": "Scholarship ke liye kitni CGPA zaroori hai, yeh maloom karna hai.",
+    "gold_answer": "3.50",
+    "gold_document": "D17_merit_scholarship.txt"
+  },
+  {
+    "query_id": "MQ0256",
+    "doc_id": "D18",
+    "topic": "Student ID Card",
+    "level": "L0",
+    "variant": 1,
+    "query": "How many days does it take to issue a student ID card?",
+    "gold_answer": "15 days",
+    "gold_document": "D18_student_id_card.txt"
+  },
+  {
+    "query_id": "MQ0257",
+    "doc_id": "D18",
+    "topic": "Student ID Card",
+    "level": "L0",
+    "variant": 2,
+    "query": "What is the processing time for a campus access card?",
+    "gold_answer": "15 days",
+    "gold_document": "D18_student_id_card.txt"
+  },
+  {
+    "query_id": "MQ0258",
+    "doc_id": "D18",
+    "topic": "Student ID Card",
+    "level": "L0",
+    "variant": 3,
+    "query": "How long does a student wait to receive an ID card?",
+    "gold_answer": "15 days",
+    "gold_document": "D18_student_id_card.txt"
+  },
+  {
+    "query_id": "MQ0259",
+    "doc_id": "D18",
+    "topic": "Student ID Card",
+    "level": "L1",
+    "variant": 1,
+    "query": "How many days does it take to issue a student ID card ki process mein?",
+    "gold_answer": "15 days",
+    "gold_document": "D18_student_id_card.txt"
+  },
+  {
+    "query_id": "MQ0260",
+    "doc_id": "D18",
+    "topic": "Student ID Card",
+    "level": "L1",
+    "variant": 2,
+    "query": "What is the processing time for campus access card?",
+    "gold_answer": "15 days",
+    "gold_document": "D18_student_id_card.txt"
+  },
+  {
+    "query_id": "MQ0261",
+    "doc_id": "D18",
+    "topic": "Student ID Card",
+    "level": "L1",
+    "variant": 3,
+    "query": "How long does a student wait ID card receive karne ke liye?",
+    "gold_answer": "15 days",
+    "gold_document": "D18_student_id_card.txt"
+  },
+  {
+    "query_id": "MQ0262",
+    "doc_id": "D18",
+    "topic": "Student ID Card",
+    "level": "L2",
+    "variant": 1,
+    "query": "Student ID card milne mein kitne din lagte hain?",
+    "gold_answer": "15 days",
+    "gold_document": "D18_student_id_card.txt"
+  },
+  {
+    "query_id": "MQ0263",
+    "doc_id": "D18",
+    "topic": "Student ID Card",
+    "level": "L2",
+    "variant": 2,
+    "query": "Campus access card kitne din mein issue hota hai?",
+    "gold_answer": "15 days",
+    "gold_document": "D18_student_id_card.txt"
+  },
+  {
+    "query_id": "MQ0264",
+    "doc_id": "D18",
+    "topic": "Student ID Card",
+    "level": "L2",
+    "variant": 3,
+    "query": "ID card receive karne ka processing time kitna hai?",
+    "gold_answer": "15 days",
+    "gold_document": "D18_student_id_card.txt"
+  },
+  {
+    "query_id": "MQ0265",
+    "doc_id": "D18",
+    "topic": "Student ID Card",
+    "level": "L3",
+    "variant": 1,
+    "query": "Talib-e-ilm ko ID card milne mein kitne din lagte hain?",
+    "gold_answer": "15 days",
+    "gold_document": "D18_student_id_card.txt"
+  },
+  {
+    "query_id": "MQ0266",
+    "doc_id": "D18",
+    "topic": "Student ID Card",
+    "level": "L3",
+    "variant": 2,
+    "query": "Campus ka card kitne din mein tayar hota hai?",
+    "gold_answer": "15 days",
+    "gold_document": "D18_student_id_card.txt"
+  },
+  {
+    "query_id": "MQ0267",
+    "doc_id": "D18",
+    "topic": "Student ID Card",
+    "level": "L3",
+    "variant": 3,
+    "query": "ID card ban kar milne ki kitni muddat hoti hai?",
+    "gold_answer": "15 days",
+    "gold_document": "D18_student_id_card.txt"
+  },
+  {
+    "query_id": "MQ0268",
+    "doc_id": "D18",
+    "topic": "Student ID Card",
+    "level": "L4",
+    "variant": 1,
+    "query": "ID card ke liye darkhwast dene ke baad talib-e-ilm ko kitne din mein card milta hai? Bata dein.",
+    "gold_answer": "15 days",
+    "gold_document": "D18_student_id_card.txt"
+  },
+  {
+    "query_id": "MQ0269",
+    "doc_id": "D18",
+    "topic": "Student ID Card",
+    "level": "L4",
+    "variant": 2,
+    "query": "Campus ka card kitne din mein milta hai?",
+    "gold_answer": "15 days",
+    "gold_document": "D18_student_id_card.txt"
+  },
+  {
+    "query_id": "MQ0270",
+    "doc_id": "D18",
+    "topic": "Student ID Card",
+    "level": "L4",
+    "variant": 3,
+    "query": "ID card banne mein kitne din lagte hain, yeh maloom karna hai.",
+    "gold_answer": "15 days",
+    "gold_document": "D18_student_id_card.txt"
+  },
+  {
+    "query_id": "MQ0271",
+    "doc_id": "D19",
+    "topic": "Official Transcript",
+    "level": "L0",
+    "variant": 1,
+    "query": "How many working days are required to process an official transcript?",
+    "gold_answer": "5 working days",
+    "gold_document": "D19_official_transcript.txt"
+  },
+  {
+    "query_id": "MQ0272",
+    "doc_id": "D19",
+    "topic": "Official Transcript",
+    "level": "L0",
+    "variant": 2,
+    "query": "What is the processing time for an official academic record?",
+    "gold_answer": "5 working days",
+    "gold_document": "D19_official_transcript.txt"
+  },
+  {
+    "query_id": "MQ0273",
+    "doc_id": "D19",
+    "topic": "Official Transcript",
+    "level": "L0",
+    "variant": 3,
+    "query": "How long does the university take to issue a transcript?",
+    "gold_answer": "5 working days",
+    "gold_document": "D19_official_transcript.txt"
+  },
+  {
+    "query_id": "MQ0274",
+    "doc_id": "D19",
+    "topic": "Official Transcript",
+    "level": "L1",
+    "variant": 1,
+    "query": "How many working days are required to process an official transcript ki request?",
+    "gold_answer": "5 working days",
+    "gold_document": "D19_official_transcript.txt"
+  },
+  {
+    "query_id": "MQ0275",
+    "doc_id": "D19",
+    "topic": "Official Transcript",
+    "level": "L1",
+    "variant": 2,
+    "query": "What is the processing time for official academic record?",
+    "gold_answer": "5 working days",
+    "gold_document": "D19_official_transcript.txt"
+  },
+  {
+    "query_id": "MQ0276",
+    "doc_id": "D19",
+    "topic": "Official Transcript",
+    "level": "L1",
+    "variant": 3,
+    "query": "How long does the university take transcript issue karne mein?",
+    "gold_answer": "5 working days",
+    "gold_document": "D19_official_transcript.txt"
+  },
+  {
+    "query_id": "MQ0277",
+    "doc_id": "D19",
+    "topic": "Official Transcript",
+    "level": "L2",
+    "variant": 1,
+    "query": "Official transcript milne mein kitne working days lagte hain?",
+    "gold_answer": "5 working days",
+    "gold_document": "D19_official_transcript.txt"
+  },
+  {
+    "query_id": "MQ0278",
+    "doc_id": "D19",
+    "topic": "Official Transcript",
+    "level": "L2",
+    "variant": 2,
+    "query": "Transcript issue hone ki processing time kitni hai?",
+    "gold_answer": "5 working days",
+    "gold_document": "D19_official_transcript.txt"
+  },
+  {
+    "query_id": "MQ0279",
+    "doc_id": "D19",
+    "topic": "Official Transcript",
+    "level": "L2",
+    "variant": 3,
+    "query": "University se official academic record kitne din mein milta hai?",
+    "gold_answer": "5 working days",
+    "gold_document": "D19_official_transcript.txt"
+  },
+  {
+    "query_id": "MQ0280",
+    "doc_id": "D19",
+    "topic": "Official Transcript",
+    "level": "L3",
+    "variant": 1,
+    "query": "Transcript hasil karne mein kitne din lagte hain?",
+    "gold_answer": "5 working days",
+    "gold_document": "D19_official_transcript.txt"
+  },
+  {
+    "query_id": "MQ0281",
+    "doc_id": "D19",
+    "topic": "Official Transcript",
+    "level": "L3",
+    "variant": 2,
+    "query": "Transcript ban kar milne ki kitni muddat hoti hai?",
+    "gold_answer": "5 working days",
+    "gold_document": "D19_official_transcript.txt"
+  },
+  {
+    "query_id": "MQ0282",
+    "doc_id": "D19",
+    "topic": "Official Transcript",
+    "level": "L3",
+    "variant": 3,
+    "query": "University transcript tayar karne mein kitne din leti hai?",
+    "gold_answer": "5 working days",
+    "gold_document": "D19_official_transcript.txt"
+  },
+  {
+    "query_id": "MQ0283",
+    "doc_id": "D19",
+    "topic": "Official Transcript",
+    "level": "L4",
+    "variant": 1,
+    "query": "Transcript ke liye darkhwast dene ke baad kitne din lagte hain? Bata dein.",
+    "gold_answer": "5 working days",
+    "gold_document": "D19_official_transcript.txt"
+  },
+  {
+    "query_id": "MQ0284",
+    "doc_id": "D19",
+    "topic": "Official Transcript",
+    "level": "L4",
+    "variant": 2,
+    "query": "Transcript hasil karne mein kitne din lagte hain?",
+    "gold_answer": "5 working days",
+    "gold_document": "D19_official_transcript.txt"
+  },
+  {
+    "query_id": "MQ0285",
+    "doc_id": "D19",
+    "topic": "Official Transcript",
+    "level": "L4",
+    "variant": 3,
+    "query": "Transcript banne mein kitni muddat lagti hai, yeh maloom karna hai.",
+    "gold_answer": "5 working days",
+    "gold_document": "D19_official_transcript.txt"
+  },
+  {
+    "query_id": "MQ0286",
+    "doc_id": "D20",
+    "topic": "Course Withdrawal",
+    "level": "L0",
+    "variant": 1,
+    "query": "How many days are allowed to withdraw from a course without academic penalty?",
+    "gold_answer": "30 days",
+    "gold_document": "D20_course_withdrawal.txt"
+  },
+  {
+    "query_id": "MQ0287",
+    "doc_id": "D20",
+    "topic": "Course Withdrawal",
+    "level": "L0",
+    "variant": 2,
+    "query": "What is the penalty-free withdrawal window?",
+    "gold_answer": "30 days",
+    "gold_document": "D20_course_withdrawal.txt"
+  },
+  {
+    "query_id": "MQ0288",
+    "doc_id": "D20",
+    "topic": "Course Withdrawal",
+    "level": "L0",
+    "variant": 3,
+    "query": "How long can a student drop a course without penalty?",
+    "gold_answer": "30 days",
+    "gold_document": "D20_course_withdrawal.txt"
+  },
+  {
+    "query_id": "MQ0289",
+    "doc_id": "D20",
+    "topic": "Course Withdrawal",
+    "level": "L1",
+    "variant": 1,
+    "query": "How many days are allowed to withdraw from a course without academic penalty ki condition mein?",
+    "gold_answer": "30 days",
+    "gold_document": "D20_course_withdrawal.txt"
+  },
+  {
+    "query_id": "MQ0290",
+    "doc_id": "D20",
+    "topic": "Course Withdrawal",
+    "level": "L1",
+    "variant": 2,
+    "query": "What is the penalty-free withdrawal window?",
+    "gold_answer": "30 days",
+    "gold_document": "D20_course_withdrawal.txt"
+  },
+  {
+    "query_id": "MQ0291",
+    "doc_id": "D20",
+    "topic": "Course Withdrawal",
+    "level": "L1",
+    "variant": 3,
+    "query": "How long can a student drop a course penalty ke baghair?",
+    "gold_answer": "30 days",
+    "gold_document": "D20_course_withdrawal.txt"
+  },
+  {
+    "query_id": "MQ0292",
+    "doc_id": "D20",
+    "topic": "Course Withdrawal",
+    "level": "L2",
+    "variant": 1,
+    "query": "Academic penalty ke baghair course withdraw karne ki kitni muddat hai?",
+    "gold_answer": "30 days",
+    "gold_document": "D20_course_withdrawal.txt"
+  },
+  {
+    "query_id": "MQ0293",
+    "doc_id": "D20",
+    "topic": "Course Withdrawal",
+    "level": "L2",
+    "variant": 2,
+    "query": "Course withdraw karne ke liye kitne din milte hain bina penalty ke?",
+    "gold_answer": "30 days",
+    "gold_document": "D20_course_withdrawal.txt"
+  },
+  {
+    "query_id": "MQ0294",
+    "doc_id": "D20",
+    "topic": "Course Withdrawal",
+    "level": "L2",
+    "variant": 3,
+    "query": "Student course se kitne din ke andar withdraw kar sakta hai?",
+    "gold_answer": "30 days",
+    "gold_document": "D20_course_withdrawal.txt"
+  },
+  {
+    "query_id": "MQ0295",
+    "doc_id": "D20",
+    "topic": "Course Withdrawal",
+    "level": "L3",
+    "variant": 1,
+    "query": "Bina kisi penalty ke course chorne ki kitne din ki mohlat hai?",
+    "gold_answer": "30 days",
+    "gold_document": "D20_course_withdrawal.txt"
+  },
+  {
+    "query_id": "MQ0296",
+    "doc_id": "D20",
+    "topic": "Course Withdrawal",
+    "level": "L3",
+    "variant": 2,
+    "query": "Talib-e-ilm course kitne din ke andar chhor sakta hai?",
+    "gold_answer": "30 days",
+    "gold_document": "D20_course_withdrawal.txt"
+  },
+  {
+    "query_id": "MQ0297",
+    "doc_id": "D20",
+    "topic": "Course Withdrawal",
+    "level": "L3",
+    "variant": 3,
+    "query": "Penalty se bachne ke liye course kab tak chhorna hota hai?",
+    "gold_answer": "30 days",
+    "gold_document": "D20_course_withdrawal.txt"
+  },
+  {
+    "query_id": "MQ0298",
+    "doc_id": "D20",
+    "topic": "Course Withdrawal",
+    "level": "L4",
+    "variant": 1,
+    "query": "Agar talib-e-ilm course chhorna chahe to bina penalty ke kitne din ke andar chhor sakta hai? Bata dein.",
+    "gold_answer": "30 days",
+    "gold_document": "D20_course_withdrawal.txt"
+  },
+  {
+    "query_id": "MQ0299",
+    "doc_id": "D20",
+    "topic": "Course Withdrawal",
+    "level": "L4",
+    "variant": 2,
+    "query": "Course chorne ke liye talib-e-ilm ko bina penalty ke maximum kitni muddat milti hai?",
+    "gold_answer": "30 days",
+    "gold_document": "D20_course_withdrawal.txt"
+  },
+  {
+    "query_id": "MQ0300",
+    "doc_id": "D20",
+    "topic": "Course Withdrawal",
+    "level": "L4",
+    "variant": 3,
+    "query": "Course kitne din ke andar chhoro to penalty nahi hoti, yeh maloom karna hai.",
+    "gold_answer": "30 days",
+    "gold_document": "D20_course_withdrawal.txt"
+  },
+  {
+    "query_id": "MQ0301",
+    "doc_id": "D21",
+    "topic": "Library Borrowing",
+    "level": "L0",
+    "variant": 1,
+    "query": "How many books can a student borrow from the library at one time?",
+    "gold_answer": "5 books",
+    "gold_document": "D21_library_borrowing.txt"
+  },
+  {
+    "query_id": "MQ0302",
+    "doc_id": "D21",
+    "topic": "Library Borrowing",
+    "level": "L0",
+    "variant": 2,
+    "query": "What is the maximum borrowing limit for library books?",
+    "gold_answer": "5 books",
+    "gold_document": "D21_library_borrowing.txt"
+  },
+  {
+    "query_id": "MQ0303",
+    "doc_id": "D21",
+    "topic": "Library Borrowing",
+    "level": "L0",
+    "variant": 3,
+    "query": "How many books may a student check out simultaneously?",
+    "gold_answer": "5 books",
+    "gold_document": "D21_library_borrowing.txt"
+  },
+  {
+    "query_id": "MQ0304",
+    "doc_id": "D21",
+    "topic": "Library Borrowing",
+    "level": "L1",
+    "variant": 1,
+    "query": "How many books can a student borrow from library ki facility se at one time?",
+    "gold_answer": "5 books",
+    "gold_document": "D21_library_borrowing.txt"
+  },
+  {
+    "query_id": "MQ0305",
+    "doc_id": "D21",
+    "topic": "Library Borrowing",
+    "level": "L1",
+    "variant": 2,
+    "query": "What is the maximum borrowing limit for library books?",
+    "gold_answer": "5 books",
+    "gold_document": "D21_library_borrowing.txt"
+  },
+  {
+    "query_id": "MQ0306",
+    "doc_id": "D21",
+    "topic": "Library Borrowing",
+    "level": "L1",
+    "variant": 3,
+    "query": "How many books may a student check out simultaneously?",
+    "gold_answer": "5 books",
+    "gold_document": "D21_library_borrowing.txt"
+  },
+  {
+    "query_id": "MQ0307",
+    "doc_id": "D21",
+    "topic": "Library Borrowing",
+    "level": "L2",
+    "variant": 1,
+    "query": "Library se ek waqt mein kitni books borrow kar sakte hain?",
+    "gold_answer": "5 books",
+    "gold_document": "D21_library_borrowing.txt"
+  },
+  {
+    "query_id": "MQ0308",
+    "doc_id": "D21",
+    "topic": "Library Borrowing",
+    "level": "L2",
+    "variant": 2,
+    "query": "Book loan ki maximum limit kitni hai?",
+    "gold_answer": "5 books",
+    "gold_document": "D21_library_borrowing.txt"
+  },
+  {
+    "query_id": "MQ0309",
+    "doc_id": "D21",
+    "topic": "Library Borrowing",
+    "level": "L2",
+    "variant": 3,
+    "query": "Student ek saath kitni books check out kar sakta hai?",
+    "gold_answer": "5 books",
+    "gold_document": "D21_library_borrowing.txt"
+  },
+  {
+    "query_id": "MQ0310",
+    "doc_id": "D21",
+    "topic": "Library Borrowing",
+    "level": "L3",
+    "variant": 1,
+    "query": "Talib-e-ilm kitab khane se ek waqt mein kitni kitaben le sakta hai?",
+    "gold_answer": "5 books",
+    "gold_document": "D21_library_borrowing.txt"
+  },
+  {
+    "query_id": "MQ0311",
+    "doc_id": "D21",
+    "topic": "Library Borrowing",
+    "level": "L3",
+    "variant": 2,
+    "query": "Kitab khane se kitni kitaben ghar le jane ki ijazat hai?",
+    "gold_answer": "5 books",
+    "gold_document": "D21_library_borrowing.txt"
+  },
+  {
+    "query_id": "MQ0312",
+    "doc_id": "D21",
+    "topic": "Library Borrowing",
+    "level": "L3",
+    "variant": 3,
+    "query": "Ek waqt mein kitni kitaben issue hoti hain?",
+    "gold_answer": "5 books",
+    "gold_document": "D21_library_borrowing.txt"
+  },
+  {
+    "query_id": "MQ0313",
+    "doc_id": "D21",
+    "topic": "Library Borrowing",
+    "level": "L4",
+    "variant": 1,
+    "query": "Talib-e-ilm kitab khane se ek waqt mein kitni kitaben ghar le ja sakta hai? Bata dein.",
+    "gold_answer": "5 books",
+    "gold_document": "D21_library_borrowing.txt"
+  },
+  {
+    "query_id": "MQ0314",
+    "doc_id": "D21",
+    "topic": "Library Borrowing",
+    "level": "L4",
+    "variant": 2,
+    "query": "Kitab khane se maximum kitni kitaben mil sakti hain?",
+    "gold_answer": "5 books",
+    "gold_document": "D21_library_borrowing.txt"
+  },
+  {
+    "query_id": "MQ0315",
+    "doc_id": "D21",
+    "topic": "Library Borrowing",
+    "level": "L4",
+    "variant": 3,
+    "query": "Ek waqt mein kitni kitaben le jane ki ijazat hai, yeh maloom karna hai.",
+    "gold_answer": "5 books",
+    "gold_document": "D21_library_borrowing.txt"
+  },
+  {
+    "query_id": "MQ0316",
+    "doc_id": "D22",
+    "topic": "Laboratory Safety",
+    "level": "L0",
+    "variant": 1,
+    "query": "What safety equipment must be worn inside the laboratory?",
+    "gold_answer": "safety goggles",
+    "gold_document": "D22_laboratory_safety.txt"
+  },
+  {
+    "query_id": "MQ0317",
+    "doc_id": "D22",
+    "topic": "Laboratory Safety",
+    "level": "L0",
+    "variant": 2,
+    "query": "What is the mandatory protective gear for lab work?",
+    "gold_answer": "safety goggles",
+    "gold_document": "D22_laboratory_safety.txt"
+  },
+  {
+    "query_id": "MQ0318",
+    "doc_id": "D22",
+    "topic": "Laboratory Safety",
+    "level": "L0",
+    "variant": 3,
+    "query": "What must students wear in the laboratory at all times?",
+    "gold_answer": "safety goggles",
+    "gold_document": "D22_laboratory_safety.txt"
+  },
+  {
+    "query_id": "MQ0319",
+    "doc_id": "D22",
+    "topic": "Laboratory Safety",
+    "level": "L1",
+    "variant": 1,
+    "query": "What safety equipment must be worn inside laboratory ki premises mein?",
+    "gold_answer": "safety goggles",
+    "gold_document": "D22_laboratory_safety.txt"
+  },
+  {
+    "query_id": "MQ0320",
+    "doc_id": "D22",
+    "topic": "Laboratory Safety",
+    "level": "L1",
+    "variant": 2,
+    "query": "What is the mandatory protective gear for lab work?",
+    "gold_answer": "safety goggles",
+    "gold_document": "D22_laboratory_safety.txt"
+  },
+  {
+    "query_id": "MQ0321",
+    "doc_id": "D22",
+    "topic": "Laboratory Safety",
+    "level": "L1",
+    "variant": 3,
+    "query": "What must students wear laboratory mein at all times?",
+    "gold_answer": "safety goggles",
+    "gold_document": "D22_laboratory_safety.txt"
+  },
+  {
+    "query_id": "MQ0322",
+    "doc_id": "D22",
+    "topic": "Laboratory Safety",
+    "level": "L2",
+    "variant": 1,
+    "query": "Laboratory mein konsa safety equipment pehnna zaroori hai?",
+    "gold_answer": "safety goggles",
+    "gold_document": "D22_laboratory_safety.txt"
+  },
+  {
+    "query_id": "MQ0323",
+    "doc_id": "D22",
+    "topic": "Laboratory Safety",
+    "level": "L2",
+    "variant": 2,
+    "query": "Lab work ke liye mandatory protective gear kya hai?",
+    "gold_answer": "safety goggles",
+    "gold_document": "D22_laboratory_safety.txt"
+  },
+  {
+    "query_id": "MQ0324",
+    "doc_id": "D22",
+    "topic": "Laboratory Safety",
+    "level": "L2",
+    "variant": 3,
+    "query": "Students ko lab mein hamesha kya pehnna hota hai?",
+    "gold_answer": "safety goggles",
+    "gold_document": "D22_laboratory_safety.txt"
+  },
+  {
+    "query_id": "MQ0325",
+    "doc_id": "D22",
+    "topic": "Laboratory Safety",
+    "level": "L3",
+    "variant": 1,
+    "query": "Lab mein kaam karne ke liye konsa safety gear pehnna zaroori hai?",
+    "gold_answer": "safety goggles",
+    "gold_document": "D22_laboratory_safety.txt"
+  },
+  {
+    "query_id": "MQ0326",
+    "doc_id": "D22",
+    "topic": "Laboratory Safety",
+    "level": "L3",
+    "variant": 2,
+    "query": "Talib-e-ilm ko lab mein konsa protective equipment pehnna hota hai?",
+    "gold_answer": "safety goggles",
+    "gold_document": "D22_laboratory_safety.txt"
+  },
+  {
+    "query_id": "MQ0327",
+    "doc_id": "D22",
+    "topic": "Laboratory Safety",
+    "level": "L3",
+    "variant": 3,
+    "query": "Lab safety ke liye kya pehnna lazmi hai?",
+    "gold_answer": "safety goggles",
+    "gold_document": "D22_laboratory_safety.txt"
+  },
+  {
+    "query_id": "MQ0328",
+    "doc_id": "D22",
+    "topic": "Laboratory Safety",
+    "level": "L4",
+    "variant": 1,
+    "query": "Lab mein kaam karte waqt talib-e-ilm ko konsa safety equipment pehnna lazmi hai? Bata dein.",
+    "gold_answer": "safety goggles",
+    "gold_document": "D22_laboratory_safety.txt"
+  },
+  {
+    "query_id": "MQ0329",
+    "doc_id": "D22",
+    "topic": "Laboratory Safety",
+    "level": "L4",
+    "variant": 2,
+    "query": "Lab ke andar protective gear ke baghair kaam karna allowed hai ya nahi?",
+    "gold_answer": "safety goggles",
+    "gold_document": "D22_laboratory_safety.txt"
+  },
+  {
+    "query_id": "MQ0330",
+    "doc_id": "D22",
+    "topic": "Laboratory Safety",
+    "level": "L4",
+    "variant": 3,
+    "query": "Lab mein kis cheez ke baghair entry nahi hoti, yeh maloom karna hai.",
+    "gold_answer": "safety goggles",
+    "gold_document": "D22_laboratory_safety.txt"
+  },
+  {
+    "query_id": "MQ0331",
+    "doc_id": "D23",
+    "topic": "Plagiarism Policy",
+    "level": "L0",
+    "variant": 1,
+    "query": "What penalty is given for confirmed plagiarism?",
+    "gold_answer": "zero marks",
+    "gold_document": "D23_plagiarism_policy.txt"
+  },
+  {
+    "query_id": "MQ0332",
+    "doc_id": "D23",
+    "topic": "Plagiarism Policy",
+    "level": "L0",
+    "variant": 2,
+    "query": "What happens if a student is found guilty of plagiarism?",
+    "gold_answer": "zero marks",
+    "gold_document": "D23_plagiarism_policy.txt"
+  },
+  {
+    "query_id": "MQ0333",
+    "doc_id": "D23",
+    "topic": "Plagiarism Policy",
+    "level": "L0",
+    "variant": 3,
+    "query": "What is the consequence of an integrity violation?",
+    "gold_answer": "zero marks",
+    "gold_document": "D23_plagiarism_policy.txt"
+  },
+  {
+    "query_id": "MQ0334",
+    "doc_id": "D23",
+    "topic": "Plagiarism Policy",
+    "level": "L1",
+    "variant": 1,
+    "query": "What penalty is given for confirmed plagiarism ki case mein?",
+    "gold_answer": "zero marks",
+    "gold_document": "D23_plagiarism_policy.txt"
+  },
+  {
+    "query_id": "MQ0335",
+    "doc_id": "D23",
+    "topic": "Plagiarism Policy",
+    "level": "L1",
+    "variant": 2,
+    "query": "What happens if a student is found guilty of plagiarism?",
+    "gold_answer": "zero marks",
+    "gold_document": "D23_plagiarism_policy.txt"
+  },
+  {
+    "query_id": "MQ0336",
+    "doc_id": "D23",
+    "topic": "Plagiarism Policy",
+    "level": "L1",
+    "variant": 3,
+    "query": "What is the consequence of an integrity violation?",
+    "gold_answer": "zero marks",
+    "gold_document": "D23_plagiarism_policy.txt"
+  },
+  {
+    "query_id": "MQ0337",
+    "doc_id": "D23",
+    "topic": "Plagiarism Policy",
+    "level": "L2",
+    "variant": 1,
+    "query": "Plagiarism confirm hone par kya penalty milti hai?",
+    "gold_answer": "zero marks",
+    "gold_document": "D23_plagiarism_policy.txt"
+  },
+  {
+    "query_id": "MQ0338",
+    "doc_id": "D23",
+    "topic": "Plagiarism Policy",
+    "level": "L2",
+    "variant": 2,
+    "query": "Student plagiarism ka guilty paya jaye to kya hota hai?",
+    "gold_answer": "zero marks",
+    "gold_document": "D23_plagiarism_policy.txt"
+  },
+  {
+    "query_id": "MQ0339",
+    "doc_id": "D23",
+    "topic": "Plagiarism Policy",
+    "level": "L2",
+    "variant": 3,
+    "query": "Integrity violation ka kya result hota hai?",
+    "gold_answer": "zero marks",
+    "gold_document": "D23_plagiarism_policy.txt"
+  },
+  {
+    "query_id": "MQ0340",
+    "doc_id": "D23",
+    "topic": "Plagiarism Policy",
+    "level": "L3",
+    "variant": 1,
+    "query": "Plagiarism pakre jane par talib-e-ilm ko kya saza milti hai?",
+    "gold_answer": "zero marks",
+    "gold_document": "D23_plagiarism_policy.txt"
+  },
+  {
+    "query_id": "MQ0341",
+    "doc_id": "D23",
+    "topic": "Plagiarism Policy",
+    "level": "L3",
+    "variant": 2,
+    "query": "Plagiarism confirm hone par kya hota hai?",
+    "gold_answer": "zero marks",
+    "gold_document": "D23_plagiarism_policy.txt"
+  },
+  {
+    "query_id": "MQ0342",
+    "doc_id": "D23",
+    "topic": "Plagiarism Policy",
+    "level": "L3",
+    "variant": 3,
+    "query": "Academic dishonesty par kya penalty hoti hai?",
+    "gold_answer": "zero marks",
+    "gold_document": "D23_plagiarism_policy.txt"
+  },
+  {
+    "query_id": "MQ0343",
+    "doc_id": "D23",
+    "topic": "Plagiarism Policy",
+    "level": "L4",
+    "variant": 1,
+    "query": "Agar talib-e-ilm plagiarism mein pakra jaye to usay kya saza milti hai? Bata dein.",
+    "gold_answer": "zero marks",
+    "gold_document": "D23_plagiarism_policy.txt"
+  },
+  {
+    "query_id": "MQ0344",
+    "doc_id": "D23",
+    "topic": "Plagiarism Policy",
+    "level": "L4",
+    "variant": 2,
+    "query": "Plagiarism confirm hone par talib-e-ilm ke sath kya hota hai?",
+    "gold_answer": "zero marks",
+    "gold_document": "D23_plagiarism_policy.txt"
+  },
+  {
+    "query_id": "MQ0345",
+    "doc_id": "D23",
+    "topic": "Plagiarism Policy",
+    "level": "L4",
+    "variant": 3,
+    "query": "Plagiarism ki surat mein kya hota hai, yeh maloom karna hai.",
+    "gold_answer": "zero marks",
+    "gold_document": "D23_plagiarism_policy.txt"
+  },
+  {
+    "query_id": "MQ0346",
+    "doc_id": "D24",
+    "topic": "Annual Sports Day",
+    "level": "L0",
+    "variant": 1,
+    "query": "On what date is the annual sports day held?",
+    "gold_answer": "15 March",
+    "gold_document": "D24_annual_sports_day.txt"
+  },
+  {
+    "query_id": "MQ0347",
+    "doc_id": "D24",
+    "topic": "Annual Sports Day",
+    "level": "L0",
+    "variant": 2,
+    "query": "When does the university hold its annual sports gala?",
+    "gold_answer": "15 March",
+    "gold_document": "D24_annual_sports_day.txt"
+  },
+  {
+    "query_id": "MQ0348",
+    "doc_id": "D24",
+    "topic": "Annual Sports Day",
+    "level": "L0",
+    "variant": 3,
+    "query": "What is the date of the annual athletic event?",
+    "gold_answer": "15 March",
+    "gold_document": "D24_annual_sports_day.txt"
+  },
+  {
+    "query_id": "MQ0349",
+    "doc_id": "D24",
+    "topic": "Annual Sports Day",
+    "level": "L1",
+    "variant": 1,
+    "query": "On what date is the annual sports day held ki event mein?",
+    "gold_answer": "15 March",
+    "gold_document": "D24_annual_sports_day.txt"
+  },
+  {
+    "query_id": "MQ0350",
+    "doc_id": "D24",
+    "topic": "Annual Sports Day",
+    "level": "L1",
+    "variant": 2,
+    "query": "When does the university hold its annual sports gala?",
+    "gold_answer": "15 March",
+    "gold_document": "D24_annual_sports_day.txt"
+  },
+  {
+    "query_id": "MQ0351",
+    "doc_id": "D24",
+    "topic": "Annual Sports Day",
+    "level": "L1",
+    "variant": 3,
+    "query": "What is the date of the annual athletic event?",
+    "gold_answer": "15 March",
+    "gold_document": "D24_annual_sports_day.txt"
+  },
+  {
+    "query_id": "MQ0352",
+    "doc_id": "D24",
+    "topic": "Annual Sports Day",
+    "level": "L2",
+    "variant": 1,
+    "query": "Annual sports day kis date ko hota hai?",
+    "gold_answer": "15 March",
+    "gold_document": "D24_annual_sports_day.txt"
+  },
+  {
+    "query_id": "MQ0353",
+    "doc_id": "D24",
+    "topic": "Annual Sports Day",
+    "level": "L2",
+    "variant": 2,
+    "query": "University ka annual sports gala kab hota hai?",
+    "gold_answer": "15 March",
+    "gold_document": "D24_annual_sports_day.txt"
+  },
+  {
+    "query_id": "MQ0354",
+    "doc_id": "D24",
+    "topic": "Annual Sports Day",
+    "level": "L2",
+    "variant": 3,
+    "query": "Athletic event ki date kya hai?",
+    "gold_answer": "15 March",
+    "gold_document": "D24_annual_sports_day.txt"
+  },
+  {
+    "query_id": "MQ0355",
+    "doc_id": "D24",
+    "topic": "Annual Sports Day",
+    "level": "L3",
+    "variant": 1,
+    "query": "Sports gala kis din manaya jata hai?",
+    "gold_answer": "15 March",
+    "gold_document": "D24_annual_sports_day.txt"
+  },
+  {
+    "query_id": "MQ0356",
+    "doc_id": "D24",
+    "topic": "Annual Sports Day",
+    "level": "L3",
+    "variant": 2,
+    "query": "Annual sports day kab hota hai?",
+    "gold_answer": "15 March",
+    "gold_document": "D24_annual_sports_day.txt"
+  },
+  {
+    "query_id": "MQ0357",
+    "doc_id": "D24",
+    "topic": "Annual Sports Day",
+    "level": "L3",
+    "variant": 3,
+    "query": "Sports event ki tareekh kya hai?",
+    "gold_answer": "15 March",
+    "gold_document": "D24_annual_sports_day.txt"
+  },
+  {
+    "query_id": "MQ0358",
+    "doc_id": "D24",
+    "topic": "Annual Sports Day",
+    "level": "L4",
+    "variant": 1,
+    "query": "Sports gala kis din manaya jata hai? Bata dein.",
+    "gold_answer": "15 March",
+    "gold_document": "D24_annual_sports_day.txt"
+  },
+  {
+    "query_id": "MQ0359",
+    "doc_id": "D24",
+    "topic": "Annual Sports Day",
+    "level": "L4",
+    "variant": 2,
+    "query": "Sports day kis tareekh ko hota hai?",
+    "gold_answer": "15 March",
+    "gold_document": "D24_annual_sports_day.txt"
+  },
+  {
+    "query_id": "MQ0360",
+    "doc_id": "D24",
+    "topic": "Annual Sports Day",
+    "level": "L4",
+    "variant": 3,
+    "query": "Athletic event kis din hoga, yeh maloom karna hai.",
+    "gold_answer": "15 March",
+    "gold_document": "D24_annual_sports_day.txt"
+  },
+  {
+    "query_id": "MQ0361",
+    "doc_id": "D25",
+    "topic": "Counselling Services",
+    "level": "L0",
+    "variant": 1,
+    "query": "How many counselling sessions is a student entitled to per semester?",
+    "gold_answer": "8 sessions",
+    "gold_document": "D25_counselling_services.txt"
+  },
+  {
+    "query_id": "MQ0362",
+    "doc_id": "D25",
+    "topic": "Counselling Services",
+    "level": "L0",
+    "variant": 2,
+    "query": "What is the number of free therapy sessions available to students?",
+    "gold_answer": "8 sessions",
+    "gold_document": "D25_counselling_services.txt"
+  },
+  {
+    "query_id": "MQ0363",
+    "doc_id": "D25",
+    "topic": "Counselling Services",
+    "level": "L0",
+    "variant": 3,
+    "query": "How many mental health support sessions are covered?",
+    "gold_answer": "8 sessions",
+    "gold_document": "D25_counselling_services.txt"
+  },
+  {
+    "query_id": "MQ0364",
+    "doc_id": "D25",
+    "topic": "Counselling Services",
+    "level": "L1",
+    "variant": 1,
+    "query": "How many counselling sessions is a student entitled to per semester ki duration mein?",
+    "gold_answer": "8 sessions",
+    "gold_document": "D25_counselling_services.txt"
+  },
+  {
+    "query_id": "MQ0365",
+    "doc_id": "D25",
+    "topic": "Counselling Services",
+    "level": "L1",
+    "variant": 2,
+    "query": "What is the number of free therapy sessions available to students?",
+    "gold_answer": "8 sessions",
+    "gold_document": "D25_counselling_services.txt"
+  },
+  {
+    "query_id": "MQ0366",
+    "doc_id": "D25",
+    "topic": "Counselling Services",
+    "level": "L1",
+    "variant": 3,
+    "query": "How many mental health support sessions are covered?",
+    "gold_answer": "8 sessions",
+    "gold_document": "D25_counselling_services.txt"
+  },
+  {
+    "query_id": "MQ0367",
+    "doc_id": "D25",
+    "topic": "Counselling Services",
+    "level": "L2",
+    "variant": 1,
+    "query": "Student ko per semester kitni counselling sessions milti hain?",
+    "gold_answer": "8 sessions",
+    "gold_document": "D25_counselling_services.txt"
+  },
+  {
+    "query_id": "MQ0368",
+    "doc_id": "D25",
+    "topic": "Counselling Services",
+    "level": "L2",
+    "variant": 2,
+    "query": "Free therapy sessions kitni milti hain?",
+    "gold_answer": "8 sessions",
+    "gold_document": "D25_counselling_services.txt"
+  },
+  {
+    "query_id": "MQ0369",
+    "doc_id": "D25",
+    "topic": "Counselling Services",
+    "level": "L2",
+    "variant": 3,
+    "query": "Mental health support ke kitne sessions cover hote hain?",
+    "gold_answer": "8 sessions",
+    "gold_document": "D25_counselling_services.txt"
+  },
+  {
+    "query_id": "MQ0370",
+    "doc_id": "D25",
+    "topic": "Counselling Services",
+    "level": "L3",
+    "variant": 1,
+    "query": "Talib-e-ilm ko ek semester mein kitni counselling sessions milti hain?",
+    "gold_answer": "8 sessions",
+    "gold_document": "D25_counselling_services.txt"
+  },
+  {
+    "query_id": "MQ0371",
+    "doc_id": "D25",
+    "topic": "Counselling Services",
+    "level": "L3",
+    "variant": 2,
+    "query": "Free therapy sessions kitni milti hain?",
+    "gold_answer": "8 sessions",
+    "gold_document": "D25_counselling_services.txt"
+  },
+  {
+    "query_id": "MQ0372",
+    "doc_id": "D25",
+    "topic": "Counselling Services",
+    "level": "L3",
+    "variant": 3,
+    "query": "Zehni sehat ke liye kitne sessions milte hain?",
+    "gold_answer": "8 sessions",
+    "gold_document": "D25_counselling_services.txt"
+  },
+  {
+    "query_id": "MQ0373",
+    "doc_id": "D25",
+    "topic": "Counselling Services",
+    "level": "L4",
+    "variant": 1,
+    "query": "Talib-e-ilm ko ek semester mein kitni counselling sessions free milti hain? Bata dein.",
+    "gold_answer": "8 sessions",
+    "gold_document": "D25_counselling_services.txt"
+  },
+  {
+    "query_id": "MQ0374",
+    "doc_id": "D25",
+    "topic": "Counselling Services",
+    "level": "L4",
+    "variant": 2,
+    "query": "Zehni sehat ke liye kitne sessions milte hain?",
+    "gold_answer": "8 sessions",
+    "gold_document": "D25_counselling_services.txt"
+  },
+  {
+    "query_id": "MQ0375",
+    "doc_id": "D25",
+    "topic": "Counselling Services",
+    "level": "L4",
+    "variant": 3,
+    "query": "Counselling sessions ka kitna quota hai, yeh maloom karna hai.",
+    "gold_answer": "8 sessions",
+    "gold_document": "D25_counselling_services.txt"
+  },
+  {
+    "query_id": "MQ0376",
+    "doc_id": "D26",
+    "topic": "Course Evaluation",
+    "level": "L0",
+    "variant": 1,
+    "query": "Is the course evaluation survey anonymous or identified?",
+    "gold_answer": "anonymous",
+    "gold_document": "D26_course_evaluation.txt"
+  },
+  {
+    "query_id": "MQ0377",
+    "doc_id": "D26",
+    "topic": "Course Evaluation",
+    "level": "L0",
+    "variant": 2,
+    "query": "What is the confidentiality level of the course evaluation?",
+    "gold_answer": "anonymous",
+    "gold_document": "D26_course_evaluation.txt"
+  },
+  {
+    "query_id": "MQ0378",
+    "doc_id": "D26",
+    "topic": "Course Evaluation",
+    "level": "L0",
+    "variant": 3,
+    "query": "Can instructors identify students in the course evaluation?",
+    "gold_answer": "anonymous",
+    "gold_document": "D26_course_evaluation.txt"
+  },
+  {
+    "query_id": "MQ0379",
+    "doc_id": "D26",
+    "topic": "Course Evaluation",
+    "level": "L1",
+    "variant": 1,
+    "query": "Is the course evaluation survey anonymous or identified ki nature mein?",
+    "gold_answer": "anonymous",
+    "gold_document": "D26_course_evaluation.txt"
+  },
+  {
+    "query_id": "MQ0380",
+    "doc_id": "D26",
+    "topic": "Course Evaluation",
+    "level": "L1",
+    "variant": 2,
+    "query": "What is the confidentiality level of the course evaluation?",
+    "gold_answer": "anonymous",
+    "gold_document": "D26_course_evaluation.txt"
+  },
+  {
+    "query_id": "MQ0381",
+    "doc_id": "D26",
+    "topic": "Course Evaluation",
+    "level": "L1",
+    "variant": 3,
+    "query": "Can instructors identify students in the course evaluation?",
+    "gold_answer": "anonymous",
+    "gold_document": "D26_course_evaluation.txt"
+  },
+  {
+    "query_id": "MQ0382",
+    "doc_id": "D26",
+    "topic": "Course Evaluation",
+    "level": "L2",
+    "variant": 1,
+    "query": "Course evaluation survey anonymous hoti hai ya nahi?",
+    "gold_answer": "anonymous",
+    "gold_document": "D26_course_evaluation.txt"
+  },
+  {
+    "query_id": "MQ0383",
+    "doc_id": "D26",
+    "topic": "Course Evaluation",
+    "level": "L2",
+    "variant": 2,
+    "query": "Course feedback ki confidentiality kya hai?",
+    "gold_answer": "anonymous",
+    "gold_document": "D26_course_evaluation.txt"
+  },
+  {
+    "query_id": "MQ0384",
+    "doc_id": "D26",
+    "topic": "Course Evaluation",
+    "level": "L2",
+    "variant": 3,
+    "query": "Instructors students ko identify kar sakte hain evaluation mein?",
+    "gold_answer": "anonymous",
+    "gold_document": "D26_course_evaluation.txt"
+  },
+  {
+    "query_id": "MQ0385",
+    "doc_id": "D26",
+    "topic": "Course Evaluation",
+    "level": "L3",
+    "variant": 1,
+    "query": "Course evaluation mein talib-e-ilm ka naam pata chalta hai?",
+    "gold_answer": "anonymous",
+    "gold_document": "D26_course_evaluation.txt"
+  },
+  {
+    "query_id": "MQ0386",
+    "doc_id": "D26",
+    "topic": "Course Evaluation",
+    "level": "L3",
+    "variant": 2,
+    "query": "Feedback ki nature kya hai?",
+    "gold_answer": "anonymous",
+    "gold_document": "D26_course_evaluation.txt"
+  },
+  {
+    "query_id": "MQ0387",
+    "doc_id": "D26",
+    "topic": "Course Evaluation",
+    "level": "L3",
+    "variant": 3,
+    "query": "Course review confidential hoti hai ya nahi?",
+    "gold_answer": "anonymous",
+    "gold_document": "D26_course_evaluation.txt"
+  },
+  {
+    "query_id": "MQ0388",
+    "doc_id": "D26",
+    "topic": "Course Evaluation",
+    "level": "L4",
+    "variant": 1,
+    "query": "Course evaluation mein talib-e-ilm ki pehchaan pata chalti hai ya nahi? Bata dein.",
+    "gold_answer": "anonymous",
+    "gold_document": "D26_course_evaluation.txt"
+  },
+  {
+    "query_id": "MQ0389",
+    "doc_id": "D26",
+    "topic": "Course Evaluation",
+    "level": "L4",
+    "variant": 2,
+    "query": "Feedback dene wale ka naam milta hai ya nahi?",
+    "gold_answer": "anonymous",
+    "gold_document": "D26_course_evaluation.txt"
+  },
+  {
+    "query_id": "MQ0390",
+    "doc_id": "D26",
+    "topic": "Course Evaluation",
+    "level": "L4",
+    "variant": 3,
+    "query": "Course evaluation ki confidentiality kya hai, yeh maloom karna hai.",
+    "gold_answer": "anonymous",
+    "gold_document": "D26_course_evaluation.txt"
+  },
+  {
+    "query_id": "MQ0391",
+    "doc_id": "D27",
+    "topic": "Research Thesis",
+    "level": "L0",
+    "variant": 1,
+    "query": "How many credit hours are assigned to the research thesis?",
+    "gold_answer": "6 credit hours",
+    "gold_document": "D27_research_thesis.txt"
+  },
+  {
+    "query_id": "MQ0392",
+    "doc_id": "D27",
+    "topic": "Research Thesis",
+    "level": "L0",
+    "variant": 2,
+    "query": "What is the credit weight of the final year project?",
+    "gold_answer": "6 credit hours",
+    "gold_document": "D27_research_thesis.txt"
+  },
+  {
+    "query_id": "MQ0393",
+    "doc_id": "D27",
+    "topic": "Research Thesis",
+    "level": "L0",
+    "variant": 3,
+    "query": "How many credit hours does the research component carry?",
+    "gold_answer": "6 credit hours",
+    "gold_document": "D27_research_thesis.txt"
+  },
+  {
+    "query_id": "MQ0394",
+    "doc_id": "D27",
+    "topic": "Research Thesis",
+    "level": "L1",
+    "variant": 1,
+    "query": "How many credit hours are assigned to research thesis ki component mein?",
+    "gold_answer": "6 credit hours",
+    "gold_document": "D27_research_thesis.txt"
+  },
+  {
+    "query_id": "MQ0395",
+    "doc_id": "D27",
+    "topic": "Research Thesis",
+    "level": "L1",
+    "variant": 2,
+    "query": "What is the credit weight of the final year project?",
+    "gold_answer": "6 credit hours",
+    "gold_document": "D27_research_thesis.txt"
+  },
+  {
+    "query_id": "MQ0396",
+    "doc_id": "D27",
+    "topic": "Research Thesis",
+    "level": "L1",
+    "variant": 3,
+    "query": "How many credit hours does the research component carry?",
+    "gold_answer": "6 credit hours",
+    "gold_document": "D27_research_thesis.txt"
+  },
+  {
+    "query_id": "MQ0397",
+    "doc_id": "D27",
+    "topic": "Research Thesis",
+    "level": "L2",
+    "variant": 1,
+    "query": "Research thesis ke kitne credit hours hote hain?",
+    "gold_answer": "6 credit hours",
+    "gold_document": "D27_research_thesis.txt"
+  },
+  {
+    "query_id": "MQ0398",
+    "doc_id": "D27",
+    "topic": "Research Thesis",
+    "level": "L2",
+    "variant": 2,
+    "query": "Final year project ka credit weight kitna hai?",
+    "gold_answer": "6 credit hours",
+    "gold_document": "D27_research_thesis.txt"
+  },
+  {
+    "query_id": "MQ0399",
+    "doc_id": "D27",
+    "topic": "Research Thesis",
+    "level": "L2",
+    "variant": 3,
+    "query": "Research component kitne credit hours ka hota hai?",
+    "gold_answer": "6 credit hours",
+    "gold_document": "D27_research_thesis.txt"
+  },
+  {
+    "query_id": "MQ0400",
+    "doc_id": "D27",
+    "topic": "Research Thesis",
+    "level": "L3",
+    "variant": 1,
+    "query": "Thesis ke kitne credit hours assigned hote hain?",
+    "gold_answer": "6 credit hours",
+    "gold_document": "D27_research_thesis.txt"
+  },
+  {
+    "query_id": "MQ0401",
+    "doc_id": "D27",
+    "topic": "Research Thesis",
+    "level": "L3",
+    "variant": 2,
+    "query": "Aakhri saal ke project ke kul kitne credit hours hain?",
+    "gold_answer": "6 credit hours",
+    "gold_document": "D27_research_thesis.txt"
+  },
+  {
+    "query_id": "MQ0402",
+    "doc_id": "D27",
+    "topic": "Research Thesis",
+    "level": "L3",
+    "variant": 3,
+    "query": "Research component ki weightage kitni hai?",
+    "gold_answer": "6 credit hours",
+    "gold_document": "D27_research_thesis.txt"
+  },
+  {
+    "query_id": "MQ0403",
+    "doc_id": "D27",
+    "topic": "Research Thesis",
+    "level": "L4",
+    "variant": 1,
+    "query": "Research thesis ke kul kitne credit hours hote hain? Bata dein.",
+    "gold_answer": "6 credit hours",
+    "gold_document": "D27_research_thesis.txt"
+  },
+  {
+    "query_id": "MQ0404",
+    "doc_id": "D27",
+    "topic": "Research Thesis",
+    "level": "L4",
+    "variant": 2,
+    "query": "Aakhri saal ke project ke kitne credit hours hote hain?",
+    "gold_answer": "6 credit hours",
+    "gold_document": "D27_research_thesis.txt"
+  },
+  {
+    "query_id": "MQ0405",
+    "doc_id": "D27",
+    "topic": "Research Thesis",
+    "level": "L4",
+    "variant": 3,
+    "query": "Thesis ke kitne credit hours hain, yeh maloom karna hai.",
+    "gold_answer": "6 credit hours",
+    "gold_document": "D27_research_thesis.txt"
+  },
+  {
+    "query_id": "MQ0406",
+    "doc_id": "D28",
+    "topic": "Anti-Harassment Reporting",
+    "level": "L0",
+    "variant": 1,
+    "query": "How many days does a student have to file a harassment complaint?",
+    "gold_answer": "3 days",
+    "gold_document": "D28_anti-harassment_reporting.txt"
+  },
+  {
+    "query_id": "MQ0407",
+    "doc_id": "D28",
+    "topic": "Anti-Harassment Reporting",
+    "level": "L0",
+    "variant": 2,
+    "query": "What is the time limit for filing a harassment report?",
+    "gold_answer": "3 days",
+    "gold_document": "D28_anti-harassment_reporting.txt"
+  },
+  {
+    "query_id": "MQ0408",
+    "doc_id": "D28",
+    "topic": "Anti-Harassment Reporting",
+    "level": "L0",
+    "variant": 3,
+    "query": "Within how many days must a harassment complaint be submitted?",
+    "gold_answer": "3 days",
+    "gold_document": "D28_anti-harassment_reporting.txt"
+  },
+  {
+    "query_id": "MQ0409",
+    "doc_id": "D28",
+    "topic": "Anti-Harassment Reporting",
+    "level": "L1",
+    "variant": 1,
+    "query": "How many days does a student have to file a harassment complaint ki process mein?",
+    "gold_answer": "3 days",
+    "gold_document": "D28_anti-harassment_reporting.txt"
+  },
+  {
+    "query_id": "MQ0410",
+    "doc_id": "D28",
+    "topic": "Anti-Harassment Reporting",
+    "level": "L1",
+    "variant": 2,
+    "query": "What is the time limit for filing harassment report?",
+    "gold_answer": "3 days",
+    "gold_document": "D28_anti-harassment_reporting.txt"
+  },
+  {
+    "query_id": "MQ0411",
+    "doc_id": "D28",
+    "topic": "Anti-Harassment Reporting",
+    "level": "L1",
+    "variant": 3,
+    "query": "Within how many days must a harassment complaint be submitted?",
+    "gold_answer": "3 days",
+    "gold_document": "D28_anti-harassment_reporting.txt"
+  },
+  {
+    "query_id": "MQ0412",
+    "doc_id": "D28",
+    "topic": "Anti-Harassment Reporting",
+    "level": "L2",
+    "variant": 1,
+    "query": "Harassment complaint kitne din mein file karni hoti hai?",
+    "gold_answer": "3 days",
+    "gold_document": "D28_anti-harassment_reporting.txt"
+  },
+  {
+    "query_id": "MQ0413",
+    "doc_id": "D28",
+    "topic": "Anti-Harassment Reporting",
+    "level": "L2",
+    "variant": 2,
+    "query": "Complaint filing ki time limit kitni hai?",
+    "gold_answer": "3 days",
+    "gold_document": "D28_anti-harassment_reporting.txt"
+  },
+  {
+    "query_id": "MQ0414",
+    "doc_id": "D28",
+    "topic": "Anti-Harassment Reporting",
+    "level": "L2",
+    "variant": 3,
+    "query": "Harassment report submit karne ki deadline kya hai?",
+    "gold_answer": "3 days",
+    "gold_document": "D28_anti-harassment_reporting.txt"
+  },
+  {
+    "query_id": "MQ0415",
+    "doc_id": "D28",
+    "topic": "Anti-Harassment Reporting",
+    "level": "L3",
+    "variant": 1,
+    "query": "Harassment ki shikayat kitne din ke andar deni hoti hai?",
+    "gold_answer": "3 days",
+    "gold_document": "D28_anti-harassment_reporting.txt"
+  },
+  {
+    "query_id": "MQ0416",
+    "doc_id": "D28",
+    "topic": "Anti-Harassment Reporting",
+    "level": "L3",
+    "variant": 2,
+    "query": "Shikayat dene ki kitni muddat hoti hai?",
+    "gold_answer": "3 days",
+    "gold_document": "D28_anti-harassment_reporting.txt"
+  },
+  {
+    "query_id": "MQ0417",
+    "doc_id": "D28",
+    "topic": "Anti-Harassment Reporting",
+    "level": "L3",
+    "variant": 3,
+    "query": "Harassment report dene ka time kitna hota hai?",
+    "gold_answer": "3 days",
+    "gold_document": "D28_anti-harassment_reporting.txt"
+  },
+  {
+    "query_id": "MQ0418",
+    "doc_id": "D28",
+    "topic": "Anti-Harassment Reporting",
+    "level": "L4",
+    "variant": 1,
+    "query": "Harassment ki shikayat kitne din ke andar file karni hoti hai? Bata dein.",
+    "gold_answer": "3 days",
+    "gold_document": "D28_anti-harassment_reporting.txt"
+  },
+  {
+    "query_id": "MQ0419",
+    "doc_id": "D28",
+    "topic": "Anti-Harassment Reporting",
+    "level": "L4",
+    "variant": 2,
+    "query": "Shikayat dene ki aakhri tareekh kya hai?",
+    "gold_answer": "3 days",
+    "gold_document": "D28_anti-harassment_reporting.txt"
+  },
+  {
+    "query_id": "MQ0420",
+    "doc_id": "D28",
+    "topic": "Anti-Harassment Reporting",
+    "level": "L4",
+    "variant": 3,
+    "query": "Harassment report submit karne ki kitni mohlat hoti hai, yeh maloom karna hai.",
+    "gold_answer": "3 days",
+    "gold_document": "D28_anti-harassment_reporting.txt"
+  },
+  {
+    "query_id": "MQ0421",
+    "doc_id": "D29",
+    "topic": "Alumni Privileges",
+    "level": "L0",
+    "variant": 1,
+    "query": "What library access do graduates receive after completing their degree?",
+    "gold_answer": "lifetime access",
+    "gold_document": "D29_alumni_privileges.txt"
+  },
+  {
+    "query_id": "MQ0422",
+    "doc_id": "D29",
+    "topic": "Alumni Privileges",
+    "level": "L0",
+    "variant": 2,
+    "query": "What is the duration of alumni library access?",
+    "gold_answer": "lifetime access",
+    "gold_document": "D29_alumni_privileges.txt"
+  },
+  {
+    "query_id": "MQ0423",
+    "doc_id": "D29",
+    "topic": "Alumni Privileges",
+    "level": "L0",
+    "variant": 3,
+    "query": "Do alumni get lifetime access to university services?",
+    "gold_answer": "lifetime access",
+    "gold_document": "D29_alumni_privileges.txt"
+  },
+  {
+    "query_id": "MQ0424",
+    "doc_id": "D29",
+    "topic": "Alumni Privileges",
+    "level": "L1",
+    "variant": 1,
+    "query": "What library access do graduates receive after completing their degree ki completion par?",
+    "gold_answer": "lifetime access",
+    "gold_document": "D29_alumni_privileges.txt"
+  },
+  {
+    "query_id": "MQ0425",
+    "doc_id": "D29",
+    "topic": "Alumni Privileges",
+    "level": "L1",
+    "variant": 2,
+    "query": "What is the duration of alumni library access?",
+    "gold_answer": "lifetime access",
+    "gold_document": "D29_alumni_privileges.txt"
+  },
+  {
+    "query_id": "MQ0426",
+    "doc_id": "D29",
+    "topic": "Alumni Privileges",
+    "level": "L1",
+    "variant": 3,
+    "query": "Do alumni get lifetime access to university services?",
+    "gold_answer": "lifetime access",
+    "gold_document": "D29_alumni_privileges.txt"
+  },
+  {
+    "query_id": "MQ0427",
+    "doc_id": "D29",
+    "topic": "Alumni Privileges",
+    "level": "L2",
+    "variant": 1,
+    "query": "Graduation ke baad alumni ko library access kitna milta hai?",
+    "gold_answer": "lifetime access",
+    "gold_document": "D29_alumni_privileges.txt"
+  },
+  {
+    "query_id": "MQ0428",
+    "doc_id": "D29",
+    "topic": "Alumni Privileges",
+    "level": "L2",
+    "variant": 2,
+    "query": "Alumni benefits ki duration kya hai?",
+    "gold_answer": "lifetime access",
+    "gold_document": "D29_alumni_privileges.txt"
+  },
+  {
+    "query_id": "MQ0429",
+    "doc_id": "D29",
+    "topic": "Alumni Privileges",
+    "level": "L2",
+    "variant": 3,
+    "query": "Graduates ko lifetime access milta hai ya nahi?",
+    "gold_answer": "lifetime access",
+    "gold_document": "D29_alumni_privileges.txt"
+  },
+  {
+    "query_id": "MQ0430",
+    "doc_id": "D29",
+    "topic": "Alumni Privileges",
+    "level": "L3",
+    "variant": 1,
+    "query": "Degree ke baad graduates ko kitna library access milta hai?",
+    "gold_answer": "lifetime access",
+    "gold_document": "D29_alumni_privileges.txt"
+  },
+  {
+    "query_id": "MQ0431",
+    "doc_id": "D29",
+    "topic": "Alumni Privileges",
+    "level": "L3",
+    "variant": 2,
+    "query": "Alumni ko kitni muddat ka access milta hai?",
+    "gold_answer": "lifetime access",
+    "gold_document": "D29_alumni_privileges.txt"
+  },
+  {
+    "query_id": "MQ0432",
+    "doc_id": "D29",
+    "topic": "Alumni Privileges",
+    "level": "L3",
+    "variant": 3,
+    "query": "Graduates ko umar bhar ke liye access milta hai ya nahi?",
+    "gold_answer": "lifetime access",
+    "gold_document": "D29_alumni_privileges.txt"
+  },
+  {
+    "query_id": "MQ0433",
+    "doc_id": "D29",
+    "topic": "Alumni Privileges",
+    "level": "L4",
+    "variant": 1,
+    "query": "Degree mukammal hone ke baad graduates ko kitna library access milta hai? Bata dein.",
+    "gold_answer": "lifetime access",
+    "gold_document": "D29_alumni_privileges.txt"
+  },
+  {
+    "query_id": "MQ0434",
+    "doc_id": "D29",
+    "topic": "Alumni Privileges",
+    "level": "L4",
+    "variant": 2,
+    "query": "Alumni ko jamia ki khidmat ka access kitni muddat tak milta hai?",
+    "gold_answer": "lifetime access",
+    "gold_document": "D29_alumni_privileges.txt"
+  },
+  {
+    "query_id": "MQ0435",
+    "doc_id": "D29",
+    "topic": "Alumni Privileges",
+    "level": "L4",
+    "variant": 3,
+    "query": "Graduates ko umar bhar ka access milta hai ya nahi, yeh maloom karna hai.",
+    "gold_answer": "lifetime access",
+    "gold_document": "D29_alumni_privileges.txt"
+  },
+  {
+    "query_id": "MQ0436",
+    "doc_id": "D30",
+    "topic": "Transport Services",
+    "level": "L0",
+    "variant": 1,
+    "query": "What are the annual charges for the campus transport service?",
+    "gold_answer": "PKR 15,000",
+    "gold_document": "D30_transport_services.txt"
+  },
+  {
+    "query_id": "MQ0437",
+    "doc_id": "D30",
+    "topic": "Transport Services",
+    "level": "L0",
+    "variant": 2,
+    "query": "How much does the university shuttle service cost per year?",
+    "gold_answer": "PKR 15,000",
+    "gold_document": "D30_transport_services.txt"
+  },
+  {
+    "query_id": "MQ0438",
+    "doc_id": "D30",
+    "topic": "Transport Services",
+    "level": "L0",
+    "variant": 3,
+    "query": "What is the annual fee for the campus bus service?",
+    "gold_answer": "PKR 15,000",
+    "gold_document": "D30_transport_services.txt"
+  },
+  {
+    "query_id": "MQ0439",
+    "doc_id": "D30",
+    "topic": "Transport Services",
+    "level": "L1",
+    "variant": 1,
+    "query": "What are the annual charges for campus transport service ki facility mein?",
+    "gold_answer": "PKR 15,000",
+    "gold_document": "D30_transport_services.txt"
+  },
+  {
+    "query_id": "MQ0440",
+    "doc_id": "D30",
+    "topic": "Transport Services",
+    "level": "L1",
+    "variant": 2,
+    "query": "How much does the university shuttle service cost per year?",
+    "gold_answer": "PKR 15,000",
+    "gold_document": "D30_transport_services.txt"
+  },
+  {
+    "query_id": "MQ0441",
+    "doc_id": "D30",
+    "topic": "Transport Services",
+    "level": "L1",
+    "variant": 3,
+    "query": "What is the annual fee for campus bus service?",
+    "gold_answer": "PKR 15,000",
+    "gold_document": "D30_transport_services.txt"
+  },
+  {
+    "query_id": "MQ0442",
+    "doc_id": "D30",
+    "topic": "Transport Services",
+    "level": "L2",
+    "variant": 1,
+    "query": "Campus transport ki annual charges kitni hain?",
+    "gold_answer": "PKR 15,000",
+    "gold_document": "D30_transport_services.txt"
+  },
+  {
+    "query_id": "MQ0443",
+    "doc_id": "D30",
+    "topic": "Transport Services",
+    "level": "L2",
+    "variant": 2,
+    "query": "University shuttle service ka per year charge kitna hai?",
+    "gold_answer": "PKR 15,000",
+    "gold_document": "D30_transport_services.txt"
+  },
+  {
+    "query_id": "MQ0444",
+    "doc_id": "D30",
+    "topic": "Transport Services",
+    "level": "L2",
+    "variant": 3,
+    "query": "Campus bus service ki annual fee kya hai?",
+    "gold_answer": "PKR 15,000",
+    "gold_document": "D30_transport_services.txt"
+  },
+  {
+    "query_id": "MQ0445",
+    "doc_id": "D30",
+    "topic": "Transport Services",
+    "level": "L3",
+    "variant": 1,
+    "query": "Sawari ki saalana fees kitni hai?",
+    "gold_answer": "PKR 15,000",
+    "gold_document": "D30_transport_services.txt"
+  },
+  {
+    "query_id": "MQ0446",
+    "doc_id": "D30",
+    "topic": "Transport Services",
+    "level": "L3",
+    "variant": 2,
+    "query": "Sawari ke liye saal bhar ka kitna kharcha aata hai?",
+    "gold_answer": "PKR 15,000",
+    "gold_document": "D30_transport_services.txt"
+  },
+  {
+    "query_id": "MQ0447",
+    "doc_id": "D30",
+    "topic": "Transport Services",
+    "level": "L3",
+    "variant": 3,
+    "query": "Bus service ki saalana charges kitni hain?",
+    "gold_answer": "PKR 15,000",
+    "gold_document": "D30_transport_services.txt"
+  },
+  {
+    "query_id": "MQ0448",
+    "doc_id": "D30",
+    "topic": "Transport Services",
+    "level": "L4",
+    "variant": 1,
+    "query": "Sawari ki saalana fees kitni hai? Bata dein.",
+    "gold_answer": "PKR 15,000",
+    "gold_document": "D30_transport_services.txt"
+  },
+  {
+    "query_id": "MQ0449",
+    "doc_id": "D30",
+    "topic": "Transport Services",
+    "level": "L4",
+    "variant": 2,
+    "query": "Sawari ke liye saal bhar ka kitna kharcha hota hai?",
+    "gold_answer": "PKR 15,000",
+    "gold_document": "D30_transport_services.txt"
+  },
+  {
+    "query_id": "MQ0450",
+    "doc_id": "D30",
+    "topic": "Transport Services",
+    "level": "L4",
+    "variant": 3,
+    "query": "Bus ki saalana fees kitni hai, yeh maloom karna hai.",
+    "gold_answer": "PKR 15,000",
+    "gold_document": "D30_transport_services.txt"
+  }
+]

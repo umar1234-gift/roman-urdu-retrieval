@@ -1,0 +1,2035 @@
+{
+  "taxonomy": {
+    "BM25": {
+      "total_failures": 52,
+      "by_type": {
+        "tied_lexical": 31,
+        "semantic_drift": 18,
+        "lexical_collision": 3
+      },
+      "failures": [
+        {
+          "query_id": "MQ0010",
+          "doc_id": "D01",
+          "level": "L3",
+          "query": "Fall 2026 ki parhai shuru hone ki tareekh kya hai?",
+          "gold": "D01_academic_calendar.txt",
+          "top1": "D03_admission_application.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0011",
+          "doc_id": "D01",
+          "level": "L3",
+          "query": "Fall 2026 mein dars kab se shuru honge?",
+          "gold": "D01_academic_calendar.txt",
+          "top1": "D03_admission_application.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0013",
+          "doc_id": "D01",
+          "level": "L4",
+          "query": "Fall 2026 mein parhai kis din se shuru hon gi? Koi tareekh bata dein.",
+          "gold": "D01_academic_calendar.txt",
+          "top1": "D03_admission_application.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0014",
+          "doc_id": "D01",
+          "level": "L4",
+          "query": "Fall 2026 ki padhai kis tareekh se shuru hogi?",
+          "gold": "D01_academic_calendar.txt",
+          "top1": "D03_admission_application.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0015",
+          "doc_id": "D01",
+          "level": "L4",
+          "query": "Fall 2026 mein jamia kis din khulegi, yeh maloom karna hai.",
+          "gold": "D01_academic_calendar.txt",
+          "top1": "D03_admission_application.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0018",
+          "doc_id": "D02",
+          "level": "L0",
+          "query": "How long is the drop window after semester start?",
+          "gold": "D02_course_add_and_drop.txt",
+          "top1": "D20_course_withdrawal.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0021",
+          "doc_id": "D02",
+          "level": "L1",
+          "query": "How long is the drop window after semester ka start?",
+          "gold": "D02_course_add_and_drop.txt",
+          "top1": "D20_course_withdrawal.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0025",
+          "doc_id": "D02",
+          "level": "L3",
+          "query": "Course tabdeel karne ki mohlat kitne din ki hai?",
+          "gold": "D02_course_add_and_drop.txt",
+          "top1": "D15_course_prerequisites.txt",
+          "gold_rank": 4,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0026",
+          "doc_id": "D02",
+          "level": "L3",
+          "query": "Talib-e-ilm course kitne din mein badal sakte hain?",
+          "gold": "D02_course_add_and_drop.txt",
+          "top1": "D15_course_prerequisites.txt",
+          "gold_rank": 4,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0027",
+          "doc_id": "D02",
+          "level": "L3",
+          "query": "Naya course lene ya chorne ke liye kitna waqt milta hai?",
+          "gold": "D02_course_add_and_drop.txt",
+          "top1": "D15_course_prerequisites.txt",
+          "gold_rank": 4,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0028",
+          "doc_id": "D02",
+          "level": "L4",
+          "query": "Course tabdeel karne ki kitni mohlat hai? Bata dein.",
+          "gold": "D02_course_add_and_drop.txt",
+          "top1": "D15_course_prerequisites.txt",
+          "gold_rank": 4,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0029",
+          "doc_id": "D02",
+          "level": "L4",
+          "query": "Talib-e-ilm course kitne din mein badal sakte hain?",
+          "gold": "D02_course_add_and_drop.txt",
+          "top1": "D15_course_prerequisites.txt",
+          "gold_rank": 4,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0030",
+          "doc_id": "D02",
+          "level": "L4",
+          "query": "Course chorne ya naya lene ke liye kitna waqt milta hai, yeh maloom karna hai.",
+          "gold": "D02_course_add_and_drop.txt",
+          "top1": "D15_course_prerequisites.txt",
+          "gold_rank": 4,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0041",
+          "doc_id": "D03",
+          "level": "L3",
+          "query": "Dakhla ki darkhwast jama karwane ki aakhri tareekh kya hai?",
+          "gold": "D03_admission_application.txt",
+          "top1": "D01_academic_calendar.txt",
+          "gold_rank": 3,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0044",
+          "doc_id": "D03",
+          "level": "L4",
+          "query": "Dakhla ki darkhwast jama karwane ka bilkul aakhri waqt kya hai?",
+          "gold": "D03_admission_application.txt",
+          "top1": "D01_academic_calendar.txt",
+          "gold_rank": 3,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0070",
+          "doc_id": "D05",
+          "level": "L3",
+          "query": "Talib-e-ilm ki kam az kam hazri kitni honi zaroori hai?",
+          "gold": "D05_class_attendance.txt",
+          "top1": "D01_academic_calendar.txt",
+          "gold_rank": 5,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0071",
+          "doc_id": "D05",
+          "level": "L3",
+          "query": "Har course mein minimum kitni hazri puri karni hoti hai?",
+          "gold": "D05_class_attendance.txt",
+          "top1": "D16_semester_registration.txt",
+          "gold_rank": 3,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0072",
+          "doc_id": "D05",
+          "level": "L3",
+          "query": "Hazri kitni se kam nahi honi chahiye?",
+          "gold": "D05_class_attendance.txt",
+          "top1": "D01_academic_calendar.txt",
+          "gold_rank": 5,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0073",
+          "doc_id": "D05",
+          "level": "L4",
+          "query": "Talib-e-ilm ko har course mein kam az kam kitni hazri deni zaroori hai? Bata dein.",
+          "gold": "D05_class_attendance.txt",
+          "top1": "D15_course_prerequisites.txt",
+          "gold_rank": 7,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0074",
+          "doc_id": "D05",
+          "level": "L4",
+          "query": "Agar talib-e-ilm imtihan dena chahta hai to minimum hazri kitni honi chahiye?",
+          "gold": "D05_class_attendance.txt",
+          "top1": "D16_semester_registration.txt",
+          "gold_rank": 3,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0075",
+          "doc_id": "D05",
+          "level": "L4",
+          "query": "Hazri ki hadd kitni hai, yeh maloom karna hai.",
+          "gold": "D05_class_attendance.txt",
+          "top1": "D01_academic_calendar.txt",
+          "gold_rank": 5,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0077",
+          "doc_id": "D06",
+          "level": "L0",
+          "query": "What is the total graduation credit requirement?",
+          "gold": "D06_degree_completion_requirements.txt",
+          "top1": "D27_research_thesis.txt",
+          "gold_rank": 2,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0080",
+          "doc_id": "D06",
+          "level": "L1",
+          "query": "What is the total graduation credit requirement?",
+          "gold": "D06_degree_completion_requirements.txt",
+          "top1": "D27_research_thesis.txt",
+          "gold_rank": 2,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0083",
+          "doc_id": "D06",
+          "level": "L2",
+          "query": "Graduation credits kitne hain?",
+          "gold": "D06_degree_completion_requirements.txt",
+          "top1": "D11_graduation_eligibility.txt",
+          "gold_rank": 4,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0089",
+          "doc_id": "D06",
+          "level": "L4",
+          "query": "Sanad hasil karne ke liye kitne credit hours darkar hain, yeh maloom karna hai.",
+          "gold": "D06_degree_completion_requirements.txt",
+          "top1": "D16_semester_registration.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0142",
+          "doc_id": "D10",
+          "level": "L2",
+          "query": "A grade ke liye kitni percentage chahiye?",
+          "gold": "D10_grading_system.txt",
+          "top1": "D05_class_attendance.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0146",
+          "doc_id": "D10",
+          "level": "L3",
+          "query": "A grade lene ke liye kam az kam kitni percentage honi chahiye?",
+          "gold": "D10_grading_system.txt",
+          "top1": "D05_class_attendance.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0149",
+          "doc_id": "D10",
+          "level": "L4",
+          "query": "A grade ke liye kam az kam kitni percentage chahiye?",
+          "gold": "D10_grading_system.txt",
+          "top1": "D05_class_attendance.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0180",
+          "doc_id": "D12",
+          "level": "L4",
+          "query": "Raat ko kitne baje tak wapas pohanchna lazmi hai, yeh maloom karna hai.",
+          "gold": "D12_hostel_regulations.txt",
+          "top1": "D01_academic_calendar.txt",
+          "gold_rank": 12,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0205",
+          "doc_id": "D14",
+          "level": "L3",
+          "query": "Ek semester mein bimari ki chhutti kitne din tak mil sakti hai?",
+          "gold": "D14_medical_leave.txt",
+          "top1": "D09_semester_fee_structure.txt",
+          "gold_rank": 3,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0206",
+          "doc_id": "D14",
+          "level": "L3",
+          "query": "Talib-e-ilm ko semester mein kitne din ki bimari ki chhutti milti hai?",
+          "gold": "D14_medical_leave.txt",
+          "top1": "D09_semester_fee_structure.txt",
+          "gold_rank": 3,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0207",
+          "doc_id": "D14",
+          "level": "L3",
+          "query": "Bimari ki chhutti ke liye kitne din ki ijazat hoti hai?",
+          "gold": "D14_medical_leave.txt",
+          "top1": "D01_academic_calendar.txt",
+          "gold_rank": 14,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0208",
+          "doc_id": "D14",
+          "level": "L4",
+          "query": "Agar talib-e-ilm bemar ho to ek semester mein maximum kitne din ki chhutti le sakta hai? Bata dein.",
+          "gold": "D14_medical_leave.txt",
+          "top1": "D16_semester_registration.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0209",
+          "doc_id": "D14",
+          "level": "L4",
+          "query": "Bimari ki wajah se semester mein kitne din tak chhutti mil sakti hai?",
+          "gold": "D14_medical_leave.txt",
+          "top1": "D09_semester_fee_structure.txt",
+          "gold_rank": 3,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0210",
+          "doc_id": "D14",
+          "level": "L4",
+          "query": "Bimari ki chhutti ki maximum hadd kitni hai, yeh maloom karna hai.",
+          "gold": "D14_medical_leave.txt",
+          "top1": "D16_semester_registration.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0258",
+          "doc_id": "D18",
+          "level": "L0",
+          "query": "How long does a student wait to receive an ID card?",
+          "gold": "D18_student_id_card.txt",
+          "top1": "D29_alumni_privileges.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0296",
+          "doc_id": "D20",
+          "level": "L3",
+          "query": "Talib-e-ilm course kitne din ke andar chhor sakta hai?",
+          "gold": "D20_course_withdrawal.txt",
+          "top1": "D15_course_prerequisites.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0310",
+          "doc_id": "D21",
+          "level": "L3",
+          "query": "Talib-e-ilm kitab khane se ek waqt mein kitni kitaben le sakta hai?",
+          "gold": "D21_library_borrowing.txt",
+          "top1": "D01_academic_calendar.txt",
+          "gold_rank": 21,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0311",
+          "doc_id": "D21",
+          "level": "L3",
+          "query": "Kitab khane se kitni kitaben ghar le jane ki ijazat hai?",
+          "gold": "D21_library_borrowing.txt",
+          "top1": "D01_academic_calendar.txt",
+          "gold_rank": 21,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0312",
+          "doc_id": "D21",
+          "level": "L3",
+          "query": "Ek waqt mein kitni kitaben issue hoti hain?",
+          "gold": "D21_library_borrowing.txt",
+          "top1": "D01_academic_calendar.txt",
+          "gold_rank": 21,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0313",
+          "doc_id": "D21",
+          "level": "L4",
+          "query": "Talib-e-ilm kitab khane se ek waqt mein kitni kitaben ghar le ja sakta hai? Bata dein.",
+          "gold": "D21_library_borrowing.txt",
+          "top1": "D01_academic_calendar.txt",
+          "gold_rank": 21,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0314",
+          "doc_id": "D21",
+          "level": "L4",
+          "query": "Kitab khane se maximum kitni kitaben mil sakti hain?",
+          "gold": "D21_library_borrowing.txt",
+          "top1": "D16_semester_registration.txt",
+          "gold_rank": 21,
+          "failure_type": "lexical_collision"
+        },
+        {
+          "query_id": "MQ0315",
+          "doc_id": "D21",
+          "level": "L4",
+          "query": "Ek waqt mein kitni kitaben le jane ki ijazat hai, yeh maloom karna hai.",
+          "gold": "D21_library_borrowing.txt",
+          "top1": "D01_academic_calendar.txt",
+          "gold_rank": 21,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0342",
+          "doc_id": "D23",
+          "level": "L3",
+          "query": "Academic dishonesty par kya penalty hoti hai?",
+          "gold": "D23_plagiarism_policy.txt",
+          "top1": "D20_course_withdrawal.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0401",
+          "doc_id": "D27",
+          "level": "L3",
+          "query": "Aakhri saal ke project ke kul kitne credit hours hain?",
+          "gold": "D27_research_thesis.txt",
+          "top1": "D06_degree_completion_requirements.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0404",
+          "doc_id": "D27",
+          "level": "L4",
+          "query": "Aakhri saal ke project ke kitne credit hours hote hain?",
+          "gold": "D27_research_thesis.txt",
+          "top1": "D06_degree_completion_requirements.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0416",
+          "doc_id": "D28",
+          "level": "L3",
+          "query": "Shikayat dene ki kitni muddat hoti hai?",
+          "gold": "D28_anti-harassment_reporting.txt",
+          "top1": "D01_academic_calendar.txt",
+          "gold_rank": 28,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0419",
+          "doc_id": "D28",
+          "level": "L4",
+          "query": "Shikayat dene ki aakhri tareekh kya hai?",
+          "gold": "D28_anti-harassment_reporting.txt",
+          "top1": "D01_academic_calendar.txt",
+          "gold_rank": 28,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0445",
+          "doc_id": "D30",
+          "level": "L3",
+          "query": "Sawari ki saalana fees kitni hai?",
+          "gold": "D30_transport_services.txt",
+          "top1": "D09_semester_fee_structure.txt",
+          "gold_rank": 30,
+          "failure_type": "lexical_collision"
+        },
+        {
+          "query_id": "MQ0446",
+          "doc_id": "D30",
+          "level": "L3",
+          "query": "Sawari ke liye saal bhar ka kitna kharcha aata hai?",
+          "gold": "D30_transport_services.txt",
+          "top1": "D01_academic_calendar.txt",
+          "gold_rank": 30,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0448",
+          "doc_id": "D30",
+          "level": "L4",
+          "query": "Sawari ki saalana fees kitni hai? Bata dein.",
+          "gold": "D30_transport_services.txt",
+          "top1": "D09_semester_fee_structure.txt",
+          "gold_rank": 30,
+          "failure_type": "lexical_collision"
+        },
+        {
+          "query_id": "MQ0449",
+          "doc_id": "D30",
+          "level": "L4",
+          "query": "Sawari ke liye saal bhar ka kitna kharcha hota hai?",
+          "gold": "D30_transport_services.txt",
+          "top1": "D01_academic_calendar.txt",
+          "gold_rank": 30,
+          "failure_type": "semantic_drift"
+        }
+      ]
+    },
+    "E5": {
+      "total_failures": 51,
+      "by_type": {
+        "semantic_drift": 28,
+        "tied_lexical": 21,
+        "lexical_collision": 2
+      },
+      "failures": [
+        {
+          "query_id": "MQ0009",
+          "doc_id": "D01",
+          "level": "L2",
+          "query": "Fall 2026 ka semester kis date se shuru hoga?",
+          "gold": "D01_academic_calendar.txt",
+          "top1": "D03_admission_application.txt",
+          "gold_rank": 2,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0010",
+          "doc_id": "D01",
+          "level": "L3",
+          "query": "Fall 2026 ki parhai shuru hone ki tareekh kya hai?",
+          "gold": "D01_academic_calendar.txt",
+          "top1": "D03_admission_application.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0011",
+          "doc_id": "D01",
+          "level": "L3",
+          "query": "Fall 2026 mein dars kab se shuru honge?",
+          "gold": "D01_academic_calendar.txt",
+          "top1": "D03_admission_application.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0012",
+          "doc_id": "D01",
+          "level": "L3",
+          "query": "Fall 2026 ka semester kis din se shuru hoga?",
+          "gold": "D01_academic_calendar.txt",
+          "top1": "D03_admission_application.txt",
+          "gold_rank": 2,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0013",
+          "doc_id": "D01",
+          "level": "L4",
+          "query": "Fall 2026 mein parhai kis din se shuru hon gi? Koi tareekh bata dein.",
+          "gold": "D01_academic_calendar.txt",
+          "top1": "D03_admission_application.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0014",
+          "doc_id": "D01",
+          "level": "L4",
+          "query": "Fall 2026 ki padhai kis tareekh se shuru hogi?",
+          "gold": "D01_academic_calendar.txt",
+          "top1": "D03_admission_application.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0015",
+          "doc_id": "D01",
+          "level": "L4",
+          "query": "Fall 2026 mein jamia kis din khulegi, yeh maloom karna hai.",
+          "gold": "D01_academic_calendar.txt",
+          "top1": "D03_admission_application.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0018",
+          "doc_id": "D02",
+          "level": "L0",
+          "query": "How long is the drop window after semester start?",
+          "gold": "D02_course_add_and_drop.txt",
+          "top1": "D20_course_withdrawal.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0021",
+          "doc_id": "D02",
+          "level": "L1",
+          "query": "How long is the drop window after semester ka start?",
+          "gold": "D02_course_add_and_drop.txt",
+          "top1": "D20_course_withdrawal.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0026",
+          "doc_id": "D02",
+          "level": "L3",
+          "query": "Talib-e-ilm course kitne din mein badal sakte hain?",
+          "gold": "D02_course_add_and_drop.txt",
+          "top1": "D21_library_borrowing.txt",
+          "gold_rank": 13,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0027",
+          "doc_id": "D02",
+          "level": "L3",
+          "query": "Naya course lene ya chorne ke liye kitna waqt milta hai?",
+          "gold": "D02_course_add_and_drop.txt",
+          "top1": "D20_course_withdrawal.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0029",
+          "doc_id": "D02",
+          "level": "L4",
+          "query": "Talib-e-ilm course kitne din mein badal sakte hain?",
+          "gold": "D02_course_add_and_drop.txt",
+          "top1": "D21_library_borrowing.txt",
+          "gold_rank": 13,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0041",
+          "doc_id": "D03",
+          "level": "L3",
+          "query": "Dakhla ki darkhwast jama karwane ki aakhri tareekh kya hai?",
+          "gold": "D03_admission_application.txt",
+          "top1": "D19_official_transcript.txt",
+          "gold_rank": 24,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0044",
+          "doc_id": "D03",
+          "level": "L4",
+          "query": "Dakhla ki darkhwast jama karwane ka bilkul aakhri waqt kya hai?",
+          "gold": "D03_admission_application.txt",
+          "top1": "D21_library_borrowing.txt",
+          "gold_rank": 26,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0060",
+          "doc_id": "D04",
+          "level": "L4",
+          "query": "Der se assignment jama karwane ke liye kitni mohlat milti hai, yeh maloom karna hai.",
+          "gold": "D04_assignment_submission.txt",
+          "top1": "D17_merit_scholarship.txt",
+          "gold_rank": 2,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0070",
+          "doc_id": "D05",
+          "level": "L3",
+          "query": "Talib-e-ilm ki kam az kam hazri kitni honi zaroori hai?",
+          "gold": "D05_class_attendance.txt",
+          "top1": "D22_laboratory_safety.txt",
+          "gold_rank": 8,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0071",
+          "doc_id": "D05",
+          "level": "L3",
+          "query": "Har course mein minimum kitni hazri puri karni hoti hai?",
+          "gold": "D05_class_attendance.txt",
+          "top1": "D16_semester_registration.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0072",
+          "doc_id": "D05",
+          "level": "L3",
+          "query": "Hazri kitni se kam nahi honi chahiye?",
+          "gold": "D05_class_attendance.txt",
+          "top1": "D12_hostel_regulations.txt",
+          "gold_rank": 4,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0073",
+          "doc_id": "D05",
+          "level": "L4",
+          "query": "Talib-e-ilm ko har course mein kam az kam kitni hazri deni zaroori hai? Bata dein.",
+          "gold": "D05_class_attendance.txt",
+          "top1": "D21_library_borrowing.txt",
+          "gold_rank": 3,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0074",
+          "doc_id": "D05",
+          "level": "L4",
+          "query": "Agar talib-e-ilm imtihan dena chahta hai to minimum hazri kitni honi chahiye?",
+          "gold": "D05_class_attendance.txt",
+          "top1": "D08_final_examination.txt",
+          "gold_rank": 3,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0075",
+          "doc_id": "D05",
+          "level": "L4",
+          "query": "Hazri ki hadd kitni hai, yeh maloom karna hai.",
+          "gold": "D05_class_attendance.txt",
+          "top1": "D22_laboratory_safety.txt",
+          "gold_rank": 8,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0089",
+          "doc_id": "D06",
+          "level": "L4",
+          "query": "Sanad hasil karne ke liye kitne credit hours darkar hain, yeh maloom karna hai.",
+          "gold": "D06_degree_completion_requirements.txt",
+          "top1": "D16_semester_registration.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0115",
+          "doc_id": "D08",
+          "level": "L3",
+          "query": "Aakhri imtihan pass karne ke liye kam az kam kitne number zaroori hain?",
+          "gold": "D08_final_examination.txt",
+          "top1": "D10_grading_system.txt",
+          "gold_rank": 7,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0118",
+          "doc_id": "D08",
+          "level": "L4",
+          "query": "Aakhri imtihan pass karne ke liye talib-e-ilm ko kam az kam kitne number lena zaroori hain? Bata dein.",
+          "gold": "D08_final_examination.txt",
+          "top1": "D19_official_transcript.txt",
+          "gold_rank": 9,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0119",
+          "doc_id": "D08",
+          "level": "L4",
+          "query": "Aakhri imtihan mein pass hone ke liye minimum kitne number hasil karna lazmi hai?",
+          "gold": "D08_final_examination.txt",
+          "top1": "D05_class_attendance.txt",
+          "gold_rank": 2,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0150",
+          "doc_id": "D10",
+          "level": "L4",
+          "query": "A grade ki shart kya hai, yeh maloom karna hai.",
+          "gold": "D10_grading_system.txt",
+          "top1": "D17_merit_scholarship.txt",
+          "gold_rank": 2,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0160",
+          "doc_id": "D11",
+          "level": "L3",
+          "query": "Sanad hasil karne ke liye kam az kam kitni CGPA zaroori hai?",
+          "gold": "D11_graduation_eligibility.txt",
+          "top1": "D17_merit_scholarship.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0162",
+          "doc_id": "D11",
+          "level": "L3",
+          "query": "Talib-e-ilm ko degree lene ke liye kitni CGPA hasil karni hoti hai?",
+          "gold": "D11_graduation_eligibility.txt",
+          "top1": "D17_merit_scholarship.txt",
+          "gold_rank": 2,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0163",
+          "doc_id": "D11",
+          "level": "L4",
+          "query": "Sanad hasil karne ke liye talib-e-ilm ki kam az kam kitni CGPA honi lazmi hai? Bata dein.",
+          "gold": "D11_graduation_eligibility.txt",
+          "top1": "D17_merit_scholarship.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0180",
+          "doc_id": "D12",
+          "level": "L4",
+          "query": "Raat ko kitne baje tak wapas pohanchna lazmi hai, yeh maloom karna hai.",
+          "gold": "D12_hostel_regulations.txt",
+          "top1": "D22_laboratory_safety.txt",
+          "gold_rank": 4,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0205",
+          "doc_id": "D14",
+          "level": "L3",
+          "query": "Ek semester mein bimari ki chhutti kitne din tak mil sakti hai?",
+          "gold": "D14_medical_leave.txt",
+          "top1": "D16_semester_registration.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0206",
+          "doc_id": "D14",
+          "level": "L3",
+          "query": "Talib-e-ilm ko semester mein kitne din ki bimari ki chhutti milti hai?",
+          "gold": "D14_medical_leave.txt",
+          "top1": "D16_semester_registration.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0207",
+          "doc_id": "D14",
+          "level": "L3",
+          "query": "Bimari ki chhutti ke liye kitne din ki ijazat hoti hai?",
+          "gold": "D14_medical_leave.txt",
+          "top1": "D18_student_id_card.txt",
+          "gold_rank": 17,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0208",
+          "doc_id": "D14",
+          "level": "L4",
+          "query": "Agar talib-e-ilm bemar ho to ek semester mein maximum kitne din ki chhutti le sakta hai? Bata dein.",
+          "gold": "D14_medical_leave.txt",
+          "top1": "D16_semester_registration.txt",
+          "gold_rank": 3,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0209",
+          "doc_id": "D14",
+          "level": "L4",
+          "query": "Bimari ki wajah se semester mein kitne din tak chhutti mil sakti hai?",
+          "gold": "D14_medical_leave.txt",
+          "top1": "D16_semester_registration.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0210",
+          "doc_id": "D14",
+          "level": "L4",
+          "query": "Bimari ki chhutti ki maximum hadd kitni hai, yeh maloom karna hai.",
+          "gold": "D14_medical_leave.txt",
+          "top1": "D08_final_examination.txt",
+          "gold_rank": 3,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0295",
+          "doc_id": "D20",
+          "level": "L3",
+          "query": "Bina kisi penalty ke course chorne ki kitne din ki mohlat hai?",
+          "gold": "D20_course_withdrawal.txt",
+          "top1": "D04_assignment_submission.txt",
+          "gold_rank": 4,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0296",
+          "doc_id": "D20",
+          "level": "L3",
+          "query": "Talib-e-ilm course kitne din ke andar chhor sakta hai?",
+          "gold": "D20_course_withdrawal.txt",
+          "top1": "D19_official_transcript.txt",
+          "gold_rank": 8,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0297",
+          "doc_id": "D20",
+          "level": "L3",
+          "query": "Penalty se bachne ke liye course kab tak chhorna hota hai?",
+          "gold": "D20_course_withdrawal.txt",
+          "top1": "D04_assignment_submission.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0298",
+          "doc_id": "D20",
+          "level": "L4",
+          "query": "Agar talib-e-ilm course chhorna chahe to bina penalty ke kitne din ke andar chhor sakta hai? Bata dein.",
+          "gold": "D20_course_withdrawal.txt",
+          "top1": "D04_assignment_submission.txt",
+          "gold_rank": 7,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0299",
+          "doc_id": "D20",
+          "level": "L4",
+          "query": "Course chorne ke liye talib-e-ilm ko bina penalty ke maximum kitni muddat milti hai?",
+          "gold": "D20_course_withdrawal.txt",
+          "top1": "D07_disciplinary_proceedings.txt",
+          "gold_rank": 3,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0300",
+          "doc_id": "D20",
+          "level": "L4",
+          "query": "Course kitne din ke andar chhoro to penalty nahi hoti, yeh maloom karna hai.",
+          "gold": "D20_course_withdrawal.txt",
+          "top1": "D04_assignment_submission.txt",
+          "gold_rank": 4,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0389",
+          "doc_id": "D26",
+          "level": "L4",
+          "query": "Feedback dene wale ka naam milta hai ya nahi?",
+          "gold": "D26_course_evaluation.txt",
+          "top1": "D17_merit_scholarship.txt",
+          "gold_rank": 2,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0401",
+          "doc_id": "D27",
+          "level": "L3",
+          "query": "Aakhri saal ke project ke kul kitne credit hours hain?",
+          "gold": "D27_research_thesis.txt",
+          "top1": "D16_semester_registration.txt",
+          "gold_rank": 5,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0404",
+          "doc_id": "D27",
+          "level": "L4",
+          "query": "Aakhri saal ke project ke kitne credit hours hote hain?",
+          "gold": "D27_research_thesis.txt",
+          "top1": "D16_semester_registration.txt",
+          "gold_rank": 5,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0416",
+          "doc_id": "D28",
+          "level": "L3",
+          "query": "Shikayat dene ki kitni muddat hoti hai?",
+          "gold": "D28_anti-harassment_reporting.txt",
+          "top1": "D16_semester_registration.txt",
+          "gold_rank": 21,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0419",
+          "doc_id": "D28",
+          "level": "L4",
+          "query": "Shikayat dene ki aakhri tareekh kya hai?",
+          "gold": "D28_anti-harassment_reporting.txt",
+          "top1": "D19_official_transcript.txt",
+          "gold_rank": 21,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0445",
+          "doc_id": "D30",
+          "level": "L3",
+          "query": "Sawari ki saalana fees kitni hai?",
+          "gold": "D30_transport_services.txt",
+          "top1": "D09_semester_fee_structure.txt",
+          "gold_rank": 4,
+          "failure_type": "lexical_collision"
+        },
+        {
+          "query_id": "MQ0446",
+          "doc_id": "D30",
+          "level": "L3",
+          "query": "Sawari ke liye saal bhar ka kitna kharcha aata hai?",
+          "gold": "D30_transport_services.txt",
+          "top1": "D22_laboratory_safety.txt",
+          "gold_rank": 16,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0448",
+          "doc_id": "D30",
+          "level": "L4",
+          "query": "Sawari ki saalana fees kitni hai? Bata dein.",
+          "gold": "D30_transport_services.txt",
+          "top1": "D09_semester_fee_structure.txt",
+          "gold_rank": 4,
+          "failure_type": "lexical_collision"
+        },
+        {
+          "query_id": "MQ0449",
+          "doc_id": "D30",
+          "level": "L4",
+          "query": "Sawari ke liye saal bhar ka kitna kharcha hota hai?",
+          "gold": "D30_transport_services.txt",
+          "top1": "D22_laboratory_safety.txt",
+          "gold_rank": 20,
+          "failure_type": "semantic_drift"
+        }
+      ]
+    },
+    "Hybrid": {
+      "total_failures": 43,
+      "by_type": {
+        "tied_lexical": 25,
+        "semantic_drift": 15,
+        "lexical_collision": 3
+      },
+      "failures": [
+        {
+          "query_id": "MQ0010",
+          "doc_id": "D01",
+          "level": "L3",
+          "query": "Fall 2026 ki parhai shuru hone ki tareekh kya hai?",
+          "gold": "D01_academic_calendar.txt",
+          "top1": "D03_admission_application.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0011",
+          "doc_id": "D01",
+          "level": "L3",
+          "query": "Fall 2026 mein dars kab se shuru honge?",
+          "gold": "D01_academic_calendar.txt",
+          "top1": "D03_admission_application.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0013",
+          "doc_id": "D01",
+          "level": "L4",
+          "query": "Fall 2026 mein parhai kis din se shuru hon gi? Koi tareekh bata dein.",
+          "gold": "D01_academic_calendar.txt",
+          "top1": "D03_admission_application.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0014",
+          "doc_id": "D01",
+          "level": "L4",
+          "query": "Fall 2026 ki padhai kis tareekh se shuru hogi?",
+          "gold": "D01_academic_calendar.txt",
+          "top1": "D03_admission_application.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0015",
+          "doc_id": "D01",
+          "level": "L4",
+          "query": "Fall 2026 mein jamia kis din khulegi, yeh maloom karna hai.",
+          "gold": "D01_academic_calendar.txt",
+          "top1": "D03_admission_application.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0018",
+          "doc_id": "D02",
+          "level": "L0",
+          "query": "How long is the drop window after semester start?",
+          "gold": "D02_course_add_and_drop.txt",
+          "top1": "D20_course_withdrawal.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0021",
+          "doc_id": "D02",
+          "level": "L1",
+          "query": "How long is the drop window after semester ka start?",
+          "gold": "D02_course_add_and_drop.txt",
+          "top1": "D20_course_withdrawal.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0026",
+          "doc_id": "D02",
+          "level": "L3",
+          "query": "Talib-e-ilm course kitne din mein badal sakte hain?",
+          "gold": "D02_course_add_and_drop.txt",
+          "top1": "D20_course_withdrawal.txt",
+          "gold_rank": 5,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0027",
+          "doc_id": "D02",
+          "level": "L3",
+          "query": "Naya course lene ya chorne ke liye kitna waqt milta hai?",
+          "gold": "D02_course_add_and_drop.txt",
+          "top1": "D20_course_withdrawal.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0029",
+          "doc_id": "D02",
+          "level": "L4",
+          "query": "Talib-e-ilm course kitne din mein badal sakte hain?",
+          "gold": "D02_course_add_and_drop.txt",
+          "top1": "D20_course_withdrawal.txt",
+          "gold_rank": 5,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0041",
+          "doc_id": "D03",
+          "level": "L3",
+          "query": "Dakhla ki darkhwast jama karwane ki aakhri tareekh kya hai?",
+          "gold": "D03_admission_application.txt",
+          "top1": "D02_course_add_and_drop.txt",
+          "gold_rank": 9,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0044",
+          "doc_id": "D03",
+          "level": "L4",
+          "query": "Dakhla ki darkhwast jama karwane ka bilkul aakhri waqt kya hai?",
+          "gold": "D03_admission_application.txt",
+          "top1": "D02_course_add_and_drop.txt",
+          "gold_rank": 13,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0071",
+          "doc_id": "D05",
+          "level": "L3",
+          "query": "Har course mein minimum kitni hazri puri karni hoti hai?",
+          "gold": "D05_class_attendance.txt",
+          "top1": "D16_semester_registration.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0072",
+          "doc_id": "D05",
+          "level": "L3",
+          "query": "Hazri kitni se kam nahi honi chahiye?",
+          "gold": "D05_class_attendance.txt",
+          "top1": "D04_assignment_submission.txt",
+          "gold_rank": 2,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0073",
+          "doc_id": "D05",
+          "level": "L4",
+          "query": "Talib-e-ilm ko har course mein kam az kam kitni hazri deni zaroori hai? Bata dein.",
+          "gold": "D05_class_attendance.txt",
+          "top1": "D15_course_prerequisites.txt",
+          "gold_rank": 3,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0074",
+          "doc_id": "D05",
+          "level": "L4",
+          "query": "Agar talib-e-ilm imtihan dena chahta hai to minimum hazri kitni honi chahiye?",
+          "gold": "D05_class_attendance.txt",
+          "top1": "D08_final_examination.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0075",
+          "doc_id": "D05",
+          "level": "L4",
+          "query": "Hazri ki hadd kitni hai, yeh maloom karna hai.",
+          "gold": "D05_class_attendance.txt",
+          "top1": "D02_course_add_and_drop.txt",
+          "gold_rank": 2,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0083",
+          "doc_id": "D06",
+          "level": "L2",
+          "query": "Graduation credits kitne hain?",
+          "gold": "D06_degree_completion_requirements.txt",
+          "top1": "D11_graduation_eligibility.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0089",
+          "doc_id": "D06",
+          "level": "L4",
+          "query": "Sanad hasil karne ke liye kitne credit hours darkar hain, yeh maloom karna hai.",
+          "gold": "D06_degree_completion_requirements.txt",
+          "top1": "D16_semester_registration.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0180",
+          "doc_id": "D12",
+          "level": "L4",
+          "query": "Raat ko kitne baje tak wapas pohanchna lazmi hai, yeh maloom karna hai.",
+          "gold": "D12_hostel_regulations.txt",
+          "top1": "D02_course_add_and_drop.txt",
+          "gold_rank": 5,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0205",
+          "doc_id": "D14",
+          "level": "L3",
+          "query": "Ek semester mein bimari ki chhutti kitne din tak mil sakti hai?",
+          "gold": "D14_medical_leave.txt",
+          "top1": "D16_semester_registration.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0206",
+          "doc_id": "D14",
+          "level": "L3",
+          "query": "Talib-e-ilm ko semester mein kitne din ki bimari ki chhutti milti hai?",
+          "gold": "D14_medical_leave.txt",
+          "top1": "D16_semester_registration.txt",
+          "gold_rank": 3,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0207",
+          "doc_id": "D14",
+          "level": "L3",
+          "query": "Bimari ki chhutti ke liye kitne din ki ijazat hoti hai?",
+          "gold": "D14_medical_leave.txt",
+          "top1": "D02_course_add_and_drop.txt",
+          "gold_rank": 16,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0208",
+          "doc_id": "D14",
+          "level": "L4",
+          "query": "Agar talib-e-ilm bemar ho to ek semester mein maximum kitne din ki chhutti le sakta hai? Bata dein.",
+          "gold": "D14_medical_leave.txt",
+          "top1": "D16_semester_registration.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0209",
+          "doc_id": "D14",
+          "level": "L4",
+          "query": "Bimari ki wajah se semester mein kitne din tak chhutti mil sakti hai?",
+          "gold": "D14_medical_leave.txt",
+          "top1": "D16_semester_registration.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0210",
+          "doc_id": "D14",
+          "level": "L4",
+          "query": "Bimari ki chhutti ki maximum hadd kitni hai, yeh maloom karna hai.",
+          "gold": "D14_medical_leave.txt",
+          "top1": "D16_semester_registration.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0296",
+          "doc_id": "D20",
+          "level": "L3",
+          "query": "Talib-e-ilm course kitne din ke andar chhor sakta hai?",
+          "gold": "D20_course_withdrawal.txt",
+          "top1": "D02_course_add_and_drop.txt",
+          "gold_rank": 4,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0298",
+          "doc_id": "D20",
+          "level": "L4",
+          "query": "Agar talib-e-ilm course chhorna chahe to bina penalty ke kitne din ke andar chhor sakta hai? Bata dein.",
+          "gold": "D20_course_withdrawal.txt",
+          "top1": "D02_course_add_and_drop.txt",
+          "gold_rank": 3,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0300",
+          "doc_id": "D20",
+          "level": "L4",
+          "query": "Course kitne din ke andar chhoro to penalty nahi hoti, yeh maloom karna hai.",
+          "gold": "D20_course_withdrawal.txt",
+          "top1": "D02_course_add_and_drop.txt",
+          "gold_rank": 2,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0310",
+          "doc_id": "D21",
+          "level": "L3",
+          "query": "Talib-e-ilm kitab khane se ek waqt mein kitni kitaben le sakta hai?",
+          "gold": "D21_library_borrowing.txt",
+          "top1": "D01_academic_calendar.txt",
+          "gold_rank": 6,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0311",
+          "doc_id": "D21",
+          "level": "L3",
+          "query": "Kitab khane se kitni kitaben ghar le jane ki ijazat hai?",
+          "gold": "D21_library_borrowing.txt",
+          "top1": "D01_academic_calendar.txt",
+          "gold_rank": 4,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0312",
+          "doc_id": "D21",
+          "level": "L3",
+          "query": "Ek waqt mein kitni kitaben issue hoti hain?",
+          "gold": "D21_library_borrowing.txt",
+          "top1": "D01_academic_calendar.txt",
+          "gold_rank": 8,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0313",
+          "doc_id": "D21",
+          "level": "L4",
+          "query": "Talib-e-ilm kitab khane se ek waqt mein kitni kitaben ghar le ja sakta hai? Bata dein.",
+          "gold": "D21_library_borrowing.txt",
+          "top1": "D01_academic_calendar.txt",
+          "gold_rank": 5,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0314",
+          "doc_id": "D21",
+          "level": "L4",
+          "query": "Kitab khane se maximum kitni kitaben mil sakti hain?",
+          "gold": "D21_library_borrowing.txt",
+          "top1": "D16_semester_registration.txt",
+          "gold_rank": 8,
+          "failure_type": "lexical_collision"
+        },
+        {
+          "query_id": "MQ0315",
+          "doc_id": "D21",
+          "level": "L4",
+          "query": "Ek waqt mein kitni kitaben le jane ki ijazat hai, yeh maloom karna hai.",
+          "gold": "D21_library_borrowing.txt",
+          "top1": "D02_course_add_and_drop.txt",
+          "gold_rank": 6,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0401",
+          "doc_id": "D27",
+          "level": "L3",
+          "query": "Aakhri saal ke project ke kul kitne credit hours hain?",
+          "gold": "D27_research_thesis.txt",
+          "top1": "D06_degree_completion_requirements.txt",
+          "gold_rank": 3,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0404",
+          "doc_id": "D27",
+          "level": "L4",
+          "query": "Aakhri saal ke project ke kitne credit hours hote hain?",
+          "gold": "D27_research_thesis.txt",
+          "top1": "D06_degree_completion_requirements.txt",
+          "gold_rank": 3,
+          "failure_type": "tied_lexical"
+        },
+        {
+          "query_id": "MQ0416",
+          "doc_id": "D28",
+          "level": "L3",
+          "query": "Shikayat dene ki kitni muddat hoti hai?",
+          "gold": "D28_anti-harassment_reporting.txt",
+          "top1": "D01_academic_calendar.txt",
+          "gold_rank": 26,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0419",
+          "doc_id": "D28",
+          "level": "L4",
+          "query": "Shikayat dene ki aakhri tareekh kya hai?",
+          "gold": "D28_anti-harassment_reporting.txt",
+          "top1": "D02_course_add_and_drop.txt",
+          "gold_rank": 28,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0445",
+          "doc_id": "D30",
+          "level": "L3",
+          "query": "Sawari ki saalana fees kitni hai?",
+          "gold": "D30_transport_services.txt",
+          "top1": "D09_semester_fee_structure.txt",
+          "gold_rank": 18,
+          "failure_type": "lexical_collision"
+        },
+        {
+          "query_id": "MQ0446",
+          "doc_id": "D30",
+          "level": "L3",
+          "query": "Sawari ke liye saal bhar ka kitna kharcha aata hai?",
+          "gold": "D30_transport_services.txt",
+          "top1": "D01_academic_calendar.txt",
+          "gold_rank": 26,
+          "failure_type": "semantic_drift"
+        },
+        {
+          "query_id": "MQ0448",
+          "doc_id": "D30",
+          "level": "L4",
+          "query": "Sawari ki saalana fees kitni hai? Bata dein.",
+          "gold": "D30_transport_services.txt",
+          "top1": "D09_semester_fee_structure.txt",
+          "gold_rank": 17,
+          "failure_type": "lexical_collision"
+        },
+        {
+          "query_id": "MQ0449",
+          "doc_id": "D30",
+          "level": "L4",
+          "query": "Sawari ke liye saal bhar ka kitna kharcha hota hai?",
+          "gold": "D30_transport_services.txt",
+          "top1": "D03_admission_application.txt",
+          "gold_rank": 28,
+          "failure_type": "semantic_drift"
+        }
+      ]
+    }
+  },
+  "persistent_failures": [
+    {
+      "query_id": "MQ0010",
+      "doc_id": "D01",
+      "level": "L3",
+      "query": "Fall 2026 ki parhai shuru hone ki tareekh kya hai?",
+      "gold": "D01_academic_calendar.txt",
+      "bm25_rank": 2,
+      "e5_rank": 2,
+      "hybrid_rank": 2,
+      "bm25_top": "D03_admission_application.txt",
+      "e5_top": "D03_admission_application.txt",
+      "hybrid_top": "D03_admission_application.txt"
+    },
+    {
+      "query_id": "MQ0011",
+      "doc_id": "D01",
+      "level": "L3",
+      "query": "Fall 2026 mein dars kab se shuru honge?",
+      "gold": "D01_academic_calendar.txt",
+      "bm25_rank": 2,
+      "e5_rank": 2,
+      "hybrid_rank": 2,
+      "bm25_top": "D03_admission_application.txt",
+      "e5_top": "D03_admission_application.txt",
+      "hybrid_top": "D03_admission_application.txt"
+    },
+    {
+      "query_id": "MQ0013",
+      "doc_id": "D01",
+      "level": "L4",
+      "query": "Fall 2026 mein parhai kis din se shuru hon gi? Koi tareekh bata dein.",
+      "gold": "D01_academic_calendar.txt",
+      "bm25_rank": 2,
+      "e5_rank": 2,
+      "hybrid_rank": 2,
+      "bm25_top": "D03_admission_application.txt",
+      "e5_top": "D03_admission_application.txt",
+      "hybrid_top": "D03_admission_application.txt"
+    },
+    {
+      "query_id": "MQ0014",
+      "doc_id": "D01",
+      "level": "L4",
+      "query": "Fall 2026 ki padhai kis tareekh se shuru hogi?",
+      "gold": "D01_academic_calendar.txt",
+      "bm25_rank": 2,
+      "e5_rank": 2,
+      "hybrid_rank": 2,
+      "bm25_top": "D03_admission_application.txt",
+      "e5_top": "D03_admission_application.txt",
+      "hybrid_top": "D03_admission_application.txt"
+    },
+    {
+      "query_id": "MQ0015",
+      "doc_id": "D01",
+      "level": "L4",
+      "query": "Fall 2026 mein jamia kis din khulegi, yeh maloom karna hai.",
+      "gold": "D01_academic_calendar.txt",
+      "bm25_rank": 2,
+      "e5_rank": 2,
+      "hybrid_rank": 2,
+      "bm25_top": "D03_admission_application.txt",
+      "e5_top": "D03_admission_application.txt",
+      "hybrid_top": "D03_admission_application.txt"
+    },
+    {
+      "query_id": "MQ0018",
+      "doc_id": "D02",
+      "level": "L0",
+      "query": "How long is the drop window after semester start?",
+      "gold": "D02_course_add_and_drop.txt",
+      "bm25_rank": 2,
+      "e5_rank": 2,
+      "hybrid_rank": 2,
+      "bm25_top": "D20_course_withdrawal.txt",
+      "e5_top": "D20_course_withdrawal.txt",
+      "hybrid_top": "D20_course_withdrawal.txt"
+    },
+    {
+      "query_id": "MQ0021",
+      "doc_id": "D02",
+      "level": "L1",
+      "query": "How long is the drop window after semester ka start?",
+      "gold": "D02_course_add_and_drop.txt",
+      "bm25_rank": 2,
+      "e5_rank": 2,
+      "hybrid_rank": 2,
+      "bm25_top": "D20_course_withdrawal.txt",
+      "e5_top": "D20_course_withdrawal.txt",
+      "hybrid_top": "D20_course_withdrawal.txt"
+    },
+    {
+      "query_id": "MQ0026",
+      "doc_id": "D02",
+      "level": "L3",
+      "query": "Talib-e-ilm course kitne din mein badal sakte hain?",
+      "gold": "D02_course_add_and_drop.txt",
+      "bm25_rank": 4,
+      "e5_rank": 13,
+      "hybrid_rank": 5,
+      "bm25_top": "D15_course_prerequisites.txt",
+      "e5_top": "D21_library_borrowing.txt",
+      "hybrid_top": "D20_course_withdrawal.txt"
+    },
+    {
+      "query_id": "MQ0027",
+      "doc_id": "D02",
+      "level": "L3",
+      "query": "Naya course lene ya chorne ke liye kitna waqt milta hai?",
+      "gold": "D02_course_add_and_drop.txt",
+      "bm25_rank": 4,
+      "e5_rank": 2,
+      "hybrid_rank": 2,
+      "bm25_top": "D15_course_prerequisites.txt",
+      "e5_top": "D20_course_withdrawal.txt",
+      "hybrid_top": "D20_course_withdrawal.txt"
+    },
+    {
+      "query_id": "MQ0029",
+      "doc_id": "D02",
+      "level": "L4",
+      "query": "Talib-e-ilm course kitne din mein badal sakte hain?",
+      "gold": "D02_course_add_and_drop.txt",
+      "bm25_rank": 4,
+      "e5_rank": 13,
+      "hybrid_rank": 5,
+      "bm25_top": "D15_course_prerequisites.txt",
+      "e5_top": "D21_library_borrowing.txt",
+      "hybrid_top": "D20_course_withdrawal.txt"
+    },
+    {
+      "query_id": "MQ0041",
+      "doc_id": "D03",
+      "level": "L3",
+      "query": "Dakhla ki darkhwast jama karwane ki aakhri tareekh kya hai?",
+      "gold": "D03_admission_application.txt",
+      "bm25_rank": 3,
+      "e5_rank": 24,
+      "hybrid_rank": 9,
+      "bm25_top": "D01_academic_calendar.txt",
+      "e5_top": "D19_official_transcript.txt",
+      "hybrid_top": "D02_course_add_and_drop.txt"
+    },
+    {
+      "query_id": "MQ0044",
+      "doc_id": "D03",
+      "level": "L4",
+      "query": "Dakhla ki darkhwast jama karwane ka bilkul aakhri waqt kya hai?",
+      "gold": "D03_admission_application.txt",
+      "bm25_rank": 3,
+      "e5_rank": 26,
+      "hybrid_rank": 13,
+      "bm25_top": "D01_academic_calendar.txt",
+      "e5_top": "D21_library_borrowing.txt",
+      "hybrid_top": "D02_course_add_and_drop.txt"
+    },
+    {
+      "query_id": "MQ0071",
+      "doc_id": "D05",
+      "level": "L3",
+      "query": "Har course mein minimum kitni hazri puri karni hoti hai?",
+      "gold": "D05_class_attendance.txt",
+      "bm25_rank": 3,
+      "e5_rank": 2,
+      "hybrid_rank": 2,
+      "bm25_top": "D16_semester_registration.txt",
+      "e5_top": "D16_semester_registration.txt",
+      "hybrid_top": "D16_semester_registration.txt"
+    },
+    {
+      "query_id": "MQ0072",
+      "doc_id": "D05",
+      "level": "L3",
+      "query": "Hazri kitni se kam nahi honi chahiye?",
+      "gold": "D05_class_attendance.txt",
+      "bm25_rank": 5,
+      "e5_rank": 4,
+      "hybrid_rank": 2,
+      "bm25_top": "D01_academic_calendar.txt",
+      "e5_top": "D12_hostel_regulations.txt",
+      "hybrid_top": "D04_assignment_submission.txt"
+    },
+    {
+      "query_id": "MQ0073",
+      "doc_id": "D05",
+      "level": "L4",
+      "query": "Talib-e-ilm ko har course mein kam az kam kitni hazri deni zaroori hai? Bata dein.",
+      "gold": "D05_class_attendance.txt",
+      "bm25_rank": 7,
+      "e5_rank": 3,
+      "hybrid_rank": 3,
+      "bm25_top": "D15_course_prerequisites.txt",
+      "e5_top": "D21_library_borrowing.txt",
+      "hybrid_top": "D15_course_prerequisites.txt"
+    },
+    {
+      "query_id": "MQ0074",
+      "doc_id": "D05",
+      "level": "L4",
+      "query": "Agar talib-e-ilm imtihan dena chahta hai to minimum hazri kitni honi chahiye?",
+      "gold": "D05_class_attendance.txt",
+      "bm25_rank": 3,
+      "e5_rank": 3,
+      "hybrid_rank": 2,
+      "bm25_top": "D16_semester_registration.txt",
+      "e5_top": "D08_final_examination.txt",
+      "hybrid_top": "D08_final_examination.txt"
+    },
+    {
+      "query_id": "MQ0075",
+      "doc_id": "D05",
+      "level": "L4",
+      "query": "Hazri ki hadd kitni hai, yeh maloom karna hai.",
+      "gold": "D05_class_attendance.txt",
+      "bm25_rank": 5,
+      "e5_rank": 8,
+      "hybrid_rank": 2,
+      "bm25_top": "D01_academic_calendar.txt",
+      "e5_top": "D22_laboratory_safety.txt",
+      "hybrid_top": "D02_course_add_and_drop.txt"
+    },
+    {
+      "query_id": "MQ0089",
+      "doc_id": "D06",
+      "level": "L4",
+      "query": "Sanad hasil karne ke liye kitne credit hours darkar hain, yeh maloom karna hai.",
+      "gold": "D06_degree_completion_requirements.txt",
+      "bm25_rank": 2,
+      "e5_rank": 2,
+      "hybrid_rank": 2,
+      "bm25_top": "D16_semester_registration.txt",
+      "e5_top": "D16_semester_registration.txt",
+      "hybrid_top": "D16_semester_registration.txt"
+    },
+    {
+      "query_id": "MQ0180",
+      "doc_id": "D12",
+      "level": "L4",
+      "query": "Raat ko kitne baje tak wapas pohanchna lazmi hai, yeh maloom karna hai.",
+      "gold": "D12_hostel_regulations.txt",
+      "bm25_rank": 12,
+      "e5_rank": 4,
+      "hybrid_rank": 5,
+      "bm25_top": "D01_academic_calendar.txt",
+      "e5_top": "D22_laboratory_safety.txt",
+      "hybrid_top": "D02_course_add_and_drop.txt"
+    },
+    {
+      "query_id": "MQ0205",
+      "doc_id": "D14",
+      "level": "L3",
+      "query": "Ek semester mein bimari ki chhutti kitne din tak mil sakti hai?",
+      "gold": "D14_medical_leave.txt",
+      "bm25_rank": 3,
+      "e5_rank": 2,
+      "hybrid_rank": 2,
+      "bm25_top": "D09_semester_fee_structure.txt",
+      "e5_top": "D16_semester_registration.txt",
+      "hybrid_top": "D16_semester_registration.txt"
+    },
+    {
+      "query_id": "MQ0206",
+      "doc_id": "D14",
+      "level": "L3",
+      "query": "Talib-e-ilm ko semester mein kitne din ki bimari ki chhutti milti hai?",
+      "gold": "D14_medical_leave.txt",
+      "bm25_rank": 3,
+      "e5_rank": 2,
+      "hybrid_rank": 3,
+      "bm25_top": "D09_semester_fee_structure.txt",
+      "e5_top": "D16_semester_registration.txt",
+      "hybrid_top": "D16_semester_registration.txt"
+    },
+    {
+      "query_id": "MQ0207",
+      "doc_id": "D14",
+      "level": "L3",
+      "query": "Bimari ki chhutti ke liye kitne din ki ijazat hoti hai?",
+      "gold": "D14_medical_leave.txt",
+      "bm25_rank": 14,
+      "e5_rank": 17,
+      "hybrid_rank": 16,
+      "bm25_top": "D01_academic_calendar.txt",
+      "e5_top": "D18_student_id_card.txt",
+      "hybrid_top": "D02_course_add_and_drop.txt"
+    },
+    {
+      "query_id": "MQ0208",
+      "doc_id": "D14",
+      "level": "L4",
+      "query": "Agar talib-e-ilm bemar ho to ek semester mein maximum kitne din ki chhutti le sakta hai? Bata dein.",
+      "gold": "D14_medical_leave.txt",
+      "bm25_rank": 2,
+      "e5_rank": 3,
+      "hybrid_rank": 2,
+      "bm25_top": "D16_semester_registration.txt",
+      "e5_top": "D16_semester_registration.txt",
+      "hybrid_top": "D16_semester_registration.txt"
+    },
+    {
+      "query_id": "MQ0209",
+      "doc_id": "D14",
+      "level": "L4",
+      "query": "Bimari ki wajah se semester mein kitne din tak chhutti mil sakti hai?",
+      "gold": "D14_medical_leave.txt",
+      "bm25_rank": 3,
+      "e5_rank": 2,
+      "hybrid_rank": 2,
+      "bm25_top": "D09_semester_fee_structure.txt",
+      "e5_top": "D16_semester_registration.txt",
+      "hybrid_top": "D16_semester_registration.txt"
+    },
+    {
+      "query_id": "MQ0210",
+      "doc_id": "D14",
+      "level": "L4",
+      "query": "Bimari ki chhutti ki maximum hadd kitni hai, yeh maloom karna hai.",
+      "gold": "D14_medical_leave.txt",
+      "bm25_rank": 2,
+      "e5_rank": 3,
+      "hybrid_rank": 2,
+      "bm25_top": "D16_semester_registration.txt",
+      "e5_top": "D08_final_examination.txt",
+      "hybrid_top": "D16_semester_registration.txt"
+    },
+    {
+      "query_id": "MQ0296",
+      "doc_id": "D20",
+      "level": "L3",
+      "query": "Talib-e-ilm course kitne din ke andar chhor sakta hai?",
+      "gold": "D20_course_withdrawal.txt",
+      "bm25_rank": 2,
+      "e5_rank": 8,
+      "hybrid_rank": 4,
+      "bm25_top": "D15_course_prerequisites.txt",
+      "e5_top": "D19_official_transcript.txt",
+      "hybrid_top": "D02_course_add_and_drop.txt"
+    },
+    {
+      "query_id": "MQ0401",
+      "doc_id": "D27",
+      "level": "L3",
+      "query": "Aakhri saal ke project ke kul kitne credit hours hain?",
+      "gold": "D27_research_thesis.txt",
+      "bm25_rank": 2,
+      "e5_rank": 5,
+      "hybrid_rank": 3,
+      "bm25_top": "D06_degree_completion_requirements.txt",
+      "e5_top": "D16_semester_registration.txt",
+      "hybrid_top": "D06_degree_completion_requirements.txt"
+    },
+    {
+      "query_id": "MQ0404",
+      "doc_id": "D27",
+      "level": "L4",
+      "query": "Aakhri saal ke project ke kitne credit hours hote hain?",
+      "gold": "D27_research_thesis.txt",
+      "bm25_rank": 2,
+      "e5_rank": 5,
+      "hybrid_rank": 3,
+      "bm25_top": "D06_degree_completion_requirements.txt",
+      "e5_top": "D16_semester_registration.txt",
+      "hybrid_top": "D06_degree_completion_requirements.txt"
+    },
+    {
+      "query_id": "MQ0416",
+      "doc_id": "D28",
+      "level": "L3",
+      "query": "Shikayat dene ki kitni muddat hoti hai?",
+      "gold": "D28_anti-harassment_reporting.txt",
+      "bm25_rank": 28,
+      "e5_rank": 21,
+      "hybrid_rank": 26,
+      "bm25_top": "D01_academic_calendar.txt",
+      "e5_top": "D16_semester_registration.txt",
+      "hybrid_top": "D01_academic_calendar.txt"
+    },
+    {
+      "query_id": "MQ0419",
+      "doc_id": "D28",
+      "level": "L4",
+      "query": "Shikayat dene ki aakhri tareekh kya hai?",
+      "gold": "D28_anti-harassment_reporting.txt",
+      "bm25_rank": 28,
+      "e5_rank": 21,
+      "hybrid_rank": 28,
+      "bm25_top": "D01_academic_calendar.txt",
+      "e5_top": "D19_official_transcript.txt",
+      "hybrid_top": "D02_course_add_and_drop.txt"
+    },
+    {
+      "query_id": "MQ0445",
+      "doc_id": "D30",
+      "level": "L3",
+      "query": "Sawari ki saalana fees kitni hai?",
+      "gold": "D30_transport_services.txt",
+      "bm25_rank": 30,
+      "e5_rank": 4,
+      "hybrid_rank": 18,
+      "bm25_top": "D09_semester_fee_structure.txt",
+      "e5_top": "D09_semester_fee_structure.txt",
+      "hybrid_top": "D09_semester_fee_structure.txt"
+    },
+    {
+      "query_id": "MQ0446",
+      "doc_id": "D30",
+      "level": "L3",
+      "query": "Sawari ke liye saal bhar ka kitna kharcha aata hai?",
+      "gold": "D30_transport_services.txt",
+      "bm25_rank": 30,
+      "e5_rank": 16,
+      "hybrid_rank": 26,
+      "bm25_top": "D01_academic_calendar.txt",
+      "e5_top": "D22_laboratory_safety.txt",
+      "hybrid_top": "D01_academic_calendar.txt"
+    },
+    {
+      "query_id": "MQ0448",
+      "doc_id": "D30",
+      "level": "L4",
+      "query": "Sawari ki saalana fees kitni hai? Bata dein.",
+      "gold": "D30_transport_services.txt",
+      "bm25_rank": 30,
+      "e5_rank": 4,
+      "hybrid_rank": 17,
+      "bm25_top": "D09_semester_fee_structure.txt",
+      "e5_top": "D09_semester_fee_structure.txt",
+      "hybrid_top": "D09_semester_fee_structure.txt"
+    },
+    {
+      "query_id": "MQ0449",
+      "doc_id": "D30",
+      "level": "L4",
+      "query": "Sawari ke liye saal bhar ka kitna kharcha hota hai?",
+      "gold": "D30_transport_services.txt",
+      "bm25_rank": 30,
+      "e5_rank": 20,
+      "hybrid_rank": 28,
+      "bm25_top": "D01_academic_calendar.txt",
+      "e5_top": "D22_laboratory_safety.txt",
+      "hybrid_top": "D03_admission_application.txt"
+    }
+  ],
+  "fails_by_doc": {
+    "D01": {
+      "BM25": 5,
+      "E5": 7,
+      "Hybrid": 5
+    },
+    "D02": {
+      "BM25": 8,
+      "E5": 5,
+      "Hybrid": 5
+    },
+    "D03": {
+      "BM25": 2,
+      "E5": 2,
+      "Hybrid": 2
+    },
+    "D05": {
+      "BM25": 6,
+      "E5": 6,
+      "Hybrid": 5
+    },
+    "D06": {
+      "BM25": 4,
+      "E5": 1,
+      "Hybrid": 2
+    },
+    "D10": {
+      "BM25": 3,
+      "E5": 1,
+      "Hybrid": 0
+    },
+    "D12": {
+      "BM25": 1,
+      "E5": 1,
+      "Hybrid": 1
+    },
+    "D14": {
+      "BM25": 6,
+      "E5": 6,
+      "Hybrid": 6
+    },
+    "D18": {
+      "BM25": 1,
+      "E5": 0,
+      "Hybrid": 0
+    },
+    "D20": {
+      "BM25": 1,
+      "E5": 6,
+      "Hybrid": 3
+    },
+    "D21": {
+      "BM25": 6,
+      "E5": 0,
+      "Hybrid": 6
+    },
+    "D23": {
+      "BM25": 1,
+      "E5": 0,
+      "Hybrid": 0
+    },
+    "D27": {
+      "BM25": 2,
+      "E5": 2,
+      "Hybrid": 2
+    },
+    "D28": {
+      "BM25": 2,
+      "E5": 2,
+      "Hybrid": 2
+    },
+    "D30": {
+      "BM25": 4,
+      "E5": 4,
+      "Hybrid": 4
+    },
+    "D04": {
+      "BM25": 0,
+      "E5": 1,
+      "Hybrid": 0
+    },
+    "D08": {
+      "BM25": 0,
+      "E5": 3,
+      "Hybrid": 0
+    },
+    "D11": {
+      "BM25": 0,
+      "E5": 3,
+      "Hybrid": 0
+    },
+    "D26": {
+      "BM25": 0,
+      "E5": 1,
+      "Hybrid": 0
+    }
+  }
+}

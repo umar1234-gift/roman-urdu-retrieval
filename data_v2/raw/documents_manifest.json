@@ -1,0 +1,392 @@
+[
+  {
+    "doc_id": "D01",
+    "topic": "Academic Calendar",
+    "filename": "D01_academic_calendar.txt",
+    "fact": "15 September 2026",
+    "fact_type": "date",
+    "unique_terms": [
+      "commencement",
+      "semester kickoff",
+      "academic term start"
+    ],
+    "word_count": 101
+  },
+  {
+    "doc_id": "D02",
+    "topic": "Course Add and Drop",
+    "filename": "D02_course_add_and_drop.txt",
+    "fact": "7 working days",
+    "fact_type": "duration",
+    "unique_terms": [
+      "enrollment adjustment",
+      "drop window",
+      "add window"
+    ],
+    "word_count": 99
+  },
+  {
+    "doc_id": "D03",
+    "topic": "Admission Application",
+    "filename": "D03_admission_application.txt",
+    "fact": "18 November 2026 at 11:59 PM",
+    "fact_type": "deadline",
+    "unique_terms": [
+      "application cutoff",
+      "submission portal",
+      "admission cycle"
+    ],
+    "word_count": 83
+  },
+  {
+    "doc_id": "D04",
+    "topic": "Assignment Submission",
+    "filename": "D04_assignment_submission.txt",
+    "fact": "3 calendar days",
+    "fact_type": "duration",
+    "unique_terms": [
+      "late submission window",
+      "assignment grace",
+      "homework deadline"
+    ],
+    "word_count": 91
+  },
+  {
+    "doc_id": "D05",
+    "topic": "Class Attendance",
+    "filename": "D05_class_attendance.txt",
+    "fact": "75%",
+    "fact_type": "percentage",
+    "unique_terms": [
+      "minimum hazri",
+      "attendance threshold",
+      "class participation"
+    ],
+    "word_count": 84
+  },
+  {
+    "doc_id": "D06",
+    "topic": "Degree Completion Requirements",
+    "filename": "D06_degree_completion_requirements.txt",
+    "fact": "136 credit hours",
+    "fact_type": "number",
+    "unique_terms": [
+      "graduation credits",
+      "degree audit",
+      "program completion"
+    ],
+    "word_count": 89
+  },
+  {
+    "doc_id": "D07",
+    "topic": "Disciplinary Proceedings",
+    "filename": "D07_disciplinary_proceedings.txt",
+    "fact": "10 working days",
+    "fact_type": "duration",
+    "unique_terms": [
+      "appeal window",
+      "disciplinary hearing",
+      "misconduct review"
+    ],
+    "word_count": 85
+  },
+  {
+    "doc_id": "D08",
+    "topic": "Final Examination",
+    "filename": "D08_final_examination.txt",
+    "fact": "50%",
+    "fact_type": "percentage",
+    "unique_terms": [
+      "passing threshold",
+      "exam pass mark",
+      "final assessment"
+    ],
+    "word_count": 81
+  },
+  {
+    "doc_id": "D09",
+    "topic": "Semester Fee Structure",
+    "filename": "D09_semester_fee_structure.txt",
+    "fact": "PKR 62,500",
+    "fact_type": "amount",
+    "unique_terms": [
+      "tuition payment",
+      "semester charges",
+      "fee invoice"
+    ],
+    "word_count": 88
+  },
+  {
+    "doc_id": "D10",
+    "topic": "Grading System",
+    "filename": "D10_grading_system.txt",
+    "fact": "90%",
+    "fact_type": "percentage",
+    "unique_terms": [
+      "letter grade scale",
+      "grade boundary",
+      "A grade cutoff"
+    ],
+    "word_count": 88
+  },
+  {
+    "doc_id": "D11",
+    "topic": "Graduation Eligibility",
+    "filename": "D11_graduation_eligibility.txt",
+    "fact": "2.00",
+    "fact_type": "cgpa",
+    "unique_terms": [
+      "cgpa threshold",
+      "graduation standing",
+      "degree conferral"
+    ],
+    "word_count": 77
+  },
+  {
+    "doc_id": "D12",
+    "topic": "Hostel Regulations",
+    "filename": "D12_hostel_regulations.txt",
+    "fact": "10:00 PM",
+    "fact_type": "time",
+    "unique_terms": [
+      "hostel curfew",
+      "residence timing",
+      "night return"
+    ],
+    "word_count": 84
+  },
+  {
+    "doc_id": "D13",
+    "topic": "Internship Requirement",
+    "filename": "D13_internship_requirement.txt",
+    "fact": "6 weeks",
+    "fact_type": "duration",
+    "unique_terms": [
+      "industrial training",
+      "internship duration",
+      "work placement"
+    ],
+    "word_count": 85
+  },
+  {
+    "doc_id": "D14",
+    "topic": "Medical Leave",
+    "filename": "D14_medical_leave.txt",
+    "fact": "10 days",
+    "fact_type": "duration",
+    "unique_terms": [
+      "sick leave",
+      "health absence",
+      "medical absence"
+    ],
+    "word_count": 79
+  },
+  {
+    "doc_id": "D15",
+    "topic": "Course Prerequisites",
+    "filename": "D15_course_prerequisites.txt",
+    "fact": "C grade",
+    "fact_type": "grade",
+    "unique_terms": [
+      "prerequisite clearance",
+      "course dependency",
+      "prerequisite grade"
+    ],
+    "word_count": 85
+  },
+  {
+    "doc_id": "D16",
+    "topic": "Semester Registration",
+    "filename": "D16_semester_registration.txt",
+    "fact": "10 credit hours",
+    "fact_type": "number",
+    "unique_terms": [
+      "registration load",
+      "minimum enrollment",
+      "course load"
+    ],
+    "word_count": 86
+  },
+  {
+    "doc_id": "D17",
+    "topic": "Merit Scholarship",
+    "filename": "D17_merit_scholarship.txt",
+    "fact": "3.50",
+    "fact_type": "cgpa",
+    "unique_terms": [
+      "scholarship eligibility",
+      "merit award",
+      "tuition waiver"
+    ],
+    "word_count": 83
+  },
+  {
+    "doc_id": "D18",
+    "topic": "Student ID Card",
+    "filename": "D18_student_id_card.txt",
+    "fact": "15 days",
+    "fact_type": "duration",
+    "unique_terms": [
+      "identity card",
+      "card issuance",
+      "campus access card"
+    ],
+    "word_count": 85
+  },
+  {
+    "doc_id": "D19",
+    "topic": "Official Transcript",
+    "filename": "D19_official_transcript.txt",
+    "fact": "5 working days",
+    "fact_type": "duration",
+    "unique_terms": [
+      "academic record",
+      "transcript request",
+      "grade report"
+    ],
+    "word_count": 87
+  },
+  {
+    "doc_id": "D20",
+    "topic": "Course Withdrawal",
+    "filename": "D20_course_withdrawal.txt",
+    "fact": "30 days",
+    "fact_type": "duration",
+    "unique_terms": [
+      "withdrawal period",
+      "course cancellation",
+      "penalty-free drop"
+    ],
+    "word_count": 87
+  },
+  {
+    "doc_id": "D21",
+    "topic": "Library Borrowing",
+    "filename": "D21_library_borrowing.txt",
+    "fact": "5 books",
+    "fact_type": "number",
+    "unique_terms": [
+      "book loan",
+      "library checkout",
+      "borrowing limit"
+    ],
+    "word_count": 83
+  },
+  {
+    "doc_id": "D22",
+    "topic": "Laboratory Safety",
+    "filename": "D22_laboratory_safety.txt",
+    "fact": "safety goggles",
+    "fact_type": "requirement",
+    "unique_terms": [
+      "lab safety gear",
+      "protective equipment",
+      "laboratory conduct"
+    ],
+    "word_count": 82
+  },
+  {
+    "doc_id": "D23",
+    "topic": "Plagiarism Policy",
+    "filename": "D23_plagiarism_policy.txt",
+    "fact": "zero marks",
+    "fact_type": "penalty",
+    "unique_terms": [
+      "academic dishonesty",
+      "plagiarism penalty",
+      "integrity violation"
+    ],
+    "word_count": 76
+  },
+  {
+    "doc_id": "D24",
+    "topic": "Annual Sports Day",
+    "filename": "D24_annual_sports_day.txt",
+    "fact": "15 March",
+    "fact_type": "date",
+    "unique_terms": [
+      "sports gala",
+      "athletic event",
+      "annual tournament"
+    ],
+    "word_count": 82
+  },
+  {
+    "doc_id": "D25",
+    "topic": "Counselling Services",
+    "filename": "D25_counselling_services.txt",
+    "fact": "8 sessions",
+    "fact_type": "number",
+    "unique_terms": [
+      "student counselling",
+      "mental health support",
+      "therapy sessions"
+    ],
+    "word_count": 82
+  },
+  {
+    "doc_id": "D26",
+    "topic": "Course Evaluation",
+    "filename": "D26_course_evaluation.txt",
+    "fact": "anonymous",
+    "fact_type": "nature",
+    "unique_terms": [
+      "feedback survey",
+      "course review",
+      "student evaluation"
+    ],
+    "word_count": 72
+  },
+  {
+    "doc_id": "D27",
+    "topic": "Research Thesis",
+    "filename": "D27_research_thesis.txt",
+    "fact": "6 credit hours",
+    "fact_type": "number",
+    "unique_terms": [
+      "final year project",
+      "thesis credits",
+      "research component"
+    ],
+    "word_count": 86
+  },
+  {
+    "doc_id": "D28",
+    "topic": "Anti-Harassment Reporting",
+    "filename": "D28_anti-harassment_reporting.txt",
+    "fact": "3 days",
+    "fact_type": "duration",
+    "unique_terms": [
+      "harassment complaint",
+      "grievance filing",
+      "misconduct report"
+    ],
+    "word_count": 81
+  },
+  {
+    "doc_id": "D29",
+    "topic": "Alumni Privileges",
+    "filename": "D29_alumni_privileges.txt",
+    "fact": "lifetime access",
+    "fact_type": "nature",
+    "unique_terms": [
+      "alumni benefits",
+      "graduate services",
+      "post-graduation access"
+    ],
+    "word_count": 81
+  },
+  {
+    "doc_id": "D30",
+    "topic": "Transport Services",
+    "filename": "D30_transport_services.txt",
+    "fact": "PKR 15,000",
+    "fact_type": "amount",
+    "unique_terms": [
+      "bus service",
+      "campus shuttle",
+      "transport charges"
+    ],
+    "word_count": 81
+  }
+]

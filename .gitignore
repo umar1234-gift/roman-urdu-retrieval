@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+rewrite_cache_*.json
+rewrite_cache_groq.json
+rewrite_cache_all.json
+
+# Broken/temp
+*_broken.json
+*_temp.json
+*_old.json
+
+# Large files
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+*.key
+*.pem

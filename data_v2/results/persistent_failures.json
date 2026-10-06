@@ -1,0 +1,29 @@
+{
+  "persistent_failures": [
+    {
+      "query_id": "MQ0018",
+      "ranks": {
+        "BM25": 2,
+        "E5-large": 2,
+        "Standard RRF (1.0/1.0)": 2,
+        "Weighted RRF (0.2/0.8)": 2
+      },
+      "doc_id": "D02",
+      "level": "L0",
+      "original_query": "How long is the drop window after semester start?",
+      "rewritten_query": "How long is the drop window after semester start?",
+      "gold_document": "D02_course_add_and_drop.txt"
+    }
+  ],
+  "by_level": {
+    "L0": 1,
+    "L1": 0,
+    "L2": 0,
+    "L3": 0,
+    "L4": 0
+  },
+  "by_doc": {
+    "D02": 1
+  },
+  "total": 1
+}

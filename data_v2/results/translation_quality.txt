@@ -1,0 +1,73 @@
+
+====================================================================================================
+TRANSLATION QUALITY PER LEVEL
+====================================================================================================
+
+Level         N       BLEU       chrF
+----------------------------------------------------------------------------------------------------
+L1           90      87.20      95.33
+L2           90      41.01      60.20
+L3           90      19.95      44.51
+L4           90      12.45      39.74
+
+====================================================================================================
+OVERALL (L2 + L3 + L4 only — real translations)
+====================================================================================================
+N     : 270
+BLEU  : 23.79
+chrF  : 48.04
+
+====================================================================================================
+INTERPRETATION
+====================================================================================================
+
+BLEU scale (typical MT literature):
+  < 10  : Poor translation
+  10-20 : Low quality
+  20-30 : Understandable
+  30-40 : Good quality
+  > 40  : High quality
+
+chrF scale:
+  < 30  : Poor
+  30-50 : Moderate
+  50-70 : Good
+  > 70  : High
+
+BLEU 23.8 indicates UNDERSTANDABLE translation.
+
+Note: BLEU against human L0 references may underestimate quality
+because L0 references are not strict translations — they're
+independently written English queries with the same intent.
+
+====================================================================================================
+SAMPLE COMPARISONS (L4)
+====================================================================================================
+
+--- TOP 3 (best translation quality) ---
+
+MQ0433 (chrF=91.6)
+  Rewritten: How much library access do graduates receive after completing their degree?
+  Reference: What library access do graduates receive after completing their degree?
+
+MQ0313 (chrF=83.9)
+  Rewritten: How many books can a student take home from the library at one time?
+  Reference: How many books can a student borrow from the library at one time?
+
+MQ0044 (chrF=68.7)
+  Rewritten: What is the absolute final deadline to submit the admission application?
+  Reference: When is the deadline to submit the Fall 2026 admission application?
+
+--- BOTTOM 3 (worst translation quality) ---
+
+MQ0030 (chrF=16.7)
+  Rewritten: I need to know how much time is allowed to drop a course or take a new one.
+  Reference: How long is the drop window after semester start?
+
+MQ0029 (chrF=12.6)
+  Rewritten: In how many days can a student change a course?
+  Reference: What is the enrollment adjustment window for adding or dropping courses?
+
+MQ0284 (chrF=10.9)
+  Rewritten: How many days does it take to obtain a transcript?
+  Reference: What is the processing time for an official academic record?

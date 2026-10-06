@@ -1,0 +1,929 @@
+ACTUAL WORD-BY-WORD COUNT
+====================================================================================================
+D01 L0 V1 | FAIL score= 38 | urdu=1/8 (12%) | eng=7 | tech=0 | prop=1
+   query: What is the official commencement date for Fall 2026 classes?
+   tags:  what(eng) is(eng) the(urd) official(eng) commencement(eng) date(eng) for(eng) fall(pro) 2026(num) classes(eng)
+D01 L0 V2 | PASS score=100 | urdu=0/5 (0%) | eng=5 | tech=0 | prop=1
+D01 L0 V3 | FAIL score=  0 | urdu=2/7 (29%) | eng=5 | tech=1 | prop=1
+   query: What date marks the start of the Fall 2026 semester?
+   tags:  what(eng) date(eng) marks(eng) the(urd) start(eng) of(eng) the(urd) fall(pro) 2026(num) semester(tec)
+D01 L1 V1 | WARN score= 72 | urdu=2/9 (22%) | eng=7 | tech=0 | prop=1
+   query: What is the official commencement date for Fall 2026 ki classes?
+   tags:  what(eng) is(eng) the(urd) official(eng) commencement(eng) date(eng) for(eng) fall(pro) 2026(num) ki(urd) classes(eng)
+D01 L1 V2 | PASS score= 94 | urdu=1/6 (17%) | eng=5 | tech=0 | prop=1
+D01 L1 V3 | FAIL score= 46 | urdu=2/7 (29%) | eng=5 | tech=1 | prop=1
+   query: What is the start date of Fall 2026 ka semester?
+   tags:  what(eng) is(eng) the(urd) start(eng) date(eng) of(eng) fall(pro) 2026(num) ka(urd) semester(tec)
+D01 L2 V1 | WARN score= 76 | urdu=4/7 (57%) | eng=3 | tech=0 | prop=1
+   query: Fall 2026 ki classes ka start date kya hai?
+   tags:  fall(pro) 2026(num) ki(urd) classes(eng) ka(urd) start(eng) date(eng) kya(urd) hai(urd)
+D01 L2 V2 | PASS score= 91 | urdu=2/5 (40%) | eng=3 | tech=0 | prop=1
+D01 L2 V3 | FAIL score= 24 | urdu=5/6 (83%) | eng=1 | tech=1 | prop=1
+   query: Fall 2026 ka semester kis date se shuru hoga?
+   tags:  fall(pro) 2026(num) ka(urd) semester(tec) kis(urd) date(eng) se(urd) shuru(urd) hoga(urd)
+D01 L3 V1 | PASS score= 89 | urdu=7/8 (88%) | eng=1 | tech=0 | prop=1
+D01 L3 V2 | WARN score= 71 | urdu=6/6 (100%) | eng=0 | tech=0 | prop=1
+   query: Fall 2026 mein dars kab se shuru honge?
+   tags:  fall(pro) 2026(num) mein(urd) dars(urd) kab(urd) se(urd) shuru(urd) honge(urd)
+D01 L3 V3 | PASS score= 96 | urdu=5/6 (83%) | eng=1 | tech=1 | prop=1
+D01 L4 V1 | WARN score= 72 | urdu=8/12 (67%) | eng=4 | tech=0 | prop=1
+   query: Fall 2026 mein parhai kis din se shuru hon gi? Koi tareekh bata dein.
+   tags:  fall(pro) 2026(num) mein(urd) parhai(urd) kis(urd) din(eng) se(urd) shuru(urd) hon(eng) gi(eng) koi(urd) tareekh(eng) bata(urd) dein(urd)
+D01 L4 V2 | PASS score= 95 | urdu=6/7 (86%) | eng=1 | tech=0 | prop=1
+D01 L4 V3 | PASS score= 99 | urdu=8/9 (89%) | eng=1 | tech=0 | prop=1
+D02 L0 V1 | PASS score=100 | urdu=0/10 (0%) | eng=10 | tech=1 | prop=0
+D02 L0 V2 | FAIL score= 50 | urdu=1/10 (10%) | eng=9 | tech=1 | prop=0
+   query: What is the enrollment adjustment window for adding or dropping courses?
+   tags:  what(eng) is(eng) the(urd) enrollment(eng) adjustment(eng) window(eng) for(eng) adding(eng) or(eng) dropping(eng) courses(tec)
+D02 L0 V3 | FAIL score= 38 | urdu=1/8 (12%) | eng=7 | tech=1 | prop=0
+   query: How long is the drop window after semester start?
+   tags:  how(eng) long(eng) is(eng) the(urd) drop(eng) window(eng) after(eng) semester(tec) start(eng)
+D02 L1 V1 | PASS score= 99 | urdu=2/13 (15%) | eng=11 | tech=1 | prop=0
+D02 L1 V2 | PASS score= 81 | urdu=1/10 (10%) | eng=9 | tech=0 | prop=0
+D02 L1 V3 | WARN score= 72 | urdu=2/9 (22%) | eng=7 | tech=1 | prop=0
+   query: How long is the drop window after semester ka start?
+   tags:  how(eng) long(eng) is(eng) the(urd) drop(eng) window(eng) after(eng) semester(tec) ka(urd) start(eng)
+D02 L2 V1 | PASS score= 81 | urdu=6/11 (55%) | eng=5 | tech=1 | prop=0
+D02 L2 V2 | PASS score= 91 | urdu=3/6 (50%) | eng=3 | tech=0 | prop=0
+D02 L2 V3 | PASS score= 91 | urdu=4/8 (50%) | eng=4 | tech=1 | prop=0
+D02 L3 V1 | PASS score= 89 | urdu=7/8 (88%) | eng=1 | tech=1 | prop=0
+D02 L3 V2 | PASS score= 80 | urdu=6/9 (67%) | eng=3 | tech=1 | prop=0
+D02 L3 V3 | WARN score= 70 | urdu=6/10 (60%) | eng=4 | tech=1 | prop=0
+   query: Naya course lene ya chorne ke liye kitna waqt milta hai?
+   tags:  naya(eng) course(tec) lene(urd) ya(eng) chorne(eng) ke(urd) liye(urd) kitna(urd) waqt(eng) milta(urd) hai(urd)
+D02 L4 V1 | PASS score= 89 | urdu=8/8 (100%) | eng=0 | tech=1 | prop=0
+D02 L4 V2 | WARN score= 72 | urdu=6/9 (67%) | eng=3 | tech=1 | prop=0
+   query: Talib-e-ilm course kitne din mein badal sakte hain?
+   tags:  talib(urd) e(eng) ilm(urd) course(tec) kitne(urd) din(eng) mein(urd) badal(eng) sakte(urd) hain(urd)
+D02 L4 V3 | WARN score= 78 | urdu=10/14 (71%) | eng=4 | tech=1 | prop=0
+   query: Course chorne ya naya lene ke liye kitna waqt milta hai, yeh maloom karna hai.
+   tags:  course(tec) chorne(eng) ya(eng) naya(eng) lene(urd) ke(urd) liye(urd) kitna(urd) waqt(eng) milta(urd) hai(urd) yeh(urd) maloom(urd) karna(urd) hai(urd)
+D03 L0 V1 | FAIL score=  0 | urdu=2/8 (25%) | eng=6 | tech=1 | prop=3
+   query: What is the application cutoff for the Fall 2026 Software Engineering admission cycle?
+   tags:  what(eng) is(eng) the(urd) application(eng) cutoff(eng) for(eng) the(urd) fall(pro) 2026(num) software(pro) engineering(pro) admission(tec) cycle(eng)
+D03 L0 V2 | FAIL score=  0 | urdu=2/8 (25%) | eng=6 | tech=1 | prop=1
+   query: When is the deadline to submit the Fall 2026 admission application?
+   tags:  when(eng) is(eng) the(urd) deadline(eng) to(eng) submit(eng) the(urd) fall(pro) 2026(num) admission(tec) application(eng)
+D03 L0 V3 | FAIL score= 10 | urdu=2/11 (18%) | eng=9 | tech=0 | prop=1
+   query: What is the final date and time for the Fall 2026 application submission?
+   tags:  what(eng) is(eng) the(urd) final(eng) date(eng) and(eng) time(eng) for(eng) the(urd) fall(pro) 2026(num) application(eng) submission(eng)
+D03 L1 V1 | FAIL score= 46 | urdu=2/7 (29%) | eng=5 | tech=1 | prop=3
+   query: What is the application cutoff for Fall 2026 Software Engineering ki admission?
+   tags:  what(eng) is(eng) the(urd) application(eng) cutoff(eng) for(eng) fall(pro) 2026(num) software(pro) engineering(pro) ki(urd) admission(tec)
+D03 L1 V2 | WARN score= 60 | urdu=2/8 (25%) | eng=6 | tech=1 | prop=1
+   query: When is the deadline to submit Fall 2026 ki admission application?
+   tags:  when(eng) is(eng) the(urd) deadline(eng) to(eng) submit(eng) fall(pro) 2026(num) ki(urd) admission(tec) application(eng)
+D03 L1 V3 | PASS score= 88 | urdu=2/11 (18%) | eng=9 | tech=0 | prop=1
+D03 L2 V1 | WARN score= 76 | urdu=4/7 (57%) | eng=3 | tech=1 | prop=1
+   query: Fall 2026 admission ki application ki aakhri tareekh kya hai?
+   tags:  fall(pro) 2026(num) admission(tec) ki(urd) application(eng) ki(urd) aakhri(eng) tareekh(eng) kya(urd) hai(urd)
+D03 L2 V2 | FAIL score= 15 | urdu=7/8 (88%) | eng=1 | tech=1 | prop=0
+   query: Admission ke liye application kab tak jama karwani hai?
+   tags:  admission(tec) ke(urd) liye(urd) application(eng) kab(urd) tak(urd) jama(urd) karwani(urd) hai(urd)
+D03 L2 V3 | PASS score= 91 | urdu=4/10 (40%) | eng=6 | tech=0 | prop=1
+D03 L3 V1 | PASS score= 84 | urdu=10/11 (91%) | eng=1 | tech=0 | prop=1
+D03 L3 V2 | PASS score=100 | urdu=8/10 (80%) | eng=2 | tech=0 | prop=0
+D03 L3 V3 | PASS score= 98 | urdu=9/11 (82%) | eng=2 | tech=0 | prop=1
+D03 L4 V1 | PASS score= 98 | urdu=12/13 (92%) | eng=1 | tech=0 | prop=1
+D03 L4 V2 | PASS score= 91 | urdu=9/11 (82%) | eng=2 | tech=0 | prop=0
+D03 L4 V3 | PASS score= 95 | urdu=12/14 (86%) | eng=2 | tech=0 | prop=1
+D04 L0 V1 | PASS score=100 | urdu=0/9 (0%) | eng=9 | tech=1 | prop=0
+D04 L0 V2 | FAIL score= 38 | urdu=1/8 (12%) | eng=7 | tech=0 | prop=0
+   query: What is the late submission window for assignments?
+   tags:  what(eng) is(eng) the(urd) late(eng) submission(eng) window(eng) for(eng) assignments(eng)
+D04 L0 V3 | FAIL score= 17 | urdu=1/6 (17%) | eng=5 | tech=1 | prop=0
+   query: How long is the assignment grace period?
+   tags:  how(eng) long(eng) is(eng) the(urd) assignment(tec) grace(eng) period(eng)
+D04 L1 V1 | PASS score= 81 | urdu=1/10 (10%) | eng=9 | tech=1 | prop=0
+D04 L1 V2 | FAIL score= 15 | urdu=4/11 (36%) | eng=7 | tech=1 | prop=0
+   query: What is the late submission window for assignment ki deadline ke baad?
+   tags:  what(eng) is(eng) the(urd) late(eng) submission(eng) window(eng) for(eng) assignment(tec) ki(urd) deadline(eng) ke(urd) baad(urd)
+D04 L1 V3 | FAIL score= 46 | urdu=2/7 (29%) | eng=5 | tech=1 | prop=0
+   query: How long is the assignment ka grace period?
+   tags:  how(eng) long(eng) is(eng) the(urd) assignment(tec) ka(urd) grace(eng) period(eng)
+D04 L2 V1 | WARN score= 71 | urdu=6/10 (60%) | eng=4 | tech=1 | prop=0
+   query: Late assignment submit karne ke liye kitne calendar days milte hain?
+   tags:  late(eng) assignment(tec) submit(eng) karne(urd) ke(urd) liye(urd) kitne(urd) calendar(eng) days(eng) milte(urd) hain(urd)
+D04 L2 V2 | FAIL score= 48 | urdu=5/7 (71%) | eng=2 | tech=1 | prop=0
+   query: Assignment late jama karne ki kitni muddat hai?
+   tags:  assignment(tec) late(eng) jama(urd) karne(urd) ki(urd) kitni(urd) muddat(eng) hai(urd)
+D04 L2 V3 | FAIL score= 51 | urdu=7/10 (70%) | eng=3 | tech=1 | prop=0
+   query: Deadline ke baad assignment kitne din mein jama kar sakte hain?
+   tags:  deadline(eng) ke(urd) baad(urd) assignment(tec) kitne(urd) din(eng) mein(urd) jama(urd) kar(eng) sakte(urd) hain(urd)
+D04 L3 V1 | PASS score= 86 | urdu=9/10 (90%) | eng=1 | tech=1 | prop=0
+D04 L3 V2 | PASS score= 86 | urdu=9/10 (90%) | eng=1 | tech=1 | prop=0
+D04 L3 V3 | PASS score= 90 | urdu=8/11 (73%) | eng=3 | tech=1 | prop=0
+D04 L4 V1 | WARN score= 64 | urdu=9/15 (60%) | eng=6 | tech=1 | prop=0
+   query: Assignment waqt par jama na ho to kitne din tak jama karwa sakte hain? Bata dein.
+   tags:  assignment(tec) waqt(eng) par(urd) jama(urd) na(eng) ho(eng) to(eng) kitne(urd) din(eng) tak(urd) jama(urd) karwa(eng) sakte(urd) hain(urd) bata(urd) dein(urd)
+D04 L4 V2 | PASS score= 90 | urdu=13/16 (81%) | eng=3 | tech=1 | prop=0
+D04 L4 V3 | PASS score= 89 | urdu=14/14 (100%) | eng=0 | tech=1 | prop=0
+D05 L0 V1 | PASS score=100 | urdu=0/6 (0%) | eng=6 | tech=2 | prop=0
+D05 L0 V2 | FAIL score= 45 | urdu=1/9 (11%) | eng=8 | tech=1 | prop=0
+   query: What is the attendance threshold for staying in good standing?
+   tags:  what(eng) is(eng) the(urd) attendance(tec) threshold(eng) for(eng) staying(eng) in(eng) good(eng) standing(eng)
+D05 L0 V3 | PASS score=100 | urdu=0/5 (0%) | eng=5 | tech=1 | prop=1
+D05 L1 V1 | WARN score= 72 | urdu=2/9 (22%) | eng=7 | tech=2 | prop=0
+   query: What minimum attendance percentage is required per course ki classes mein?
+   tags:  what(eng) minimum(eng) attendance(tec) percentage(eng) is(eng) required(eng) per(eng) course(tec) ki(urd) classes(eng) mein(urd)
+D05 L1 V2 | WARN score= 72 | urdu=2/9 (22%) | eng=7 | tech=1 | prop=0
+   query: What is the attendance threshold for good standing ki condition?
+   tags:  what(eng) is(eng) the(urd) attendance(tec) threshold(eng) for(eng) good(eng) standing(eng) ki(urd) condition(eng)
+D05 L1 V3 | FAIL score= 46 | urdu=2/7 (29%) | eng=5 | tech=2 | prop=1
+   query: How much attendance must a student maintain har course mein?
+   tags:  how(eng) much(eng) attendance(tec) must(eng) a(pro) student(eng) maintain(eng) har(urd) course(tec) mein(urd)
+D05 L2 V1 | FAIL score= 40 | urdu=3/4 (75%) | eng=1 | tech=1 | prop=0
+   query: Minimum attendance kitni honi chahiye?
+   tags:  minimum(eng) attendance(tec) kitni(urd) honi(urd) chahiye(urd)
+D05 L2 V2 | FAIL score= 35 | urdu=7/9 (78%) | eng=2 | tech=1 | prop=0
+   query: Student ko kam az kam kitni attendance rakhni hoti hai?
+   tags:  student(eng) ko(urd) kam(urd) az(urd) kam(urd) kitni(urd) attendance(tec) rakhni(eng) hoti(urd) hai(urd)
+D05 L2 V3 | FAIL score= 40 | urdu=3/4 (75%) | eng=1 | tech=1 | prop=0
+   query: Attendance threshold kitni zaroori hai?
+   tags:  attendance(tec) threshold(eng) kitni(urd) zaroori(urd) hai(urd)
+D05 L3 V1 | PASS score= 96 | urdu=10/12 (83%) | eng=2 | tech=0 | prop=0
+D05 L3 V2 | PASS score= 80 | urdu=6/9 (67%) | eng=3 | tech=1 | prop=0
+D05 L3 V3 | PASS score= 88 | urdu=5/7 (71%) | eng=2 | tech=0 | prop=0
+D05 L4 V1 | PASS score= 97 | urdu=14/16 (88%) | eng=2 | tech=1 | prop=0
+D05 L4 V2 | WARN score= 61 | urdu=8/14 (57%) | eng=6 | tech=0 | prop=0
+   query: Agar talib-e-ilm imtihan dena chahta hai to minimum hazri kitni honi chahiye?
+   tags:  agar(eng) talib(urd) e(eng) ilm(urd) imtihan(urd) dena(urd) chahta(eng) hai(urd) to(eng) minimum(eng) hazri(eng) kitni(urd) honi(urd) chahiye(urd)
+D05 L4 V3 | PASS score= 99 | urdu=8/9 (89%) | eng=1 | tech=0 | prop=0
+D06 L0 V1 | PASS score=100 | urdu=0/7 (0%) | eng=7 | tech=2 | prop=0
+D06 L0 V2 | FAIL score= 17 | urdu=1/6 (17%) | eng=5 | tech=1 | prop=0
+   query: What is the total graduation credit requirement?
+   tags:  what(eng) is(eng) the(urd) total(eng) graduation(eng) credit(tec) requirement(eng)
+D06 L0 V3 | FAIL score= 38 | urdu=1/8 (12%) | eng=7 | tech=2 | prop=1
+   query: How many credit hours must a student complete for the degree?
+   tags:  how(eng) many(eng) credit(tec) hours(tec) must(eng) a(pro) student(eng) complete(eng) for(eng) the(urd) degree(eng)
+D06 L1 V1 | PASS score= 80 | urdu=2/10 (20%) | eng=8 | tech=2 | prop=0
+D06 L1 V2 | PASS score= 94 | urdu=1/6 (17%) | eng=5 | tech=1 | prop=0
+D06 L1 V3 | WARN score= 60 | urdu=2/8 (25%) | eng=6 | tech=2 | prop=1
+   query: How many credit hours must a student complete degree ke liye?
+   tags:  how(eng) many(eng) credit(tec) hours(tec) must(eng) a(pro) student(eng) complete(eng) degree(eng) ke(urd) liye(urd)
+D06 L2 V1 | FAIL score= 48 | urdu=5/7 (71%) | eng=2 | tech=2 | prop=0
+   query: Degree complete karne ke liye kitne credit hours chahiye?
+   tags:  degree(eng) complete(eng) karne(urd) ke(urd) liye(urd) kitne(urd) credit(tec) hours(tec) chahiye(urd)
+D06 L2 V2 | PASS score= 91 | urdu=2/4 (50%) | eng=2 | tech=0 | prop=0
+D06 L2 V3 | FAIL score= 57 | urdu=4/6 (67%) | eng=2 | tech=2 | prop=0
+   query: Program completion ke liye kitne credit hours chahiye?
+   tags:  program(eng) completion(eng) ke(urd) liye(urd) kitne(urd) credit(tec) hours(tec) chahiye(urd)
+D06 L3 V1 | PASS score= 89 | urdu=7/8 (88%) | eng=1 | tech=2 | prop=0
+D06 L3 V2 | PASS score= 93 | urdu=9/12 (75%) | eng=3 | tech=2 | prop=0
+D06 L3 V3 | PASS score= 89 | urdu=7/8 (88%) | eng=1 | tech=2 | prop=0
+D06 L4 V1 | PASS score= 84 | urdu=13/17 (76%) | eng=4 | tech=2 | prop=0
+D06 L4 V2 | PASS score= 89 | urdu=12/12 (100%) | eng=0 | tech=2 | prop=0
+D06 L4 V3 | PASS score= 95 | urdu=6/7 (86%) | eng=1 | tech=2 | prop=0
+D07 L0 V1 | PASS score=100 | urdu=0/11 (0%) | eng=11 | tech=0 | prop=2
+D07 L0 V2 | FAIL score= 38 | urdu=1/8 (12%) | eng=7 | tech=0 | prop=1
+   query: What is the appeal window for a disciplinary ruling?
+   tags:  what(eng) is(eng) the(urd) appeal(eng) window(eng) for(eng) a(pro) disciplinary(eng) ruling(eng)
+D07 L0 V3 | PASS score=100 | urdu=0/7 (0%) | eng=7 | tech=0 | prop=2
+D07 L1 V1 | WARN score= 71 | urdu=1/13 (8%) | eng=12 | tech=0 | prop=2
+   query: How many working days does a student have to appeal a disciplinary decision ke against?
+   tags:  how(eng) many(eng) working(eng) days(eng) does(eng) a(pro) student(eng) have(eng) to(eng) appeal(eng) a(pro) disciplinary(eng) decision(eng) ke(urd) against(eng)
+D07 L1 V2 | PASS score= 80 | urdu=2/10 (20%) | eng=8 | tech=0 | prop=0
+D07 L1 V3 | FAIL score= 40 | urdu=0/7 (0%) | eng=7 | tech=0 | prop=2
+   query: How long can a student contest a disciplinary decision?
+   tags:  how(eng) long(eng) can(eng) a(pro) student(eng) contest(eng) a(pro) disciplinary(eng) decision(eng)
+D07 L2 V1 | PASS score= 91 | urdu=6/12 (50%) | eng=6 | tech=0 | prop=0
+D07 L2 V2 | PASS score= 91 | urdu=4/8 (50%) | eng=4 | tech=0 | prop=0
+D07 L2 V3 | WARN score= 79 | urdu=5/9 (56%) | eng=4 | tech=0 | prop=0
+   query: Disciplinary case mein appeal karne ki kitni muddat hai?
+   tags:  disciplinary(eng) case(eng) mein(urd) appeal(eng) karne(urd) ki(urd) kitni(urd) muddat(eng) hai(urd)
+D07 L3 V1 | PASS score= 90 | urdu=8/11 (73%) | eng=3 | tech=0 | prop=0
+D07 L3 V2 | WARN score= 73 | urdu=8/13 (62%) | eng=5 | tech=0 | prop=0
+   query: Talib-e-ilm disciplinary faislay ko kitne din mein challenge kar sakta hai?
+   tags:  talib(urd) e(eng) ilm(urd) disciplinary(eng) faislay(urd) ko(urd) kitne(urd) din(eng) mein(urd) challenge(eng) kar(eng) sakta(urd) hai(urd)
+D07 L3 V3 | PASS score= 90 | urdu=8/11 (73%) | eng=3 | tech=0 | prop=0
+D07 L4 V1 | WARN score= 64 | urdu=12/20 (60%) | eng=8 | tech=0 | prop=0
+   query: Agar talib-e-ilm disciplinary faislay se muttafiq na ho to appeal ke liye kitne din milte hain? Bata dein.
+   tags:  agar(eng) talib(urd) e(eng) ilm(urd) disciplinary(eng) faislay(urd) se(urd) muttafiq(urd) na(eng) ho(eng) to(eng) appeal(eng) ke(urd) liye(urd) kitne(urd) din(eng) milte(urd) hain(urd) bata(urd) dein(urd)
+D07 L4 V2 | PASS score= 84 | urdu=13/17 (76%) | eng=4 | tech=0 | prop=0
+D07 L4 V3 | WARN score= 78 | urdu=15/21 (71%) | eng=6 | tech=0 | prop=0
+   query: Disciplinary faislay ko challenge karne ke liye talib-e-ilm kitne din mein appeal kar sakta hai, yeh maloom karna hai.
+   tags:  disciplinary(eng) faislay(urd) ko(urd) challenge(eng) karne(urd) ke(urd) liye(urd) talib(urd) e(eng) ilm(urd) kitne(urd) din(eng) mein(urd) appeal(eng) kar(eng) sakta(urd) hai(urd) yeh(urd) maloom(urd) karna(urd) hai(urd)
+D08 L0 V1 | FAIL score= 50 | urdu=1/10 (10%) | eng=9 | tech=0 | prop=0
+   query: What minimum marks are required to pass the final examination?
+   tags:  what(eng) minimum(eng) marks(eng) are(eng) required(eng) to(eng) pass(eng) the(urd) final(eng) examination(eng)
+D08 L0 V2 | FAIL score=  0 | urdu=2/9 (22%) | eng=7 | tech=0 | prop=0
+   query: What is the passing threshold for the final examination?
+   tags:  what(eng) is(eng) the(urd) passing(eng) threshold(eng) for(eng) the(urd) final(eng) examination(eng)
+D08 L0 V3 | FAIL score= 50 | urdu=1/10 (10%) | eng=9 | tech=1 | prop=1
+   query: How many marks must a student obtain to pass the final exam?
+   tags:  how(eng) many(eng) marks(eng) must(eng) a(pro) student(eng) obtain(eng) to(eng) pass(eng) the(urd) final(eng) exam(tec)
+D08 L1 V1 | WARN score= 68 | urdu=3/13 (23%) | eng=10 | tech=0 | prop=0
+   query: What minimum marks are required to pass the final examination ki condition mein?
+   tags:  what(eng) minimum(eng) marks(eng) are(eng) required(eng) to(eng) pass(eng) the(urd) final(eng) examination(eng) ki(urd) condition(eng) mein(urd)
+D08 L1 V2 | PASS score= 91 | urdu=1/8 (12%) | eng=7 | tech=0 | prop=0
+D08 L1 V3 | FAIL score= 51 | urdu=3/11 (27%) | eng=8 | tech=1 | prop=1
+   query: How many marks must a student obtain final exam pass karne ke liye?
+   tags:  how(eng) many(eng) marks(eng) must(eng) a(pro) student(eng) obtain(eng) final(eng) exam(tec) pass(eng) karne(urd) ke(urd) liye(urd)
+D08 L2 V1 | PASS score= 81 | urdu=6/11 (55%) | eng=5 | tech=0 | prop=0
+D08 L2 V2 | PASS score= 91 | urdu=3/6 (50%) | eng=3 | tech=1 | prop=0
+D08 L2 V3 | FAIL score= 40 | urdu=9/12 (75%) | eng=3 | tech=1 | prop=0
+   query: Final exam mein pass hone ke liye kam az kam kitne number chahiye?
+   tags:  final(eng) exam(tec) mein(urd) pass(eng) hone(urd) ke(urd) liye(urd) kam(urd) az(urd) kam(urd) kitne(urd) number(eng) chahiye(urd)
+D08 L3 V1 | PASS score= 96 | urdu=10/13 (77%) | eng=3 | tech=0 | prop=0
+D08 L3 V2 | PASS score= 84 | urdu=9/13 (69%) | eng=4 | tech=0 | prop=0
+D08 L3 V3 | WARN score= 66 | urdu=4/7 (57%) | eng=3 | tech=0 | prop=0
+   query: Aakhri imtihan ki passing threshold kitni hai?
+   tags:  aakhri(eng) imtihan(urd) ki(urd) passing(eng) threshold(eng) kitni(urd) hai(urd)
+D08 L4 V1 | PASS score= 89 | urdu=16/20 (80%) | eng=4 | tech=0 | prop=0
+D08 L4 V2 | WARN score= 78 | urdu=10/14 (71%) | eng=4 | tech=0 | prop=0
+   query: Aakhri imtihan mein pass hone ke liye minimum kitne number hasil karna lazmi hai?
+   tags:  aakhri(eng) imtihan(urd) mein(urd) pass(eng) hone(urd) ke(urd) liye(urd) minimum(eng) kitne(urd) number(eng) hasil(urd) karna(urd) lazmi(urd) hai(urd)
+D08 L4 V3 | PASS score= 80 | urdu=8/11 (73%) | eng=3 | tech=0 | prop=0
+D09 L0 V1 | FAIL score= 29 | urdu=1/7 (14%) | eng=6 | tech=2 | prop=2
+   query: What is the semester fee for fifth-semester Software Engineering students?
+   tags:  what(eng) is(eng) the(urd) semester(tec) fee(eng) for(eng) fifth(eng) semester(tec) software(pro) engineering(pro) students(eng)
+D09 L0 V2 | FAIL score=  0 | urdu=2/9 (22%) | eng=7 | tech=2 | prop=2
+   query: How much is the semester fee for the fifth semester of Software Engineering?
+   tags:  how(eng) much(eng) is(eng) the(urd) semester(tec) fee(eng) for(eng) the(urd) fifth(eng) semester(tec) of(eng) software(pro) engineering(pro)
+D09 L0 V3 | PASS score=100 | urdu=0/6 (0%) | eng=6 | tech=1 | prop=2
+D09 L1 V1 | FAIL score= 40 | urdu=3/10 (30%) | eng=7 | tech=2 | prop=2
+   query: What is the semester fee for fifth-semester Software Engineering students ki classes mein?
+   tags:  what(eng) is(eng) the(urd) semester(tec) fee(eng) for(eng) fifth(eng) semester(tec) software(pro) engineering(pro) students(eng) ki(urd) classes(eng) mein(urd)
+D09 L1 V2 | PASS score= 91 | urdu=1/8 (12%) | eng=7 | tech=2 | prop=2
+D09 L1 V3 | FAIL score= 40 | urdu=0/6 (0%) | eng=6 | tech=1 | prop=2
+   query: What amount must fifth-semester Software Engineering students pay?
+   tags:  what(eng) amount(eng) must(eng) fifth(eng) semester(tec) software(pro) engineering(pro) students(eng) pay(eng)
+D09 L2 V1 | WARN score= 71 | urdu=3/5 (60%) | eng=2 | tech=2 | prop=2
+   query: Fifth-semester Software Engineering ki semester fee kitni hai?
+   tags:  fifth(eng) semester(tec) software(pro) engineering(pro) ki(urd) semester(tec) fee(eng) kitni(urd) hai(urd)
+D09 L2 V2 | WARN score= 76 | urdu=4/7 (57%) | eng=3 | tech=1 | prop=2
+   query: Software Engineering ke fifth semester mein tuition payment kitni hai?
+   tags:  software(pro) engineering(pro) ke(urd) fifth(eng) semester(tec) mein(urd) tuition(eng) payment(eng) kitni(urd) hai(urd)
+D09 L2 V3 | FAIL score= 51 | urdu=7/10 (70%) | eng=3 | tech=2 | prop=0
+   query: Fifth semester ke liye students ko kitni semester fee deni hoti hai?
+   tags:  fifth(eng) semester(tec) ke(urd) liye(urd) students(eng) ko(urd) kitni(urd) semester(tec) fee(eng) deni(urd) hoti(urd) hai(urd)
+D09 L3 V1 | PASS score= 80 | urdu=4/6 (67%) | eng=2 | tech=1 | prop=2
+D09 L3 V2 | PASS score= 93 | urdu=9/12 (75%) | eng=3 | tech=1 | prop=0
+D09 L3 V3 | FAIL score= 55 | urdu=4/8 (50%) | eng=4 | tech=1 | prop=2
+   query: Software Engineering ke paanchwe semester ki kul fees kitni banti hai?
+   tags:  software(pro) engineering(pro) ke(urd) paanchwe(eng) semester(tec) ki(urd) kul(eng) fees(eng) kitni(urd) banti(eng) hai(urd)
+D09 L4 V1 | PASS score= 82 | urdu=12/16 (75%) | eng=4 | tech=1 | prop=2
+D09 L4 V2 | PASS score= 82 | urdu=9/12 (75%) | eng=3 | tech=1 | prop=0
+D09 L4 V3 | PASS score= 86 | urdu=7/9 (78%) | eng=2 | tech=1 | prop=0
+D10 L0 V1 | PASS score=100 | urdu=0/7 (0%) | eng=7 | tech=1 | prop=1
+D10 L0 V2 | FAIL score= 29 | urdu=1/7 (14%) | eng=6 | tech=2 | prop=1
+   query: What is the minimum grade boundary for an A grade?
+   tags:  what(eng) is(eng) the(urd) minimum(eng) grade(tec) boundary(eng) for(eng) an(eng) a(pro) grade(tec)
+D10 L0 V3 | PASS score=100 | urdu=0/7 (0%) | eng=7 | tech=1 | prop=1
+D10 L1 V1 | PASS score= 80 | urdu=2/10 (20%) | eng=8 | tech=1 | prop=1
+D10 L1 V2 | PASS score= 94 | urdu=1/6 (17%) | eng=5 | tech=2 | prop=1
+D10 L1 V3 | FAIL score=  0 | urdu=4/10 (40%) | eng=6 | tech=1 | prop=1
+   query: How many marks are needed for A grade hasil karne ke liye?
+   tags:  how(eng) many(eng) marks(eng) are(eng) needed(eng) for(eng) a(pro) grade(tec) hasil(urd) karne(urd) ke(urd) liye(urd)
+D10 L2 V1 | FAIL score= 30 | urdu=4/5 (80%) | eng=1 | tech=1 | prop=1
+   query: A grade ke liye kitni percentage chahiye?
+   tags:  a(pro) grade(tec) ke(urd) liye(urd) kitni(urd) percentage(eng) chahiye(urd)
+D10 L2 V2 | FAIL score= 35 | urdu=7/9 (78%) | eng=2 | tech=1 | prop=1
+   query: A grade hasil karne ke liye kitne percent marks zaroori hain?
+   tags:  a(pro) grade(tec) hasil(urd) karne(urd) ke(urd) liye(urd) kitne(urd) percent(eng) marks(eng) zaroori(urd) hain(urd)
+D10 L2 V3 | FAIL score= 40 | urdu=3/4 (75%) | eng=1 | tech=2 | prop=1
+   query: A grade ki grade boundary kya hai?
+   tags:  a(pro) grade(tec) ki(urd) grade(tec) boundary(eng) kya(urd) hai(urd)
+D10 L3 V1 | PASS score= 93 | urdu=6/8 (75%) | eng=2 | tech=1 | prop=1
+D10 L3 V2 | PASS score= 86 | urdu=9/10 (90%) | eng=1 | tech=1 | prop=1
+D10 L3 V3 | PASS score= 97 | urdu=7/9 (78%) | eng=2 | tech=1 | prop=1
+D10 L4 V1 | PASS score= 87 | urdu=15/19 (79%) | eng=4 | tech=1 | prop=1
+D10 L4 V2 | PASS score= 97 | urdu=7/8 (88%) | eng=1 | tech=1 | prop=1
+D10 L4 V3 | PASS score= 89 | urdu=8/8 (100%) | eng=0 | tech=1 | prop=1
+D11 L0 V1 | PASS score=100 | urdu=0/7 (0%) | eng=7 | tech=0 | prop=1
+D11 L0 V2 | FAIL score= 29 | urdu=1/7 (14%) | eng=6 | tech=0 | prop=1
+   query: What is the CGPA threshold for degree conferral?
+   tags:  what(eng) is(eng) the(urd) cgpa(pro) threshold(eng) for(eng) degree(eng) conferral(eng)
+D11 L0 V3 | PASS score=100 | urdu=0/6 (0%) | eng=6 | tech=0 | prop=2
+D11 L1 V1 | PASS score= 80 | urdu=2/10 (20%) | eng=8 | tech=0 | prop=1
+D11 L1 V2 | PASS score= 98 | urdu=1/7 (14%) | eng=6 | tech=0 | prop=1
+D11 L1 V3 | FAIL score= 46 | urdu=2/7 (29%) | eng=5 | tech=0 | prop=2
+   query: What CGPA must a student achieve graduation ke liye?
+   tags:  what(eng) cgpa(pro) must(eng) a(pro) student(eng) achieve(eng) graduation(eng) ke(urd) liye(urd)
+D11 L2 V1 | FAIL score= 57 | urdu=4/6 (67%) | eng=2 | tech=0 | prop=1
+   query: Graduation ke liye minimum CGPA kitni chahiye?
+   tags:  graduation(eng) ke(urd) liye(urd) minimum(eng) cgpa(pro) kitni(urd) chahiye(urd)
+D11 L2 V2 | WARN score= 76 | urdu=4/7 (57%) | eng=3 | tech=0 | prop=1
+   query: Degree conferral ke liye CGPA threshold kya hai?
+   tags:  degree(eng) conferral(eng) ke(urd) liye(urd) cgpa(pro) threshold(eng) kya(urd) hai(urd)
+D11 L2 V3 | FAIL score= 48 | urdu=5/7 (71%) | eng=2 | tech=0 | prop=1
+   query: Graduation standing ke liye kitni CGPA zaroori hai?
+   tags:  graduation(eng) standing(eng) ke(urd) liye(urd) kitni(urd) cgpa(pro) zaroori(urd) hai(urd)
+D11 L3 V1 | WARN score= 71 | urdu=11/11 (100%) | eng=0 | tech=0 | prop=1
+   query: Sanad hasil karne ke liye kam az kam kitni CGPA zaroori hai?
+   tags:  sanad(urd) hasil(urd) karne(urd) ke(urd) liye(urd) kam(urd) az(urd) kam(urd) kitni(urd) cgpa(pro) zaroori(urd) hai(urd)
+D11 L3 V2 | PASS score= 88 | urdu=5/7 (71%) | eng=2 | tech=0 | prop=1
+D11 L3 V3 | PASS score= 94 | urdu=11/13 (85%) | eng=2 | tech=0 | prop=1
+D11 L4 V1 | PASS score= 95 | urdu=17/18 (94%) | eng=1 | tech=0 | prop=1
+D11 L4 V2 | PASS score= 93 | urdu=10/12 (83%) | eng=2 | tech=0 | prop=1
+D11 L4 V3 | PASS score= 91 | urdu=9/11 (82%) | eng=2 | tech=0 | prop=1
+D12 L0 V1 | FAIL score= 29 | urdu=1/7 (14%) | eng=6 | tech=1 | prop=0
+   query: What is the hostel curfew time for residents?
+   tags:  what(eng) is(eng) the(urd) hostel(tec) curfew(eng) time(eng) for(eng) residents(eng)
+D12 L0 V2 | FAIL score= 45 | urdu=1/9 (11%) | eng=8 | tech=1 | prop=0
+   query: At what time must hostel students return to the residence?
+   tags:  at(eng) what(eng) time(eng) must(eng) hostel(tec) students(eng) return(eng) to(eng) the(urd) residence(eng)
+D12 L0 V3 | FAIL score= 45 | urdu=1/9 (11%) | eng=8 | tech=1 | prop=0
+   query: What is the required night return time for hostel residents?
+   tags:  what(eng) is(eng) the(urd) required(eng) night(eng) return(eng) time(eng) for(eng) hostel(tec) residents(eng)
+D12 L1 V1 | FAIL score= 40 | urdu=3/10 (30%) | eng=7 | tech=1 | prop=0
+   query: What is the hostel curfew time for residents ki condition mein?
+   tags:  what(eng) is(eng) the(urd) hostel(tec) curfew(eng) time(eng) for(eng) residents(eng) ki(urd) condition(eng) mein(urd)
+D12 L1 V2 | PASS score= 85 | urdu=1/9 (11%) | eng=8 | tech=1 | prop=0
+D12 L1 V3 | PASS score= 85 | urdu=1/9 (11%) | eng=8 | tech=1 | prop=0
+D12 L2 V1 | WARN score= 71 | urdu=3/5 (60%) | eng=2 | tech=1 | prop=0
+   query: Hostel ka curfew time kya hai?
+   tags:  hostel(tec) ka(urd) curfew(eng) time(eng) kya(urd) hai(urd)
+D12 L2 V2 | WARN score= 79 | urdu=5/9 (56%) | eng=4 | tech=1 | prop=0
+   query: Hostel mein students ko kitne baje tak wapas aana chahiye?
+   tags:  hostel(tec) mein(urd) students(eng) ko(urd) kitne(urd) baje(eng) tak(urd) wapas(eng) aana(eng) chahiye(urd)
+D12 L2 V3 | PASS score= 91 | urdu=4/8 (50%) | eng=4 | tech=1 | prop=0
+D12 L3 V1 | WARN score= 68 | urdu=7/12 (58%) | eng=5 | tech=1 | prop=0
+   query: Hostel se bahar jane ke baad kitne baje tak wapas aana hota hai?
+   tags:  hostel(tec) se(urd) bahar(eng) jane(eng) ke(urd) baad(urd) kitne(urd) baje(eng) tak(urd) wapas(eng) aana(eng) hota(urd) hai(urd)
+D12 L3 V2 | WARN score= 66 | urdu=4/7 (57%) | eng=3 | tech=1 | prop=0
+   query: Hostel ki wapsi ki aakhri timing kya hai?
+   tags:  hostel(tec) ki(urd) wapsi(eng) ki(urd) aakhri(eng) timing(eng) kya(urd) hai(urd)
+D12 L3 V3 | PASS score= 96 | urdu=10/13 (77%) | eng=3 | tech=1 | prop=0
+D12 L4 V1 | WARN score= 79 | urdu=13/18 (72%) | eng=5 | tech=2 | prop=0
+   query: Hostel mein rehne wale talib-e-ilm ko raat ko kitne baje tak hostel wapas pohanchna zaroori hai? Bata dein.
+   tags:  hostel(tec) mein(urd) rehne(eng) wale(urd) talib(urd) e(eng) ilm(urd) ko(urd) raat(eng) ko(urd) kitne(urd) baje(eng) tak(urd) hostel(tec) wapas(eng) pohanchna(urd) zaroori(urd) hai(urd) bata(urd) dein(urd)
+D12 L4 V2 | WARN score= 67 | urdu=10/16 (62%) | eng=6 | tech=1 | prop=0
+   query: Hostel ki curfew ke mutabiq talib-e-ilm ko maximum kis waqt tak wapas aana hota hai?
+   tags:  hostel(tec) ki(urd) curfew(eng) ke(urd) mutabiq(urd) talib(urd) e(eng) ilm(urd) ko(urd) maximum(eng) kis(urd) waqt(eng) tak(urd) wapas(eng) aana(eng) hota(urd) hai(urd)
+D12 L4 V3 | PASS score= 85 | urdu=10/13 (77%) | eng=3 | tech=0 | prop=0
+D13 L0 V1 | FAIL score=  0 | urdu=2/8 (25%) | eng=6 | tech=1 | prop=0
+   query: What is the minimum duration of the required internship?
+   tags:  what(eng) is(eng) the(urd) minimum(eng) duration(eng) of(eng) the(urd) required(eng) internship(tec)
+D13 L0 V2 | FAIL score= 17 | urdu=1/6 (17%) | eng=5 | tech=1 | prop=0
+   query: How many weeks must the internship last?
+   tags:  how(eng) many(eng) weeks(eng) must(eng) the(urd) internship(tec) last(eng)
+D13 L0 V3 | FAIL score= 29 | urdu=1/7 (14%) | eng=6 | tech=1 | prop=0
+   query: What is the minimum internship duration for students?
+   tags:  what(eng) is(eng) the(urd) minimum(eng) internship(tec) duration(eng) for(eng) students(eng)
+D13 L1 V1 | FAIL score= 15 | urdu=4/11 (36%) | eng=7 | tech=1 | prop=0
+   query: What is the minimum duration of the required internship ki requirement mein?
+   tags:  what(eng) is(eng) the(urd) minimum(eng) duration(eng) of(eng) the(urd) required(eng) internship(tec) ki(urd) requirement(eng) mein(urd)
+D13 L1 V2 | PASS score= 94 | urdu=1/6 (17%) | eng=5 | tech=1 | prop=0
+D13 L1 V3 | PASS score= 98 | urdu=1/7 (14%) | eng=6 | tech=1 | prop=0
+D13 L2 V1 | FAIL score= 57 | urdu=4/6 (67%) | eng=2 | tech=1 | prop=0
+   query: Internship minimum kitne weeks ki honi chahiye?
+   tags:  internship(tec) minimum(eng) kitne(urd) weeks(eng) ki(urd) honi(urd) chahiye(urd)
+D13 L2 V2 | FAIL score= 48 | urdu=5/7 (71%) | eng=2 | tech=1 | prop=0
+   query: Required internship ki muddat kitni honi zaroori hai?
+   tags:  required(eng) internship(tec) ki(urd) muddat(eng) kitni(urd) honi(urd) zaroori(urd) hai(urd)
+D13 L2 V3 | WARN score= 71 | urdu=6/10 (60%) | eng=4 | tech=1 | prop=0
+   query: Students ko minimum kitne hafton ki internship complete karni hoti hai?
+   tags:  students(eng) ko(urd) minimum(eng) kitne(urd) hafton(eng) ki(urd) internship(tec) complete(eng) karni(urd) hoti(urd) hai(urd)
+D13 L3 V1 | PASS score= 96 | urdu=10/12 (83%) | eng=2 | tech=1 | prop=0
+D13 L3 V2 | PASS score= 80 | urdu=6/9 (67%) | eng=3 | tech=1 | prop=0
+D13 L3 V3 | PASS score= 97 | urdu=7/9 (78%) | eng=2 | tech=1 | prop=0
+D13 L4 V1 | PASS score= 85 | urdu=17/22 (77%) | eng=5 | tech=1 | prop=0
+D13 L4 V2 | FAIL score= 52 | urdu=3/6 (50%) | eng=3 | tech=1 | prop=0
+   query: Internship ki minimum muddat kitne haftay hai?
+   tags:  internship(tec) ki(urd) minimum(eng) muddat(eng) kitne(urd) haftay(eng) hai(urd)
+D13 L4 V3 | PASS score= 99 | urdu=10/11 (91%) | eng=1 | tech=1 | prop=0
+D14 L0 V1 | PASS score=100 | urdu=0/10 (0%) | eng=10 | tech=1 | prop=1
+D14 L0 V2 | FAIL score= 38 | urdu=1/8 (12%) | eng=7 | tech=1 | prop=0
+   query: What is the maximum medical leave allowed per semester?
+   tags:  what(eng) is(eng) the(urd) maximum(eng) medical(eng) leave(eng) allowed(eng) per(eng) semester(tec)
+D14 L0 V3 | PASS score=100 | urdu=0/9 (0%) | eng=9 | tech=1 | prop=0
+D14 L1 V1 | PASS score= 99 | urdu=2/13 (15%) | eng=11 | tech=1 | prop=1
+D14 L1 V2 | PASS score= 91 | urdu=1/8 (12%) | eng=7 | tech=1 | prop=0
+D14 L1 V3 | FAIL score= 40 | urdu=0/9 (0%) | eng=9 | tech=1 | prop=0
+   query: How many sick leave days are permitted in one semester?
+   tags:  how(eng) many(eng) sick(eng) leave(eng) days(eng) are(eng) permitted(eng) in(eng) one(eng) semester(tec)
+D14 L2 V1 | WARN score= 65 | urdu=5/8 (62%) | eng=3 | tech=1 | prop=0
+   query: Semester mein medical leave ke kitne din milte hain?
+   tags:  semester(tec) mein(urd) medical(eng) leave(eng) ke(urd) kitne(urd) din(eng) milte(urd) hain(urd)
+D14 L2 V2 | FAIL score= 57 | urdu=6/9 (67%) | eng=3 | tech=1 | prop=0
+   query: Student ek semester mein kitni medical chhutti le sakta hai?
+   tags:  student(eng) ek(urd) semester(tec) mein(urd) kitni(urd) medical(eng) chhutti(urd) le(eng) sakta(urd) hai(urd)
+D14 L2 V3 | WARN score= 79 | urdu=5/9 (56%) | eng=4 | tech=1 | prop=0
+   query: Medical leave ki maximum muddat ek semester mein kitni hai?
+   tags:  medical(eng) leave(eng) ki(urd) maximum(eng) muddat(eng) ek(urd) semester(tec) mein(urd) kitni(urd) hai(urd)
+D14 L3 V1 | PASS score= 98 | urdu=9/11 (82%) | eng=2 | tech=1 | prop=0
+D14 L3 V2 | PASS score= 94 | urdu=11/13 (85%) | eng=2 | tech=1 | prop=0
+D14 L3 V3 | PASS score= 84 | urdu=10/11 (91%) | eng=1 | tech=0 | prop=0
+D14 L4 V1 | WARN score= 68 | urdu=12/19 (63%) | eng=7 | tech=1 | prop=0
+   query: Agar talib-e-ilm bemar ho to ek semester mein maximum kitne din ki chhutti le sakta hai? Bata dein.
+   tags:  agar(eng) talib(urd) e(eng) ilm(urd) bemar(urd) ho(eng) to(eng) ek(urd) semester(tec) mein(urd) maximum(eng) kitne(urd) din(eng) ki(urd) chhutti(urd) le(eng) sakta(urd) hai(urd) bata(urd) dein(urd)
+D14 L4 V2 | PASS score= 93 | urdu=10/12 (83%) | eng=2 | tech=1 | prop=0
+D14 L4 V3 | PASS score= 99 | urdu=11/12 (92%) | eng=1 | tech=0 | prop=0
+D15 L0 V1 | PASS score=100 | urdu=0/5 (0%) | eng=5 | tech=3 | prop=1
+D15 L0 V2 | FAIL score= 29 | urdu=1/7 (14%) | eng=6 | tech=2 | prop=1
+   query: What is the minimum grade required to satisfy a prerequisite?
+   tags:  what(eng) is(eng) the(urd) minimum(eng) grade(tec) required(eng) to(eng) satisfy(eng) a(pro) prerequisite(tec)
+D15 L0 V3 | PASS score=100 | urdu=0/7 (0%) | eng=7 | tech=2 | prop=2
+D15 L1 V1 | WARN score= 60 | urdu=2/8 (25%) | eng=6 | tech=3 | prop=1
+   query: What minimum grade is required in a prerequisite course ki requirement mein?
+   tags:  what(eng) minimum(eng) grade(tec) is(eng) required(eng) in(eng) a(pro) prerequisite(tec) course(tec) ki(urd) requirement(eng) mein(urd)
+D15 L1 V2 | PASS score= 98 | urdu=1/7 (14%) | eng=6 | tech=2 | prop=1
+D15 L1 V3 | FAIL score= 10 | urdu=3/8 (38%) | eng=5 | tech=2 | prop=1
+   query: Which grade must a student earn prerequisite pass karne ke liye?
+   tags:  which(eng) grade(tec) must(eng) a(pro) student(eng) earn(eng) prerequisite(tec) pass(eng) karne(urd) ke(urd) liye(urd)
+D15 L2 V1 | FAIL score= 40 | urdu=3/4 (75%) | eng=1 | tech=3 | prop=0
+   query: Prerequisite course mein minimum grade kitna chahiye?
+   tags:  prerequisite(tec) course(tec) mein(urd) minimum(eng) grade(tec) kitna(urd) chahiye(urd)
+D15 L2 V2 | FAIL score= 35 | urdu=7/9 (78%) | eng=2 | tech=2 | prop=0
+   query: Prerequisite ki requirement puri karne ke liye konsa grade zaroori hai?
+   tags:  prerequisite(tec) ki(urd) requirement(eng) puri(eng) karne(urd) ke(urd) liye(urd) konsa(urd) grade(tec) zaroori(urd) hai(urd)
+D15 L2 V3 | FAIL score= 13 | urdu=8/9 (89%) | eng=1 | tech=2 | prop=0
+   query: Prerequisite subject mein kam az kam konsa grade lena hota hai?
+   tags:  prerequisite(tec) subject(eng) mein(urd) kam(urd) az(urd) kam(urd) konsa(urd) grade(tec) lena(urd) hota(urd) hai(urd)
+D15 L3 V1 | PASS score= 87 | urdu=8/9 (89%) | eng=1 | tech=3 | prop=0
+D15 L3 V2 | PASS score= 86 | urdu=9/10 (90%) | eng=1 | tech=3 | prop=0
+D15 L3 V3 | PASS score= 86 | urdu=9/10 (90%) | eng=1 | tech=2 | prop=0
+D15 L4 V1 | PASS score= 99 | urdu=16/18 (89%) | eng=2 | tech=3 | prop=0
+D15 L4 V2 | PASS score= 99 | urdu=10/11 (91%) | eng=1 | tech=2 | prop=0
+D15 L4 V3 | PASS score= 89 | urdu=8/8 (100%) | eng=0 | tech=2 | prop=0
+D16 L0 V1 | FAIL score= 17 | urdu=1/6 (17%) | eng=5 | tech=4 | prop=0
+   query: What is the minimum credit hours required for semester registration?
+   tags:  what(eng) is(eng) the(urd) minimum(eng) credit(tec) hours(tec) required(eng) for(eng) semester(tec) registration(tec)
+D16 L0 V2 | PASS score=100 | urdu=0/8 (0%) | eng=8 | tech=2 | prop=1
+D16 L0 V3 | FAIL score= 17 | urdu=1/6 (17%) | eng=5 | tech=3 | prop=0
+   query: What is the minimum course load for semester registration?
+   tags:  what(eng) is(eng) the(urd) minimum(eng) course(tec) load(eng) for(eng) semester(tec) registration(tec)
+D16 L1 V1 | FAIL score= 27 | urdu=3/9 (33%) | eng=6 | tech=4 | prop=0
+   query: What is the minimum credit hours required for semester registration ki process mein?
+   tags:  what(eng) is(eng) the(urd) minimum(eng) credit(tec) hours(tec) required(eng) for(eng) semester(tec) registration(tec) ki(urd) process(eng) mein(urd)
+D16 L1 V2 | FAIL score= 40 | urdu=0/8 (0%) | eng=8 | tech=2 | prop=1
+   query: How many credit hours must a student register for at minimum?
+   tags:  how(eng) many(eng) credit(tec) hours(tec) must(eng) a(pro) student(eng) register(eng) for(eng) at(eng) minimum(eng)
+D16 L1 V3 | PASS score= 94 | urdu=1/6 (17%) | eng=5 | tech=3 | prop=0
+D16 L2 V1 | FAIL score= 48 | urdu=5/7 (71%) | eng=2 | tech=3 | prop=0
+   query: Semester register karne ke liye minimum kitne credit hours chahiye?
+   tags:  semester(tec) register(eng) karne(urd) ke(urd) liye(urd) minimum(eng) kitne(urd) credit(tec) hours(tec) chahiye(urd)
+D16 L2 V2 | FAIL score= 13 | urdu=8/9 (89%) | eng=1 | tech=3 | prop=0
+   query: Registration ke waqt kam az kam kitne credit hours lene hote hain?
+   tags:  registration(tec) ke(urd) waqt(eng) kam(urd) az(urd) kam(urd) kitne(urd) credit(tec) hours(tec) lene(urd) hote(urd) hain(urd)
+D16 L2 V3 | FAIL score= 57 | urdu=4/6 (67%) | eng=2 | tech=4 | prop=0
+   query: Semester ka minimum course load kitne credit hours ka hai?
+   tags:  semester(tec) ka(urd) minimum(eng) course(tec) load(eng) kitne(urd) credit(tec) hours(tec) ka(urd) hai(urd)
+D16 L3 V1 | PASS score= 87 | urdu=8/9 (89%) | eng=1 | tech=3 | prop=0
+D16 L3 V2 | PASS score= 88 | urdu=5/7 (71%) | eng=2 | tech=3 | prop=0
+D16 L3 V3 | PASS score= 93 | urdu=9/12 (75%) | eng=3 | tech=3 | prop=0
+D16 L4 V1 | PASS score= 99 | urdu=16/18 (89%) | eng=2 | tech=4 | prop=0
+D16 L4 V2 | WARN score= 78 | urdu=5/7 (71%) | eng=2 | tech=4 | prop=0
+   query: Semester mein minimum kitne credit hours ka course load hona chahiye?
+   tags:  semester(tec) mein(urd) minimum(eng) kitne(urd) credit(tec) hours(tec) ka(urd) course(tec) load(eng) hona(urd) chahiye(urd)
+D16 L4 V3 | PASS score= 89 | urdu=8/10 (80%) | eng=2 | tech=3 | prop=0
+D17 L0 V1 | FAIL score= 17 | urdu=1/6 (17%) | eng=5 | tech=2 | prop=1
+   query: What minimum CGPA is required for the merit scholarship?
+   tags:  what(eng) minimum(eng) cgpa(pro) is(eng) required(eng) for(eng) the(urd) merit(tec) scholarship(tec)
+D17 L0 V2 | FAIL score=  0 | urdu=2/7 (29%) | eng=5 | tech=1 | prop=1
+   query: What is the CGPA requirement for the merit award?
+   tags:  what(eng) is(eng) the(urd) cgpa(pro) requirement(eng) for(eng) the(urd) merit(tec) award(eng)
+D17 L0 V3 | FAIL score= 38 | urdu=1/8 (12%) | eng=7 | tech=1 | prop=2
+   query: What CGPA must a student have to qualify for the scholarship?
+   tags:  what(eng) cgpa(pro) must(eng) a(pro) student(eng) have(eng) to(eng) qualify(eng) for(eng) the(urd) scholarship(tec)
+D17 L1 V1 | FAIL score= 27 | urdu=3/9 (33%) | eng=6 | tech=2 | prop=1
+   query: What minimum CGPA is required for the merit scholarship ki eligibility mein?
+   tags:  what(eng) minimum(eng) cgpa(pro) is(eng) required(eng) for(eng) the(urd) merit(tec) scholarship(tec) ki(urd) eligibility(eng) mein(urd)
+D17 L1 V2 | FAIL score= 46 | urdu=2/7 (29%) | eng=5 | tech=1 | prop=1
+   query: What is the CGPA requirement for the merit award?
+   tags:  what(eng) is(eng) the(urd) cgpa(pro) requirement(eng) for(eng) the(urd) merit(tec) award(eng)
+D17 L1 V3 | FAIL score= 10 | urdu=3/8 (38%) | eng=5 | tech=1 | prop=2
+   query: What CGPA must a student have scholarship qualify karne ke liye?
+   tags:  what(eng) cgpa(pro) must(eng) a(pro) student(eng) have(eng) scholarship(tec) qualify(eng) karne(urd) ke(urd) liye(urd)
+D17 L2 V1 | FAIL score= 30 | urdu=4/5 (80%) | eng=1 | tech=2 | prop=1
+   query: Merit scholarship ke liye minimum CGPA kitni chahiye?
+   tags:  merit(tec) scholarship(tec) ke(urd) liye(urd) minimum(eng) cgpa(pro) kitni(urd) chahiye(urd)
+D17 L2 V2 | FAIL score=  0 | urdu=11/11 (100%) | eng=0 | tech=1 | prop=1
+   query: Scholarship hasil karne ke liye kam az kam CGPA kya honi zaroori hai?
+   tags:  scholarship(tec) hasil(urd) karne(urd) ke(urd) liye(urd) kam(urd) az(urd) kam(urd) cgpa(pro) kya(urd) honi(urd) zaroori(urd) hai(urd)
+D17 L2 V3 | FAIL score= 48 | urdu=5/7 (71%) | eng=2 | tech=2 | prop=1
+   query: Merit scholarship ki eligibility ke liye minimum CGPA kitni hai?
+   tags:  merit(tec) scholarship(tec) ki(urd) eligibility(eng) ke(urd) liye(urd) minimum(eng) cgpa(pro) kitni(urd) hai(urd)
+D17 L3 V1 | WARN score= 71 | urdu=8/8 (100%) | eng=0 | tech=2 | prop=1
+   query: Merit scholarship lene ke liye kam az kam kitni CGPA chahiye?
+   tags:  merit(tec) scholarship(tec) lene(urd) ke(urd) liye(urd) kam(urd) az(urd) kam(urd) kitni(urd) cgpa(pro) chahiye(urd)
+D17 L3 V2 | WARN score= 71 | urdu=8/8 (100%) | eng=0 | tech=1 | prop=1
+   query: Scholarship ke liye kam az kam kitni CGPA zaroori hai?
+   tags:  scholarship(tec) ke(urd) liye(urd) kam(urd) az(urd) kam(urd) kitni(urd) cgpa(pro) zaroori(urd) hai(urd)
+D17 L3 V3 | PASS score= 89 | urdu=7/8 (88%) | eng=1 | tech=2 | prop=1
+D17 L4 V1 | PASS score= 96 | urdu=16/17 (94%) | eng=1 | tech=2 | prop=1
+D17 L4 V2 | PASS score= 99 | urdu=8/9 (89%) | eng=1 | tech=2 | prop=1
+D17 L4 V3 | PASS score= 89 | urdu=9/9 (100%) | eng=0 | tech=1 | prop=1
+D18 L0 V1 | PASS score=100 | urdu=0/10 (0%) | eng=10 | tech=0 | prop=2
+D18 L0 V2 | FAIL score= 38 | urdu=1/8 (12%) | eng=7 | tech=1 | prop=1
+   query: What is the processing time for a campus access card?
+   tags:  what(eng) is(eng) the(urd) processing(eng) time(eng) for(eng) a(pro) campus(tec) access(eng) card(eng)
+D18 L0 V3 | PASS score=100 | urdu=0/9 (0%) | eng=9 | tech=0 | prop=2
+D18 L1 V1 | PASS score= 99 | urdu=2/13 (15%) | eng=11 | tech=0 | prop=2
+D18 L1 V2 | PASS score= 91 | urdu=1/8 (12%) | eng=7 | tech=1 | prop=0
+D18 L1 V3 | FAIL score= 40 | urdu=3/10 (30%) | eng=7 | tech=0 | prop=2
+   query: How long does a student wait ID card receive karne ke liye?
+   tags:  how(eng) long(eng) does(eng) a(pro) student(eng) wait(eng) id(pro) card(eng) receive(eng) karne(urd) ke(urd) liye(urd)
+D18 L2 V1 | PASS score= 91 | urdu=4/8 (50%) | eng=4 | tech=0 | prop=1
+D18 L2 V2 | PASS score= 91 | urdu=4/8 (50%) | eng=4 | tech=1 | prop=0
+D18 L2 V3 | PASS score= 91 | urdu=4/8 (50%) | eng=4 | tech=0 | prop=1
+D18 L3 V1 | WARN score= 76 | urdu=7/11 (64%) | eng=4 | tech=0 | prop=1
+   query: Talib-e-ilm ko ID card milne mein kitne din lagte hain?
+   tags:  talib(urd) e(eng) ilm(urd) ko(urd) id(pro) card(eng) milne(urd) mein(urd) kitne(urd) din(eng) lagte(eng) hain(urd)
+D18 L3 V2 | WARN score= 74 | urdu=5/8 (62%) | eng=3 | tech=1 | prop=0
+   query: Campus ka card kitne din mein tayar hota hai?
+   tags:  campus(tec) ka(urd) card(eng) kitne(urd) din(eng) mein(urd) tayar(eng) hota(urd) hai(urd)
+D18 L3 V3 | WARN score= 64 | urdu=5/9 (56%) | eng=4 | tech=0 | prop=1
+   query: ID card ban kar milne ki kitni muddat hoti hai?
+   tags:  id(pro) card(eng) ban(eng) kar(eng) milne(urd) ki(urd) kitni(urd) muddat(eng) hoti(urd) hai(urd)
+D18 L4 V1 | PASS score= 87 | urdu=15/19 (79%) | eng=4 | tech=0 | prop=1
+D18 L4 V2 | WARN score= 78 | urdu=5/7 (71%) | eng=2 | tech=1 | prop=0
+   query: Campus ka card kitne din mein milta hai?
+   tags:  campus(tec) ka(urd) card(eng) kitne(urd) din(eng) mein(urd) milta(urd) hai(urd)
+D18 L4 V3 | WARN score= 69 | urdu=7/11 (64%) | eng=4 | tech=0 | prop=1
+   query: ID card banne mein kitne din lagte hain, yeh maloom karna hai.
+   tags:  id(pro) card(eng) banne(eng) mein(urd) kitne(urd) din(eng) lagte(eng) hain(urd) yeh(urd) maloom(urd) karna(urd) hai(urd)
+D19 L0 V1 | PASS score=100 | urdu=0/11 (0%) | eng=11 | tech=0 | prop=0
+D19 L0 V2 | FAIL score= 50 | urdu=1/10 (10%) | eng=9 | tech=0 | prop=0
+   query: What is the processing time for an official academic record?
+   tags:  what(eng) is(eng) the(urd) processing(eng) time(eng) for(eng) an(eng) official(eng) academic(eng) record(eng)
+D19 L0 V3 | FAIL score= 45 | urdu=1/9 (11%) | eng=8 | tech=0 | prop=1
+   query: How long does the university take to issue a transcript?
+   tags:  how(eng) long(eng) does(eng) the(urd) university(eng) take(eng) to(eng) issue(eng) a(pro) transcript(eng)
+D19 L1 V1 | WARN score= 71 | urdu=1/13 (8%) | eng=12 | tech=0 | prop=0
+   query: How many working days are required to process an official transcript ki request?
+   tags:  how(eng) many(eng) working(eng) days(eng) are(eng) required(eng) to(eng) process(eng) an(eng) official(eng) transcript(eng) ki(urd) request(eng)
+D19 L1 V2 | PASS score= 85 | urdu=1/9 (11%) | eng=8 | tech=0 | prop=0
+D19 L1 V3 | FAIL score= 40 | urdu=3/10 (30%) | eng=7 | tech=0 | prop=0
+   query: How long does the university take transcript issue karne mein?
+   tags:  how(eng) long(eng) does(eng) the(urd) university(eng) take(eng) transcript(eng) issue(eng) karne(urd) mein(urd)
+D19 L2 V1 | PASS score= 99 | urdu=4/9 (44%) | eng=5 | tech=0 | prop=0
+D19 L2 V2 | PASS score= 91 | urdu=4/8 (50%) | eng=4 | tech=0 | prop=0
+D19 L2 V3 | PASS score= 91 | urdu=5/10 (50%) | eng=5 | tech=0 | prop=0
+D19 L3 V1 | WARN score= 74 | urdu=5/8 (62%) | eng=3 | tech=0 | prop=0
+   query: Transcript hasil karne mein kitne din lagte hain?
+   tags:  transcript(eng) hasil(urd) karne(urd) mein(urd) kitne(urd) din(eng) lagte(eng) hain(urd)
+D19 L3 V2 | WARN score= 64 | urdu=5/9 (56%) | eng=4 | tech=0 | prop=0
+   query: Transcript ban kar milne ki kitni muddat hoti hai?
+   tags:  transcript(eng) ban(eng) kar(eng) milne(urd) ki(urd) kitni(urd) muddat(eng) hoti(urd) hai(urd)
+D19 L3 V3 | FAIL score= 47 | urdu=4/9 (44%) | eng=5 | tech=0 | prop=0
+   query: University transcript tayar karne mein kitne din leti hai?
+   tags:  university(eng) transcript(eng) tayar(eng) karne(urd) mein(urd) kitne(urd) din(eng) leti(eng) hai(urd)
+D19 L4 V1 | PASS score= 85 | urdu=10/13 (77%) | eng=3 | tech=0 | prop=0
+D19 L4 V2 | WARN score= 67 | urdu=5/8 (62%) | eng=3 | tech=0 | prop=0
+   query: Transcript hasil karne mein kitne din lagte hain?
+   tags:  transcript(eng) hasil(urd) karne(urd) mein(urd) kitne(urd) din(eng) lagte(eng) hain(urd)
+D19 L4 V3 | PASS score= 80 | urdu=8/11 (73%) | eng=3 | tech=0 | prop=0
+D20 L0 V1 | PASS score=100 | urdu=0/11 (0%) | eng=11 | tech=1 | prop=1
+D20 L0 V2 | FAIL score= 29 | urdu=1/7 (14%) | eng=6 | tech=0 | prop=0
+   query: What is the penalty-free withdrawal window?
+   tags:  what(eng) is(eng) the(urd) penalty(eng) free(eng) withdrawal(eng) window(eng)
+D20 L0 V3 | PASS score=100 | urdu=0/7 (0%) | eng=7 | tech=1 | prop=2
+D20 L1 V1 | PASS score= 98 | urdu=2/14 (14%) | eng=12 | tech=1 | prop=1
+D20 L1 V2 | PASS score= 98 | urdu=1/7 (14%) | eng=6 | tech=0 | prop=0
+D20 L1 V3 | WARN score= 60 | urdu=2/8 (25%) | eng=6 | tech=1 | prop=2
+   query: How long can a student drop a course penalty ke baghair?
+   tags:  how(eng) long(eng) can(eng) a(pro) student(eng) drop(eng) a(pro) course(tec) penalty(eng) ke(urd) baghair(urd)
+D20 L2 V1 | WARN score= 71 | urdu=6/10 (60%) | eng=4 | tech=1 | prop=0
+   query: Academic penalty ke baghair course withdraw karne ki kitni muddat hai?
+   tags:  academic(eng) penalty(eng) ke(urd) baghair(urd) course(tec) withdraw(eng) karne(urd) ki(urd) kitni(urd) muddat(eng) hai(urd)
+D20 L2 V2 | FAIL score= 45 | urdu=8/11 (73%) | eng=3 | tech=1 | prop=0
+   query: Course withdraw karne ke liye kitne din milte hain bina penalty ke?
+   tags:  course(tec) withdraw(eng) karne(urd) ke(urd) liye(urd) kitne(urd) din(eng) milte(urd) hain(urd) bina(urd) penalty(eng) ke(urd)
+D20 L2 V3 | PASS score= 91 | urdu=5/10 (50%) | eng=5 | tech=1 | prop=0
+D20 L3 V1 | WARN score= 76 | urdu=7/11 (64%) | eng=4 | tech=1 | prop=0
+   query: Bina kisi penalty ke course chorne ki kitne din ki mohlat hai?
+   tags:  bina(urd) kisi(eng) penalty(eng) ke(urd) course(tec) chorne(eng) ki(urd) kitne(urd) din(eng) ki(urd) mohlat(urd) hai(urd)
+D20 L3 V2 | WARN score= 70 | urdu=6/10 (60%) | eng=4 | tech=1 | prop=0
+   query: Talib-e-ilm course kitne din ke andar chhor sakta hai?
+   tags:  talib(urd) e(eng) ilm(urd) course(tec) kitne(urd) din(eng) ke(urd) andar(eng) chhor(eng) sakta(urd) hai(urd)
+D20 L3 V3 | PASS score=100 | urdu=8/10 (80%) | eng=2 | tech=1 | prop=0
+D20 L4 V1 | WARN score= 62 | urdu=11/19 (58%) | eng=8 | tech=1 | prop=0
+   query: Agar talib-e-ilm course chhorna chahe to bina penalty ke kitne din ke andar chhor sakta hai? Bata dein.
+   tags:  agar(eng) talib(urd) e(eng) ilm(urd) course(tec) chhorna(urd) chahe(eng) to(eng) bina(urd) penalty(eng) ke(urd) kitne(urd) din(eng) ke(urd) andar(eng) chhor(eng) sakta(urd) hai(urd) bata(urd) dein(urd)
+D20 L4 V2 | WARN score= 72 | urdu=10/15 (67%) | eng=5 | tech=1 | prop=0
+   query: Course chorne ke liye talib-e-ilm ko bina penalty ke maximum kitni muddat milti hai?
+   tags:  course(tec) chorne(eng) ke(urd) liye(urd) talib(urd) e(eng) ilm(urd) ko(urd) bina(urd) penalty(eng) ke(urd) maximum(eng) kitni(urd) muddat(eng) milti(urd) hai(urd)
+D20 L4 V3 | FAIL score= 57 | urdu=7/13 (54%) | eng=6 | tech=1 | prop=0
+   query: Course kitne din ke andar chhoro to penalty nahi hoti, yeh maloom karna hai.
+   tags:  course(tec) kitne(urd) din(eng) ke(urd) andar(eng) chhoro(eng) to(eng) penalty(eng) nahi(eng) hoti(urd) yeh(urd) maloom(urd) karna(urd) hai(urd)
+D21 L0 V1 | FAIL score= 59 | urdu=1/12 (8%) | eng=11 | tech=0 | prop=1
+   query: How many books can a student borrow from the library at one time?
+   tags:  how(eng) many(eng) books(eng) can(eng) a(pro) student(eng) borrow(eng) from(eng) the(urd) library(eng) at(eng) one(eng) time(eng)
+D21 L0 V2 | FAIL score= 45 | urdu=1/9 (11%) | eng=8 | tech=0 | prop=0
+   query: What is the maximum borrowing limit for library books?
+   tags:  what(eng) is(eng) the(urd) maximum(eng) borrowing(eng) limit(eng) for(eng) library(eng) books(eng)
+D21 L0 V3 | PASS score=100 | urdu=0/8 (0%) | eng=8 | tech=0 | prop=1
+D21 L1 V1 | PASS score= 98 | urdu=2/14 (14%) | eng=12 | tech=0 | prop=1
+D21 L1 V2 | PASS score= 85 | urdu=1/9 (11%) | eng=8 | tech=0 | prop=0
+D21 L1 V3 | FAIL score= 40 | urdu=0/8 (0%) | eng=8 | tech=0 | prop=1
+   query: How many books may a student check out simultaneously?
+   tags:  how(eng) many(eng) books(eng) may(eng) a(pro) student(eng) check(eng) out(eng) simultaneously(eng)
+D21 L2 V1 | PASS score= 81 | urdu=6/11 (55%) | eng=5 | tech=0 | prop=0
+D21 L2 V2 | PASS score= 96 | urdu=3/7 (43%) | eng=4 | tech=0 | prop=0
+D21 L2 V3 | PASS score= 91 | urdu=4/10 (40%) | eng=6 | tech=0 | prop=0
+D21 L3 V1 | WARN score= 77 | urdu=9/14 (64%) | eng=5 | tech=0 | prop=0
+   query: Talib-e-ilm kitab khane se ek waqt mein kitni kitaben le sakta hai?
+   tags:  talib(urd) e(eng) ilm(urd) kitab(urd) khane(eng) se(urd) ek(urd) waqt(eng) mein(urd) kitni(urd) kitaben(eng) le(eng) sakta(urd) hai(urd)
+D21 L3 V2 | WARN score= 62 | urdu=6/11 (55%) | eng=5 | tech=0 | prop=0
+   query: Kitab khane se kitni kitaben ghar le jane ki ijazat hai?
+   tags:  kitab(urd) khane(eng) se(urd) kitni(urd) kitaben(eng) ghar(eng) le(eng) jane(eng) ki(urd) ijazat(urd) hai(urd)
+D21 L3 V3 | WARN score= 74 | urdu=5/8 (62%) | eng=3 | tech=0 | prop=0
+   query: Ek waqt mein kitni kitaben issue hoti hain?
+   tags:  ek(urd) waqt(eng) mein(urd) kitni(urd) kitaben(eng) issue(eng) hoti(urd) hain(urd)
+D21 L4 V1 | WARN score= 66 | urdu=11/18 (61%) | eng=7 | tech=0 | prop=0
+   query: Talib-e-ilm kitab khane se ek waqt mein kitni kitaben ghar le ja sakta hai? Bata dein.
+   tags:  talib(urd) e(eng) ilm(urd) kitab(urd) khane(eng) se(urd) ek(urd) waqt(eng) mein(urd) kitni(urd) kitaben(eng) ghar(eng) le(eng) ja(eng) sakta(urd) hai(urd) bata(urd) dein(urd)
+D21 L4 V2 | FAIL score= 59 | urdu=5/9 (56%) | eng=4 | tech=0 | prop=0
+   query: Kitab khane se maximum kitni kitaben mil sakti hain?
+   tags:  kitab(urd) khane(eng) se(urd) maximum(eng) kitni(urd) kitaben(eng) mil(eng) sakti(urd) hain(urd)
+D21 L4 V3 | WARN score= 78 | urdu=10/14 (71%) | eng=4 | tech=0 | prop=0
+   query: Ek waqt mein kitni kitaben le jane ki ijazat hai, yeh maloom karna hai.
+   tags:  ek(urd) waqt(eng) mein(urd) kitni(urd) kitaben(eng) le(eng) jane(eng) ki(urd) ijazat(urd) hai(urd) yeh(urd) maloom(urd) karna(urd) hai(urd)
+D22 L0 V1 | FAIL score= 38 | urdu=1/8 (12%) | eng=7 | tech=1 | prop=0
+   query: What safety equipment must be worn inside the laboratory?
+   tags:  what(eng) safety(eng) equipment(eng) must(eng) be(eng) worn(eng) inside(eng) the(urd) laboratory(tec)
+D22 L0 V2 | FAIL score= 38 | urdu=1/8 (12%) | eng=7 | tech=1 | prop=0
+   query: What is the mandatory protective gear for lab work?
+   tags:  what(eng) is(eng) the(urd) mandatory(eng) protective(eng) gear(eng) for(eng) lab(tec) work(eng)
+D22 L0 V3 | FAIL score= 45 | urdu=1/9 (11%) | eng=8 | tech=1 | prop=0
+   query: What must students wear in the laboratory at all times?
+   tags:  what(eng) must(eng) students(eng) wear(eng) in(eng) the(urd) laboratory(tec) at(eng) all(eng) times(eng)
+D22 L1 V1 | PASS score= 80 | urdu=2/10 (20%) | eng=8 | tech=1 | prop=0
+D22 L1 V2 | PASS score= 91 | urdu=1/8 (12%) | eng=7 | tech=1 | prop=0
+D22 L1 V3 | PASS score= 91 | urdu=1/8 (12%) | eng=7 | tech=1 | prop=0
+D22 L2 V1 | WARN score= 76 | urdu=4/7 (57%) | eng=3 | tech=1 | prop=0
+   query: Laboratory mein konsa safety equipment pehnna zaroori hai?
+   tags:  laboratory(tec) mein(urd) konsa(urd) safety(eng) equipment(eng) pehnna(eng) zaroori(urd) hai(urd)
+D22 L2 V2 | PASS score= 91 | urdu=4/8 (50%) | eng=4 | tech=1 | prop=0
+D22 L2 V3 | WARN score= 65 | urdu=5/8 (62%) | eng=3 | tech=1 | prop=0
+   query: Students ko lab mein hamesha kya pehnna hota hai?
+   tags:  students(eng) ko(urd) lab(tec) mein(urd) hamesha(eng) kya(urd) pehnna(eng) hota(urd) hai(urd)
+D22 L3 V1 | WARN score= 76 | urdu=7/11 (64%) | eng=4 | tech=1 | prop=0
+   query: Lab mein kaam karne ke liye konsa safety gear pehnna zaroori hai?
+   tags:  lab(tec) mein(urd) kaam(eng) karne(urd) ke(urd) liye(urd) konsa(urd) safety(eng) gear(eng) pehnna(eng) zaroori(urd) hai(urd)
+D22 L3 V2 | WARN score= 76 | urdu=7/11 (64%) | eng=4 | tech=1 | prop=0
+   query: Talib-e-ilm ko lab mein konsa protective equipment pehnna hota hai?
+   tags:  talib(urd) e(eng) ilm(urd) ko(urd) lab(tec) mein(urd) konsa(urd) protective(eng) equipment(eng) pehnna(eng) hota(urd) hai(urd)
+D22 L3 V3 | PASS score= 88 | urdu=5/7 (71%) | eng=2 | tech=1 | prop=0
+D22 L4 V1 | WARN score= 60 | urdu=9/16 (56%) | eng=7 | tech=1 | prop=0
+   query: Lab mein kaam karte waqt talib-e-ilm ko konsa safety equipment pehnna lazmi hai? Bata dein.
+   tags:  lab(tec) mein(urd) kaam(eng) karte(eng) waqt(eng) talib(urd) e(eng) ilm(urd) ko(urd) konsa(urd) safety(eng) equipment(eng) pehnna(eng) lazmi(urd) hai(urd) bata(urd) dein(urd)
+D22 L4 V2 | FAIL score= 42 | urdu=5/12 (42%) | eng=7 | tech=1 | prop=0
+   query: Lab ke andar protective gear ke baghair kaam karna allowed hai ya nahi?
+   tags:  lab(tec) ke(urd) andar(eng) protective(eng) gear(eng) ke(urd) baghair(urd) kaam(eng) karna(urd) allowed(eng) hai(urd) ya(eng) nahi(eng)
+D22 L4 V3 | PASS score= 82 | urdu=9/12 (75%) | eng=3 | tech=1 | prop=0
+D23 L0 V1 | PASS score=100 | urdu=0/6 (0%) | eng=6 | tech=1 | prop=0
+D23 L0 V2 | PASS score=100 | urdu=0/8 (0%) | eng=8 | tech=1 | prop=1
+D23 L0 V3 | FAIL score= 38 | urdu=1/8 (12%) | eng=7 | tech=0 | prop=0
+   query: What is the consequence of an integrity violation?
+   tags:  what(eng) is(eng) the(urd) consequence(eng) of(eng) an(eng) integrity(eng) violation(eng)
+D23 L1 V1 | WARN score= 72 | urdu=2/9 (22%) | eng=7 | tech=1 | prop=0
+   query: What penalty is given for confirmed plagiarism ki case mein?
+   tags:  what(eng) penalty(eng) is(eng) given(eng) for(eng) confirmed(eng) plagiarism(tec) ki(urd) case(eng) mein(urd)
+D23 L1 V2 | FAIL score= 40 | urdu=0/8 (0%) | eng=8 | tech=1 | prop=1
+   query: What happens if a student is found guilty of plagiarism?
+   tags:  what(eng) happens(eng) if(eng) a(pro) student(eng) is(eng) found(eng) guilty(eng) of(eng) plagiarism(tec)
+D23 L1 V3 | PASS score= 91 | urdu=1/8 (12%) | eng=7 | tech=0 | prop=0
+D23 L2 V1 | FAIL score= 48 | urdu=5/7 (71%) | eng=2 | tech=1 | prop=0
+   query: Plagiarism confirm hone par kya penalty milti hai?
+   tags:  plagiarism(tec) confirm(eng) hone(urd) par(urd) kya(urd) penalty(eng) milti(urd) hai(urd)
+D23 L2 V2 | WARN score= 79 | urdu=5/9 (56%) | eng=4 | tech=1 | prop=0
+   query: Student plagiarism ka guilty paya jaye to kya hota hai?
+   tags:  student(eng) plagiarism(tec) ka(urd) guilty(eng) paya(eng) jaye(urd) to(eng) kya(urd) hota(urd) hai(urd)
+D23 L2 V3 | WARN score= 76 | urdu=4/7 (57%) | eng=3 | tech=0 | prop=0
+   query: Integrity violation ka kya result hota hai?
+   tags:  integrity(eng) violation(eng) ka(urd) kya(urd) result(eng) hota(urd) hai(urd)
+D23 L3 V1 | PASS score= 90 | urdu=8/11 (73%) | eng=3 | tech=1 | prop=0
+D23 L3 V2 | PASS score= 96 | urdu=5/6 (83%) | eng=1 | tech=1 | prop=0
+D23 L3 V3 | WARN score= 66 | urdu=4/7 (57%) | eng=3 | tech=0 | prop=0
+   query: Academic dishonesty par kya penalty hoti hai?
+   tags:  academic(eng) dishonesty(eng) par(urd) kya(urd) penalty(eng) hoti(urd) hai(urd)
+D23 L4 V1 | WARN score= 72 | urdu=10/15 (67%) | eng=5 | tech=1 | prop=0
+   query: Agar talib-e-ilm plagiarism mein pakra jaye to usay kya saza milti hai? Bata dein.
+   tags:  agar(eng) talib(urd) e(eng) ilm(urd) plagiarism(tec) mein(urd) pakra(eng) jaye(urd) to(eng) usay(eng) kya(urd) saza(urd) milti(urd) hai(urd) bata(urd) dein(urd)
+D23 L4 V2 | PASS score= 91 | urdu=9/11 (82%) | eng=2 | tech=1 | prop=0
+D23 L4 V3 | PASS score=100 | urdu=9/10 (90%) | eng=1 | tech=1 | prop=0
+D24 L0 V1 | FAIL score= 38 | urdu=1/8 (12%) | eng=7 | tech=1 | prop=0
+   query: On what date is the annual sports day held?
+   tags:  on(eng) what(eng) date(eng) is(eng) the(urd) annual(eng) sports(tec) day(eng) held(eng)
+D24 L0 V2 | FAIL score= 38 | urdu=1/8 (12%) | eng=7 | tech=1 | prop=0
+   query: When does the university hold its annual sports gala?
+   tags:  when(eng) does(eng) the(urd) university(eng) hold(eng) its(eng) annual(eng) sports(tec) gala(eng)
+D24 L0 V3 | FAIL score=  0 | urdu=2/9 (22%) | eng=7 | tech=0 | prop=0
+   query: What is the date of the annual athletic event?
+   tags:  what(eng) is(eng) the(urd) date(eng) of(eng) the(urd) annual(eng) athletic(eng) event(eng)
+D24 L1 V1 | FAIL score= 51 | urdu=3/11 (27%) | eng=8 | tech=1 | prop=0
+   query: On what date is the annual sports day held ki event mein?
+   tags:  on(eng) what(eng) date(eng) is(eng) the(urd) annual(eng) sports(tec) day(eng) held(eng) ki(urd) event(eng) mein(urd)
+D24 L1 V2 | PASS score= 91 | urdu=1/8 (12%) | eng=7 | tech=1 | prop=0
+D24 L1 V3 | WARN score= 72 | urdu=2/9 (22%) | eng=7 | tech=0 | prop=0
+   query: What is the date of the annual athletic event?
+   tags:  what(eng) is(eng) the(urd) date(eng) of(eng) the(urd) annual(eng) athletic(eng) event(eng)
+D24 L2 V1 | WARN score= 76 | urdu=4/7 (57%) | eng=3 | tech=1 | prop=0
+   query: Annual sports day kis date ko hota hai?
+   tags:  annual(eng) sports(tec) day(eng) kis(urd) date(eng) ko(urd) hota(urd) hai(urd)
+D24 L2 V2 | WARN score= 76 | urdu=4/7 (57%) | eng=3 | tech=1 | prop=0
+   query: University ka annual sports gala kab hota hai?
+   tags:  university(eng) ka(urd) annual(eng) sports(tec) gala(eng) kab(urd) hota(urd) hai(urd)
+D24 L2 V3 | PASS score= 91 | urdu=3/6 (50%) | eng=3 | tech=0 | prop=0
+D24 L3 V1 | FAIL score= 55 | urdu=3/6 (50%) | eng=3 | tech=1 | prop=0
+   query: Sports gala kis din manaya jata hai?
+   tags:  sports(tec) gala(eng) kis(urd) din(eng) manaya(eng) jata(urd) hai(urd)
+D24 L3 V2 | WARN score= 70 | urdu=3/5 (60%) | eng=2 | tech=1 | prop=0
+   query: Annual sports day kab hota hai?
+   tags:  annual(eng) sports(tec) day(eng) kab(urd) hota(urd) hai(urd)
+D24 L3 V3 | WARN score= 70 | urdu=3/5 (60%) | eng=2 | tech=1 | prop=0
+   query: Sports event ki tareekh kya hai?
+   tags:  sports(tec) event(eng) ki(urd) tareekh(eng) kya(urd) hai(urd)
+D24 L4 V1 | WARN score= 67 | urdu=5/8 (62%) | eng=3 | tech=1 | prop=0
+   query: Sports gala kis din manaya jata hai? Bata dein.
+   tags:  sports(tec) gala(eng) kis(urd) din(eng) manaya(eng) jata(urd) hai(urd) bata(urd) dein(urd)
+D24 L4 V2 | WARN score= 72 | urdu=4/6 (67%) | eng=2 | tech=1 | prop=0
+   query: Sports day kis tareekh ko hota hai?
+   tags:  sports(tec) day(eng) kis(urd) tareekh(eng) ko(urd) hota(urd) hai(urd)
+D24 L4 V3 | WARN score= 72 | urdu=6/9 (67%) | eng=3 | tech=0 | prop=0
+   query: Athletic event kis din hoga, yeh maloom karna hai.
+   tags:  athletic(eng) event(eng) kis(urd) din(eng) hoga(urd) yeh(urd) maloom(urd) karna(urd) hai(urd)
+D25 L0 V1 | PASS score=100 | urdu=0/8 (0%) | eng=8 | tech=2 | prop=1
+D25 L0 V2 | FAIL score= 55 | urdu=1/11 (9%) | eng=10 | tech=0 | prop=0
+   query: What is the number of free therapy sessions available to students?
+   tags:  what(eng) is(eng) the(urd) number(eng) of(eng) free(eng) therapy(eng) sessions(eng) available(eng) to(eng) students(eng)
+D25 L0 V3 | PASS score=100 | urdu=0/8 (0%) | eng=8 | tech=0 | prop=0
+D25 L1 V1 | PASS score= 88 | urdu=2/11 (18%) | eng=9 | tech=2 | prop=1
+D25 L1 V2 | WARN score= 77 | urdu=1/11 (9%) | eng=10 | tech=0 | prop=0
+   query: What is the number of free therapy sessions available to students?
+   tags:  what(eng) is(eng) the(urd) number(eng) of(eng) free(eng) therapy(eng) sessions(eng) available(eng) to(eng) students(eng)
+D25 L1 V3 | FAIL score= 40 | urdu=0/8 (0%) | eng=8 | tech=0 | prop=0
+   query: How many mental health support sessions are covered?
+   tags:  how(eng) many(eng) mental(eng) health(eng) support(eng) sessions(eng) are(eng) covered(eng)
+D25 L2 V1 | WARN score= 76 | urdu=4/7 (57%) | eng=3 | tech=2 | prop=0
+   query: Student ko per semester kitni counselling sessions milti hain?
+   tags:  student(eng) ko(urd) per(eng) semester(tec) kitni(urd) counselling(tec) sessions(eng) milti(urd) hain(urd)
+D25 L2 V2 | PASS score= 91 | urdu=3/6 (50%) | eng=3 | tech=0 | prop=0
+D25 L2 V3 | PASS score= 99 | urdu=4/9 (44%) | eng=5 | tech=0 | prop=0
+D25 L3 V1 | PASS score=100 | urdu=8/10 (80%) | eng=2 | tech=2 | prop=0
+D25 L3 V2 | FAIL score= 55 | urdu=3/6 (50%) | eng=3 | tech=0 | prop=0
+   query: Free therapy sessions kitni milti hain?
+   tags:  free(eng) therapy(eng) sessions(eng) kitni(urd) milti(urd) hain(urd)
+D25 L3 V3 | WARN score= 74 | urdu=5/8 (62%) | eng=3 | tech=0 | prop=0
+   query: Zehni sehat ke liye kitne sessions milte hain?
+   tags:  zehni(eng) sehat(eng) ke(urd) liye(urd) kitne(urd) sessions(eng) milte(urd) hain(urd)
+D25 L4 V1 | PASS score= 85 | urdu=10/13 (77%) | eng=3 | tech=2 | prop=0
+D25 L4 V2 | WARN score= 67 | urdu=5/8 (62%) | eng=3 | tech=0 | prop=0
+   query: Zehni sehat ke liye kitne sessions milte hain?
+   tags:  zehni(eng) sehat(eng) ke(urd) liye(urd) kitne(urd) sessions(eng) milte(urd) hain(urd)
+D25 L4 V3 | PASS score= 86 | urdu=7/9 (78%) | eng=2 | tech=1 | prop=0
+D26 L0 V1 | FAIL score= 17 | urdu=1/6 (17%) | eng=5 | tech=2 | prop=0
+   query: Is the course evaluation survey anonymous or identified?
+   tags:  is(eng) the(urd) course(tec) evaluation(tec) survey(eng) anonymous(eng) or(eng) identified(eng)
+D26 L0 V2 | FAIL score=  0 | urdu=2/7 (29%) | eng=5 | tech=2 | prop=0
+   query: What is the confidentiality level of the course evaluation?
+   tags:  what(eng) is(eng) the(urd) confidentiality(eng) level(eng) of(eng) the(urd) course(tec) evaluation(tec)
+D26 L0 V3 | FAIL score= 17 | urdu=1/6 (17%) | eng=5 | tech=2 | prop=0
+   query: Can instructors identify students in the course evaluation?
+   tags:  can(eng) instructors(eng) identify(eng) students(eng) in(eng) the(urd) course(tec) evaluation(tec)
+D26 L1 V1 | FAIL score= 27 | urdu=3/9 (33%) | eng=6 | tech=2 | prop=0
+   query: Is the course evaluation survey anonymous or identified ki nature mein?
+   tags:  is(eng) the(urd) course(tec) evaluation(tec) survey(eng) anonymous(eng) or(eng) identified(eng) ki(urd) nature(eng) mein(urd)
+D26 L1 V2 | FAIL score= 46 | urdu=2/7 (29%) | eng=5 | tech=2 | prop=0
+   query: What is the confidentiality level of the course evaluation?
+   tags:  what(eng) is(eng) the(urd) confidentiality(eng) level(eng) of(eng) the(urd) course(tec) evaluation(tec)
+D26 L1 V3 | PASS score= 94 | urdu=1/6 (17%) | eng=5 | tech=2 | prop=0
+D26 L2 V1 | WARN score= 77 | urdu=2/6 (33%) | eng=4 | tech=2 | prop=0
+   query: Course evaluation survey anonymous hoti hai ya nahi?
+   tags:  course(tec) evaluation(tec) survey(eng) anonymous(eng) hoti(urd) hai(urd) ya(eng) nahi(eng)
+D26 L2 V2 | FAIL score= 40 | urdu=3/4 (75%) | eng=1 | tech=2 | prop=0
+   query: Course feedback ki confidentiality kya hai?
+   tags:  course(tec) feedback(tec) ki(urd) confidentiality(eng) kya(urd) hai(urd)
+D26 L2 V3 | PASS score= 91 | urdu=4/8 (50%) | eng=4 | tech=1 | prop=0
+D26 L3 V1 | WARN score= 64 | urdu=5/9 (56%) | eng=4 | tech=2 | prop=0
+   query: Course evaluation mein talib-e-ilm ka naam pata chalta hai?
+   tags:  course(tec) evaluation(tec) mein(urd) talib(urd) e(eng) ilm(urd) ka(urd) naam(eng) pata(eng) chalta(eng) hai(urd)
+D26 L3 V2 | PASS score= 93 | urdu=3/4 (75%) | eng=1 | tech=1 | prop=0
+D26 L3 V3 | FAIL score= 30 | urdu=2/6 (33%) | eng=4 | tech=1 | prop=0
+   query: Course review confidential hoti hai ya nahi?
+   tags:  course(tec) review(eng) confidential(eng) hoti(urd) hai(urd) ya(eng) nahi(eng)
+D26 L4 V1 | WARN score= 66 | urdu=8/13 (62%) | eng=5 | tech=2 | prop=0
+   query: Course evaluation mein talib-e-ilm ki pehchaan pata chalti hai ya nahi? Bata dein.
+   tags:  course(tec) evaluation(tec) mein(urd) talib(urd) e(eng) ilm(urd) ki(urd) pehchaan(urd) pata(eng) chalti(eng) hai(urd) ya(eng) nahi(eng) bata(urd) dein(urd)
+D26 L4 V2 | WARN score= 67 | urdu=5/8 (62%) | eng=3 | tech=1 | prop=0
+   query: Feedback dene wale ka naam milta hai ya nahi?
+   tags:  feedback(tec) dene(urd) wale(urd) ka(urd) naam(eng) milta(urd) hai(urd) ya(eng) nahi(eng)
+D26 L4 V3 | PASS score= 97 | urdu=7/8 (88%) | eng=1 | tech=2 | prop=0
+D27 L0 V1 | FAIL score= 29 | urdu=1/7 (14%) | eng=6 | tech=3 | prop=0
+   query: How many credit hours are assigned to the research thesis?
+   tags:  how(eng) many(eng) credit(tec) hours(tec) are(eng) assigned(eng) to(eng) the(urd) research(eng) thesis(tec)
+D27 L0 V2 | FAIL score=  0 | urdu=2/9 (22%) | eng=7 | tech=1 | prop=0
+   query: What is the credit weight of the final year project?
+   tags:  what(eng) is(eng) the(urd) credit(tec) weight(eng) of(eng) the(urd) final(eng) year(eng) project(eng)
+D27 L0 V3 | FAIL score= 29 | urdu=1/7 (14%) | eng=6 | tech=2 | prop=0
+   query: How many credit hours does the research component carry?
+   tags:  how(eng) many(eng) credit(tec) hours(tec) does(eng) the(urd) research(eng) component(eng) carry(eng)
+D27 L1 V1 | WARN score= 72 | urdu=2/9 (22%) | eng=7 | tech=3 | prop=0
+   query: How many credit hours are assigned to research thesis ki component mein?
+   tags:  how(eng) many(eng) credit(tec) hours(tec) are(eng) assigned(eng) to(eng) research(eng) thesis(tec) ki(urd) component(eng) mein(urd)
+D27 L1 V2 | WARN score= 72 | urdu=2/9 (22%) | eng=7 | tech=1 | prop=0
+   query: What is the credit weight of the final year project?
+   tags:  what(eng) is(eng) the(urd) credit(tec) weight(eng) of(eng) the(urd) final(eng) year(eng) project(eng)
+D27 L1 V3 | PASS score= 98 | urdu=1/7 (14%) | eng=6 | tech=2 | prop=0
+D27 L2 V1 | FAIL score= 30 | urdu=4/5 (80%) | eng=1 | tech=3 | prop=0
+   query: Research thesis ke kitne credit hours hote hain?
+   tags:  research(eng) thesis(tec) ke(urd) kitne(urd) credit(tec) hours(tec) hote(urd) hain(urd)
+D27 L2 V2 | PASS score= 96 | urdu=3/7 (43%) | eng=4 | tech=1 | prop=0
+D27 L2 V3 | FAIL score= 57 | urdu=4/6 (67%) | eng=2 | tech=2 | prop=0
+   query: Research component kitne credit hours ka hota hai?
+   tags:  research(eng) component(eng) kitne(urd) credit(tec) hours(tec) ka(urd) hota(urd) hai(urd)
+D27 L3 V1 | PASS score=100 | urdu=4/5 (80%) | eng=1 | tech=3 | prop=0
+D27 L3 V2 | WARN score= 74 | urdu=5/8 (62%) | eng=3 | tech=2 | prop=0
+   query: Aakhri saal ke project ke kul kitne credit hours hain?
+   tags:  aakhri(eng) saal(urd) ke(urd) project(eng) ke(urd) kul(eng) kitne(urd) credit(tec) hours(tec) hain(urd)
+D27 L3 V3 | FAIL score= 55 | urdu=3/6 (50%) | eng=3 | tech=0 | prop=0
+   query: Research component ki weightage kitni hai?
+   tags:  research(eng) component(eng) ki(urd) weightage(eng) kitni(urd) hai(urd)
+D27 L4 V1 | PASS score= 82 | urdu=6/8 (75%) | eng=2 | tech=3 | prop=0
+D27 L4 V2 | PASS score= 82 | urdu=6/8 (75%) | eng=2 | tech=2 | prop=0
+D27 L4 V3 | PASS score= 89 | urdu=7/7 (100%) | eng=0 | tech=3 | prop=0
+D28 L0 V1 | PASS score=100 | urdu=0/10 (0%) | eng=10 | tech=0 | prop=2
+D28 L0 V2 | FAIL score= 45 | urdu=1/9 (11%) | eng=8 | tech=0 | prop=1
+   query: What is the time limit for filing a harassment report?
+   tags:  what(eng) is(eng) the(urd) time(eng) limit(eng) for(eng) filing(eng) a(pro) harassment(eng) report(eng)
+D28 L0 V3 | PASS score=100 | urdu=0/9 (0%) | eng=9 | tech=0 | prop=1
+D28 L1 V1 | PASS score= 99 | urdu=2/13 (15%) | eng=11 | tech=0 | prop=2
+D28 L1 V2 | PASS score= 85 | urdu=1/9 (11%) | eng=8 | tech=0 | prop=0
+D28 L1 V3 | FAIL score= 40 | urdu=0/9 (0%) | eng=9 | tech=0 | prop=1
+   query: Within how many days must a harassment complaint be submitted?
+   tags:  within(eng) how(eng) many(eng) days(eng) must(eng) a(pro) harassment(eng) complaint(eng) be(eng) submitted(eng)
+D28 L2 V1 | WARN score= 79 | urdu=5/9 (56%) | eng=4 | tech=0 | prop=0
+   query: Harassment complaint kitne din mein file karni hoti hai?
+   tags:  harassment(eng) complaint(eng) kitne(urd) din(eng) mein(urd) file(eng) karni(urd) hoti(urd) hai(urd)
+D28 L2 V2 | PASS score= 96 | urdu=3/7 (43%) | eng=4 | tech=0 | prop=0
+D28 L2 V3 | PASS score= 91 | urdu=4/8 (50%) | eng=4 | tech=0 | prop=0
+D28 L3 V1 | PASS score= 85 | urdu=7/10 (70%) | eng=3 | tech=0 | prop=0
+D28 L3 V2 | PASS score= 92 | urdu=6/7 (86%) | eng=1 | tech=0 | prop=0
+D28 L3 V3 | WARN score= 74 | urdu=5/8 (62%) | eng=3 | tech=0 | prop=0
+   query: Harassment report dene ka time kitna hota hai?
+   tags:  harassment(eng) report(eng) dene(urd) ka(urd) time(eng) kitna(urd) hota(urd) hai(urd)
+D28 L4 V1 | WARN score= 76 | urdu=9/13 (69%) | eng=4 | tech=0 | prop=0
+   query: Harassment ki shikayat kitne din ke andar file karni hoti hai? Bata dein.
+   tags:  harassment(eng) ki(urd) shikayat(urd) kitne(urd) din(eng) ke(urd) andar(eng) file(eng) karni(urd) hoti(urd) hai(urd) bata(urd) dein(urd)
+D28 L4 V2 | WARN score= 78 | urdu=5/7 (71%) | eng=2 | tech=0 | prop=0
+   query: Shikayat dene ki aakhri tareekh kya hai?
+   tags:  shikayat(urd) dene(urd) ki(urd) aakhri(eng) tareekh(eng) kya(urd) hai(urd)
+D28 L4 V3 | PASS score= 85 | urdu=10/13 (77%) | eng=3 | tech=0 | prop=0
+D29 L0 V1 | PASS score=100 | urdu=0/10 (0%) | eng=10 | tech=0 | prop=0
+D29 L0 V2 | FAIL score= 29 | urdu=1/7 (14%) | eng=6 | tech=1 | prop=0
+   query: What is the duration of alumni library access?
+   tags:  what(eng) is(eng) the(urd) duration(eng) of(eng) alumni(tec) library(eng) access(eng)
+D29 L0 V3 | PASS score=100 | urdu=0/7 (0%) | eng=7 | tech=1 | prop=0
+D29 L1 V1 | PASS score= 99 | urdu=2/13 (15%) | eng=11 | tech=0 | prop=0
+D29 L1 V2 | PASS score= 98 | urdu=1/7 (14%) | eng=6 | tech=1 | prop=0
+D29 L1 V3 | FAIL score= 40 | urdu=0/7 (0%) | eng=7 | tech=1 | prop=0
+   query: Do alumni get lifetime access to university services?
+   tags:  do(eng) alumni(tec) get(eng) lifetime(eng) access(eng) to(eng) university(eng) services(eng)
+D29 L2 V1 | FAIL score= 57 | urdu=6/9 (67%) | eng=3 | tech=1 | prop=0
+   query: Graduation ke baad alumni ko library access kitna milta hai?
+   tags:  graduation(eng) ke(urd) baad(urd) alumni(tec) ko(urd) library(eng) access(eng) kitna(urd) milta(urd) hai(urd)
+D29 L2 V2 | WARN score= 71 | urdu=3/5 (60%) | eng=2 | tech=1 | prop=0
+   query: Alumni benefits ki duration kya hai?
+   tags:  alumni(tec) benefits(eng) ki(urd) duration(eng) kya(urd) hai(urd)
+D29 L2 V3 | PASS score= 85 | urdu=3/8 (38%) | eng=5 | tech=0 | prop=0
+D29 L3 V1 | WARN score= 70 | urdu=6/10 (60%) | eng=4 | tech=0 | prop=0
+   query: Degree ke baad graduates ko kitna library access milta hai?
+   tags:  degree(eng) ke(urd) baad(urd) graduates(eng) ko(urd) kitna(urd) library(eng) access(eng) milta(urd) hai(urd)
+D29 L3 V2 | PASS score= 88 | urdu=5/7 (71%) | eng=2 | tech=1 | prop=0
+D29 L3 V3 | WARN score= 62 | urdu=6/11 (55%) | eng=5 | tech=0 | prop=0
+   query: Graduates ko umar bhar ke liye access milta hai ya nahi?
+   tags:  graduates(eng) ko(urd) umar(eng) bhar(urd) ke(urd) liye(urd) access(eng) milta(urd) hai(urd) ya(eng) nahi(eng)
+D29 L4 V1 | WARN score= 78 | urdu=10/14 (71%) | eng=4 | tech=0 | prop=0
+   query: Degree mukammal hone ke baad graduates ko kitna library access milta hai? Bata dein.
+   tags:  degree(eng) mukammal(urd) hone(urd) ke(urd) baad(urd) graduates(eng) ko(urd) kitna(urd) library(eng) access(eng) milta(urd) hai(urd) bata(urd) dein(urd)
+D29 L4 V2 | PASS score= 80 | urdu=8/11 (73%) | eng=3 | tech=1 | prop=0
+D29 L4 V3 | WARN score= 70 | urdu=9/14 (64%) | eng=5 | tech=0 | prop=0
+   query: Graduates ko umar bhar ka access milta hai ya nahi, yeh maloom karna hai.
+   tags:  graduates(eng) ko(urd) umar(eng) bhar(urd) ka(urd) access(eng) milta(urd) hai(urd) ya(eng) nahi(eng) yeh(urd) maloom(urd) karna(urd) hai(urd)
+D30 L0 V1 | FAIL score=  0 | urdu=2/8 (25%) | eng=6 | tech=2 | prop=0
+   query: What are the annual charges for the campus transport service?
+   tags:  what(eng) are(eng) the(urd) annual(eng) charges(eng) for(eng) the(urd) campus(tec) transport(tec) service(eng)
+D30 L0 V2 | FAIL score= 45 | urdu=1/9 (11%) | eng=8 | tech=1 | prop=0
+   query: How much does the university shuttle service cost per year?
+   tags:  how(eng) much(eng) does(eng) the(urd) university(eng) shuttle(tec) service(eng) cost(eng) per(eng) year(eng)
+D30 L0 V3 | FAIL score=  0 | urdu=2/9 (22%) | eng=7 | tech=1 | prop=0
+   query: What is the annual fee for the campus bus service?
+   tags:  what(eng) is(eng) the(urd) annual(eng) fee(eng) for(eng) the(urd) campus(tec) bus(eng) service(eng)
+D30 L1 V1 | FAIL score= 40 | urdu=3/10 (30%) | eng=7 | tech=2 | prop=0
+   query: What are the annual charges for campus transport service ki facility mein?
+   tags:  what(eng) are(eng) the(urd) annual(eng) charges(eng) for(eng) campus(tec) transport(tec) service(eng) ki(urd) facility(eng) mein(urd)
+D30 L1 V2 | PASS score= 85 | urdu=1/9 (11%) | eng=8 | tech=1 | prop=0
+D30 L1 V3 | PASS score= 91 | urdu=1/8 (12%) | eng=7 | tech=1 | prop=0
+D30 L2 V1 | WARN score= 71 | urdu=3/5 (60%) | eng=2 | tech=2 | prop=0
+   query: Campus transport ki annual charges kitni hain?
+   tags:  campus(tec) transport(tec) ki(urd) annual(eng) charges(eng) kitni(urd) hain(urd)
+D30 L2 V2 | PASS score= 85 | urdu=3/8 (38%) | eng=5 | tech=1 | prop=0
+D30 L2 V3 | PASS score= 96 | urdu=3/7 (43%) | eng=4 | tech=1 | prop=0
+D30 L3 V1 | PASS score= 96 | urdu=5/6 (83%) | eng=1 | tech=0 | prop=0
+D30 L3 V2 | WARN score= 71 | urdu=10/10 (100%) | eng=0 | tech=0 | prop=0
+   query: Sawari ke liye saal bhar ka kitna kharcha aata hai?
+   tags:  sawari(urd) ke(urd) liye(urd) saal(urd) bhar(urd) ka(urd) kitna(urd) kharcha(urd) aata(urd) hai(urd)
+D30 L3 V3 | WARN score= 66 | urdu=4/7 (57%) | eng=3 | tech=0 | prop=0
+   query: Bus service ki saalana charges kitni hain?
+   tags:  bus(eng) service(eng) ki(urd) saalana(urd) charges(eng) kitni(urd) hain(urd)
+D30 L4 V1 | PASS score= 97 | urdu=7/8 (88%) | eng=1 | tech=0 | prop=0
+D30 L4 V2 | PASS score= 89 | urdu=10/10 (100%) | eng=0 | tech=0 | prop=0
+D30 L4 V3 | PASS score= 89 | urdu=8/10 (80%) | eng=2 | tech=0 | prop=0
+L0: PASS= 32 WARN=  0 FAIL= 58 | avg=53.4
+L1: PASS= 43 WARN= 16 FAIL= 31 | avg=68.1
+L2: PASS= 32 WARN= 24 FAIL= 34 | avg=67.5
+L3: PASS= 52 WARN= 32 FAIL=  6 | avg=80.7
+L4: PASS= 55 WARN= 31 FAIL=  4 | avg=82.0

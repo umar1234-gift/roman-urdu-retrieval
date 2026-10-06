@@ -1,0 +1,16 @@
+# Admission Application
+
+Document ID: D03
+Policy Area: Admission Application
+
+--------------------------------------------------------------------------------
+
+The Admission Application policy governs the procedure and timeline for prospective students applying to undergraduate programs.
+
+For the Fall 2026 admission cycle, the application cutoff for the Software Engineering program is 18 November 2026 at 11:59 PM. The submission portal closes precisely at this moment.
+
+Applications received after the cutoff are automatically rejected by the system. No extensions are granted under any circumstances, including technical difficulties.
+
+--------------------------------------------------------------------------------
+
+End of Admission Application policy.

@@ -1,0 +1,118 @@
+====================================================================================================
+FAILURE TAXONOMY ANALYSIS
+====================================================================================================
+
+FAILURE TYPE BY SYSTEM (top-1 wrong cases)
+----------------------------------------------------------------------------------------------------
+
+--- BM25 ---
+  tied_lexical        : 31
+  semantic_drift      : 18
+  lexical_collision   : 3
+
+--- E5 ---
+  semantic_drift      : 28
+  tied_lexical        : 21
+  lexical_collision   : 2
+
+--- Hybrid ---
+  tied_lexical        : 25
+  semantic_drift      : 15
+  lexical_collision   : 3
+
+FAILURE COUNT BY LEVEL (per system)
+----------------------------------------------------------------------------------------------------
+System         L0     L1     L2     L3     L4
+----------------------------------------------------------------------------------------------------
+BM25            3      2      2     22     23
+E5              1      1      1     22     26
+Hybrid          1      1      1     18     22
+
+FAILS PER DOCUMENT (sum across all 3 systems, max=45)
+----------------------------------------------------------------------------------------------------
+Doc      BM25     E5 Hybrid  Total
+----------------------------------------------------------------------------------------------------
+D02         8      5      5     18
+D14         6      6      6     18
+D01         5      7      5     17
+D05         6      6      5     17
+D21         6      0      6     12
+D30         4      4      4     12
+D20         1      6      3     10
+D06         4      1      2      7
+D03         2      2      2      6
+D27         2      2      2      6
+D28         2      2      2      6
+D10         3      1      0      4
+D12         1      1      1      3
+D08         0      3      0      3
+D11         0      3      0      3
+D18         1      0      0      1
+D23         1      0      0      1
+D04         0      1      0      1
+D26         0      1      0      1
+
+PERSISTENT FAILURES (all 3 systems fail)
+----------------------------------------------------------------------------------------------------
+Total persistent failures: 34
+
+MQ0010 D01 L3 | BM25_r=2 E5_r=2 Hyb_r=2 | gold=D01_academic_calendar.txt
+   Q: Fall 2026 ki parhai shuru hone ki tareekh kya hai?
+MQ0011 D01 L3 | BM25_r=2 E5_r=2 Hyb_r=2 | gold=D01_academic_calendar.txt
+   Q: Fall 2026 mein dars kab se shuru honge?
+MQ0013 D01 L4 | BM25_r=2 E5_r=2 Hyb_r=2 | gold=D01_academic_calendar.txt
+   Q: Fall 2026 mein parhai kis din se shuru hon gi? Koi tareekh bata dein.
+MQ0014 D01 L4 | BM25_r=2 E5_r=2 Hyb_r=2 | gold=D01_academic_calendar.txt
+   Q: Fall 2026 ki padhai kis tareekh se shuru hogi?
+MQ0015 D01 L4 | BM25_r=2 E5_r=2 Hyb_r=2 | gold=D01_academic_calendar.txt
+   Q: Fall 2026 mein jamia kis din khulegi, yeh maloom karna hai.
+MQ0018 D02 L0 | BM25_r=2 E5_r=2 Hyb_r=2 | gold=D02_course_add_and_drop.txt
+   Q: How long is the drop window after semester start?
+MQ0021 D02 L1 | BM25_r=2 E5_r=2 Hyb_r=2 | gold=D02_course_add_and_drop.txt
+   Q: How long is the drop window after semester ka start?
+MQ0026 D02 L3 | BM25_r=4 E5_r=13 Hyb_r=5 | gold=D02_course_add_and_drop.txt
+   Q: Talib-e-ilm course kitne din mein badal sakte hain?
+MQ0027 D02 L3 | BM25_r=4 E5_r=2 Hyb_r=2 | gold=D02_course_add_and_drop.txt
+   Q: Naya course lene ya chorne ke liye kitna waqt milta hai?
+MQ0029 D02 L4 | BM25_r=4 E5_r=13 Hyb_r=5 | gold=D02_course_add_and_drop.txt
+   Q: Talib-e-ilm course kitne din mein badal sakte hain?
+MQ0041 D03 L3 | BM25_r=3 E5_r=24 Hyb_r=9 | gold=D03_admission_application.txt
+   Q: Dakhla ki darkhwast jama karwane ki aakhri tareekh kya hai?
+MQ0044 D03 L4 | BM25_r=3 E5_r=26 Hyb_r=13 | gold=D03_admission_application.txt
+   Q: Dakhla ki darkhwast jama karwane ka bilkul aakhri waqt kya hai?
+MQ0071 D05 L3 | BM25_r=3 E5_r=2 Hyb_r=2 | gold=D05_class_attendance.txt
+   Q: Har course mein minimum kitni hazri puri karni hoti hai?
+MQ0072 D05 L3 | BM25_r=5 E5_r=4 Hyb_r=2 | gold=D05_class_attendance.txt
+   Q: Hazri kitni se kam nahi honi chahiye?
+MQ0073 D05 L4 | BM25_r=7 E5_r=3 Hyb_r=3 | gold=D05_class_attendance.txt
+   Q: Talib-e-ilm ko har course mein kam az kam kitni hazri deni zaroori hai? Bata dei
+MQ0074 D05 L4 | BM25_r=3 E5_r=3 Hyb_r=2 | gold=D05_class_attendance.txt
+   Q: Agar talib-e-ilm imtihan dena chahta hai to minimum hazri kitni honi chahiye?
+MQ0075 D05 L4 | BM25_r=5 E5_r=8 Hyb_r=2 | gold=D05_class_attendance.txt
+   Q: Hazri ki hadd kitni hai, yeh maloom karna hai.
+MQ0089 D06 L4 | BM25_r=2 E5_r=2 Hyb_r=2 | gold=D06_degree_completion_requirements.txt
+   Q: Sanad hasil karne ke liye kitne credit hours darkar hain, yeh maloom karna hai.
+MQ0180 D12 L4 | BM25_r=12 E5_r=4 Hyb_r=5 | gold=D12_hostel_regulations.txt
+   Q: Raat ko kitne baje tak wapas pohanchna lazmi hai, yeh maloom karna hai.
+MQ0205 D14 L3 | BM25_r=3 E5_r=2 Hyb_r=2 | gold=D14_medical_leave.txt
+   Q: Ek semester mein bimari ki chhutti kitne din tak mil sakti hai?
+MQ0206 D14 L3 | BM25_r=3 E5_r=2 Hyb_r=3 | gold=D14_medical_leave.txt
+   Q: Talib-e-ilm ko semester mein kitne din ki bimari ki chhutti milti hai?
+MQ0207 D14 L3 | BM25_r=14 E5_r=17 Hyb_r=16 | gold=D14_medical_leave.txt
+   Q: Bimari ki chhutti ke liye kitne din ki ijazat hoti hai?
+MQ0208 D14 L4 | BM25_r=2 E5_r=3 Hyb_r=2 | gold=D14_medical_leave.txt
+   Q: Agar talib-e-ilm bemar ho to ek semester mein maximum kitne din ki chhutti le sa
+MQ0209 D14 L4 | BM25_r=3 E5_r=2 Hyb_r=2 | gold=D14_medical_leave.txt
+   Q: Bimari ki wajah se semester mein kitne din tak chhutti mil sakti hai?
+MQ0210 D14 L4 | BM25_r=2 E5_r=3 Hyb_r=2 | gold=D14_medical_leave.txt
+   Q: Bimari ki chhutti ki maximum hadd kitni hai, yeh maloom karna hai.
+MQ0296 D20 L3 | BM25_r=2 E5_r=8 Hyb_r=4 | gold=D20_course_withdrawal.txt
+   Q: Talib-e-ilm course kitne din ke andar chhor sakta hai?
+MQ0401 D27 L3 | BM25_r=2 E5_r=5 Hyb_r=3 | gold=D27_research_thesis.txt
+   Q: Aakhri saal ke project ke kul kitne credit hours hain?
+MQ0404 D27 L4 | BM25_r=2 E5_r=5 Hyb_r=3 | gold=D27_research_thesis.txt
+   Q: Aakhri saal ke project ke kitne credit hours hote hain?
+MQ0416 D28 L3 | BM25_r=28 E5_r=21 Hyb_r=26 | gold=D28_anti-harassment_reporting.txt
+   Q: Shikayat dene ki kitni muddat hoti hai?
+MQ0419 D28 L4 | BM25_r=28 E5_r=21 Hyb_r=28 | gold=D28_anti-harassment_reporting.txt
+   Q: Shikayat dene ki aakhri tareekh kya hai?

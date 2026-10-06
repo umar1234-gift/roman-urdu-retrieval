@@ -1,0 +1,812 @@
+{
+	"D01": {
+		"L0": [
+			"What is the official commencement date for Fall 2026 classes?",
+			"When do Fall 2026 classes officially begin?",
+			"What date marks the start of the Fall 2026 semester?"
+		],
+		"L1": [
+			"What is the official commencement date for Fall 2026 ki classes?",
+			"When do Fall 2026 ki classes officially begin?",
+			"What is the start date of Fall 2026 ka semester?"
+		],
+		"L2": [
+			"Fall 2026 ki classes ka start date kya hai?",
+			"Fall 2026 ki classes kab start hongi?",
+			"Fall 2026 ka semester kis date se shuru hoga?"
+		],
+		"L3": [
+			"Fall 2026 ki parhai shuru hone ki tareekh kya hai?",
+			"Fall 2026 mein dars kab se shuru honge?",
+			"Fall 2026 ka semester kis din se shuru hoga?"
+		],
+		"L4": [
+			"Fall 2026 mein parhai kis din se shuru hon gi? Koi tareekh bata dein.",
+			"Fall 2026 ki padhai kis tareekh se shuru hogi?",
+			"Fall 2026 mein jamia kis din khulegi, yeh maloom karna hai."
+		]
+	},
+	"D02": {
+		"L0": [
+			"How many working days are allowed for course add or drop?",
+			"What is the enrollment adjustment window for adding or dropping courses?",
+			"How long is the drop window after semester start?"
+		],
+		"L1": [
+			"How many working days are allowed for course add or drop ki process mein?",
+			"What is the enrollment adjustment window for add ya drop?",
+			"How long is the drop window after semester ka start?"
+		],
+		"L2": [
+			"Course add ya drop karne ke liye kitne working days milte hain?",
+			"Enrollment adjustment window kitni hoti hai?",
+			"Course add ya drop karne ki kitni muddat hai?"
+		],
+		"L3": [
+			"Course tabdeel karne ki mohlat kitne din ki hai?",
+			"Talib-e-ilm course kitne din mein badal sakte hain?",
+			"Naya course lene ya chorne ke liye kitna waqt milta hai?"
+		],
+		"L4": [
+			"Course tabdeel karne ki kitni mohlat hai? Bata dein.",
+			"Talib-e-ilm course kitne din mein badal sakte hain?",
+			"Course chorne ya naya lene ke liye kitna waqt milta hai, yeh maloom karna hai."
+		]
+	},
+	"D03": {
+		"L0": [
+			"What is the application cutoff for the Fall 2026 Software Engineering admission cycle?",
+			"When is the deadline to submit the Fall 2026 admission application?",
+			"What is the final date and time for the Fall 2026 application submission?"
+		],
+		"L1": [
+			"What is the application cutoff for Fall 2026 Software Engineering ki admission?",
+			"When is the deadline to submit Fall 2026 ki admission application?",
+			"What is the final date and time for Fall 2026 ki application submission?"
+		],
+		"L2": [
+			"Fall 2026 admission ki application ki aakhri tareekh kya hai?",
+			"Admission ke liye application kab tak jama karwani hai?",
+			"Fall 2026 application submit karne ki last date aur time kya hai?"
+		],
+		"L3": [
+			"Fall 2026 mein dakhla ke liye darkhwast kis tareekh tak jama karwani hai?",
+			"Dakhla ki darkhwast jama karwane ki aakhri tareekh kya hai?",
+			"Fall 2026 mein dakhla ke liye darkhwast dene ka aakhri waqt kya hai?"
+		],
+		"L4": [
+			"Fall 2026 mein dakhla lene ke liye darkhwast kis din tak jama hogi? Bata dein.",
+			"Dakhla ki darkhwast jama karwane ka bilkul aakhri waqt kya hai?",
+			"Fall 2026 mein dakhla ki darkhwast dene ki aakhri tareekh kya hai, yeh maloom karna hai."
+		]
+	},
+	"D04": {
+		"L0": [
+			"How many calendar days are allowed for late assignment submission?",
+			"What is the late submission window for assignments?",
+			"How long is the assignment grace period?"
+		],
+		"L1": [
+			"How many calendar days are allowed for late assignment ki submission?",
+			"What is the late submission window for assignment ki deadline ke baad?",
+			"How long is the assignment ka grace period?"
+		],
+		"L2": [
+			"Late assignment submit karne ke liye kitne calendar days milte hain?",
+			"Assignment late jama karne ki kitni muddat hai?",
+			"Deadline ke baad assignment kitne din mein jama kar sakte hain?"
+		],
+		"L3": [
+			"Der se assignment jama karne ki kitne din ki mohlat hai?",
+			"Assignment der se jama karwane ke liye kitna waqt milta hai?",
+			"Meyad guzarne ke baad assignment kitne din tak jama ho sakti hai?"
+		],
+		"L4": [
+			"Assignment waqt par jama na ho to kitne din tak jama karwa sakte hain? Bata dein.",
+			"Assignment ki meyad nikal jaye to talib-e-ilm ko kitne din ki mazeed mohlat milti hai?",
+			"Der se assignment jama karwane ke liye kitni mohlat milti hai, yeh maloom karna hai."
+		]
+	},
+	"D05": {
+		"L0": [
+			"What minimum attendance percentage is required per course?",
+			"What is the attendance threshold for staying in good standing?",
+			"How much attendance must a student maintain?"
+		],
+		"L1": [
+			"What minimum attendance percentage is required per course ki classes mein?",
+			"What is the attendance threshold for good standing ki condition?",
+			"How much attendance must a student maintain har course mein?"
+		],
+		"L2": [
+			"Minimum attendance kitni honi chahiye?",
+			"Student ko kam az kam kitni attendance rakhni hoti hai?",
+			"Attendance threshold kitni zaroori hai?"
+		],
+		"L3": [
+			"Talib-e-ilm ki kam az kam hazri kitni honi zaroori hai?",
+			"Har course mein minimum kitni hazri puri karni hoti hai?",
+			"Hazri kitni se kam nahi honi chahiye?"
+		],
+		"L4": [
+			"Talib-e-ilm ko har course mein kam az kam kitni hazri deni zaroori hai? Bata dein.",
+			"Agar talib-e-ilm imtihan dena chahta hai to minimum hazri kitni honi chahiye?",
+			"Hazri ki hadd kitni hai, yeh maloom karna hai."
+		]
+	},
+	"D06": {
+		"L0": [
+			"How many credit hours are required for degree completion?",
+			"What is the total graduation credit requirement?",
+			"How many credit hours must a student complete for the degree?"
+		],
+		"L1": [
+			"How many credit hours are required for degree completion ki requirement mein?",
+			"What is the total graduation credit requirement?",
+			"How many credit hours must a student complete degree ke liye?"
+		],
+		"L2": [
+			"Degree complete karne ke liye kitne credit hours chahiye?",
+			"Graduation credits kitne hain?",
+			"Program completion ke liye kitne credit hours chahiye?"
+		],
+		"L3": [
+			"Degree mukammal karne ke liye kitne credit hours darkar hain?",
+			"Talib-e-ilm ko degree ke liye kul kitne credit hours poore karne honge?",
+			"Degree hasil karne ke liye kitne credit hours zaroori hain?"
+		],
+		"L4": [
+			"Degree mukammal karne ke liye talib-e-ilm ko kul kitne credit hours poore karne padte hain? Bata dein.",
+			"Sanad hasil karne ke liye kitne credit hours darkar hain, yeh maloom karna hai.",
+			"Degree lene ke liye kitne credit hours zaroori hain?"
+		]
+	},
+	"D07": {
+		"L0": [
+			"How many working days does a student have to appeal a disciplinary decision?",
+			"What is the appeal window for a disciplinary ruling?",
+			"How long can a student contest a disciplinary decision?"
+		],
+		"L1": [
+			"How many working days does a student have to appeal a disciplinary decision ke against?",
+			"What is the appeal window for disciplinary ruling ki decision?",
+			"How long can a student contest a disciplinary decision?"
+		],
+		"L2": [
+			"Disciplinary decision ke against appeal kitne working days mein karni hoti hai?",
+			"Appeal window kitne working days ki hoti hai?",
+			"Disciplinary case mein appeal karne ki kitni muddat hai?"
+		],
+		"L3": [
+			"Disciplinary faislay ke khilaf appeal ki kitne din ki mohlat hai?",
+			"Talib-e-ilm disciplinary faislay ko kitne din mein challenge kar sakta hai?",
+			"Disciplinary faislay ke baad appeal karne ka kitna waqt hota hai?"
+		],
+		"L4": [
+			"Agar talib-e-ilm disciplinary faislay se muttafiq na ho to appeal ke liye kitne din milte hain? Bata dein.",
+			"Disciplinary faislay ke khilaf talib-e-ilm ko appeal jama karwane ki kitni mohlat di jati hai?",
+			"Disciplinary faislay ko challenge karne ke liye talib-e-ilm kitne din mein appeal kar sakta hai, yeh maloom karna hai."
+		]
+	},
+	"D08": {
+		"L0": [
+			"What minimum marks are required to pass the final examination?",
+			"What is the passing threshold for the final examination?",
+			"How many marks must a student obtain to pass the final exam?"
+		],
+		"L1": [
+			"What minimum marks are required to pass the final examination ki condition mein?",
+			"What is the passing threshold for final examination?",
+			"How many marks must a student obtain final exam pass karne ke liye?"
+		],
+		"L2": [
+			"Final examination pass karne ke liye minimum marks kitne zaroori hain?",
+			"Passing threshold kitni hai final exam mein?",
+			"Final exam mein pass hone ke liye kam az kam kitne number chahiye?"
+		],
+		"L3": [
+			"Aakhri imtihan pass karne ke liye kam az kam kitne number zaroori hain?",
+			"Final imtihan mein pass hone ke liye minimum kitne number hasil karne hain?",
+			"Aakhri imtihan ki passing threshold kitni hai?"
+		],
+		"L4": [
+			"Aakhri imtihan pass karne ke liye talib-e-ilm ko kam az kam kitne number lena zaroori hain? Bata dein.",
+			"Aakhri imtihan mein pass hone ke liye minimum kitne number hasil karna lazmi hai?",
+			"Aakhri imtihan ki passing threshold kitni hai, yeh maloom karna hai."
+		]
+	},
+	"D09": {
+		"L0": [
+			"What is the semester fee for fifth-semester Software Engineering students?",
+			"How much is the semester fee for the fifth semester of Software Engineering?",
+			"What amount must fifth-semester Software Engineering students pay?"
+		],
+		"L1": [
+			"What is the semester fee for fifth-semester Software Engineering students ki classes mein?",
+			"How much is the semester fee for fifth semester of Software Engineering?",
+			"What amount must fifth-semester Software Engineering students pay?"
+		],
+		"L2": [
+			"Fifth-semester Software Engineering ki semester fee kitni hai?",
+			"Software Engineering ke fifth semester mein tuition payment kitni hai?",
+			"Fifth semester ke liye students ko kitni semester fee deni hoti hai?"
+		],
+		"L3": [
+			"Software Engineering ke paanchwe semester ki fees kitni hai?",
+			"Paanchwe semester mein talib-e-ilm ko kitni fees jama karwani hoti hai?",
+			"Software Engineering ke paanchwe semester ki kul fees kitni banti hai?"
+		],
+		"L4": [
+			"Software Engineering ke paanchwe semester mein talib-e-ilm ko kul kitni fees jama karwani hoti hai? Bata dein.",
+			"Paanchwe semester ki fees ke taur par kitni raqam ada karni hoti hai?",
+			"Paanchwe semester ki fees kitni hai, yeh maloom karna hai."
+		]
+	},
+	"D10": {
+		"L0": [
+			"What percentage is required to receive an A grade?",
+			"What is the minimum grade boundary for an A grade?",
+			"How many marks are needed for an A grade?"
+		],
+		"L1": [
+			"What percentage is required to receive an A grade ki grading mein?",
+			"What is the minimum grade boundary for A grade?",
+			"How many marks are needed for A grade hasil karne ke liye?"
+		],
+		"L2": [
+			"A grade ke liye kitni percentage chahiye?",
+			"A grade hasil karne ke liye kitne percent marks zaroori hain?",
+			"A grade ki grade boundary kya hai?"
+		],
+		"L3": [
+			"A grade hasil karne ke liye kitne percent number chahiye?",
+			"A grade lene ke liye kam az kam kitni percentage honi chahiye?",
+			"A grade ke liye marks kitne percent tak hone zaroori hain?"
+		],
+		"L4": [
+			"A grade hasil karne ke liye talib-e-ilm ko kam az kam kitni percentage marks leni padti hai? Bata dein.",
+			"A grade ke liye kam az kam kitni percentage chahiye?",
+			"A grade ki shart kya hai, yeh maloom karna hai."
+		]
+	},
+	"D11": {
+		"L0": [
+			"What minimum CGPA is required for graduation eligibility?",
+			"What is the CGPA threshold for degree conferral?",
+			"What CGPA must a student achieve for graduation?"
+		],
+		"L1": [
+			"What minimum CGPA is required for graduation eligibility ki condition mein?",
+			"What is the CGPA threshold for degree conferral?",
+			"What CGPA must a student achieve graduation ke liye?"
+		],
+		"L2": [
+			"Graduation ke liye minimum CGPA kitni chahiye?",
+			"Degree conferral ke liye CGPA threshold kya hai?",
+			"Graduation standing ke liye kitni CGPA zaroori hai?"
+		],
+		"L3": [
+			"Sanad hasil karne ke liye kam az kam kitni CGPA zaroori hai?",
+			"Degree ke liye minimum CGPA kitni honi chahiye?",
+			"Talib-e-ilm ko degree lene ke liye kitni CGPA hasil karni hoti hai?"
+		],
+		"L4": [
+			"Sanad hasil karne ke liye talib-e-ilm ki kam az kam kitni CGPA honi lazmi hai? Bata dein.",
+			"Degree ki shart puri karne ke liye kam az kam kitni CGPA chahiye?",
+			"Degree lene ke liye minimum CGPA kitni chahiye, yeh maloom karna hai."
+		]
+	},
+	"D12": {
+		"L0": [
+			"What is the hostel curfew time for residents?",
+			"At what time must hostel students return to the residence?",
+			"What is the required night return time for hostel residents?"
+		],
+		"L1": [
+			"What is the hostel curfew time for residents ki condition mein?",
+			"At what time must hostel students return to the residence?",
+			"What is the required night return time for hostel residents?"
+		],
+		"L2": [
+			"Hostel ka curfew time kya hai?",
+			"Hostel mein students ko kitne baje tak wapas aana chahiye?",
+			"Hostel students ke liye night return time kya hai?"
+		],
+		"L3": [
+			"Hostel se bahar jane ke baad kitne baje tak wapas aana hota hai?",
+			"Hostel ki wapsi ki aakhri timing kya hai?",
+			"Hostel mein talib-e-ilm ko raat ko kitne baje tak pohanchna hota hai?"
+		],
+		"L4": [
+			"Hostel mein rehne wale talib-e-ilm ko raat ko kitne baje tak hostel wapas pohanchna zaroori hai? Bata dein.",
+			"Hostel ki curfew ke mutabiq talib-e-ilm ko maximum kis waqt tak wapas aana hota hai?",
+			"Raat ko kitne baje tak wapas pohanchna lazmi hai, yeh maloom karna hai."
+		]
+	},
+	"D13": {
+		"L0": [
+			"What is the minimum duration of the required internship?",
+			"How many weeks must the internship last?",
+			"What is the minimum internship duration for students?"
+		],
+		"L1": [
+			"What is the minimum duration of the required internship ki requirement mein?",
+			"How many weeks must the internship last?",
+			"What is the minimum internship duration for students?"
+		],
+		"L2": [
+			"Internship minimum kitne weeks ki honi chahiye?",
+			"Required internship ki muddat kitni honi zaroori hai?",
+			"Students ko minimum kitne hafton ki internship complete karni hoti hai?"
+		],
+		"L3": [
+			"Talib-e-ilm ko kam az kam kitne haftay internship karni hoti hai?",
+			"Internship ke liye kitne hafton ki muddat rakhi gayi hai?",
+			"Degree ke liye internship kitne haftay ki karni zaroori hai?"
+		],
+		"L4": [
+			"Degree ki shart puri karne ke liye talib-e-ilm ko kam az kam kitne hafton ki internship karni padti hai? Bata dein.",
+			"Internship ki minimum muddat kitne haftay hai?",
+			"Internship ke liye kitne haftay dene zaroori hain, yeh maloom karna hai."
+		]
+	},
+	"D14": {
+		"L0": [
+			"How many days of medical leave can a student claim per semester?",
+			"What is the maximum medical leave allowed per semester?",
+			"How many sick leave days are permitted in one semester?"
+		],
+		"L1": [
+			"How many days of medical leave can a student claim per semester ki duration mein?",
+			"What is the maximum medical leave allowed per semester?",
+			"How many sick leave days are permitted in one semester?"
+		],
+		"L2": [
+			"Semester mein medical leave ke kitne din milte hain?",
+			"Student ek semester mein kitni medical chhutti le sakta hai?",
+			"Medical leave ki maximum muddat ek semester mein kitni hai?"
+		],
+		"L3": [
+			"Ek semester mein bimari ki chhutti kitne din tak mil sakti hai?",
+			"Talib-e-ilm ko semester mein kitne din ki bimari ki chhutti milti hai?",
+			"Bimari ki chhutti ke liye kitne din ki ijazat hoti hai?"
+		],
+		"L4": [
+			"Agar talib-e-ilm bemar ho to ek semester mein maximum kitne din ki chhutti le sakta hai? Bata dein.",
+			"Bimari ki wajah se semester mein kitne din tak chhutti mil sakti hai?",
+			"Bimari ki chhutti ki maximum hadd kitni hai, yeh maloom karna hai."
+		]
+	},
+	"D15": {
+		"L0": [
+			"What minimum grade is required in a prerequisite course?",
+			"What is the minimum grade required to satisfy a prerequisite?",
+			"Which grade must a student earn to pass a prerequisite requirement?"
+		],
+		"L1": [
+			"What minimum grade is required in a prerequisite course ki requirement mein?",
+			"What is the minimum grade required to satisfy a prerequisite?",
+			"Which grade must a student earn prerequisite pass karne ke liye?"
+		],
+		"L2": [
+			"Prerequisite course mein minimum grade kitna chahiye?",
+			"Prerequisite ki requirement puri karne ke liye konsa grade zaroori hai?",
+			"Prerequisite subject mein kam az kam konsa grade lena hota hai?"
+		],
+		"L3": [
+			"Prerequisite course pass karne ke liye kam az kam konsa grade chahiye?",
+			"Agla course lene ke liye prerequisite mein konsa grade hasil karna hota hai?",
+			"Prerequisite ki shart puri karne ke liye kitna grade lena zaroori hai?"
+		],
+		"L4": [
+			"Agla course lene ke liye prerequisite mein talib-e-ilm ko kam az kam konsa grade lena lazmi hai? Bata dein.",
+			"Prerequisite ki shart puri karne ke liye kam az kam konsa grade chahiye?",
+			"Prerequisite mein kitna grade zaroori hai, yeh maloom karna hai."
+		]
+	},
+	"D16": {
+		"L0": [
+			"What is the minimum credit hours required for semester registration?",
+			"How many credit hours must a student register for at minimum?",
+			"What is the minimum course load for semester registration?"
+		],
+		"L1": [
+			"What is the minimum credit hours required for semester registration ki process mein?",
+			"How many credit hours must a student register for at minimum?",
+			"What is the minimum course load for semester registration?"
+		],
+		"L2": [
+			"Semester register karne ke liye minimum kitne credit hours chahiye?",
+			"Registration ke waqt kam az kam kitne credit hours lene hote hain?",
+			"Semester ka minimum course load kitne credit hours ka hai?"
+		],
+		"L3": [
+			"Semester register karwane ke liye kam az kam kitne credit hours chahiye?",
+			"Registration ke liye minimum kitne credit hours rakhne hote hain?",
+			"Talib-e-ilm semester mein kam az kam kitne credit hours register kar sakta hai?"
+		],
+		"L4": [
+			"Semester ki registration karwane ke liye talib-e-ilm ko kam az kam kitne credit hours register karne lazmi hain? Bata dein.",
+			"Semester mein minimum kitne credit hours ka course load hona chahiye?",
+			"Registration ke liye total minimum kitne credit hours chahiye, yeh maloom karna hai."
+		]
+	},
+	"D17": {
+		"L0": [
+			"What minimum CGPA is required for the merit scholarship?",
+			"What is the CGPA requirement for the merit award?",
+			"What CGPA must a student have to qualify for the scholarship?"
+		],
+		"L1": [
+			"What minimum CGPA is required for the merit scholarship ki eligibility mein?",
+			"What is the CGPA requirement for the merit award?",
+			"What CGPA must a student have scholarship qualify karne ke liye?"
+		],
+		"L2": [
+			"Merit scholarship ke liye minimum CGPA kitni chahiye?",
+			"Scholarship hasil karne ke liye kam az kam CGPA kya honi zaroori hai?",
+			"Merit scholarship ki eligibility ke liye minimum CGPA kitni hai?"
+		],
+		"L3": [
+			"Merit scholarship lene ke liye kam az kam kitni CGPA chahiye?",
+			"Scholarship ke liye kam az kam kitni CGPA zaroori hai?",
+			"Merit scholarship ki shart puri karne ke liye kitni CGPA chahiye?"
+		],
+		"L4": [
+			"Merit scholarship ke liye darkhwast dene ke liye talib-e-ilm ko kam az kam kitni CGPA chahiye? Bata dein.",
+			"Merit scholarship hasil karne ke liye minimum CGPA ki shart kya hai?",
+			"Scholarship ke liye kitni CGPA zaroori hai, yeh maloom karna hai."
+		]
+	},
+	"D18": {
+		"L0": [
+			"How many days does it take to issue a student ID card?",
+			"What is the processing time for a campus access card?",
+			"How long does a student wait to receive an ID card?"
+		],
+		"L1": [
+			"How many days does it take to issue a student ID card ki process mein?",
+			"What is the processing time for campus access card?",
+			"How long does a student wait ID card receive karne ke liye?"
+		],
+		"L2": [
+			"Student ID card milne mein kitne din lagte hain?",
+			"Campus access card kitne din mein issue hota hai?",
+			"ID card receive karne ka processing time kitna hai?"
+		],
+		"L3": [
+			"Talib-e-ilm ko ID card milne mein kitne din lagte hain?",
+			"Campus ka card kitne din mein tayar hota hai?",
+			"ID card ban kar milne ki kitni muddat hoti hai?"
+		],
+		"L4": [
+			"ID card ke liye darkhwast dene ke baad talib-e-ilm ko kitne din mein card milta hai? Bata dein.",
+			"Campus ka card kitne din mein milta hai?",
+			"ID card banne mein kitne din lagte hain, yeh maloom karna hai."
+		]
+	},
+	"D19": {
+		"L0": [
+			"How many working days are required to process an official transcript?",
+			"What is the processing time for an official academic record?",
+			"How long does the university take to issue a transcript?"
+		],
+		"L1": [
+			"How many working days are required to process an official transcript ki request?",
+			"What is the processing time for official academic record?",
+			"How long does the university take transcript issue karne mein?"
+		],
+		"L2": [
+			"Official transcript milne mein kitne working days lagte hain?",
+			"Transcript issue hone ki processing time kitni hai?",
+			"University se official academic record kitne din mein milta hai?"
+		],
+		"L3": [
+			"Transcript hasil karne mein kitne din lagte hain?",
+			"Transcript ban kar milne ki kitni muddat hoti hai?",
+			"University transcript tayar karne mein kitne din leti hai?"
+		],
+		"L4": [
+			"Transcript ke liye darkhwast dene ke baad kitne din lagte hain? Bata dein.",
+			"Transcript hasil karne mein kitne din lagte hain?",
+			"Transcript banne mein kitni muddat lagti hai, yeh maloom karna hai."
+		]
+	},
+	"D20": {
+		"L0": [
+			"How many days are allowed to withdraw from a course without academic penalty?",
+			"What is the penalty-free withdrawal window?",
+			"How long can a student drop a course without penalty?"
+		],
+		"L1": [
+			"How many days are allowed to withdraw from a course without academic penalty ki condition mein?",
+			"What is the penalty-free withdrawal window?",
+			"How long can a student drop a course penalty ke baghair?"
+		],
+		"L2": [
+			"Academic penalty ke baghair course withdraw karne ki kitni muddat hai?",
+			"Course withdraw karne ke liye kitne din milte hain bina penalty ke?",
+			"Student course se kitne din ke andar withdraw kar sakta hai?"
+		],
+		"L3": [
+			"Bina kisi penalty ke course chorne ki kitne din ki mohlat hai?",
+			"Talib-e-ilm course kitne din ke andar chhor sakta hai?",
+			"Penalty se bachne ke liye course kab tak chhorna hota hai?"
+		],
+		"L4": [
+			"Agar talib-e-ilm course chhorna chahe to bina penalty ke kitne din ke andar chhor sakta hai? Bata dein.",
+			"Course chorne ke liye talib-e-ilm ko bina penalty ke maximum kitni muddat milti hai?",
+			"Course kitne din ke andar chhoro to penalty nahi hoti, yeh maloom karna hai."
+		]
+	},
+	"D21": {
+		"L0": [
+			"How many books can a student borrow from the library at one time?",
+			"What is the maximum borrowing limit for library books?",
+			"How many books may a student check out simultaneously?"
+		],
+		"L1": [
+			"How many books can a student borrow from library ki facility se at one time?",
+			"What is the maximum borrowing limit for library books?",
+			"How many books may a student check out simultaneously?"
+		],
+		"L2": [
+			"Library se ek waqt mein kitni books borrow kar sakte hain?",
+			"Book loan ki maximum limit kitni hai?",
+			"Student ek saath kitni books check out kar sakta hai?"
+		],
+		"L3": [
+			"Talib-e-ilm kitab khane se ek waqt mein kitni kitaben le sakta hai?",
+			"Kitab khane se kitni kitaben ghar le jane ki ijazat hai?",
+			"Ek waqt mein kitni kitaben issue hoti hain?"
+		],
+		"L4": [
+			"Talib-e-ilm kitab khane se ek waqt mein kitni kitaben ghar le ja sakta hai? Bata dein.",
+			"Kitab khane se maximum kitni kitaben mil sakti hain?",
+			"Ek waqt mein kitni kitaben le jane ki ijazat hai, yeh maloom karna hai."
+		]
+	},
+	"D22": {
+		"L0": [
+			"What safety equipment must be worn inside the laboratory?",
+			"What is the mandatory protective gear for lab work?",
+			"What must students wear in the laboratory at all times?"
+		],
+		"L1": [
+			"What safety equipment must be worn inside laboratory ki premises mein?",
+			"What is the mandatory protective gear for lab work?",
+			"What must students wear laboratory mein at all times?"
+		],
+		"L2": [
+			"Laboratory mein konsa safety equipment pehnna zaroori hai?",
+			"Lab work ke liye mandatory protective gear kya hai?",
+			"Students ko lab mein hamesha kya pehnna hota hai?"
+		],
+		"L3": [
+			"Lab mein kaam karne ke liye konsa safety gear pehnna zaroori hai?",
+			"Talib-e-ilm ko lab mein konsa protective equipment pehnna hota hai?",
+			"Lab safety ke liye kya pehnna lazmi hai?"
+		],
+		"L4": [
+			"Lab mein kaam karte waqt talib-e-ilm ko konsa safety equipment pehnna lazmi hai? Bata dein.",
+			"Lab ke andar protective gear ke baghair kaam karna allowed hai ya nahi?",
+			"Lab mein kis cheez ke baghair entry nahi hoti, yeh maloom karna hai."
+		]
+	},
+	"D23": {
+		"L0": [
+			"What penalty is given for confirmed plagiarism?",
+			"What happens if a student is found guilty of plagiarism?",
+			"What is the consequence of an integrity violation?"
+		],
+		"L1": [
+			"What penalty is given for confirmed plagiarism ki case mein?",
+			"What happens if a student is found guilty of plagiarism?",
+			"What is the consequence of an integrity violation?"
+		],
+		"L2": [
+			"Plagiarism confirm hone par kya penalty milti hai?",
+			"Student plagiarism ka guilty paya jaye to kya hota hai?",
+			"Integrity violation ka kya result hota hai?"
+		],
+		"L3": [
+			"Plagiarism pakre jane par talib-e-ilm ko kya saza milti hai?",
+			"Plagiarism confirm hone par kya hota hai?",
+			"Academic dishonesty par kya penalty hoti hai?"
+		],
+		"L4": [
+			"Agar talib-e-ilm plagiarism mein pakra jaye to usay kya saza milti hai? Bata dein.",
+			"Plagiarism confirm hone par talib-e-ilm ke sath kya hota hai?",
+			"Plagiarism ki surat mein kya hota hai, yeh maloom karna hai."
+		]
+	},
+	"D24": {
+		"L0": [
+			"On what date is the annual sports day held?",
+			"When does the university hold its annual sports gala?",
+			"What is the date of the annual athletic event?"
+		],
+		"L1": [
+			"On what date is the annual sports day held ki event mein?",
+			"When does the university hold its annual sports gala?",
+			"What is the date of the annual athletic event?"
+		],
+		"L2": [
+			"Annual sports day kis date ko hota hai?",
+			"University ka annual sports gala kab hota hai?",
+			"Athletic event ki date kya hai?"
+		],
+		"L3": [
+			"Sports gala kis din manaya jata hai?",
+			"Annual sports day kab hota hai?",
+			"Sports event ki tareekh kya hai?"
+		],
+		"L4": [
+			"Sports gala kis din manaya jata hai? Bata dein.",
+			"Sports day kis tareekh ko hota hai?",
+			"Athletic event kis din hoga, yeh maloom karna hai."
+		]
+	},
+	"D25": {
+		"L0": [
+			"How many counselling sessions is a student entitled to per semester?",
+			"What is the number of free therapy sessions available to students?",
+			"How many mental health support sessions are covered?"
+		],
+		"L1": [
+			"How many counselling sessions is a student entitled to per semester ki duration mein?",
+			"What is the number of free therapy sessions available to students?",
+			"How many mental health support sessions are covered?"
+		],
+		"L2": [
+			"Student ko per semester kitni counselling sessions milti hain?",
+			"Free therapy sessions kitni milti hain?",
+			"Mental health support ke kitne sessions cover hote hain?"
+		],
+		"L3": [
+			"Talib-e-ilm ko ek semester mein kitni counselling sessions milti hain?",
+			"Free therapy sessions kitni milti hain?",
+			"Zehni sehat ke liye kitne sessions milte hain?"
+		],
+		"L4": [
+			"Talib-e-ilm ko ek semester mein kitni counselling sessions free milti hain? Bata dein.",
+			"Zehni sehat ke liye kitne sessions milte hain?",
+			"Counselling sessions ka kitna quota hai, yeh maloom karna hai."
+		]
+	},
+	"D26": {
+		"L0": [
+			"Is the course evaluation survey anonymous or identified?",
+			"What is the confidentiality level of the course evaluation?",
+			"Can instructors identify students in the course evaluation?"
+		],
+		"L1": [
+			"Is the course evaluation survey anonymous or identified ki nature mein?",
+			"What is the confidentiality level of the course evaluation?",
+			"Can instructors identify students in the course evaluation?"
+		],
+		"L2": [
+			"Course evaluation survey anonymous hoti hai ya nahi?",
+			"Course feedback ki confidentiality kya hai?",
+			"Instructors students ko identify kar sakte hain evaluation mein?"
+		],
+		"L3": [
+			"Course evaluation mein talib-e-ilm ka naam pata chalta hai?",
+			"Feedback ki nature kya hai?",
+			"Course review confidential hoti hai ya nahi?"
+		],
+		"L4": [
+			"Course evaluation mein talib-e-ilm ki pehchaan pata chalti hai ya nahi? Bata dein.",
+			"Feedback dene wale ka naam milta hai ya nahi?",
+			"Course evaluation ki confidentiality kya hai, yeh maloom karna hai."
+		]
+	},
+	"D27": {
+		"L0": [
+			"How many credit hours are assigned to the research thesis?",
+			"What is the credit weight of the final year project?",
+			"How many credit hours does the research component carry?"
+		],
+		"L1": [
+			"How many credit hours are assigned to research thesis ki component mein?",
+			"What is the credit weight of the final year project?",
+			"How many credit hours does the research component carry?"
+		],
+		"L2": [
+			"Research thesis ke kitne credit hours hote hain?",
+			"Final year project ka credit weight kitna hai?",
+			"Research component kitne credit hours ka hota hai?"
+		],
+		"L3": [
+			"Thesis ke kitne credit hours assigned hote hain?",
+			"Aakhri saal ke project ke kul kitne credit hours hain?",
+			"Research component ki weightage kitni hai?"
+		],
+		"L4": [
+			"Research thesis ke kul kitne credit hours hote hain? Bata dein.",
+			"Aakhri saal ke project ke kitne credit hours hote hain?",
+			"Thesis ke kitne credit hours hain, yeh maloom karna hai."
+		]
+	},
+	"D28": {
+		"L0": [
+			"How many days does a student have to file a harassment complaint?",
+			"What is the time limit for filing a harassment report?",
+			"Within how many days must a harassment complaint be submitted?"
+		],
+		"L1": [
+			"How many days does a student have to file a harassment complaint ki process mein?",
+			"What is the time limit for filing harassment report?",
+			"Within how many days must a harassment complaint be submitted?"
+		],
+		"L2": [
+			"Harassment complaint kitne din mein file karni hoti hai?",
+			"Complaint filing ki time limit kitni hai?",
+			"Harassment report submit karne ki deadline kya hai?"
+		],
+		"L3": [
+			"Harassment ki shikayat kitne din ke andar deni hoti hai?",
+			"Shikayat dene ki kitni muddat hoti hai?",
+			"Harassment report dene ka time kitna hota hai?"
+		],
+		"L4": [
+			"Harassment ki shikayat kitne din ke andar file karni hoti hai? Bata dein.",
+			"Shikayat dene ki aakhri tareekh kya hai?",
+			"Harassment report submit karne ki kitni mohlat hoti hai, yeh maloom karna hai."
+		]
+	},
+	"D29": {
+		"L0": [
+			"What library access do graduates receive after completing their degree?",
+			"What is the duration of alumni library access?",
+			"Do alumni get lifetime access to university services?"
+		],
+		"L1": [
+			"What library access do graduates receive after completing their degree ki completion par?",
+			"What is the duration of alumni library access?",
+			"Do alumni get lifetime access to university services?"
+		],
+		"L2": [
+			"Graduation ke baad alumni ko library access kitna milta hai?",
+			"Alumni benefits ki duration kya hai?",
+			"Graduates ko lifetime access milta hai ya nahi?"
+		],
+		"L3": [
+			"Degree ke baad graduates ko kitna library access milta hai?",
+			"Alumni ko kitni muddat ka access milta hai?",
+			"Graduates ko umar bhar ke liye access milta hai ya nahi?"
+		],
+		"L4": [
+			"Degree mukammal hone ke baad graduates ko kitna library access milta hai? Bata dein.",
+			"Alumni ko jamia ki khidmat ka access kitni muddat tak milta hai?",
+			"Graduates ko umar bhar ka access milta hai ya nahi, yeh maloom karna hai."
+		]
+	},
+	"D30": {
+		"L0": [
+			"What are the annual charges for the campus transport service?",
+			"How much does the university shuttle service cost per year?",
+			"What is the annual fee for the campus bus service?"
+		],
+		"L1": [
+			"What are the annual charges for campus transport service ki facility mein?",
+			"How much does the university shuttle service cost per year?",
+			"What is the annual fee for campus bus service?"
+		],
+		"L2": [
+			"Campus transport ki annual charges kitni hain?",
+			"University shuttle service ka per year charge kitna hai?",
+			"Campus bus service ki annual fee kya hai?"
+		],
+		"L3": [
+			"Sawari ki saalana fees kitni hai?",
+			"Sawari ke liye saal bhar ka kitna kharcha aata hai?",
+			"Bus service ki saalana charges kitni hain?"
+		],
+		"L4": [
+			"Sawari ki saalana fees kitni hai? Bata dein.",
+			"Sawari ke liye saal bhar ka kitna kharcha hota hai?",
+			"Bus ki saalana fees kitni hai, yeh maloom karna hai."
+		]
+	}
+}

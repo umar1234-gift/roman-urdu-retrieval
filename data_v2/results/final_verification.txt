@@ -1,0 +1,46 @@
+[PASS] Chunk count = 30  expected=30 actual=30
+[PASS] Query count = 450  expected=450 actual=450
+[PASS] Master facts documents = 30  expected=30 actual=30
+[PASS] L0 count = 90  expected=90 actual=90
+[PASS] L1 count = 90  expected=90 actual=90
+[PASS] L2 count = 90  expected=90 actual=90
+[PASS] L3 count = 90  expected=90 actual=90
+[PASS] L4 count = 90  expected=90 actual=90
+[PASS] Unique query IDs  expected=450 actual=450
+[PASS] Unique doc IDs = 30  expected=30 actual=30
+[PASS] Every doc has 15 queries  expected=all=15 actual=min=15, max=15
+[PASS] Every (doc, level) has 3 variants  expected=all=3 actual=min=3, max=3
+[PASS] All gold documents exist in chunks  expected=0 actual=0
+[PASS] A_single cache = 450 entries  expected=450 actual=450
+[PASS] All query IDs present in A_single  expected=0 actual=0
+[PASS] No empty entries in A_single  expected=0 actual=0
+[FAIL] Fallback count ≤ 4 (Claude-verified)  expected=≤ 4 actual=51
+[PASS] Zero-score count = 16  expected=16 actual=16
+[PASS] Zero-score all in L3/L4  expected=all L3/L4 actual={'L3': 9, 'L4': 7}
+[PASS] E5-large @1 = 0.9222  expected=0.9222 actual=0.9222
+[PASS] E5-large @3 = 0.9689  expected=0.9689 actual=0.9689
+[PASS] E5-large MRR = 0.9489  expected=0.9489 actual=0.9489
+[PASS] Hybrid-large (tie-aware) @1 = E5-large @1  expected=0.9222 actual=0.9222
+[PASS] A_single E5-large @1 = 0.9867  expected=0.9867 actual=0.9867
+[PASS] A_single E5-large @3 = 1.0000  expected=1.0 actual=1.0
+[PASS] A_single L4 @1 = 0.9667  expected=0.9667 actual=0.9667
+[PASS] L0 original = 0.9889  expected=0.9889 actual=0.9889
+[PASS] L4 original = 0.7889  expected=0.7889 actual=0.7889
+[PASS] L4 A_single = 0.9667  expected=0.9667 actual=0.9667
+[PASS] Recovery (measured) = 0.8889  expected=0.8889 actual=0.8889
+[PASS] E5-large L0 present  expected=90 actual=90
+[PASS] E5-large L1 present  expected=90 actual=90
+[PASS] E5-large L2 present  expected=90 actual=90
+[PASS] E5-large L3 present  expected=90 actual=90
+[PASS] E5-large L4 present  expected=90 actual=90
+[PASS] L0→L4 drop = 20.00 pp  expected=0.2 actual=0.2
+[PASS] A_single vs Original (L2-L4): Δ > 0  expected=> 0 actual=0.1074
+[PASS] A_single vs Original (L2-L4): p < 0.01  expected=< 0.01 actual=0.0004
+[PASS] A_single vs Original (L2-L4): CI excludes zero  expected=lo > 0 actual=[0.0407, 0.1852]
+[PASS] Hybrid vs E5: p > 0.05 (not significant)  expected=> 0.05 actual=1.0852
+[PASS] A_single per-level @1 counts sum = overall  expected=444 actual=444
+[PASS] Original per-level @1 counts sum = overall  expected=415 actual=415
+[FAIL] No duplicate queries across levels  expected=0 actual=33
+[PASS] BM25 (tie-aware) @1 reported  expected=reported actual=0.8844
+[PASS] BM25 zero-score queries excluded from ranking  expected=16 actual=16
+[PASS] A_single CI width < 0.05  expected=< 0.05 actual=0.0244

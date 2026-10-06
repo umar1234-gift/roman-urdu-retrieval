@@ -1,0 +1,16 @@
+# Grading System
+
+Document ID: D10
+Policy Area: Grading System
+
+--------------------------------------------------------------------------------
+
+The Grading System policy converts numeric scores into letter grades based on predefined boundaries.
+
+To receive an A grade in any course, a student must obtain a grade boundary of at least 90% of the total marks. Scores between 85% and 89% fall into the A- category.
+
+The letter grade scale is applied consistently across all semesters. Grade disputes must be raised with the instructor within one week of result announcement.
+
+--------------------------------------------------------------------------------
+
+End of Grading System policy.
